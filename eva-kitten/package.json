@@ -5,7 +5,13 @@
   "scripts": {
     "test": "jest",
     "start": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "lint:src": "tslint --project tsconfig.json ./src/**/*.ts",
+    "lint:src-fix": "npm run lint:src -- --fix",
+    "lint": "npm run lint:src",
+    "lint:fix": "npm run lint:src-fix",
+    "ci:lint": "npm run lint",
+    "ci:test": "npm test -- --coverage && cat ./dist/jest/coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
