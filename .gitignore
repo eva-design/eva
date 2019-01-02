@@ -1,8 +1,9 @@
 # osx
 .DS_Store
 
-# intellij
+# idea
 .idea
+.vscode
 local.properties
 
 # node.js
