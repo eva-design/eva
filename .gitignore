@@ -1,0 +1,10 @@
+# osx
+.DS_Store
+
+# intellij
+.idea
+local.properties
+
+# node.js
+node_modules/
+npm-debug.log
