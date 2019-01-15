@@ -1,0 +1,12 @@
+{
+  "name": "@eva/processor-rk",
+  "description": "Eva scheme processor for react-native-ui-kitten",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "akveo <contact@akveo.com>",
+  "homepage": "https://github.com/akveo/eva#readme",
+  "repository": "git+https://github.com/akveo/eva.git",
+  "bugs": {
+    "url": "https://github.com/akveo/eva/issues"
+  }
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mapping: service methods checks * appearance * custom * state * active 1`] = `
+Object {
+  "borderColor": "grayLight",
+}
+`;
+
+exports[`@mapping: service methods checks * appearance * custom * stateless 1`] = `
+Object {
+  "borderWidth": 4,
+}
+`;
+
+exports[`@mapping: service methods checks * appearance * custom * variant * state * active 1`] = `undefined`;
+
+exports[`@mapping: service methods checks * appearance * custom * variant * success 1`] = `
+Object {
+  "borderColor": "tealPrimary",
+}
+`;
+
+exports[`@mapping: service methods checks * appearance * custom * variant * undefined 1`] = `undefined`;
+
+exports[`@mapping: service methods checks * appearance * default * state * active 1`] = `
+Object {
+  "borderColor": "grayDark",
+}
+`;
+
+exports[`@mapping: service methods checks * appearance * default * stateless 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@mapping: service methods checks * appearance * default * variant * state * active 1`] = `undefined`;
+
+exports[`@mapping: service methods checks * appearance * default * variant * success 1`] = `Object {}`;

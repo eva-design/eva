@@ -1,0 +1,86 @@
+{
+  "Radio": {
+    "meta": {
+      "variants": {
+        "status": [
+          "error"
+        ],
+        "size": [
+          "small",
+          "big"
+        ]
+      },
+      "states": [
+        "checked",
+        "disabled",
+        "active"
+      ]
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "size": 36,
+          "innerSize": 24,
+          "highlightSize": 60,
+          "borderWidth": 2,
+          "borderColor": "gray-primary",
+          "selectColor": "transparent",
+          "highlightColor": "transparent",
+          "state": {
+            "active": {
+              "borderColor": "gray-dark",
+              "highlightColor": "gray-light"
+            },
+            "checked": {
+              "borderColor": "blue-primary",
+              "selectColor": "blue-primary"
+            },
+            "disabled": {
+              "borderColor": "gray-light"
+            },
+            "checked.active": {
+              "borderColor": "blue-dark"
+            },
+            "checked.disabled": {
+              "selectColor": "gray-primary"
+            }
+          }
+        },
+        "variant": {
+          "status": {
+            "error": {
+              "mapping": {
+                "borderColor": "pink-primary",
+                "state": {
+                  "checked": {
+                    "borderColor": "pink-primary",
+                    "selectColor": "pink-primary"
+                  },
+                  "checked.active": {
+                    "borderColor": "pink-primary"
+                  }
+                }
+              }
+            }
+          },
+          "size": {
+            "big": {
+              "mapping": {
+                "size": 42,
+                "innerSize": 28,
+                "highlightSize": 70
+              }
+            },
+            "small": {
+              "mapping": {
+                "size": 30,
+                "innerSize": 20,
+                "highlightSize": 50
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

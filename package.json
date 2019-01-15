@@ -1,0 +1,33 @@
+{
+  "name": "eva",
+  "description": "Eva design system",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "akveo <contact@akveo.com>",
+  "homepage": "https://github.com/akveo/eva#readme",
+  "repository": "git+https://github.com/akveo/eva.git",
+  "bugs": {
+    "url": "https://github.com/akveo/eva/issues"
+  },
+  "scripts": {
+    "start": "npm run build -- --watch",
+    "build": "tsc",
+    "clean": "rimraf ./dist",
+    "lint": "tslint --project tsconfig.json ./src/**/*.ts",
+    "lint:fix": "npm run lint -- --fix",
+    "ci:test": "npm test -- --coverage && cat ./dist/jest/coverage/lcov.info | coveralls",
+    "test": "jest",
+    "generate:rk-kit": "(cd ./rk-kit/scripts && ts-node generate)"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.11",
+    "@types/node": "^10.12.18",
+    "husky": "^1.1.2",
+    "jest": "^24.0.0-alpha.9",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  }
+}

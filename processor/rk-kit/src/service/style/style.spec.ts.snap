@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `undefined`;
+
+exports[`@style: service methods checks * all styles * create all styles for Test component 1`] = `
+Array [
+  Array [
+    "custom",
+    Object {
+      "borderColor": "grayPrimary",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+  Array [
+    "custom.active",
+    Object {
+      "borderColor": "grayLight",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+  Array [
+    "custom.success",
+    Object {
+      "borderColor": "tealPrimary",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+  Array [
+    "custom.success.active",
+    Object {
+      "borderColor": "grayLight",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+]
+`;
+
+exports[`@style: service methods checks * all styles * create all styles for Test w/o variants 1`] = `
+Array [
+  Array [
+    "custom",
+    Object {
+      "borderColor": "grayPrimary",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+  Array [
+    "custom.active",
+    Object {
+      "borderColor": "grayLight",
+      "borderWidth": 4,
+      "innerSize": 24,
+      "selectColor": "transparent",
+      "size": 36,
+    },
+  ],
+]
+`;
+
+exports[`@style: service methods checks * styling * custom appearance * no variant and no state 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 4,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * custom appearance * with state * explicit (should apply own) 1`] = `
+Object {
+  "borderColor": "grayLight",
+  "borderWidth": 4,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * custom appearance * with state * implicit (should apply from default appearance) 1`] = `
+Object {
+  "borderColor": "bluePrimary",
+  "borderWidth": 4,
+  "innerSize": 24,
+  "selectColor": "bluePrimary",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * custom appearance * with variant * explicit (should apply own) 1`] = `
+Object {
+  "borderColor": "tealPrimary",
+  "borderWidth": 4,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * custom appearance * with variant * implicit (should apply from default appearance) 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 4,
+  "innerSize": 28,
+  "selectColor": "transparent",
+  "size": 42,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * no variant and no state 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with state * multiple 1`] = `
+Object {
+  "borderColor": "blueDark",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "bluePrimary",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with state * single 1`] = `
+Object {
+  "borderColor": "grayDark",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * multiple * no state 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 2,
+  "innerSize": 28,
+  "selectColor": "transparent",
+  "size": 42,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * multiple * with state * multiple 1`] = `
+Object {
+  "borderColor": "tealDark",
+  "borderWidth": 2,
+  "innerSize": 28,
+  "selectColor": "tealPrimary",
+  "size": 42,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * multiple * with state * single 1`] = `
+Object {
+  "borderColor": "grayDark",
+  "borderWidth": 2,
+  "innerSize": 28,
+  "selectColor": "transparent",
+  "size": 42,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * single * no state 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * multiple 1`] = `
+Object {
+  "borderColor": "tealDark",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "tealPrimary",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * single explicit (should apply own) 1`] = `
+Object {
+  "borderColor": "tealPrimary",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "tealPrimary",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * single implicit (should apply from appearance) 1`] = `
+Object {
+  "borderColor": "grayDark",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
+
+exports[`@style: service methods checks * styling * undefined appearance * no variant and no state (should apply default appearance) 1`] = `
+Object {
+  "borderColor": "grayPrimary",
+  "borderWidth": 2,
+  "innerSize": 24,
+  "selectColor": "transparent",
+  "size": 36,
+}
+`;
