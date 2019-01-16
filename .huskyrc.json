@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "npm run generate:rk-kit && git add ./rk-kit/generated.ts",
+    "pre-commit": "npm run gen:kitten-all && npm run lint:fix && git add ./packages/mapping-kitten",
     "pre-push": "npm run lint"
   }
 }

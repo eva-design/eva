@@ -13,11 +13,12 @@
     "start": "npm run build -- --watch",
     "build": "tsc",
     "clean": "rimraf ./dist",
-    "lint": "tslint --project tsconfig.json ./src/**/*.ts",
+    "lint": "tslint -p tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
     "ci:test": "npm test -- --coverage && cat ./dist/jest/coverage/lcov.info | coveralls",
     "test": "jest",
-    "generate:rk-kit": "(cd ./rk-kit/scripts && ts-node generate)"
+    "gen:kitten": "cd ./packages/processor/kitten/scripts && ts-node generate",
+    "gen:kitten-all": "npm run gen:kitten -- eva"
   },
   "devDependencies": {
     "@types/jest": "^23.3.11",
