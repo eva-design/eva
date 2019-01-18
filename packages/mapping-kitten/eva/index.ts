@@ -449,6 +449,15 @@ export const style = {
       'highlightColor': 'gray-light',
     },
   },
+  'RadioGroup': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'padding': 0,
+    },
+  },
   'CheckBox': {
     'meta': {
       'variants': {
@@ -1077,6 +1086,19 @@ export const mapping = {
               },
             },
           },
+        },
+      },
+    },
+  },
+  'RadioGroup': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'padding': 0,
         },
       },
     },

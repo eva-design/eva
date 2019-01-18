@@ -83,6 +83,19 @@
       }
     }
   },
+  "RadioGroup": {
+    "meta": {
+      "variants": {},
+      "states": []
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "padding": 0
+        }
+      }
+    }
+  },
   "CheckBox": {
     "meta": {
       "variants": {
