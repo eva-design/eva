@@ -282,5 +282,41 @@
         }
       }
     }
+  },
+  "Tab": {
+    "meta": {
+      "variants": {},
+      "states": [
+        "selected",
+        "active"
+      ]
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "state": {
+            "selected": {},
+            "active": {},
+            "selected.active": {}
+          }
+        }
+      }
+    }
+  },
+  "TabBar": {
+    "meta": {
+      "variants": {},
+      "states": []
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "barSize": 42,
+          "indicatorSize": 4,
+          "indicatorBorderRadius": 2,
+          "indicatorColor": "pink-primary"
+        }
+      }
+    }
   }
 }

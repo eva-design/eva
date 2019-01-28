@@ -1612,6 +1612,31 @@ export const style = {
       'borderWidth': 1,
     },
   },
+  'Tab': {
+    'meta': {
+      'variants': {},
+      'states': [
+        'selected',
+        'active',
+      ],
+    },
+    'default': {},
+    'default.selected': {},
+    'default.selected.active': {},
+    'default.active': {},
+  },
+  'TabBar': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'barSize': 42,
+      'indicatorSize': 4,
+      'indicatorBorderRadius': 2,
+      'indicatorColor': 'pink-primary',
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -1894,6 +1919,42 @@ export const mapping = {
           'borderRadius': 3,
           'borderWidth': 1,
           'state': {},
+        },
+      },
+    },
+  },
+  'Tab': {
+    'meta': {
+      'variants': {},
+      'states': [
+        'selected',
+        'active',
+      ],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'state': {
+            'selected': {},
+            'active': {},
+            'selected.active': {},
+          },
+        },
+      },
+    },
+  },
+  'TabBar': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'barSize': 42,
+          'indicatorSize': 4,
+          'indicatorBorderRadius': 2,
+          'indicatorColor': 'pink-primary',
         },
       },
     },
