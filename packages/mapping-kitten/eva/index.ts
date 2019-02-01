@@ -1637,6 +1637,56 @@ export const style = {
       'indicatorColor': 'pink-primary',
     },
   },
+  'BottomTabNavigator': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'backgroundColor': 'transparent',
+      'paddingVertical': 16,
+      'color': 'gray-dark',
+      'selectedColor': 'blue-primary',
+      'borderTopColor': 'gray-primary',
+      'borderTopWidth': 1,
+      'highlightHeight': 3,
+      'showText': false,
+      'showHighlight': false,
+    },
+    'text': {
+      'backgroundColor': 'transparent',
+      'paddingVertical': 16,
+      'color': 'gray-dark',
+      'selectedColor': 'blue-primary',
+      'borderTopColor': 'gray-primary',
+      'borderTopWidth': 1,
+      'highlightHeight': 3,
+      'showText': true,
+      'showHighlight': false,
+    },
+    'highlight': {
+      'backgroundColor': 'transparent',
+      'paddingVertical': 16,
+      'color': 'gray-dark',
+      'selectedColor': 'blue-primary',
+      'borderTopColor': 'gray-primary',
+      'borderTopWidth': 1,
+      'highlightHeight': 3,
+      'showText': false,
+      'showHighlight': true,
+    },
+    'text-highlight': {
+      'backgroundColor': 'transparent',
+      'paddingVertical': 16,
+      'color': 'gray-dark',
+      'selectedColor': 'blue-primary',
+      'borderTopColor': 'gray-primary',
+      'borderTopWidth': 1,
+      'highlightHeight': 3,
+      'showText': true,
+      'showHighlight': true,
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -1955,6 +2005,43 @@ export const mapping = {
           'indicatorSize': 4,
           'indicatorBorderRadius': 2,
           'indicatorColor': 'pink-primary',
+        },
+      },
+    },
+  },
+  'BottomTabNavigator': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'backgroundColor': 'transparent',
+          'paddingVertical': 16,
+          'color': 'gray-dark',
+          'selectedColor': 'blue-primary',
+          'borderTopColor': 'gray-primary',
+          'borderTopWidth': 1,
+          'highlightHeight': 3,
+          'showText': false,
+          'showHighlight': false,
+        },
+      },
+      'text': {
+        'mapping': {
+          'showText': true,
+        },
+      },
+      'highlight': {
+        'mapping': {
+          'showHighlight': true,
+        },
+      },
+      'text-highlight': {
+        'mapping': {
+          'showText': true,
+          'showHighlight': true,
         },
       },
     },
