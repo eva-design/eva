@@ -360,5 +360,22 @@
         }
       }
     }
+  },
+  "Tooltip": {
+    "meta": {
+      "variants": {},
+      "states": []
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "borderRadius": 8,
+          "backgroundColor": "#0D1C2F",
+          "textColor": "white",
+          "paddingVertical": 4,
+          "paddingHorizontal": 8
+        }
+      }
+    }
   }
 }

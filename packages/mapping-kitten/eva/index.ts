@@ -1676,6 +1676,19 @@ export const style = {
       'title.selectedColor': 'blue-primary',
     },
   },
+  'Tooltip': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'borderRadius': 8,
+      'backgroundColor': '#0D1C2F',
+      'textColor': 'white',
+      'paddingVertical': 4,
+      'paddingHorizontal': 8,
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -2036,6 +2049,23 @@ export const mapping = {
           'icon.height': 40,
           'title.color': 'gray-dark',
           'title.selectedColor': 'blue-primary',
+        },
+      },
+    },
+  },
+  'Tooltip': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'borderRadius': 8,
+          'backgroundColor': '#0D1C2F',
+          'textColor': 'white',
+          'paddingVertical': 4,
+          'paddingHorizontal': 8,
         },
       },
     },
