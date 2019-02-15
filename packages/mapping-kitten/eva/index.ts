@@ -1734,6 +1734,20 @@ export const style = {
       'marginRight': 8,
     },
   },
+  'Modal': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'paddingHorizontal': 16,
+      'paddingVertical': 8,
+      'backgroundColor': 'transparent',
+      'borderColor': 'blue-dark',
+      'borderRadius': 3,
+      'borderWidth': 1,
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -2155,6 +2169,24 @@ export const mapping = {
           'width': 25,
           'height': 25,
           'marginRight': 8,
+        },
+      },
+    },
+  },
+  'Modal': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'paddingHorizontal': 16,
+          'paddingVertical': 8,
+          'backgroundColor': 'transparent',
+          'borderColor': 'blue-dark',
+          'borderRadius': 3,
+          'borderWidth': 1,
         },
       },
     },

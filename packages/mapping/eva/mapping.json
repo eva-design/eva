@@ -421,5 +421,23 @@
         }
       }
     }
+  },
+  "Modal": {
+    "meta": {
+      "variants": {},
+      "states": []
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+          "backgroundColor": "transparent",
+          "borderColor": "blue-dark",
+          "borderRadius": 3,
+          "borderWidth": 1
+        }
+      }
+    }
   }
 }
