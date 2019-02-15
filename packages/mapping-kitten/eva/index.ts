@@ -1650,18 +1650,6 @@ export const style = {
       'borderTopColor': 'gray-primary',
       'borderTopWidth': 1,
       'highlightHeight': 3,
-      'showText': false,
-      'showHighlight': false,
-    },
-    'text': {
-      'backgroundColor': 'transparent',
-      'paddingVertical': 16,
-      'color': 'gray-dark',
-      'selectedColor': 'blue-primary',
-      'borderTopColor': 'gray-primary',
-      'borderTopWidth': 1,
-      'highlightHeight': 3,
-      'showText': true,
       'showHighlight': false,
     },
     'highlight': {
@@ -1672,19 +1660,20 @@ export const style = {
       'borderTopColor': 'gray-primary',
       'borderTopWidth': 1,
       'highlightHeight': 3,
-      'showText': false,
       'showHighlight': true,
     },
-    'text-highlight': {
-      'backgroundColor': 'transparent',
-      'paddingVertical': 16,
-      'color': 'gray-dark',
-      'selectedColor': 'blue-primary',
-      'borderTopColor': 'gray-primary',
-      'borderTopWidth': 1,
-      'highlightHeight': 3,
-      'showText': true,
-      'showHighlight': true,
+  },
+  'BottomNavigatorTab': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'icon.marginBottom': 5,
+      'icon.width': 40,
+      'icon.height': 40,
+      'title.color': 'gray-dark',
+      'title.selectedColor': 'blue-primary',
     },
   },
 };
@@ -2024,13 +2013,7 @@ export const mapping = {
           'borderTopColor': 'gray-primary',
           'borderTopWidth': 1,
           'highlightHeight': 3,
-          'showText': false,
           'showHighlight': false,
-        },
-      },
-      'text': {
-        'mapping': {
-          'showText': true,
         },
       },
       'highlight': {
@@ -2038,10 +2021,21 @@ export const mapping = {
           'showHighlight': true,
         },
       },
-      'text-highlight': {
+    },
+  },
+  'BottomNavigatorTab': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
         'mapping': {
-          'showText': true,
-          'showHighlight': true,
+          'icon.marginBottom': 5,
+          'icon.width': 40,
+          'icon.height': 40,
+          'title.color': 'gray-dark',
+          'title.selectedColor': 'blue-primary',
         },
       },
     },

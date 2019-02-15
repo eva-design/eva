@@ -334,24 +334,29 @@
           "borderTopColor": "gray-primary",
           "borderTopWidth": 1,
           "highlightHeight": 3,
-          "showText": false,
           "showHighlight": false
-        }
-      },
-      "text": {
-        "mapping": {
-          "showText": true
         }
       },
       "highlight": {
         "mapping": {
           "showHighlight": true
         }
-      },
-      "text-highlight": {
+      }
+    }
+  },
+  "BottomNavigatorTab": {
+    "meta": {
+      "variants": {},
+      "states": []
+    },
+    "appearance": {
+      "default": {
         "mapping": {
-          "showText": true,
-          "showHighlight": true
+          "icon.marginBottom": 5,
+          "icon.width": 40,
+          "icon.height": 40,
+          "title.color": "gray-dark",
+          "title.selectedColor": "blue-primary"
         }
       }
     }
