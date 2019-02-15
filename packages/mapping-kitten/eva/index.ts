@@ -1748,6 +1748,54 @@ export const style = {
       'borderWidth': 1,
     },
   },
+  'Text': {
+    'meta': {
+      'variants': {
+        'category': [
+          'h1',
+          'h2',
+          'h3',
+          'h4',
+          'h5',
+          'h6',
+          'body',
+        ],
+      },
+      'states': [],
+    },
+    'default': {
+      'color': 'text-primary',
+      'fontSize': 16,
+    },
+    'default.h1': {
+      'color': 'text-primary',
+      'fontSize': 64,
+    },
+    'default.h2': {
+      'color': 'text-primary',
+      'fontSize': 40,
+    },
+    'default.h3': {
+      'color': 'text-primary',
+      'fontSize': 32,
+    },
+    'default.h4': {
+      'color': 'text-primary',
+      'fontSize': 24,
+    },
+    'default.h5': {
+      'color': 'text-primary',
+      'fontSize': 16,
+    },
+    'default.h6': {
+      'color': 'text-primary',
+      'fontSize': 14,
+    },
+    'default.body': {
+      'color': 'text-primary',
+      'fontSize': 16,
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -2187,6 +2235,69 @@ export const mapping = {
           'borderColor': 'blue-dark',
           'borderRadius': 3,
           'borderWidth': 1,
+        },
+      },
+    },
+  },
+  'Text': {
+    'meta': {
+      'variants': {
+        'category': [
+          'h1',
+          'h2',
+          'h3',
+          'h4',
+          'h5',
+          'h6',
+          'body',
+        ],
+      },
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'color': 'text-primary',
+          'fontSize': 16,
+        },
+        'variant': {
+          'category': {
+            'h1': {
+              'mapping': {
+                'fontSize': 64,
+              },
+            },
+            'h2': {
+              'mapping': {
+                'fontSize': 40,
+              },
+            },
+            'h3': {
+              'mapping': {
+                'fontSize': 32,
+              },
+            },
+            'h4': {
+              'mapping': {
+                'fontSize': 24,
+              },
+            },
+            'h5': {
+              'mapping': {
+                'fontSize': 16,
+              },
+            },
+            'h6': {
+              'mapping': {
+                'fontSize': 14,
+              },
+            },
+            'body': {
+              'mapping': {
+                'fontSize': 16,
+              },
+            },
+          },
         },
       },
     },

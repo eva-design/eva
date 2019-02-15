@@ -439,5 +439,68 @@
         }
       }
     }
+  },
+  "Text": {
+    "meta": {
+      "variants": {
+        "category": [
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "body"
+        ]
+      },
+      "states": []
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "color": "text-primary",
+          "fontSize": 16
+        },
+        "variant": {
+          "category": {
+            "h1": {
+              "mapping": {
+                "fontSize": 64
+              }
+            },
+            "h2": {
+              "mapping": {
+                "fontSize": 40
+              }
+            },
+            "h3": {
+              "mapping": {
+                "fontSize": 32
+              }
+            },
+            "h4": {
+              "mapping": {
+                "fontSize": 24
+              }
+            },
+            "h5": {
+              "mapping": {
+                "fontSize": 16
+              }
+            },
+            "h6": {
+              "mapping": {
+                "fontSize": 14
+              }
+            },
+            "body": {
+              "mapping": {
+                "fontSize": 16
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
