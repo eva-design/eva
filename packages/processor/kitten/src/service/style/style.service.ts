@@ -1,3 +1,4 @@
+import * as _ from 'lodash';
 import {
   ThemeMappingType,
   ComponentMappingType,
@@ -98,10 +99,10 @@ export function createStyle(mapping: ThemeMappingType,
       });
     });
 
-    return { ...appearanceStateMapping, ...variantStateMapping };
+    return _.merge({}, appearanceStateMapping, variantStateMapping);
   });
 
-  return { ...appearanceMapping, ...variantMapping, ...stateMapping };
+  return _.merge({}, appearanceMapping, variantMapping, stateMapping);
 }
 
 export function createAllStyles(mapping: ThemeMappingType,

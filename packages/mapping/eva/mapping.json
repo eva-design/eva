@@ -287,17 +287,22 @@
     "meta": {
       "variants": {},
       "states": [
-        "selected",
-        "active"
+        "selected"
       ]
     },
     "appearance": {
       "default": {
         "mapping": {
+          "text": {
+            "color": "gray-dark",
+            "fontWeight": "600"
+          },
           "state": {
-            "selected": {},
-            "active": {},
-            "selected.active": {}
+            "selected": {
+              "text": {
+                "color": "blue-primary"
+              }
+            }
           }
         }
       }
@@ -314,7 +319,7 @@
           "barSize": 42,
           "indicatorSize": 4,
           "indicatorBorderRadius": 2,
-          "indicatorColor": "pink-primary"
+          "indicatorColor": "blue-primary"
         }
       }
     }

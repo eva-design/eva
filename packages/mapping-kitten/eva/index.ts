@@ -1617,13 +1617,20 @@ export const style = {
       'variants': {},
       'states': [
         'selected',
-        'active',
       ],
     },
-    'default': {},
-    'default.selected': {},
-    'default.selected.active': {},
-    'default.active': {},
+    'default': {
+      'text': {
+        'color': 'gray-dark',
+        'fontWeight': '600',
+      },
+    },
+    'default.selected': {
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+      },
+    },
   },
   'TabBar': {
     'meta': {
@@ -1634,7 +1641,7 @@ export const style = {
       'barSize': 42,
       'indicatorSize': 4,
       'indicatorBorderRadius': 2,
-      'indicatorColor': 'pink-primary',
+      'indicatorColor': 'blue-primary',
     },
   },
   'BottomTabNavigator': {
@@ -2087,16 +2094,21 @@ export const mapping = {
       'variants': {},
       'states': [
         'selected',
-        'active',
       ],
     },
     'appearance': {
       'default': {
         'mapping': {
+          'text': {
+            'color': 'gray-dark',
+            'fontWeight': '600',
+          },
           'state': {
-            'selected': {},
-            'active': {},
-            'selected.active': {},
+            'selected': {
+              'text': {
+                'color': 'blue-primary',
+              },
+            },
           },
         },
       },
@@ -2113,7 +2125,7 @@ export const mapping = {
           'barSize': 42,
           'indicatorSize': 4,
           'indicatorBorderRadius': 2,
-          'indicatorColor': 'pink-primary',
+          'indicatorColor': 'blue-primary',
         },
       },
     },

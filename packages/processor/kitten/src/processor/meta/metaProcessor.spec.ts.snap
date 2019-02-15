@@ -1,5 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`@processor: service checks * merges token groups properly 1`] = `
+Object {
+  "Test": Object {
+    "default": Object {
+      "text": Object {
+        "color": "green",
+        "fontSize": 16,
+      },
+    },
+    "default.active": Object {
+      "text": Object {
+        "color": "green",
+        "fontSize": 16,
+      },
+    },
+    "meta": Object {
+      "states": Array [
+        "active",
+      ],
+      "variants": Object {},
+    },
+  },
+}
+`;
+
 exports[`@processor: service checks * theme map expected 1`] = `
 Object {
   "Radio": Object {

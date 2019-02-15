@@ -222,3 +222,36 @@ export const emptyMapping = {
     },
   },
 };
+
+export const groupMapping = {
+  Test: {
+    meta: {
+      variants: {},
+      states: [
+        'selected',
+        'active',
+      ],
+    },
+    appearance: {
+      default: {
+        mapping: {
+          backgroundColor: 'black',
+          text: {
+            fontSize: 16,
+          },
+          state: {
+            selected: {
+              text: {
+                color: 'red',
+              },
+            },
+            active: {
+              backgroundColor: 'white',
+            },
+          },
+        },
+      },
+    },
+  },
+};
+

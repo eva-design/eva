@@ -20,6 +20,9 @@
       "@eva/*": [
         "./packages/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
   }
 }
