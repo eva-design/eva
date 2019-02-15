@@ -1689,6 +1689,51 @@ export const style = {
       'paddingHorizontal': 8,
     },
   },
+  'TopNavigationBar': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'height': 46,
+      'paddingTop': 4,
+      'paddingBottom': 12,
+      'paddingHorizontal': 16,
+      'backgroundColor': 'blue-primary',
+      'title.centered': false,
+      'title.color': 'white',
+      'title.fontSize': 16,
+      'title.fontWeight': '600',
+      'subtitle.color': 'white',
+      'subtitle.fontSize': 12,
+      'subtitle.fontWeight': '400',
+    },
+    'title-centered': {
+      'height': 46,
+      'paddingTop': 4,
+      'paddingBottom': 12,
+      'paddingHorizontal': 16,
+      'backgroundColor': 'blue-primary',
+      'title.centered': true,
+      'title.color': 'white',
+      'title.fontSize': 16,
+      'title.fontWeight': '600',
+      'subtitle.color': 'white',
+      'subtitle.fontSize': 12,
+      'subtitle.fontWeight': '400',
+    },
+  },
+  'TopNavigationBarAction': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'default': {
+      'width': 25,
+      'height': 25,
+      'marginRight': 8,
+    },
+  },
 };
 export const mapping = {
   'Radio': {
@@ -2066,6 +2111,50 @@ export const mapping = {
           'textColor': 'white',
           'paddingVertical': 4,
           'paddingHorizontal': 8,
+        },
+      },
+    },
+  },
+  'TopNavigationBar': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'height': 46,
+          'paddingTop': 4,
+          'paddingBottom': 12,
+          'paddingHorizontal': 16,
+          'backgroundColor': 'blue-primary',
+          'title.centered': false,
+          'title.color': 'white',
+          'title.fontSize': 16,
+          'title.fontWeight': '600',
+          'subtitle.color': 'white',
+          'subtitle.fontSize': 12,
+          'subtitle.fontWeight': '400',
+        },
+      },
+      'title-centered': {
+        'mapping': {
+          'title.centered': true,
+        },
+      },
+    },
+  },
+  'TopNavigationBarAction': {
+    'meta': {
+      'variants': {},
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'width': 25,
+          'height': 25,
+          'marginRight': 8,
         },
       },
     },
