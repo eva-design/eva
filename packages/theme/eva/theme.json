@@ -6,5 +6,6 @@
   "gray-dark": "#8992A3",
   "gray-highlight": "#EDF0F5",
   "pink-primary": "#FF3D71",
-  "text-primary": "#000000"
+  "text-primary": "#000000",
+  "text-primary-inverse": "#ffffff"
 }

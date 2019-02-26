@@ -1,7 +1,10 @@
 import { StyleMappingType } from '@eva/common';
 import { APPEARANCE_DEFAULT } from '../mapping';
 import * as Service from './style.service';
-import { mapping } from './style.spec.config';
+import {
+  mapping,
+  groupMapping,
+} from './style.spec.config';
 
 describe('@style: service methods checks', () => {
 
@@ -450,6 +453,94 @@ describe('@style: service methods checks', () => {
         const style = Service.createStyle(mapping, 'Test', appearance);
 
         expect(style).toMatchSnapshot();
+      });
+
+    });
+
+  });
+
+  describe('* token groups', () => {
+
+    describe('* default appearance', () => {
+
+      it('* stateless', () => {
+        const value = Service.createStyle(groupMapping, 'Test');
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with state', () => {
+        const value = Service.createStyle(
+          groupMapping,
+          'Test',
+          'default',
+          [],
+          ['active'],
+        );
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with variant', () => {
+        const value = Service.createStyle(
+          groupMapping,
+          'Test',
+          'default',
+          ['small'],
+        );
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with variant state', () => {
+        const value = Service.createStyle(
+          groupMapping,
+          'Test',
+          'default',
+          ['small'],
+          ['active'],
+        );
+
+        expect(value).toMatchSnapshot();
+      });
+
+    });
+
+    describe('* custom appearance', () => {
+
+      it('* stateless', () => {
+        const value = Service.createStyle(groupMapping, 'Test', 'outline');
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with state', () => {
+        const value = Service.createStyle(groupMapping,
+          'Test',
+          'outline',
+          [],
+          ['active']);
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with variant', () => {
+        const value = Service.createStyle(groupMapping,
+          'Test',
+          'outline',
+          ['small']);
+
+        expect(value).toMatchSnapshot();
+      });
+
+      it('* with variant and state', () => {
+        const value = Service.createStyle(groupMapping,
+          'Test',
+          'outline',
+          ['small'],
+          ['active']);
+
+        expect(value).toMatchSnapshot();
       });
 
     });

@@ -316,5 +316,5 @@ function compareArrays(lhs: string[], rhs: string[]): boolean {
 }
 
 function reduce(items: string[], next: (item: string) => any): any {
-  return items.reduce((acc, current) => ({ ...acc, ...next(current) }), {});
+  return items.reduce((acc, current) => _.merge(acc, next(current)), {});
 }

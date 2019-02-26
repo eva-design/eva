@@ -118,3 +118,136 @@ export const mapping = {
     appearance: {},
   },
 };
+
+export const groupMapping = {
+  Test: {
+    meta: {
+      variants: {
+        size: [
+          'small',
+          'big',
+        ],
+        status: [
+          'primary',
+          'success',
+        ],
+      },
+      states: [
+        'active',
+      ],
+    },
+    appearance: {
+      default: {
+        mapping: {
+          backgroundColor: 'default',
+          text: {
+            fontSize: 16,
+            color: 'default',
+          },
+          state: {
+            active: {
+              backgroundColor: 'default-dark',
+            },
+          },
+        },
+        variant: {
+          size: {
+            small: {
+              mapping: {
+                text: {
+                  fontSize: 10,
+                },
+              },
+            },
+            big: {
+              mapping: {
+                text: {
+                  fontSize: 20,
+                },
+              },
+            },
+          },
+          status: {
+            primary: {
+              mapping: {
+                backgroundColor: 'primary',
+                state: {
+                  active: {
+                    backgroundColor: 'primary-dark',
+                  },
+                },
+              },
+            },
+            success: {
+              mapping: {
+                backgroundColor: 'success',
+                state: {
+                  active: {
+                    backgroundColor: 'success-dark',
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+      outline: {
+        mapping: {
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          borderColor: 'outline-default',
+          text: {
+            color: 'outline-default',
+          },
+          state: {
+            active: {
+              backgroundColor: 'transparent',
+              borderColor: 'outline-default-dark',
+              text: {
+                color: 'outline-default-dark',
+              },
+            },
+          },
+        },
+        variant: {
+          status: {
+            primary: {
+              mapping: {
+                backgroundColor: 'transparent',
+                borderColor: 'primary',
+                text: {
+                  color: 'primary',
+                },
+                state: {
+                  active: {
+                    backgroundColor: 'transparent',
+                    borderColor: 'primary-dark',
+                    text: {
+                      color: 'primary-dark',
+                    },
+                  },
+                },
+              },
+            },
+            success: {
+              mapping: {
+                backgroundColor: 'transparent',
+                borderColor: 'success',
+                state: {
+                  active: {
+                    backgroundColor: 'transparent',
+                    borderColor: 'success-dark',
+                    text: {
+                      color: 'success-dark',
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+};
+

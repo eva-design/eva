@@ -231,3 +231,91 @@ Object {
   "size": 36,
 }
 `;
+
+exports[`@style: service methods checks * token groups * custom appearance * stateless 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "borderColor": "outline-default",
+  "borderWidth": 2,
+  "text": Object {
+    "color": "outline-default",
+    "fontSize": 16,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * custom appearance * with state 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "borderColor": "outline-default-dark",
+  "borderWidth": 2,
+  "text": Object {
+    "color": "outline-default-dark",
+    "fontSize": 16,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * custom appearance * with variant 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "borderColor": "outline-default",
+  "borderWidth": 2,
+  "text": Object {
+    "color": "outline-default",
+    "fontSize": 10,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * custom appearance * with variant and state 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "borderColor": "outline-default-dark",
+  "borderWidth": 2,
+  "text": Object {
+    "color": "outline-default-dark",
+    "fontSize": 10,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * default appearance * stateless 1`] = `
+Object {
+  "backgroundColor": "default",
+  "text": Object {
+    "color": "default",
+    "fontSize": 16,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * default appearance * with state 1`] = `
+Object {
+  "backgroundColor": "default-dark",
+  "text": Object {
+    "color": "default",
+    "fontSize": 16,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * default appearance * with variant 1`] = `
+Object {
+  "backgroundColor": "default",
+  "text": Object {
+    "color": "default",
+    "fontSize": 10,
+  },
+}
+`;
+
+exports[`@style: service methods checks * token groups * default appearance * with variant state 1`] = `
+Object {
+  "backgroundColor": "default-dark",
+  "text": Object {
+    "color": "default",
+    "fontSize": 10,
+  },
+}
+`;

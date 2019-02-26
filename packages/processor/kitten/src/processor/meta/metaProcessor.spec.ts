@@ -4,7 +4,6 @@ import { MappingProcessor } from '../';
 import {
   mapping,
   emptyMapping,
-  groupMapping,
 } from './metaProcessor.spec.config';
 import { getAllStylesCount } from '../../service';
 
@@ -25,14 +24,6 @@ describe('@processor: service checks', () => {
     const value = processor.process({
       mapping: mapping,
       meta: mappingProcessor.process(emptyMapping),
-    });
-    expect(value).toMatchSnapshot();
-  });
-
-  it('* merges token groups properly', () => {
-    const value = processor.process({
-      mapping: groupMapping,
-      meta: mappingProcessor.process(groupMapping),
     });
     expect(value).toMatchSnapshot();
   });
