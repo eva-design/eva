@@ -553,6 +553,7 @@
           "minWidth": 24,
           "padding": 4,
           "borderRadius": 6,
+          "backgroundColor": "#2196F3",
           "text": {
             "color": "text-primary-inverse",
             "fontSize": 12,
@@ -564,6 +565,11 @@
             "width": 14,
             "height": 14,
             "marginHorizontal": 4
+          },
+          "state": {
+            "active": {
+              "backgroundColor": "#1E88E5"
+            }
           }
         },
         "variant": {
@@ -705,7 +711,27 @@
       },
       "outline": {
         "mapping": {
-          "borderWidth": 2
+          "backgroundColor": "transparent",
+          "borderWidth": 2,
+          "borderColor": "#2196F3",
+          "text": {
+            "color": "#2196F3"
+          },
+          "icon": {
+            "tintColor": "#2196F3"
+          },
+          "state": {
+            "active": {
+              "backgroundColor": "transparent",
+              "borderColor": "#1E88E5",
+              "text": {
+                "color": "#1E88E5"
+              },
+              "icon": {
+                "tintColor": "#1E88E5"
+              }
+            }
+          }
         },
         "variant": {
           "status": {
@@ -834,6 +860,24 @@
       },
       "ghost": {
         "mapping": {
+          "backgroundColor": "transparent",
+          "text": {
+            "color": "#2196F3"
+          },
+          "icon": {
+            "tintColor": "#2196F3"
+          },
+          "state": {
+            "active": {
+              "backgroundColor": "transparent",
+              "text": {
+                "color": "#1E88E5"
+              },
+              "icon": {
+                "tintColor": "#1E88E5"
+              }
+            }
+          }
         },
         "variant": {
           "status": {
@@ -949,6 +993,73 @@
             }
           }
         }
+      }
+    }
+  },
+  "ButtonGroup": {
+    "meta": {
+      "variants": {
+        "size": [
+          "tiny",
+          "small",
+          "medium",
+          "large",
+          "giant"
+        ]
+      },
+      "states": [
+      ]
+    },
+    "appearance": {
+      "default": {
+        "mapping": {
+          "button": {
+            "borderRadius": 6,
+            "margin": 4
+          }
+        },
+        "variant": {
+          "size": {
+            "tiny": {
+              "mapping": {
+                "button": {
+                  "margin": 12
+                }
+              }
+            },
+            "small": {
+              "mapping": {
+                "button": {
+                  "margin": 8
+                }
+              }
+            },
+            "medium": {
+              "button": {
+                "mapping": {
+                  "margin": 4
+                }
+              }
+            },
+            "large": {
+              "button": {
+                "mapping": {
+                  "margin": 4
+                }
+              }
+            },
+            "giant": {
+              "button": {
+                "mapping": {
+                  "margin": 4
+                }
+              }
+            }
+          }
+        }
+      },
+      "outline": {
+
       }
     }
   }

@@ -1842,6 +1842,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -1860,6 +1861,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -1878,6 +1880,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -1896,6 +1899,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -1914,6 +1918,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -1932,6 +1937,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -1950,6 +1956,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -1968,6 +1975,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -1986,6 +1994,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2004,6 +2013,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2016,13 +2026,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.tiny.success': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2035,13 +2045,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.tiny.info': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2054,13 +2064,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.tiny.warning': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2073,13 +2083,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.tiny.danger': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2092,13 +2102,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#F44336',
     },
     'default.small.primary': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2111,13 +2121,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.small.success': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2130,13 +2140,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.small.info': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2149,13 +2159,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.small.warning': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2168,13 +2178,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.small.danger': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2187,13 +2197,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#F44336',
     },
     'default.medium.primary': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2206,13 +2216,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.medium.success': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2225,13 +2235,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.medium.info': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2244,13 +2254,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.medium.warning': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2263,13 +2273,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.medium.danger': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2282,13 +2292,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.large.primary': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2301,13 +2311,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.large.success': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2320,13 +2330,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.large.info': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2339,13 +2349,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.large.warning': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2358,13 +2368,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.large.danger': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2377,13 +2387,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.giant.primary': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2396,13 +2406,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.giant.success': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2415,13 +2425,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.giant.info': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2434,13 +2444,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.giant.warning': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2453,13 +2463,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.giant.danger': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2472,13 +2482,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#F44336',
     },
     'default.primary': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2491,13 +2501,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.success': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2510,13 +2520,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.info': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2529,13 +2539,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.warning': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2548,13 +2558,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.danger': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2567,13 +2577,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.tiny.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2592,6 +2602,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2610,6 +2621,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2628,6 +2640,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2646,6 +2659,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2664,6 +2678,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -2682,6 +2697,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2700,6 +2716,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2718,6 +2735,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -2736,6 +2754,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2754,6 +2773,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2772,6 +2792,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -2790,6 +2811,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2808,6 +2830,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2826,6 +2849,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -2844,6 +2868,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2856,13 +2881,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.tiny.primary.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2875,13 +2900,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.tiny.primary.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2894,13 +2919,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.tiny.success.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2913,13 +2938,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.tiny.success.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2932,13 +2957,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#43A047',
     },
     'default.tiny.success.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2951,13 +2976,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#43A047',
     },
     'default.tiny.info.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2970,13 +2995,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.tiny.info.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -2989,13 +3014,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.tiny.info.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3008,13 +3033,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.tiny.warning.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3027,13 +3052,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.tiny.warning.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3046,13 +3071,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.tiny.warning.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3065,13 +3090,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.tiny.danger.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3084,13 +3109,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#F44336',
     },
     'default.tiny.danger.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3103,13 +3128,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#E53935',
     },
     'default.tiny.danger.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 10,
@@ -3122,13 +3147,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': '#E53935',
     },
     'default.small.primary.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3141,13 +3166,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.small.primary.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3160,13 +3185,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.small.primary.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3179,13 +3204,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.small.success.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3198,13 +3223,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.small.success.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3217,13 +3242,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#43A047',
     },
     'default.small.success.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3236,13 +3261,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#43A047',
     },
     'default.small.info.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3255,13 +3280,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.small.info.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3274,13 +3299,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.small.info.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3293,13 +3318,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.small.warning.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3312,13 +3337,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.small.warning.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3331,13 +3356,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.small.warning.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3350,13 +3375,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.small.danger.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3369,13 +3394,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#F44336',
     },
     'default.small.danger.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3388,13 +3413,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#E53935',
     },
     'default.small.danger.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 11,
@@ -3407,13 +3432,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': '#E53935',
     },
     'default.medium.primary.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3426,13 +3451,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.medium.primary.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3445,13 +3470,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.medium.primary.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3464,13 +3489,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.medium.success.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3483,13 +3508,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.medium.success.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3502,13 +3527,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.medium.success.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3521,13 +3546,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.medium.info.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3540,13 +3565,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.medium.info.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3559,13 +3584,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.medium.info.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3578,13 +3603,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.medium.warning.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3597,13 +3622,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.medium.warning.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3616,13 +3641,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.medium.warning.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3635,13 +3660,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.medium.danger.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3654,13 +3679,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.medium.danger.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3673,13 +3698,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'default.medium.danger.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -3692,13 +3717,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'default.large.primary.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3711,13 +3736,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.large.primary.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3730,13 +3755,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.large.primary.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3749,13 +3774,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.large.success.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3768,13 +3793,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.large.success.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3787,13 +3812,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.large.success.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3806,13 +3831,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.large.info.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3825,13 +3850,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.large.info.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3844,13 +3869,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.large.info.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3863,13 +3888,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.large.warning.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3882,13 +3907,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.large.warning.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3901,13 +3926,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.large.warning.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3920,13 +3945,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.large.danger.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3939,13 +3964,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.large.danger.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3958,13 +3983,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'default.large.danger.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 13,
@@ -3977,13 +4002,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'default.giant.primary.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -3996,13 +4021,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.giant.primary.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4015,13 +4040,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.giant.primary.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4034,13 +4059,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.giant.success.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4053,13 +4078,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.giant.success.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4072,13 +4097,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#43A047',
     },
     'default.giant.success.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4091,13 +4116,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#43A047',
     },
     'default.giant.info.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4110,13 +4135,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.giant.info.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4129,13 +4154,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.giant.info.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4148,13 +4173,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.giant.warning.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4167,13 +4192,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.giant.warning.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4186,13 +4211,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.giant.warning.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4205,13 +4230,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.giant.danger.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4224,13 +4249,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#F44336',
     },
     'default.giant.danger.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4243,13 +4268,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#E53935',
     },
     'default.giant.danger.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 14,
@@ -4262,13 +4287,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': '#E53935',
     },
     'default.primary.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#2196F3',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4281,13 +4306,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#2196F3',
     },
     'default.primary.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4300,13 +4325,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.primary.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#1E88E5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4319,13 +4344,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#1E88E5',
     },
     'default.success.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#4CAF50',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4338,13 +4363,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#4CAF50',
     },
     'default.success.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4357,13 +4382,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.success.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#43A047',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4376,13 +4401,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#43A047',
     },
     'default.info.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#03A9F4',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4395,13 +4420,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#03A9F4',
     },
     'default.info.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4414,13 +4439,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.info.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#039BE5',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4433,13 +4458,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#039BE5',
     },
     'default.warning.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFC107',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4452,13 +4477,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFC107',
     },
     'default.warning.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4471,13 +4496,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.warning.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#FFB300',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4490,13 +4515,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#FFB300',
     },
     'default.danger.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#F44336',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4509,13 +4534,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#F44336',
     },
     'default.danger.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4528,13 +4553,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'default.danger.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': '#E53935',
       'text': {
         'color': 'text-primary-inverse',
         'fontSize': 12,
@@ -4547,184 +4572,97 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': '#E53935',
     },
     'outline': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
+      'borderColor': '#2196F3',
     },
     'outline.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
+      'borderColor': '#2196F3',
     },
     'outline.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
+      'borderColor': '#1E88E5',
     },
     'outline.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
+      'borderColor': '#1E88E5',
     },
     'outline.tiny': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 10,
-        'fontWeight': '800',
-        'marginHorizontal': 3,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 11,
-        'height': 11,
-        'marginHorizontal': 3,
-      },
-      'borderWidth': 2,
-    },
-    'outline.small': {
-      'minHeight': 20,
-      'minWidth': 20,
-      'padding': 3.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 11,
-        'fontWeight': '800',
-        'marginHorizontal': 3.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 12,
-        'height': 12,
-        'marginHorizontal': 3.5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.medium': {
-      'minHeight': 24,
-      'minWidth': 24,
-      'padding': 4,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 12,
-        'fontWeight': '800',
-        'marginHorizontal': 4,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 13,
-        'height': 13,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.large': {
-      'minHeight': 30,
-      'minWidth': 30,
-      'padding': 4.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 13,
-        'fontWeight': '800',
-        'marginHorizontal': 4.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 14,
-        'height': 14,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.giant': {
-      'minHeight': 36,
-      'minWidth': 36,
-      'padding': 5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 14,
-        'fontWeight': '800',
-        'marginHorizontal': 5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 15,
-        'height': 15,
-        'marginHorizontal': 5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.tiny.primary': {
-      'minHeight': 16,
-      'minWidth': 16,
-      'padding': 3,
-      'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 10,
@@ -4738,7 +4676,111 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.small': {
+      'minHeight': 20,
+      'minWidth': 20,
+      'padding': 3.5,
+      'borderRadius': 6,
       'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 11,
+        'fontWeight': '800',
+        'marginHorizontal': 3.5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 12,
+        'height': 12,
+        'marginHorizontal': 3.5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.medium': {
+      'minHeight': 24,
+      'minWidth': 24,
+      'padding': 4,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 12,
+        'fontWeight': '800',
+        'marginHorizontal': 4,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 13,
+        'height': 13,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.large': {
+      'minHeight': 30,
+      'minWidth': 30,
+      'padding': 4.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 13,
+        'fontWeight': '800',
+        'marginHorizontal': 4.5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 14,
+        'height': 14,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.giant': {
+      'minHeight': 36,
+      'minWidth': 36,
+      'padding': 5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 14,
+        'fontWeight': '800',
+        'marginHorizontal': 5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 15,
+        'height': 15,
+        'marginHorizontal': 5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.tiny.primary': {
+      'minHeight': 16,
+      'minWidth': 16,
+      'padding': 3,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 10,
+        'fontWeight': '800',
+        'marginHorizontal': 3,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 11,
+        'height': 11,
+        'marginHorizontal': 3,
+      },
+      'borderWidth': 2,
       'borderColor': '#2196F3',
     },
     'outline.tiny.success': {
@@ -4746,6 +4788,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 10,
@@ -4759,7 +4802,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.tiny.info': {
@@ -4767,6 +4809,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 10,
@@ -4780,7 +4823,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.tiny.warning': {
@@ -4788,6 +4830,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 10,
@@ -4801,7 +4844,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.tiny.danger': {
@@ -4809,6 +4851,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 10,
@@ -4822,7 +4865,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.small.primary': {
@@ -4830,6 +4872,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 11,
@@ -4843,7 +4886,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.small.success': {
@@ -4851,6 +4893,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 11,
@@ -4864,7 +4907,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.small.info': {
@@ -4872,6 +4914,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 11,
@@ -4885,7 +4928,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.small.warning': {
@@ -4893,6 +4935,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 11,
@@ -4906,7 +4949,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.small.danger': {
@@ -4914,6 +4956,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 11,
@@ -4927,7 +4970,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.medium.primary': {
@@ -4935,6 +4977,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -4948,7 +4991,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.medium.success': {
@@ -4956,6 +4998,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -4969,7 +5012,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.medium.info': {
@@ -4977,6 +5019,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -4990,7 +5033,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.medium.warning': {
@@ -4998,6 +5040,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -5011,7 +5054,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.medium.danger': {
@@ -5019,6 +5061,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -5032,7 +5075,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.large.primary': {
@@ -5040,6 +5082,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 13,
@@ -5053,7 +5096,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.large.success': {
@@ -5061,6 +5103,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 13,
@@ -5074,7 +5117,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.large.info': {
@@ -5082,6 +5124,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 13,
@@ -5095,7 +5138,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.large.warning': {
@@ -5103,6 +5145,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 13,
@@ -5116,7 +5159,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.large.danger': {
@@ -5124,6 +5166,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 13,
@@ -5137,7 +5180,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.giant.primary': {
@@ -5145,6 +5187,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 14,
@@ -5158,7 +5201,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.giant.success': {
@@ -5166,6 +5208,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 14,
@@ -5179,7 +5222,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.giant.info': {
@@ -5187,6 +5229,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 14,
@@ -5200,7 +5243,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.giant.warning': {
@@ -5208,6 +5250,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 14,
@@ -5221,7 +5264,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.giant.danger': {
@@ -5229,6 +5271,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 14,
@@ -5242,7 +5285,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.primary': {
@@ -5250,6 +5292,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -5263,7 +5306,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.success': {
@@ -5271,6 +5313,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -5284,7 +5327,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.info': {
@@ -5292,6 +5334,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -5305,7 +5348,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.warning': {
@@ -5313,6 +5355,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -5326,7 +5369,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.danger': {
@@ -5334,6 +5376,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -5347,7 +5390,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.tiny.disabled': {
@@ -5355,291 +5397,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 10,
-        'fontWeight': '800',
-        'marginHorizontal': 3,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 11,
-        'height': 11,
-        'marginHorizontal': 3,
-      },
-      'borderWidth': 2,
-    },
-    'outline.tiny.disabled.active': {
-      'minHeight': 16,
-      'minWidth': 16,
-      'padding': 3,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 10,
-        'fontWeight': '800',
-        'marginHorizontal': 3,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 11,
-        'height': 11,
-        'marginHorizontal': 3,
-      },
-      'borderWidth': 2,
-    },
-    'outline.tiny.active': {
-      'minHeight': 16,
-      'minWidth': 16,
-      'padding': 3,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 10,
-        'fontWeight': '800',
-        'marginHorizontal': 3,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 11,
-        'height': 11,
-        'marginHorizontal': 3,
-      },
-      'borderWidth': 2,
-    },
-    'outline.small.disabled': {
-      'minHeight': 20,
-      'minWidth': 20,
-      'padding': 3.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 11,
-        'fontWeight': '800',
-        'marginHorizontal': 3.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 12,
-        'height': 12,
-        'marginHorizontal': 3.5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.small.disabled.active': {
-      'minHeight': 20,
-      'minWidth': 20,
-      'padding': 3.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 11,
-        'fontWeight': '800',
-        'marginHorizontal': 3.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 12,
-        'height': 12,
-        'marginHorizontal': 3.5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.small.active': {
-      'minHeight': 20,
-      'minWidth': 20,
-      'padding': 3.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 11,
-        'fontWeight': '800',
-        'marginHorizontal': 3.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 12,
-        'height': 12,
-        'marginHorizontal': 3.5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.medium.disabled': {
-      'minHeight': 24,
-      'minWidth': 24,
-      'padding': 4,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 12,
-        'fontWeight': '800',
-        'marginHorizontal': 4,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 13,
-        'height': 13,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.medium.disabled.active': {
-      'minHeight': 24,
-      'minWidth': 24,
-      'padding': 4,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 12,
-        'fontWeight': '800',
-        'marginHorizontal': 4,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 13,
-        'height': 13,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.medium.active': {
-      'minHeight': 24,
-      'minWidth': 24,
-      'padding': 4,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 12,
-        'fontWeight': '800',
-        'marginHorizontal': 4,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 13,
-        'height': 13,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.large.disabled': {
-      'minHeight': 30,
-      'minWidth': 30,
-      'padding': 4.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 13,
-        'fontWeight': '800',
-        'marginHorizontal': 4.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 14,
-        'height': 14,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.large.disabled.active': {
-      'minHeight': 30,
-      'minWidth': 30,
-      'padding': 4.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 13,
-        'fontWeight': '800',
-        'marginHorizontal': 4.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 14,
-        'height': 14,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.large.active': {
-      'minHeight': 30,
-      'minWidth': 30,
-      'padding': 4.5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 13,
-        'fontWeight': '800',
-        'marginHorizontal': 4.5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 14,
-        'height': 14,
-        'marginHorizontal': 4,
-      },
-      'borderWidth': 2,
-    },
-    'outline.giant.disabled': {
-      'minHeight': 36,
-      'minWidth': 36,
-      'padding': 5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 14,
-        'fontWeight': '800',
-        'marginHorizontal': 5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 15,
-        'height': 15,
-        'marginHorizontal': 5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.giant.disabled.active': {
-      'minHeight': 36,
-      'minWidth': 36,
-      'padding': 5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 14,
-        'fontWeight': '800',
-        'marginHorizontal': 5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 15,
-        'height': 15,
-        'marginHorizontal': 5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.giant.active': {
-      'minHeight': 36,
-      'minWidth': 36,
-      'padding': 5,
-      'borderRadius': 6,
-      'text': {
-        'color': 'text-primary-inverse',
-        'fontSize': 14,
-        'fontWeight': '800',
-        'marginHorizontal': 5,
-      },
-      'icon': {
-        'tintColor': '#ffffff',
-        'width': 15,
-        'height': 15,
-        'marginHorizontal': 5,
-      },
-      'borderWidth': 2,
-    },
-    'outline.tiny.primary.disabled': {
-      'minHeight': 16,
-      'minWidth': 16,
-      'padding': 3,
-      'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 10,
@@ -5653,7 +5411,321 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.tiny.disabled.active': {
+      'minHeight': 16,
+      'minWidth': 16,
+      'padding': 3,
+      'borderRadius': 6,
       'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 10,
+        'fontWeight': '800',
+        'marginHorizontal': 3,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 11,
+        'height': 11,
+        'marginHorizontal': 3,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.tiny.active': {
+      'minHeight': 16,
+      'minWidth': 16,
+      'padding': 3,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 10,
+        'fontWeight': '800',
+        'marginHorizontal': 3,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 11,
+        'height': 11,
+        'marginHorizontal': 3,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.small.disabled': {
+      'minHeight': 20,
+      'minWidth': 20,
+      'padding': 3.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 11,
+        'fontWeight': '800',
+        'marginHorizontal': 3.5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 12,
+        'height': 12,
+        'marginHorizontal': 3.5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.small.disabled.active': {
+      'minHeight': 20,
+      'minWidth': 20,
+      'padding': 3.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 11,
+        'fontWeight': '800',
+        'marginHorizontal': 3.5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 12,
+        'height': 12,
+        'marginHorizontal': 3.5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.small.active': {
+      'minHeight': 20,
+      'minWidth': 20,
+      'padding': 3.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 11,
+        'fontWeight': '800',
+        'marginHorizontal': 3.5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 12,
+        'height': 12,
+        'marginHorizontal': 3.5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.medium.disabled': {
+      'minHeight': 24,
+      'minWidth': 24,
+      'padding': 4,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 12,
+        'fontWeight': '800',
+        'marginHorizontal': 4,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 13,
+        'height': 13,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.medium.disabled.active': {
+      'minHeight': 24,
+      'minWidth': 24,
+      'padding': 4,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 12,
+        'fontWeight': '800',
+        'marginHorizontal': 4,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 13,
+        'height': 13,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.medium.active': {
+      'minHeight': 24,
+      'minWidth': 24,
+      'padding': 4,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 12,
+        'fontWeight': '800',
+        'marginHorizontal': 4,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 13,
+        'height': 13,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.large.disabled': {
+      'minHeight': 30,
+      'minWidth': 30,
+      'padding': 4.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 13,
+        'fontWeight': '800',
+        'marginHorizontal': 4.5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 14,
+        'height': 14,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.large.disabled.active': {
+      'minHeight': 30,
+      'minWidth': 30,
+      'padding': 4.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 13,
+        'fontWeight': '800',
+        'marginHorizontal': 4.5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 14,
+        'height': 14,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.large.active': {
+      'minHeight': 30,
+      'minWidth': 30,
+      'padding': 4.5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 13,
+        'fontWeight': '800',
+        'marginHorizontal': 4.5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 14,
+        'height': 14,
+        'marginHorizontal': 4,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.giant.disabled': {
+      'minHeight': 36,
+      'minWidth': 36,
+      'padding': 5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 14,
+        'fontWeight': '800',
+        'marginHorizontal': 5,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 15,
+        'height': 15,
+        'marginHorizontal': 5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#2196F3',
+    },
+    'outline.giant.disabled.active': {
+      'minHeight': 36,
+      'minWidth': 36,
+      'padding': 5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 14,
+        'fontWeight': '800',
+        'marginHorizontal': 5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 15,
+        'height': 15,
+        'marginHorizontal': 5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.giant.active': {
+      'minHeight': 36,
+      'minWidth': 36,
+      'padding': 5,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#1E88E5',
+        'fontSize': 14,
+        'fontWeight': '800',
+        'marginHorizontal': 5,
+      },
+      'icon': {
+        'tintColor': '#1E88E5',
+        'width': 15,
+        'height': 15,
+        'marginHorizontal': 5,
+      },
+      'borderWidth': 2,
+      'borderColor': '#1E88E5',
+    },
+    'outline.tiny.primary.disabled': {
+      'minHeight': 16,
+      'minWidth': 16,
+      'padding': 3,
+      'borderRadius': 6,
+      'backgroundColor': 'transparent',
+      'text': {
+        'color': '#2196F3',
+        'fontSize': 10,
+        'fontWeight': '800',
+        'marginHorizontal': 3,
+      },
+      'icon': {
+        'tintColor': '#2196F3',
+        'width': 11,
+        'height': 11,
+        'marginHorizontal': 3,
+      },
+      'borderWidth': 2,
       'borderColor': '#2196F3',
     },
     'outline.tiny.primary.disabled.active': {
@@ -5661,6 +5733,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 10,
@@ -5674,7 +5747,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.tiny.primary.active': {
@@ -5682,6 +5754,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 10,
@@ -5695,7 +5768,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.tiny.success.disabled': {
@@ -5703,6 +5775,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 10,
@@ -5716,7 +5789,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.tiny.success.disabled.active': {
@@ -5724,6 +5796,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 10,
@@ -5737,7 +5810,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.tiny.success.active': {
@@ -5745,6 +5817,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 10,
@@ -5758,7 +5831,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.tiny.info.disabled': {
@@ -5766,6 +5838,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 10,
@@ -5779,7 +5852,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.tiny.info.disabled.active': {
@@ -5787,6 +5859,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 10,
@@ -5800,7 +5873,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.tiny.info.active': {
@@ -5808,6 +5880,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 10,
@@ -5821,7 +5894,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.tiny.warning.disabled': {
@@ -5829,6 +5901,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 10,
@@ -5842,7 +5915,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.tiny.warning.disabled.active': {
@@ -5850,6 +5922,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 10,
@@ -5863,7 +5936,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.tiny.warning.active': {
@@ -5871,6 +5943,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 10,
@@ -5884,7 +5957,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.tiny.danger.disabled': {
@@ -5892,6 +5964,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 10,
@@ -5905,7 +5978,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.tiny.danger.disabled.active': {
@@ -5913,6 +5985,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 10,
@@ -5926,7 +5999,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.tiny.danger.active': {
@@ -5934,6 +6006,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 10,
@@ -5947,7 +6020,6 @@ export const style = {
         'marginHorizontal': 3,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.small.primary.disabled': {
@@ -5955,6 +6027,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 11,
@@ -5968,7 +6041,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.small.primary.disabled.active': {
@@ -5976,6 +6048,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 11,
@@ -5989,7 +6062,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.small.primary.active': {
@@ -5997,6 +6069,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 11,
@@ -6010,7 +6083,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.small.success.disabled': {
@@ -6018,6 +6090,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 11,
@@ -6031,7 +6104,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.small.success.disabled.active': {
@@ -6039,6 +6111,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 11,
@@ -6052,7 +6125,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.small.success.active': {
@@ -6060,6 +6132,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 11,
@@ -6073,7 +6146,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.small.info.disabled': {
@@ -6081,6 +6153,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 11,
@@ -6094,7 +6167,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.small.info.disabled.active': {
@@ -6102,6 +6174,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 11,
@@ -6115,7 +6188,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.small.info.active': {
@@ -6123,6 +6195,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 11,
@@ -6136,7 +6209,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.small.warning.disabled': {
@@ -6144,6 +6216,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 11,
@@ -6157,7 +6230,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.small.warning.disabled.active': {
@@ -6165,6 +6237,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 11,
@@ -6178,7 +6251,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.small.warning.active': {
@@ -6186,6 +6258,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 11,
@@ -6199,7 +6272,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.small.danger.disabled': {
@@ -6207,6 +6279,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 11,
@@ -6220,7 +6293,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.small.danger.disabled.active': {
@@ -6228,6 +6300,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 11,
@@ -6241,7 +6314,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.small.danger.active': {
@@ -6249,6 +6321,7 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 11,
@@ -6262,7 +6335,6 @@ export const style = {
         'marginHorizontal': 3.5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.medium.primary.disabled': {
@@ -6270,6 +6342,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -6283,7 +6356,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.medium.primary.disabled.active': {
@@ -6291,6 +6363,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -6304,7 +6377,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.medium.primary.active': {
@@ -6312,6 +6384,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -6325,7 +6398,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.medium.success.disabled': {
@@ -6333,6 +6405,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -6346,7 +6419,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.medium.success.disabled.active': {
@@ -6354,6 +6426,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -6367,7 +6440,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.medium.success.active': {
@@ -6375,6 +6447,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -6388,7 +6461,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.medium.info.disabled': {
@@ -6396,6 +6468,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -6409,7 +6482,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.medium.info.disabled.active': {
@@ -6417,6 +6489,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -6430,7 +6503,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.medium.info.active': {
@@ -6438,6 +6510,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -6451,7 +6524,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.medium.warning.disabled': {
@@ -6459,6 +6531,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -6472,7 +6545,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.medium.warning.disabled.active': {
@@ -6480,6 +6552,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -6493,7 +6566,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.medium.warning.active': {
@@ -6501,6 +6573,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -6514,7 +6587,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.medium.danger.disabled': {
@@ -6522,6 +6594,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -6535,7 +6608,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.medium.danger.disabled.active': {
@@ -6543,6 +6615,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -6556,7 +6629,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.medium.danger.active': {
@@ -6564,6 +6636,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -6577,7 +6650,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.large.primary.disabled': {
@@ -6585,6 +6657,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 13,
@@ -6598,7 +6671,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.large.primary.disabled.active': {
@@ -6606,6 +6678,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 13,
@@ -6619,7 +6692,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.large.primary.active': {
@@ -6627,6 +6699,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 13,
@@ -6640,7 +6713,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.large.success.disabled': {
@@ -6648,6 +6720,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 13,
@@ -6661,7 +6734,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.large.success.disabled.active': {
@@ -6669,6 +6741,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 13,
@@ -6682,7 +6755,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.large.success.active': {
@@ -6690,6 +6762,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 13,
@@ -6703,7 +6776,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.large.info.disabled': {
@@ -6711,6 +6783,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 13,
@@ -6724,7 +6797,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.large.info.disabled.active': {
@@ -6732,6 +6804,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 13,
@@ -6745,7 +6818,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.large.info.active': {
@@ -6753,6 +6825,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 13,
@@ -6766,7 +6839,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.large.warning.disabled': {
@@ -6774,6 +6846,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 13,
@@ -6787,7 +6860,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.large.warning.disabled.active': {
@@ -6795,6 +6867,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 13,
@@ -6808,7 +6881,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.large.warning.active': {
@@ -6816,6 +6888,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 13,
@@ -6829,7 +6902,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.large.danger.disabled': {
@@ -6837,6 +6909,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 13,
@@ -6850,7 +6923,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.large.danger.disabled.active': {
@@ -6858,6 +6930,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 13,
@@ -6871,7 +6944,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.large.danger.active': {
@@ -6879,6 +6951,7 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 13,
@@ -6892,7 +6965,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.giant.primary.disabled': {
@@ -6900,6 +6972,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 14,
@@ -6913,7 +6986,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.giant.primary.disabled.active': {
@@ -6921,6 +6993,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 14,
@@ -6934,7 +7007,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.giant.primary.active': {
@@ -6942,6 +7014,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 14,
@@ -6955,7 +7028,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.giant.success.disabled': {
@@ -6963,6 +7035,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 14,
@@ -6976,7 +7049,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.giant.success.disabled.active': {
@@ -6984,6 +7056,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 14,
@@ -6997,7 +7070,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.giant.success.active': {
@@ -7005,6 +7077,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 14,
@@ -7018,7 +7091,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.giant.info.disabled': {
@@ -7026,6 +7098,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 14,
@@ -7039,7 +7112,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.giant.info.disabled.active': {
@@ -7047,6 +7119,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 14,
@@ -7060,7 +7133,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.giant.info.active': {
@@ -7068,6 +7140,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 14,
@@ -7081,7 +7154,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.giant.warning.disabled': {
@@ -7089,6 +7161,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 14,
@@ -7102,7 +7175,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.giant.warning.disabled.active': {
@@ -7110,6 +7182,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 14,
@@ -7123,7 +7196,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.giant.warning.active': {
@@ -7131,6 +7203,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 14,
@@ -7144,7 +7217,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.giant.danger.disabled': {
@@ -7152,6 +7224,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 14,
@@ -7165,7 +7238,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.giant.danger.disabled.active': {
@@ -7173,6 +7245,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 14,
@@ -7186,7 +7259,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.giant.danger.active': {
@@ -7194,6 +7266,7 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 14,
@@ -7207,7 +7280,6 @@ export const style = {
         'marginHorizontal': 5,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.primary.disabled': {
@@ -7215,6 +7287,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -7228,7 +7301,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#2196F3',
     },
     'outline.primary.disabled.active': {
@@ -7236,6 +7308,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -7249,7 +7322,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.primary.active': {
@@ -7257,6 +7329,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -7270,7 +7343,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#1E88E5',
     },
     'outline.success.disabled': {
@@ -7278,6 +7350,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -7291,7 +7364,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#4CAF50',
     },
     'outline.success.disabled.active': {
@@ -7299,6 +7371,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -7312,7 +7385,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.success.active': {
@@ -7320,6 +7392,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -7333,7 +7406,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#43A047',
     },
     'outline.info.disabled': {
@@ -7341,6 +7413,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -7354,7 +7427,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#03A9F4',
     },
     'outline.info.disabled.active': {
@@ -7362,6 +7434,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -7375,7 +7448,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.info.active': {
@@ -7383,6 +7455,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -7396,7 +7469,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#039BE5',
     },
     'outline.warning.disabled': {
@@ -7404,6 +7476,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -7417,7 +7490,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFC107',
     },
     'outline.warning.disabled.active': {
@@ -7425,6 +7497,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -7438,7 +7511,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.warning.active': {
@@ -7446,6 +7518,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -7459,7 +7532,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#FFB300',
     },
     'outline.danger.disabled': {
@@ -7467,6 +7539,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -7480,7 +7553,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#F44336',
     },
     'outline.danger.disabled.active': {
@@ -7488,6 +7560,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -7501,7 +7574,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'outline.danger.active': {
@@ -7509,6 +7581,7 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -7522,7 +7595,6 @@ export const style = {
         'marginHorizontal': 4,
       },
       'borderWidth': 2,
-      'backgroundColor': 'transparent',
       'borderColor': '#E53935',
     },
     'ghost': {
@@ -7530,14 +7602,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -7548,14 +7621,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -7566,14 +7640,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -7584,14 +7659,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -7602,14 +7678,15 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 10,
         'fontWeight': '800',
         'marginHorizontal': 3,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 11,
         'height': 11,
         'marginHorizontal': 3,
@@ -7620,14 +7697,15 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 11,
         'fontWeight': '800',
         'marginHorizontal': 3.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 12,
         'height': 12,
         'marginHorizontal': 3.5,
@@ -7638,14 +7716,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 13,
         'height': 13,
         'marginHorizontal': 4,
@@ -7656,14 +7735,15 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 13,
         'fontWeight': '800',
         'marginHorizontal': 4.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -7674,14 +7754,15 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 14,
         'fontWeight': '800',
         'marginHorizontal': 5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 15,
         'height': 15,
         'marginHorizontal': 5,
@@ -7692,6 +7773,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 10,
@@ -7704,13 +7786,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.success': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 10,
@@ -7723,13 +7805,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.info': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 10,
@@ -7742,13 +7824,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.warning': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 10,
@@ -7761,13 +7843,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.danger': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 10,
@@ -7780,13 +7862,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.primary': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 11,
@@ -7799,13 +7881,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.success': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 11,
@@ -7818,13 +7900,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.info': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 11,
@@ -7837,13 +7919,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.warning': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 11,
@@ -7856,13 +7938,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.danger': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 11,
@@ -7875,13 +7957,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.primary': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -7894,13 +7976,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.success': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -7913,13 +7995,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.info': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -7932,13 +8014,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.warning': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -7951,13 +8033,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.danger': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -7970,13 +8052,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.primary': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 13,
@@ -7989,13 +8071,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.success': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 13,
@@ -8008,13 +8090,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.info': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 13,
@@ -8027,13 +8109,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.warning': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 13,
@@ -8046,13 +8128,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.danger': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 13,
@@ -8065,13 +8147,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.primary': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 14,
@@ -8084,13 +8166,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.success': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 14,
@@ -8103,13 +8185,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.info': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 14,
@@ -8122,13 +8204,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.warning': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 14,
@@ -8141,13 +8223,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.danger': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 14,
@@ -8160,13 +8242,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.primary': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -8179,13 +8261,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.success': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -8198,13 +8280,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.info': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -8217,13 +8299,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.warning': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -8236,13 +8318,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.danger': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -8255,21 +8337,21 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 10,
         'fontWeight': '800',
         'marginHorizontal': 3,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 11,
         'height': 11,
         'marginHorizontal': 3,
@@ -8280,14 +8362,15 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 10,
         'fontWeight': '800',
         'marginHorizontal': 3,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 11,
         'height': 11,
         'marginHorizontal': 3,
@@ -8298,14 +8381,15 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 10,
         'fontWeight': '800',
         'marginHorizontal': 3,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 11,
         'height': 11,
         'marginHorizontal': 3,
@@ -8316,14 +8400,15 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 11,
         'fontWeight': '800',
         'marginHorizontal': 3.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 12,
         'height': 12,
         'marginHorizontal': 3.5,
@@ -8334,14 +8419,15 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 11,
         'fontWeight': '800',
         'marginHorizontal': 3.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 12,
         'height': 12,
         'marginHorizontal': 3.5,
@@ -8352,14 +8438,15 @@ export const style = {
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 11,
         'fontWeight': '800',
         'marginHorizontal': 3.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 12,
         'height': 12,
         'marginHorizontal': 3.5,
@@ -8370,14 +8457,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 13,
         'height': 13,
         'marginHorizontal': 4,
@@ -8388,14 +8476,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 13,
         'height': 13,
         'marginHorizontal': 4,
@@ -8406,14 +8495,15 @@ export const style = {
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 12,
         'fontWeight': '800',
         'marginHorizontal': 4,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 13,
         'height': 13,
         'marginHorizontal': 4,
@@ -8424,14 +8514,15 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 13,
         'fontWeight': '800',
         'marginHorizontal': 4.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -8442,14 +8533,15 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 13,
         'fontWeight': '800',
         'marginHorizontal': 4.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -8460,14 +8552,15 @@ export const style = {
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 13,
         'fontWeight': '800',
         'marginHorizontal': 4.5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 14,
         'height': 14,
         'marginHorizontal': 4,
@@ -8478,14 +8571,15 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#2196F3',
         'fontSize': 14,
         'fontWeight': '800',
         'marginHorizontal': 5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#2196F3',
         'width': 15,
         'height': 15,
         'marginHorizontal': 5,
@@ -8496,14 +8590,15 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 14,
         'fontWeight': '800',
         'marginHorizontal': 5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 15,
         'height': 15,
         'marginHorizontal': 5,
@@ -8514,14 +8609,15 @@ export const style = {
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
-        'color': 'text-primary-inverse',
+        'color': '#1E88E5',
         'fontSize': 14,
         'fontWeight': '800',
         'marginHorizontal': 5,
       },
       'icon': {
-        'tintColor': '#ffffff',
+        'tintColor': '#1E88E5',
         'width': 15,
         'height': 15,
         'marginHorizontal': 5,
@@ -8532,6 +8628,7 @@ export const style = {
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 10,
@@ -8544,13 +8641,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.primary.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 10,
@@ -8563,13 +8660,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.primary.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 10,
@@ -8582,13 +8679,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.success.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 10,
@@ -8601,13 +8698,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.success.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 10,
@@ -8620,13 +8717,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.success.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 10,
@@ -8639,13 +8736,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.info.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 10,
@@ -8658,13 +8755,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.info.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 10,
@@ -8677,13 +8774,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.info.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 10,
@@ -8696,13 +8793,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.warning.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 10,
@@ -8715,13 +8812,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.warning.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 10,
@@ -8734,13 +8831,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.warning.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 10,
@@ -8753,13 +8850,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.danger.disabled': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 10,
@@ -8772,13 +8869,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.danger.disabled.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 10,
@@ -8791,13 +8888,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.tiny.danger.active': {
       'minHeight': 16,
       'minWidth': 16,
       'padding': 3,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 10,
@@ -8810,13 +8907,13 @@ export const style = {
         'height': 11,
         'marginHorizontal': 3,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.primary.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 11,
@@ -8829,13 +8926,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.primary.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 11,
@@ -8848,13 +8945,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.primary.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 11,
@@ -8867,13 +8964,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.success.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 11,
@@ -8886,13 +8983,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.success.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 11,
@@ -8905,13 +9002,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.success.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 11,
@@ -8924,13 +9021,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.info.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 11,
@@ -8943,13 +9040,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.info.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 11,
@@ -8962,13 +9059,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.info.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 11,
@@ -8981,13 +9078,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.warning.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 11,
@@ -9000,13 +9097,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.warning.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 11,
@@ -9019,13 +9116,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.warning.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 11,
@@ -9038,13 +9135,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.danger.disabled': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 11,
@@ -9057,13 +9154,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.danger.disabled.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 11,
@@ -9076,13 +9173,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.small.danger.active': {
       'minHeight': 20,
       'minWidth': 20,
       'padding': 3.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 11,
@@ -9095,13 +9192,13 @@ export const style = {
         'height': 12,
         'marginHorizontal': 3.5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.primary.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -9114,13 +9211,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.primary.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -9133,13 +9230,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.primary.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -9152,13 +9249,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.success.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -9171,13 +9268,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.success.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -9190,13 +9287,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.success.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -9209,13 +9306,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.info.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -9228,13 +9325,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.info.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -9247,13 +9344,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.info.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -9266,13 +9363,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.warning.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -9285,13 +9382,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.warning.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -9304,13 +9401,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.warning.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -9323,13 +9420,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.danger.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -9342,13 +9439,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.danger.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -9361,13 +9458,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.medium.danger.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -9380,13 +9477,13 @@ export const style = {
         'height': 13,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.primary.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 13,
@@ -9399,13 +9496,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.primary.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 13,
@@ -9418,13 +9515,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.primary.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 13,
@@ -9437,13 +9534,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.success.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 13,
@@ -9456,13 +9553,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.success.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 13,
@@ -9475,13 +9572,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.success.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 13,
@@ -9494,13 +9591,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.info.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 13,
@@ -9513,13 +9610,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.info.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 13,
@@ -9532,13 +9629,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.info.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 13,
@@ -9551,13 +9648,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.warning.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 13,
@@ -9570,13 +9667,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.warning.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 13,
@@ -9589,13 +9686,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.warning.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 13,
@@ -9608,13 +9705,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.danger.disabled': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 13,
@@ -9627,13 +9724,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.danger.disabled.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 13,
@@ -9646,13 +9743,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.large.danger.active': {
       'minHeight': 30,
       'minWidth': 30,
       'padding': 4.5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 13,
@@ -9665,13 +9762,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.primary.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 14,
@@ -9684,13 +9781,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.primary.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 14,
@@ -9703,13 +9800,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.primary.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 14,
@@ -9722,13 +9819,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.success.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 14,
@@ -9741,13 +9838,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.success.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 14,
@@ -9760,13 +9857,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.success.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 14,
@@ -9779,13 +9876,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.info.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 14,
@@ -9798,13 +9895,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.info.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 14,
@@ -9817,13 +9914,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.info.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 14,
@@ -9836,13 +9933,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.warning.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 14,
@@ -9855,13 +9952,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.warning.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 14,
@@ -9874,13 +9971,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.warning.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 14,
@@ -9893,13 +9990,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.danger.disabled': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 14,
@@ -9912,13 +10009,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.danger.disabled.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 14,
@@ -9931,13 +10028,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.giant.danger.active': {
       'minHeight': 36,
       'minWidth': 36,
       'padding': 5,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 14,
@@ -9950,13 +10047,13 @@ export const style = {
         'height': 15,
         'marginHorizontal': 5,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.primary.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#2196F3',
         'fontSize': 12,
@@ -9969,13 +10066,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.primary.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -9988,13 +10085,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.primary.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#1E88E5',
         'fontSize': 12,
@@ -10007,13 +10104,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.success.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#4CAF50',
         'fontSize': 12,
@@ -10026,13 +10123,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.success.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -10045,13 +10142,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.success.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#43A047',
         'fontSize': 12,
@@ -10064,13 +10161,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.info.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#03A9F4',
         'fontSize': 12,
@@ -10083,13 +10180,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.info.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -10102,13 +10199,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.info.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#039BE5',
         'fontSize': 12,
@@ -10121,13 +10218,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.warning.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFC107',
         'fontSize': 12,
@@ -10140,13 +10237,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.warning.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -10159,13 +10256,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.warning.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#FFB300',
         'fontSize': 12,
@@ -10178,13 +10275,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.danger.disabled': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#F44336',
         'fontSize': 12,
@@ -10197,13 +10294,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.danger.disabled.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -10216,13 +10313,13 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
     },
     'ghost.danger.active': {
       'minHeight': 24,
       'minWidth': 24,
       'padding': 4,
       'borderRadius': 6,
+      'backgroundColor': 'transparent',
       'text': {
         'color': '#E53935',
         'fontSize': 12,
@@ -10235,7 +10332,92 @@ export const style = {
         'height': 14,
         'marginHorizontal': 4,
       },
-      'backgroundColor': 'transparent',
+    },
+  },
+  'ButtonGroup': {
+    'meta': {
+      'variants': {
+        'size': [
+          'tiny',
+          'small',
+          'medium',
+          'large',
+          'giant',
+        ],
+      },
+      'states': [],
+    },
+    'default': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'default.tiny': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 12,
+      },
+    },
+    'default.small': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 8,
+      },
+    },
+    'default.medium': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'default.large': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'default.giant': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'outline': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'outline.tiny': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 12,
+      },
+    },
+    'outline.small': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 8,
+      },
+    },
+    'outline.medium': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'outline.large': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
+    },
+    'outline.giant': {
+      'button': {
+        'borderRadius': 6,
+        'margin': 4,
+      },
     },
   },
 };
@@ -10794,6 +10976,7 @@ export const mapping = {
           'minWidth': 24,
           'padding': 4,
           'borderRadius': 6,
+          'backgroundColor': '#2196F3',
           'text': {
             'color': 'text-primary-inverse',
             'fontSize': 12,
@@ -10805,6 +10988,11 @@ export const mapping = {
             'width': 14,
             'height': 14,
             'marginHorizontal': 4,
+          },
+          'state': {
+            'active': {
+              'backgroundColor': '#1E88E5',
+            },
           },
         },
         'variant': {
@@ -10946,7 +11134,27 @@ export const mapping = {
       },
       'outline': {
         'mapping': {
+          'backgroundColor': 'transparent',
           'borderWidth': 2,
+          'borderColor': '#2196F3',
+          'text': {
+            'color': '#2196F3',
+          },
+          'icon': {
+            'tintColor': '#2196F3',
+          },
+          'state': {
+            'active': {
+              'backgroundColor': 'transparent',
+              'borderColor': '#1E88E5',
+              'text': {
+                'color': '#1E88E5',
+              },
+              'icon': {
+                'tintColor': '#1E88E5',
+              },
+            },
+          },
         },
         'variant': {
           'status': {
@@ -11074,7 +11282,26 @@ export const mapping = {
         },
       },
       'ghost': {
-        'mapping': {},
+        'mapping': {
+          'backgroundColor': 'transparent',
+          'text': {
+            'color': '#2196F3',
+          },
+          'icon': {
+            'tintColor': '#2196F3',
+          },
+          'state': {
+            'active': {
+              'backgroundColor': 'transparent',
+              'text': {
+                'color': '#1E88E5',
+              },
+              'icon': {
+                'tintColor': '#1E88E5',
+              },
+            },
+          },
+        },
         'variant': {
           'status': {
             'primary': {
@@ -11190,6 +11417,70 @@ export const mapping = {
           },
         },
       },
+    },
+  },
+  'ButtonGroup': {
+    'meta': {
+      'variants': {
+        'size': [
+          'tiny',
+          'small',
+          'medium',
+          'large',
+          'giant',
+        ],
+      },
+      'states': [],
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'button': {
+            'borderRadius': 6,
+            'margin': 4,
+          },
+        },
+        'variant': {
+          'size': {
+            'tiny': {
+              'mapping': {
+                'button': {
+                  'margin': 12,
+                },
+              },
+            },
+            'small': {
+              'mapping': {
+                'button': {
+                  'margin': 8,
+                },
+              },
+            },
+            'medium': {
+              'button': {
+                'mapping': {
+                  'margin': 4,
+                },
+              },
+            },
+            'large': {
+              'button': {
+                'mapping': {
+                  'margin': 4,
+                },
+              },
+            },
+            'giant': {
+              'button': {
+                'mapping': {
+                  'margin': 4,
+                },
+              },
+            },
+          },
+        },
+      },
+      'outline': {},
     },
   },
 };
