@@ -1,5 +1,6 @@
+import { MappingType } from '@eva/types';
+import { mapping } from './mapping.spec.config';
 import * as Service from './mapping.service';
-import * as config from './mapping.spec.config';
 
 describe('@mapping: service methods checks', () => {
 
@@ -7,26 +8,40 @@ describe('@mapping: service methods checks', () => {
 
     describe('* default', () => {
 
-      const appearance = 'default';
+      const appearance: string = 'filled';
 
       it('* stateless', () => {
-        const mapping = Service.getStatelessAppearanceMapping(config.mapping, 'Test', appearance);
+        const value: MappingType = Service.getStatelessAppearanceMapping(
+          mapping,
+          'Button',
+          appearance,
+        );
 
-        expect(mapping).toMatchSnapshot();
+        expect(value).toMatchSnapshot();
       });
 
       describe('* state', () => {
 
         it('* active', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'active');
+          const value: MappingType = Service.getStateAppearanceMapping(
+            mapping,
+            'Button',
+            appearance,
+            'active',
+          );
 
-          expect(mapping).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value: MappingType = Service.getStateAppearanceMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
       });
@@ -34,29 +49,51 @@ describe('@mapping: service methods checks', () => {
       describe('* variant', () => {
 
         it('* success', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'success');
+          const value: MappingType = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'success',
+          );
 
-          expect(mapping).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
         describe('* state', () => {
 
           it('* active', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'active');
+            const value: MappingType = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'active',
+            );
 
-            expect(mapping).toMatchSnapshot();
+            expect(value).toMatchSnapshot();
           });
 
           it('* undefined', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'undefined');
+            const value: MappingType = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'undefined',
+            );
 
-            expect(mapping).toBeUndefined();
+            expect(value).toBeUndefined();
           });
 
         });
@@ -67,26 +104,39 @@ describe('@mapping: service methods checks', () => {
 
     describe('* custom', () => {
 
-      const appearance = 'custom';
+      const appearance: string = 'outline';
 
       it('* stateless', () => {
-        const mapping = Service.getStatelessAppearanceMapping(config.mapping, 'Test', appearance);
+        const value = Service.getStatelessAppearanceMapping(
+          mapping,
+          'Button',
+          appearance,
+        );
 
-        expect(mapping).toMatchSnapshot();
+        expect(value).toMatchSnapshot();
       });
 
       describe('* state', () => {
 
         it('* active', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'active');
+          const value = Service.getStateAppearanceMapping(mapping,
+            'Button',
+            appearance,
+            'active',
+          );
 
-          expect(mapping).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value = Service.getStateAppearanceMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
       });
@@ -94,29 +144,52 @@ describe('@mapping: service methods checks', () => {
       describe('* variant', () => {
 
         it('* success', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'success');
+          const value = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'success',
+          );
 
-          expect(mapping).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         describe('* state', () => {
 
           it('* active', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'active');
+            const value = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'active',
+            );
 
-            expect(mapping).toMatchSnapshot();
+            expect(value).toMatchSnapshot();
           });
 
           it('* undefined', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'undefined');
+            const value = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'undefined',
+            );
 
-            expect(mapping).toBeUndefined();
+
+            expect(value).toBeUndefined();
           });
 
         });
@@ -130,23 +203,37 @@ describe('@mapping: service methods checks', () => {
       const appearance = 'undefined';
 
       it('* stateless', () => {
-        const mapping = Service.getStatelessAppearanceMapping(config.mapping, 'Test', appearance);
+        const value = Service.getStatelessAppearanceMapping(
+          mapping,
+          'Button',
+          appearance,
+        );
 
-        expect(mapping).toBeUndefined();
+        expect(value).toBeUndefined();
       });
 
       describe('* state', () => {
 
         it('* active', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'active');
+          const value = Service.getStateAppearanceMapping(
+            mapping,
+            'Button',
+            appearance,
+            'active',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStateAppearanceMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value = Service.getStateAppearanceMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
       });
@@ -154,29 +241,51 @@ describe('@mapping: service methods checks', () => {
       describe('* variant', () => {
 
         it('* success', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'success');
+          const value = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'success',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
         it('* undefined', () => {
-          const mapping = Service.getStatelessVariantMapping(config.mapping, 'Test', appearance, 'undefined');
+          const value = Service.getStatelessVariantMapping(
+            mapping,
+            'Button',
+            appearance,
+            'undefined',
+          );
 
-          expect(mapping).toBeUndefined();
+          expect(value).toBeUndefined();
         });
 
         describe('* state', () => {
 
           it('* active', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'active');
+            const value = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'active',
+            );
 
-            expect(mapping).toBeUndefined();
+            expect(value).toBeUndefined();
           });
 
           it('* undefined', () => {
-            const mapping = Service.getStateVariantMapping(config.mapping, 'Test', appearance, 'success', 'undefined');
+            const value = Service.getStateVariantMapping(
+              mapping,
+              'Button',
+              appearance,
+              'success',
+              'undefined',
+            );
 
-            expect(mapping).toBeUndefined();
+            expect(value).toBeUndefined();
           });
 
         });
@@ -189,13 +298,18 @@ describe('@mapping: service methods checks', () => {
 
   describe('* variants groups getting', () => {
 
-    it('* expected component', () => {
-      const value: string[] = Service.getComponentVariantGroups(config.mapping, 'Test');
+    it('* defined component', () => {
+      const value: string[] = Service.getComponentVariantGroups(
+        mapping,
+        'Button',
+      );
+
       expect(value).toEqual(['status', 'size']);
     });
 
-    it('* unexpected component', () => {
-      const value: string[] | undefined = Service.getComponentVariantGroups(config.mapping, 'Undefined');
+    it('* undefined component', () => {
+      const value: string[] | undefined = Service.getComponentVariantGroups(mapping, 'Undefined');
+
       expect(value).toBeUndefined();
     });
 

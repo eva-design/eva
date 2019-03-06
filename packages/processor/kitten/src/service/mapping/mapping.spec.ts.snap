@@ -1,43 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@mapping: service methods checks * appearance * custom * state * active 1`] = `
-Object {
-  "borderColor": "grayLight",
-}
-`;
+exports[`@mapping: service methods checks * appearance * custom * state * active 1`] = `undefined`;
 
 exports[`@mapping: service methods checks * appearance * custom * stateless 1`] = `
 Object {
-  "borderWidth": 4,
+  "borderWidth": 2,
 }
 `;
 
-exports[`@mapping: service methods checks * appearance * custom * variant * state * active 1`] = `undefined`;
+exports[`@mapping: service methods checks * appearance * custom * variant * state * active 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "borderColor": "#43A047",
+  "icon": Object {
+    "tintColor": "#43A047",
+  },
+  "text": Object {
+    "color": "#43A047",
+  },
+}
+`;
 
 exports[`@mapping: service methods checks * appearance * custom * variant * success 1`] = `
 Object {
-  "borderColor": "tealPrimary",
+  "backgroundColor": "transparent",
+  "borderColor": "#4CAF50",
+  "icon": Object {
+    "tintColor": "#4CAF50",
+  },
+  "text": Object {
+    "color": "#4CAF50",
+  },
 }
 `;
 
 exports[`@mapping: service methods checks * appearance * custom * variant * undefined 1`] = `undefined`;
 
-exports[`@mapping: service methods checks * appearance * default * state * active 1`] = `
-Object {
-  "borderColor": "grayDark",
-}
-`;
+exports[`@mapping: service methods checks * appearance * default * state * active 1`] = `undefined`;
 
 exports[`@mapping: service methods checks * appearance * default * stateless 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "borderRadius": 6,
+  "icon": Object {
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+  },
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontWeight": 800,
+  },
 }
 `;
 
-exports[`@mapping: service methods checks * appearance * default * variant * state * active 1`] = `undefined`;
+exports[`@mapping: service methods checks * appearance * default * variant * state * active 1`] = `
+Object {
+  "backgroundColor": "#43A047",
+}
+`;
 
-exports[`@mapping: service methods checks * appearance * default * variant * success 1`] = `Object {}`;
+exports[`@mapping: service methods checks * appearance * default * variant * success 1`] = `
+Object {
+  "backgroundColor": "#4CAF50",
+}
+`;

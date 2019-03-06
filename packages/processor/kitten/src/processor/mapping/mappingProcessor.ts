@@ -1,14 +1,20 @@
 import {
   ThemeMappingType,
   ComponentMappingType,
-  MappingMetaType,
-} from '@eva/common';
+} from '@eva/types';
 import { Processor } from '../processor';
 import {
   getComponentVariants,
   getComponentStates,
   SEPARATOR_MAPPING_ENTRY,
 } from '../../service';
+
+export interface MappingMetaType {
+  name: string;
+  appearance: string;
+  states: string[];
+  variants: string[];
+}
 
 export class MappingProcessor implements Processor<ThemeMappingType, MappingMetaType[]> {
 

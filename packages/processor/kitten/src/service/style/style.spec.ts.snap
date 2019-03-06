@@ -1,321 +1,363 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `undefined`;
-
-exports[`@style: service methods checks * all styles * create all styles for Test component 1`] = `
-Array [
-  Array [
-    "custom",
-    Object {
-      "borderColor": "grayPrimary",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-  Array [
-    "custom.active",
-    Object {
-      "borderColor": "grayLight",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-  Array [
-    "custom.success",
-    Object {
-      "borderColor": "tealPrimary",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-  Array [
-    "custom.success.active",
-    Object {
-      "borderColor": "grayLight",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-]
-`;
-
-exports[`@style: service methods checks * all styles * create all styles for Test w/o variants 1`] = `
-Array [
-  Array [
-    "custom",
-    Object {
-      "borderColor": "grayPrimary",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-  Array [
-    "custom.active",
-    Object {
-      "borderColor": "grayLight",
-      "borderWidth": 4,
-      "innerSize": 24,
-      "selectColor": "transparent",
-      "size": 36,
-    },
-  ],
-]
-`;
-
-exports[`@style: service methods checks * styling * custom appearance * no variant and no state 1`] = `
+exports[`@style: service methods checks * styling * custom appearance * stateless 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 4,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "transparent",
+  "borderColor": "#2196F3",
+  "borderRadius": 6,
+  "borderWidth": 2,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#2196F3",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "#2196F3",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * custom appearance * with state * explicit (should apply own) 1`] = `
 Object {
-  "borderColor": "grayLight",
-  "borderWidth": 4,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "transparent",
+  "borderColor": "#1E88E5",
+  "borderRadius": 6,
+  "borderWidth": 2,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#1E88E5",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "#1E88E5",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * custom appearance * with state * implicit (should apply from default appearance) 1`] = `
 Object {
-  "borderColor": "bluePrimary",
-  "borderWidth": 4,
-  "innerSize": 24,
-  "selectColor": "bluePrimary",
-  "size": 36,
+  "backgroundColor": "transparent",
+  "borderColor": "#2196F3",
+  "borderRadius": 6,
+  "borderWidth": 2,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#2196F3",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "#2196F3",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * custom appearance * with variant * explicit (should apply own) 1`] = `
 Object {
-  "borderColor": "tealPrimary",
-  "borderWidth": 4,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "transparent",
+  "borderColor": "#4CAF50",
+  "borderRadius": 6,
+  "borderWidth": 2,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#4CAF50",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "#4CAF50",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * custom appearance * with variant * implicit (should apply from default appearance) 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 4,
-  "innerSize": 28,
-  "selectColor": "transparent",
-  "size": 42,
+  "backgroundColor": "transparent",
+  "borderColor": "#2196F3",
+  "borderRadius": 6,
+  "borderWidth": 2,
+  "icon": Object {
+    "height": 14,
+    "marginHorizontal": 4.5,
+    "tintColor": "#2196F3",
+    "width": 14,
+  },
+  "minHeight": 30,
+  "minWidth": 30,
+  "padding": 4.5,
+  "text": Object {
+    "color": "#2196F3",
+    "fontSize": 13,
+    "fontWeight": 800,
+    "marginHorizontal": 4.5,
+  },
 }
 `;
 
-exports[`@style: service methods checks * styling * default appearance * no variant and no state 1`] = `
+exports[`@style: service methods checks * styling * default appearance * stateless 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "#2196F3",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with state * multiple 1`] = `
 Object {
-  "borderColor": "blueDark",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "bluePrimary",
-  "size": 36,
+  "backgroundColor": "#1E88E5",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with state * single 1`] = `
 Object {
-  "borderColor": "grayDark",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "#1E88E5",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * multiple * no state 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 2,
-  "innerSize": 28,
-  "selectColor": "transparent",
-  "size": 42,
+  "backgroundColor": "#4CAF50",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 14,
+    "marginHorizontal": 4.5,
+    "tintColor": "#ffffff",
+    "width": 14,
+  },
+  "minHeight": 30,
+  "minWidth": 30,
+  "padding": 4.5,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 13,
+    "fontWeight": 800,
+    "marginHorizontal": 4.5,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * multiple * with state * multiple 1`] = `
 Object {
-  "borderColor": "tealDark",
-  "borderWidth": 2,
-  "innerSize": 28,
-  "selectColor": "tealPrimary",
-  "size": 42,
+  "backgroundColor": "#43A047",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 14,
+    "marginHorizontal": 4.5,
+    "tintColor": "#ffffff",
+    "width": 14,
+  },
+  "minHeight": 30,
+  "minWidth": 30,
+  "padding": 4.5,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 13,
+    "fontWeight": 800,
+    "marginHorizontal": 4.5,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * multiple * with state * single 1`] = `
 Object {
-  "borderColor": "grayDark",
-  "borderWidth": 2,
-  "innerSize": 28,
-  "selectColor": "transparent",
-  "size": 42,
+  "backgroundColor": "#43A047",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 14,
+    "marginHorizontal": 4.5,
+    "tintColor": "#ffffff",
+    "width": 14,
+  },
+  "minHeight": 30,
+  "minWidth": 30,
+  "padding": 4.5,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 13,
+    "fontWeight": 800,
+    "marginHorizontal": 4.5,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * single * no state 1`] = `
 Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
+  "backgroundColor": "#4CAF50",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * multiple 1`] = `
 Object {
-  "borderColor": "tealDark",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "tealPrimary",
-  "size": 36,
+  "backgroundColor": "#43A047",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * single explicit (should apply own) 1`] = `
 Object {
-  "borderColor": "tealPrimary",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "tealPrimary",
-  "size": 36,
+  "backgroundColor": "#43A047",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
+  "text": Object {
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
+  },
 }
 `;
 
 exports[`@style: service methods checks * styling * default appearance * with variant * single * with state * single implicit (should apply from appearance) 1`] = `
 Object {
-  "borderColor": "grayDark",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
-}
-`;
-
-exports[`@style: service methods checks * styling * undefined appearance * no variant and no state (should apply default appearance) 1`] = `
-Object {
-  "borderColor": "grayPrimary",
-  "borderWidth": 2,
-  "innerSize": 24,
-  "selectColor": "transparent",
-  "size": 36,
-}
-`;
-
-exports[`@style: service methods checks * token groups * custom appearance * stateless 1`] = `
-Object {
-  "backgroundColor": "transparent",
-  "borderColor": "outline-default",
-  "borderWidth": 2,
+  "backgroundColor": "#43A047",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
+  },
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
   "text": Object {
-    "color": "outline-default",
-    "fontSize": 16,
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
   },
 }
 `;
 
-exports[`@style: service methods checks * token groups * custom appearance * with state 1`] = `
+exports[`@style: service methods checks * styling * undefined appearance * stateless (should apply default appearance) 1`] = `
 Object {
-  "backgroundColor": "transparent",
-  "borderColor": "outline-default-dark",
-  "borderWidth": 2,
-  "text": Object {
-    "color": "outline-default-dark",
-    "fontSize": 16,
+  "backgroundColor": "#2196F3",
+  "borderRadius": 6,
+  "icon": Object {
+    "height": 13,
+    "marginHorizontal": 4,
+    "tintColor": "#ffffff",
+    "width": 13,
   },
-}
-`;
-
-exports[`@style: service methods checks * token groups * custom appearance * with variant 1`] = `
-Object {
-  "backgroundColor": "transparent",
-  "borderColor": "outline-default",
-  "borderWidth": 2,
+  "minHeight": 24,
+  "minWidth": 24,
+  "padding": 4,
   "text": Object {
-    "color": "outline-default",
-    "fontSize": 10,
-  },
-}
-`;
-
-exports[`@style: service methods checks * token groups * custom appearance * with variant and state 1`] = `
-Object {
-  "backgroundColor": "transparent",
-  "borderColor": "outline-default-dark",
-  "borderWidth": 2,
-  "text": Object {
-    "color": "outline-default-dark",
-    "fontSize": 10,
-  },
-}
-`;
-
-exports[`@style: service methods checks * token groups * default appearance * stateless 1`] = `
-Object {
-  "backgroundColor": "default",
-  "text": Object {
-    "color": "default",
-    "fontSize": 16,
-  },
-}
-`;
-
-exports[`@style: service methods checks * token groups * default appearance * with state 1`] = `
-Object {
-  "backgroundColor": "default-dark",
-  "text": Object {
-    "color": "default",
-    "fontSize": 16,
-  },
-}
-`;
-
-exports[`@style: service methods checks * token groups * default appearance * with variant 1`] = `
-Object {
-  "backgroundColor": "default",
-  "text": Object {
-    "color": "default",
-    "fontSize": 10,
-  },
-}
-`;
-
-exports[`@style: service methods checks * token groups * default appearance * with variant state 1`] = `
-Object {
-  "backgroundColor": "default-dark",
-  "text": Object {
-    "color": "default",
-    "fontSize": 10,
+    "color": "text-primary-inverse",
+    "fontSize": 12,
+    "fontWeight": 800,
+    "marginHorizontal": 4,
   },
 }
 `;

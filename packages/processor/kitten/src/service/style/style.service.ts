@@ -2,15 +2,17 @@ import * as _ from 'lodash';
 import {
   ThemeMappingType,
   ComponentMappingType,
-  StyleMappingType,
-} from '@eva/common';
+  ThemedStyleType,
+} from '@eva/types';
 import {
   safe,
   noNulls,
   noDuplicates,
 } from '../common';
 import {
-  APPEARANCE_DEFAULT,
+  getComponentDefaultAppearance,
+  getComponentDefaultVariants,
+  getComponentDefaultState,
   getStatelessAppearanceMapping,
   getStatelessVariantMapping,
   getStateAppearanceMapping,
@@ -64,17 +66,17 @@ export const SEPARATOR_MAPPING_ENTRY = '.';
  * @param variants: string[] - variants applied to component. Default is []
  * @param states: string[] - states in which component is. Default is []
  *
- * @return StyleType - compiled component styles declared in mappings, mapped to theme values
+ * @return ThemedStyleType - compiled component styles declared in mappings, mapped to theme values
  */
 export function createStyle(mapping: ThemeMappingType,
                             component: string,
-                            appearance: string = APPEARANCE_DEFAULT,
+                            appearance: string,
                             variants: string[] = [],
-                            states: string[] = []): StyleMappingType {
+                            states: string[] = []): ThemedStyleType {
 
-  const normalizedAppearance = normalizeAppearance(appearance);
-  const normalizedVariants = normalizeVariants(variants);
-  const normalizedStates = normalizeStates(states, (state: string) => {
+  const normalizedAppearance: string[] = normalizeAppearance(mapping, component, appearance);
+  const normalizedVariants: string[] = normalizeVariants(mapping, component, variants);
+  const normalizedStates: string[] = normalizeStates(mapping, component, states, (state: string) => {
     return states.indexOf(state);
   });
 
@@ -109,11 +111,11 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 component: string,
                                 appearance: string,
                                 variants: string[],
-                                states: string[]): StyleMappingType[] {
+                                states: string[]): [string, ThemedStyleType][] {
 
   const stateless = createStyleEntry(mapping, component, appearance, appearance);
 
-  const withStates = states.reduce((acc: [string, StyleMappingType][], current: string) => {
+  const withStates = states.reduce((acc: [string, ThemedStyleType][], current: string) => {
     const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current);
     const next = createStyleEntry(mapping, component, key, appearance, '', current);
     return [...acc, next];
@@ -124,7 +126,7 @@ export function createAllStyles(mapping: ThemeMappingType,
     return createStyleEntry(mapping, component, key, appearance, variant);
   });
 
-  const withVariantStates = variants.reduce((acc: [string, StyleMappingType][], current: string) => {
+  const withVariantStates = variants.reduce((acc: [string, ThemedStyleType][], current: string) => {
     const next = states.map(state => {
       const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current, SEPARATOR_MAPPING_ENTRY, state);
       return createStyleEntry(mapping, component, key, appearance, current, state);
@@ -144,7 +146,7 @@ export function getStyle(mapping: ThemeMappingType,
                          component: string,
                          appearance: string,
                          variants: string[],
-                         states: string[]): StyleMappingType | undefined {
+                         states: string[]): ThemedStyleType | undefined {
 
   return safe(mapping, (themeMapping: ThemeMappingType) => {
     return safe(themeMapping[component], (componentMapping: ComponentMappingType) => {
@@ -170,12 +172,19 @@ export function getStyle(mapping: ThemeMappingType,
  * 'default' => ['default']
  * ...
  *
+ * @param mapping: ThemeMappingType - theme mapping configuration
+ * @param component: string - component name
  * @param appearance: string - appearance applied to component
  *
  * @return string[] - array of merged appearances
  */
-export function normalizeAppearance(appearance: string): string[] {
-  return normalize([APPEARANCE_DEFAULT, appearance]);
+export function normalizeAppearance(mapping: ThemeMappingType,
+                                    component: string,
+                                    appearance: string): string[] {
+
+  const defaultAppearance: string = getComponentDefaultAppearance(mapping, component);
+
+  return normalize([defaultAppearance, appearance]);
 }
 
 /**
@@ -183,17 +192,24 @@ export function normalizeAppearance(appearance: string): string[] {
  *
  * Example:
  *
- * [''] => []
- * ['success'] => ['success']
- * ['success', 'tiny'] => ['success', 'tiny']
+ * [''] => ['default0', 'default1']
+ * ['success'] => ['default0', 'default1', 'success']
+ * ['default0', 'tiny'] => ['default0', 'default1', 'tiny']
  * ...
  *
+ * @param mapping: ThemeMappingType - theme mapping configuration
+ * @param component: string - component name
  * @param variants: string[] - variants applied to component
  *
  * @return string[] - array of merged variants
  */
-export function normalizeVariants(variants: string[]): string[] {
-  return normalize(variants);
+export function normalizeVariants(mapping: ThemeMappingType,
+                                  component: string,
+                                  variants: string[]): string[] {
+
+  const defaultVariants: string[] = getComponentDefaultVariants(mapping, component);
+
+  return normalize([...defaultVariants, ...variants]);
 }
 
 /**
@@ -201,34 +217,44 @@ export function normalizeVariants(variants: string[]): string[] {
  *
  * Example:
  *
- * [''] => []
- * ['active'] => ['active']
- * ['active', 'checked'] => ['active', 'checked', 'active.checked']
- * ['active', 'checked', 'disabled'] => ['active', 'checked', 'active.checked', 'disabled', 'active.checked.disabled']
+ * [''] => ['default']
+ * ['active', 'checked'] => [
+ *                           'default',
+ *                           'active',
+ *                           'default.active',
+ *                           'checked',
+ *                           'default.active.checked'
+ *                          ]
  * ...
  *
+ * @param mapping: ThemeMappingType - theme mapping configuration
+ * @param component: string - component name
  * @param states: string[] - states in which component is
  * @param stateWeight: (state: string) => number - state weight calculation lambda
  * @param separator - state separator. `.` in example
  *
  * @return string[] - array of merged states
  */
-export function normalizeStates(states: string[],
+export function normalizeStates(mapping: ThemeMappingType,
+                                component: string,
+                                states: string[],
                                 stateWeight: (state: string) => number,
                                 separator: string = SEPARATOR_MAPPING_ENTRY): string[] {
 
-  const preprocess = normalize(states);
+  const defaultState: string = getComponentDefaultState(mapping, component);
+
+  const preprocess: string[] = normalize([defaultState, ...states]);
   if (preprocess.length === 0) {
     return preprocess;
-  } else {
-    const variations = createStateVariations([...preprocess], separator, []);
-
-    return variations.sort((lhs: string, rhs: string) => {
-      const lhsWeight = getStateVariationWeight(lhs, separator, stateWeight);
-      const rhsWeight = getStateVariationWeight(rhs, separator, stateWeight);
-      return lhsWeight - rhsWeight;
-    });
   }
+
+  const variations = createStateVariations([...preprocess], separator, []);
+
+  return variations.sort((lhs: string, rhs: string) => {
+    const lhsWeight = getStateVariationWeight(lhs, separator, stateWeight);
+    const rhsWeight = getStateVariationWeight(rhs, separator, stateWeight);
+    return lhsWeight - rhsWeight;
+  });
 }
 
 function createStateVariations(states: string[], separator: string, result: string[] = []): string[] {
@@ -289,7 +315,7 @@ function createStyleEntry(mapping: ThemeMappingType,
                           key: string,
                           appearance: string,
                           variant: string = '',
-                          state: string = ''): [string, StyleMappingType] {
+                          state: string = ''): [string, ThemedStyleType] {
 
   const value = createStyle(
     mapping,

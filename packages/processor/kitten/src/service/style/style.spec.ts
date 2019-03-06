@@ -1,83 +1,137 @@
-import { StyleMappingType } from '@eva/common';
-import { APPEARANCE_DEFAULT } from '../mapping';
 import * as Service from './style.service';
-import {
-  mapping,
-  groupMapping,
-} from './style.spec.config';
+import { mapping } from './style.spec.config';
+import { ThemedStyleType } from '@eva/types';
 
 describe('@style: service methods checks', () => {
 
   describe('* preprocess', () => {
 
-    it('* normalizes appearance properly', () => {
-      const implicitDefault = Service.normalizeAppearance('default');
-      const custom = Service.normalizeAppearance('custom');
-      const empty = Service.normalizeAppearance('');
-      const nullable = Service.normalizeAppearance(undefined);
+    describe('* normalizes appearance properly', () => {
 
-      expect(implicitDefault).toEqual([
-        'default',
-      ]);
-      expect(custom).toEqual([
-        'default',
-        'custom',
-      ]);
-      expect(empty).toEqual([
-        'default',
-      ]);
-      expect(nullable).toEqual([
-        'default',
-      ]);
+      it('* explicit default', () => {
+        const value: string[] = Service.normalizeAppearance(
+          mapping,
+          'Button',
+          'filled',
+        );
+
+        expect(value).toEqual([
+          'filled',
+        ]);
+      });
+
+      it('* custom', () => {
+        const value: string[] = Service.normalizeAppearance(
+          mapping,
+          'Button',
+          'outline',
+        );
+
+        expect(value).toEqual([
+          'filled',
+          'outline',
+        ]);
+      });
+
+      it('* empty', () => {
+        const value: string[] = Service.normalizeAppearance(
+          mapping,
+          'Button',
+          '',
+        );
+
+        expect(value).toEqual([
+          'filled',
+        ]);
+      });
+
+      it('* undefined', () => {
+        const value: string[] = Service.normalizeAppearance(
+          mapping,
+          'Button',
+          undefined,
+        );
+
+        expect(value).toEqual([
+          'filled',
+        ]);
+      });
+
     });
 
-    it('* normalizes variants properly', () => {
-      const success = Service.normalizeVariants([
-        'success',
-      ]);
-      const successTiny = Service.normalizeVariants([
-        'success',
-        'tiny',
-      ]);
-      const withDuplicates = Service.normalizeVariants([
-        'success',
-        'success',
-        'tiny',
-      ]);
-      const withNulls = Service.normalizeVariants([
-        'success',
-        undefined,
-        'tiny',
-        null,
-      ]);
-      const empty = Service.normalizeVariants([
-        '',
-      ]);
+    describe('* normalizes variants properly', () => {
 
-      expect(success).toEqual([
-        'success',
-      ]);
-      expect(successTiny).toEqual([
-        'success',
-        'tiny',
-      ]);
-      expect(withDuplicates).toEqual([
-        'success',
-        'tiny',
-      ]);
-      expect(withNulls).toEqual([
-        'success',
-        'tiny',
-      ]);
-      expect(withNulls).toEqual([
-        'success',
-        'tiny',
-      ]);
-      expect(empty).toEqual([]);
+      it('* explicit default', () => {
+        const value: string[] = Service.normalizeVariants(
+          mapping,
+          'Button',
+          ['primary', 'medium'],
+        );
+
+        expect(value).toEqual([
+          'primary',
+          'medium',
+        ]);
+      });
+
+      it('* with custom', () => {
+        const value: string[] = Service.normalizeVariants(
+          mapping,
+          'Button',
+          ['success'],
+        );
+
+        expect(value).toEqual([
+          'primary',
+          'medium',
+          'success',
+        ]);
+      });
+
+      it('* empty', () => {
+        const value: string[] = Service.normalizeVariants(
+          mapping,
+          'Button',
+          [],
+        );
+
+        expect(value).toEqual([
+          'primary',
+          'medium',
+        ]);
+      });
+
+      it('* with duplicates', () => {
+        const value: string[] = Service.normalizeVariants(
+          mapping,
+          'Button',
+          ['success', 'success'],
+        );
+
+        expect(value).toEqual([
+          'primary',
+          'medium',
+          'success',
+        ]);
+      });
+
+      it('* with undefined', () => {
+        const value: string[] = Service.normalizeVariants(
+          mapping,
+          'Button',
+          [undefined, null],
+        );
+
+        expect(value).toEqual([
+          'primary',
+          'medium',
+        ]);
+      });
+
     });
 
-    it('* normalizes states properly', () => {
-      const states = [
+    describe('* normalizes states properly', () => {
+      const states: string[] = [
         'active',
         'checked',
         'disabled',
@@ -94,52 +148,97 @@ describe('@style: service methods checks', () => {
         }
       };
 
-      const regular = Service.normalizeStates(states, calculateStateWeight);
-      const withDuplicates = Service.normalizeStates([...states, 'active'], calculateStateWeight);
-      const withNulls = Service.normalizeStates([...states, undefined], calculateStateWeight);
-      const empty = Service.normalizeStates([], calculateStateWeight);
-      const customSeparator = Service.normalizeStates(states, calculateStateWeight, '-');
+      it('* with applied states', () => {
+        const value: string[] = Service.normalizeStates(
+          mapping,
+          'Button',
+          states,
+          calculateStateWeight,
+        );
 
-      expect(regular).toEqual([
-        'active',
-        'checked',
-        'disabled',
-        'active.checked',
-        'active.disabled',
-        'checked.disabled',
-        'active.checked.disabled',
-      ]);
-      expect(withDuplicates).toEqual([
-        'active',
-        'checked',
-        'disabled',
-        'active.checked',
-        'active.disabled',
-        'checked.disabled',
-        'active.checked.disabled',
-      ]);
-      expect(withNulls).toEqual([
-        'active',
-        'checked',
-        'disabled',
-        'active.checked',
-        'active.disabled',
-        'checked.disabled',
-        'active.checked.disabled',
-      ]);
-      expect(empty).toEqual([]);
-      expect(customSeparator).toEqual([
-        'active',
-        'checked',
-        'disabled',
-        'active-checked',
-        'active-disabled',
-        'checked-disabled',
-        'active-checked-disabled',
-      ]);
+        expect(value).toEqual([
+          'active',
+          'checked',
+          'disabled',
+          'active.checked',
+          'active.disabled',
+          'checked.disabled',
+          'active.checked.disabled',
+        ]);
+      });
+
+      it('* empty', () => {
+        const value: string[] = Service.normalizeStates(
+          mapping,
+          'Button',
+          [],
+          calculateStateWeight,
+        );
+
+        expect(value).toEqual([]);
+      });
+
+      it('* with duplicates', () => {
+        const value: string[] = Service.normalizeStates(
+          mapping,
+          'Button',
+          [...states, 'active'],
+          calculateStateWeight,
+        );
+
+        expect(value).toEqual([
+          'active',
+          'checked',
+          'disabled',
+          'active.checked',
+          'active.disabled',
+          'checked.disabled',
+          'active.checked.disabled',
+        ]);
+      });
+
+      it('* with undefined', () => {
+        const value: string[] = Service.normalizeStates(
+          mapping,
+          'Button',
+          [...states, undefined],
+          calculateStateWeight,
+        );
+
+        expect(value).toEqual([
+          'active',
+          'checked',
+          'disabled',
+          'active.checked',
+          'active.disabled',
+          'checked.disabled',
+          'active.checked.disabled',
+        ]);
+      });
+
+      it('* custom separator', () => {
+        const value: string[] = Service.normalizeStates(
+          mapping,
+          'Button',
+          states,
+          calculateStateWeight,
+          '-',
+        );
+
+        expect(value).toEqual([
+          'active',
+          'checked',
+          'disabled',
+          'active-checked',
+          'active-disabled',
+          'checked-disabled',
+          'active-checked-disabled',
+        ]);
+      });
+
     });
 
-    describe('* keygen', () => {
+    describe('* style query', () => {
 
       const source: string[] = [
         'default',
@@ -151,7 +250,7 @@ describe('@style: service methods checks', () => {
       ];
 
       it('* appearance only', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
         ]);
 
@@ -159,7 +258,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* appearance and state', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'checked',
         ]);
@@ -168,7 +267,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* appearance and variant', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'success',
         ]);
@@ -177,7 +276,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* appearance and variant and state', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'success',
           'checked',
@@ -187,7 +286,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* appearance and variants and state', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'success',
           'small',
@@ -198,7 +297,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* appearance and variants and states', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'success',
           'small',
@@ -210,7 +309,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* unordered', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'checked',
           'small',
@@ -222,7 +321,7 @@ describe('@style: service methods checks', () => {
       });
 
       it('* with undefined in config', () => {
-        const value = Service.findStyleKey(source, [
+        const value: string = Service.findStyleKey(source, [
           'default',
           'error',
           'small',
@@ -241,37 +340,38 @@ describe('@style: service methods checks', () => {
 
     describe('* default appearance', () => {
 
-      const appearance = APPEARANCE_DEFAULT;
+      const appearance: string = 'filled';
 
-      it('* no variant and no state', () => {
-        const style = Service.createStyle(mapping, 'Test');
-        expect(style).toMatchSnapshot();
+      it('* stateless', () => {
+        const value: ThemedStyleType = Service.createStyle(mapping, 'Button', appearance);
+
+        expect(value).toMatchSnapshot();
       });
 
       describe('* with state', () => {
 
         it('* single', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
             [],
             ['active'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* multiple', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
             [],
-            ['checked', 'active'],
+            ['disabled', 'active'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
       });
 
@@ -280,52 +380,52 @@ describe('@style: service methods checks', () => {
         describe('* single', () => {
 
           it('* no state', () => {
-            const style = Service.createStyle(
+            const value: ThemedStyleType = Service.createStyle(
               mapping,
-              'Test',
+              'Button',
               appearance,
               ['success'],
             );
 
-            expect(style).toMatchSnapshot();
+            expect(value).toMatchSnapshot();
           });
 
           describe('* with state', () => {
 
             it('* single implicit (should apply from appearance)', () => {
-              const style = Service.createStyle(
+              const value: ThemedStyleType = Service.createStyle(
                 mapping,
-                'Test',
+                'Button',
                 appearance,
                 ['success'],
                 ['active'],
               );
 
-              expect(style).toMatchSnapshot();
+              expect(value).toMatchSnapshot();
             });
 
             it('* single explicit (should apply own)', () => {
-              const style = Service.createStyle(
+              const value: ThemedStyleType = Service.createStyle(
                 mapping,
-                'Test',
+                'Button',
                 appearance,
                 ['success'],
-                ['checked'],
+                ['active'],
               );
 
-              expect(style).toMatchSnapshot();
+              expect(value).toMatchSnapshot();
             });
 
             it('* multiple', () => {
-              const style = Service.createStyle(
+              const value: ThemedStyleType = Service.createStyle(
                 mapping,
-                'Test',
+                'Button',
                 appearance,
                 ['success'],
-                ['checked', 'active'],
+                ['disabled', 'active'],
               );
 
-              expect(style).toMatchSnapshot();
+              expect(value).toMatchSnapshot();
             });
 
           });
@@ -335,40 +435,40 @@ describe('@style: service methods checks', () => {
         describe('* multiple', () => {
 
           it('* no state', () => {
-            const style = Service.createStyle(
+            const value: ThemedStyleType = Service.createStyle(
               mapping,
-              'Test',
+              'Button',
               appearance,
-              ['success', 'big'],
+              ['success', 'large'],
             );
 
-            expect(style).toMatchSnapshot();
+            expect(value).toMatchSnapshot();
           });
 
           describe('* with state', () => {
 
             it('* single', () => {
-              const style = Service.createStyle(
+              const value: ThemedStyleType = Service.createStyle(
                 mapping,
-                'Test',
+                'Button',
                 appearance,
-                ['success', 'big'],
+                ['success', 'large'],
                 ['active'],
               );
 
-              expect(style).toMatchSnapshot();
+              expect(value).toMatchSnapshot();
             });
 
             it('* multiple', () => {
-              const style = Service.createStyle(
+              const value: ThemedStyleType = Service.createStyle(
                 mapping,
-                'Test',
+                'Button',
                 appearance,
-                ['success', 'big'],
-                ['checked', 'active'],
+                ['success', 'large'],
+                ['disabled', 'active'],
               );
 
-              expect(style).toMatchSnapshot();
+              expect(value).toMatchSnapshot();
             });
 
           });
@@ -381,38 +481,42 @@ describe('@style: service methods checks', () => {
 
     describe('* custom appearance', () => {
 
-      const appearance = 'custom';
+      const appearance: string = 'outline';
 
-      it('* no variant and no state', () => {
-        const style = Service.createStyle(mapping, 'Test', 'custom');
+      it('* stateless', () => {
+        const value: ThemedStyleType = Service.createStyle(
+          mapping,
+          'Button',
+          'outline',
+        );
 
-        expect(style).toMatchSnapshot();
+        expect(value).toMatchSnapshot();
       });
 
       describe('* with state', () => {
 
         it('* implicit (should apply from default appearance)', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
             [],
-            ['checked'],
+            ['disabled'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* explicit (should apply own)', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
             [],
             ['active'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
       });
@@ -420,25 +524,25 @@ describe('@style: service methods checks', () => {
       describe('* with variant', () => {
 
         it('* implicit (should apply from default appearance)', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
-            ['big'],
+            ['large'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
         it('* explicit (should apply own)', () => {
-          const style = Service.createStyle(
+          const value: ThemedStyleType = Service.createStyle(
             mapping,
-            'Test',
+            'Button',
             appearance,
             ['success'],
           );
 
-          expect(style).toMatchSnapshot();
+          expect(value).toMatchSnapshot();
         });
 
       });
@@ -447,58 +551,13 @@ describe('@style: service methods checks', () => {
 
     describe('* undefined appearance', () => {
 
-      const appearance = 'undefined';
+      const appearance: string = 'undefined';
 
-      it('* no variant and no state (should apply default appearance)', () => {
-        const style = Service.createStyle(mapping, 'Test', appearance);
-
-        expect(style).toMatchSnapshot();
-      });
-
-    });
-
-  });
-
-  describe('* token groups', () => {
-
-    describe('* default appearance', () => {
-
-      it('* stateless', () => {
-        const value = Service.createStyle(groupMapping, 'Test');
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with state', () => {
-        const value = Service.createStyle(
-          groupMapping,
-          'Test',
-          'default',
-          [],
-          ['active'],
-        );
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with variant', () => {
-        const value = Service.createStyle(
-          groupMapping,
-          'Test',
-          'default',
-          ['small'],
-        );
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with variant state', () => {
-        const value = Service.createStyle(
-          groupMapping,
-          'Test',
-          'default',
-          ['small'],
-          ['active'],
+      it('* stateless (should apply default appearance)', () => {
+        const value: ThemedStyleType = Service.createStyle(
+          mapping,
+          'Button',
+          appearance,
         );
 
         expect(value).toMatchSnapshot();
@@ -506,95 +565,6 @@ describe('@style: service methods checks', () => {
 
     });
 
-    describe('* custom appearance', () => {
-
-      it('* stateless', () => {
-        const value = Service.createStyle(groupMapping, 'Test', 'outline');
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with state', () => {
-        const value = Service.createStyle(groupMapping,
-          'Test',
-          'outline',
-          [],
-          ['active']);
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with variant', () => {
-        const value = Service.createStyle(groupMapping,
-          'Test',
-          'outline',
-          ['small']);
-
-        expect(value).toMatchSnapshot();
-      });
-
-      it('* with variant and state', () => {
-        const value = Service.createStyle(groupMapping,
-          'Test',
-          'outline',
-          ['small'],
-          ['active']);
-
-        expect(value).toMatchSnapshot();
-      });
-
-    });
-
-  });
-
-  describe('* all styles', () => {
-
-    it('* create all styles for Test component', () => {
-      const styles: StyleMappingType[] = Service.createAllStyles(
-        mapping,
-        'Test',
-        'custom',
-        ['success'],
-        ['active'],
-      );
-
-      expect(styles).toMatchSnapshot();
-    });
-
-    it('* create all styles for Test w/o variants', () => {
-      const styles: StyleMappingType[] = Service.createAllStyles(
-        mapping,
-        'Test',
-        'custom',
-        [],
-        ['active'],
-      );
-
-      expect(styles).toMatchSnapshot();
-    });
-
-  });
-
-  describe('* get style', () => {
-    const value: StyleMappingType = Service.getStyle(
-      mapping,
-      'Test',
-      'custom',
-      ['success'],
-      ['active'],
-    );
-    expect(value).toMatchSnapshot();
-  });
-
-  describe('* get style unexpected', () => {
-    const value: StyleMappingType = Service.getStyle(
-      mapping,
-      'Test',
-      'undefined',
-      ['success'],
-      ['active'],
-    );
-    expect(value).toBeUndefined();
   });
 
 });

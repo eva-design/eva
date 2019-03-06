@@ -1,5 +1,3 @@
-import { IndexSignatureBase } from '@eva/common';
-
 /**
  * Safely retrieves R value of T object with reducer
  *
@@ -56,7 +54,7 @@ export function noNulls<T>(params: T[]): T[] {
  *
  * @return object with string keys and IndexSignatureBase values
  */
-export function toObject(array: [string, IndexSignatureBase][]): IndexSignatureBase {
+export function toObject(array: [string, any][]): any {
   return array.reduce((p, c) => {
     if (p && p.hasOwnProperty(c[0])) {
       p[c[0]] = { ...p[c[0]], ...c[1] };

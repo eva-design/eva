@@ -1,15 +1,13 @@
 import {
-  ThemeMapType,
+  ThemeStyleType,
   ComponentMapMetaType,
   ThemeMappingType,
-  StyleMappingType,
-  IndexSignatureBase,
-  ComponentMappingType,
-  MappingMetaType,
-} from '@eva/common';
+  ComponentThemedStyleType,
+  ThemedStyleType,
+} from '@eva/types';
+import { MappingMetaType } from '@eva/processor/kitten';
 import { Processor } from '../processor';
 import {
-  safe,
   toObject,
   createAllStyles,
   getComponentMapping,
@@ -20,9 +18,9 @@ export interface MappingProcessorParamsType {
   meta: MappingMetaType[];
 }
 
-export class MetaProcessor implements Processor<MappingProcessorParamsType, ThemeMapType> {
+export class MetaProcessor implements Processor<MappingProcessorParamsType, ThemeStyleType> {
 
-  process(params: MappingProcessorParamsType): ThemeMapType {
+  process(params: MappingProcessorParamsType): ThemeStyleType {
     const entries = params.meta.map((value: MappingMetaType) => {
       return this.processComponentMeta(params.mapping, value);
     });
@@ -30,30 +28,33 @@ export class MetaProcessor implements Processor<MappingProcessorParamsType, Them
     return toObject(entries);
   }
 
-  private processComponentMeta(mapping: ThemeMappingType, value: MappingMetaType): [string, IndexSignatureBase] {
+  private processComponentMeta(mapping: ThemeMappingType, value: MappingMetaType): [string, ComponentThemedStyleType] {
     const { name: entryKey, appearance, variants, states } = value;
-    const entryValue: StyleMappingType[] = createAllStyles(
+    const entryValue: [string, ThemedStyleType][] = createAllStyles(
       mapping,
       entryKey,
       appearance,
       variants,
       states,
     );
-    const componentInfo: IndexSignatureBase = {
-      meta: this.getComponentMapMeta(mapping, entryKey),
-      ...toObject(entryValue),
-    };
 
-    return [entryKey, componentInfo];
+    return [entryKey, toObject(entryValue)];
   }
 
-  // This method will require changes as the mapping meta changes.
   private getComponentMapMeta(mapping: ThemeMappingType, component: string): ComponentMapMetaType {
-    const componentMapping: ComponentMappingType = getComponentMapping(mapping, component);
+    const { meta } = getComponentMapping(mapping, component);
 
-    return {
-      variants: safe(componentMapping, () => componentMapping.meta.variants),
-      states: safe(componentMapping, () => componentMapping.meta.states),
-    };
+    const appearances: string[] = Object.keys(meta.appearances);
+
+    const variants = Object.keys(meta.variants).reduce((acc, group: string) => {
+      const groupVariants: string[] = Object.keys(meta.variants[group]);
+      return { ...acc, [group]: groupVariants };
+    }, {});
+
+    const states: string[] = Object.keys(meta.states).sort((lhs: string, rhs: string) => {
+      return meta.states[lhs].priority - meta.states[rhs].priority;
+    });
+
+    return { appearances, variants, states };
   }
 }

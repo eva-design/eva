@@ -1,64 +1,102 @@
-import { IndexSignatureBase } from '@eva/common';
-import { MetaProcessor } from './metaProcessor';
-import { MappingProcessor } from '../';
 import {
-  mapping,
-  emptyMapping,
-} from './metaProcessor.spec.config';
-import { getAllStylesCount } from '../../service';
+  ComponentMappingType,
+  ThemeMappingType,
+  ThemeStyleType,
+} from '@eva/types';
+import {
+  MappingProcessor,
+  MappingMetaType,
+} from '../mapping/mappingProcessor';
+import { MetaProcessor } from './metaProcessor';
+import { mapping } from './metaProcessor.spec.config';
+
+const metaProcessor: MetaProcessor = new MetaProcessor();
+const mappingProcessor: MappingProcessor = new MappingProcessor();
+
+const process = (themeMapping: ThemeMappingType): ThemeStyleType => {
+  const meta: MappingMetaType[] = mappingProcessor.process(themeMapping);
+
+  return metaProcessor.process({
+    mapping: themeMapping,
+    meta: meta,
+  });
+};
 
 describe('@processor: service checks', () => {
 
-  const processor: MetaProcessor = new MetaProcessor();
-  const mappingProcessor: MappingProcessor = new MappingProcessor();
+  it('* processes meta properly', () => {
+    const value: ThemeStyleType = process(mapping);
 
-  it('* theme map expected', () => {
-    const value = processor.process({
-      mapping: mapping,
-      meta: mappingProcessor.process(mapping),
-    });
-    expect(value).toMatchSnapshot();
-  });
-
-  it('* theme map unexpected', () => {
-    const value = processor.process({
-      mapping: mapping,
-      meta: mappingProcessor.process(emptyMapping),
-    });
     expect(value).toMatchSnapshot();
   });
 
 });
 
-describe('* checking size of generated styles', () => {
+describe('@processor: e2e', () => {
 
-  const processor = new MetaProcessor();
-  const mappingProcessor: MappingProcessor = new MappingProcessor();
+  it('* theme style count computed properly', () => {
+    const value: number = calculateThemeStyleCount(mapping);
 
-  it('* 1', () => {
-    const value = processor.process({
-      mapping: mapping,
-      meta: mappingProcessor.process(mapping),
-    });
-    const generatedCount: number = getAllStylesCount(mapping);
-    const expected: number = Object.values(value)
-      .map((component: IndexSignatureBase) => Object.keys(component).length - 1)
-      .reduce((acc: number, curr: number) => acc + curr);
-
-    expect(expected).toBe(generatedCount);
+    expect(value).toBe(288);
   });
 
-  it('* 2', () => {
-    const value = processor.process({
-      mapping: mapping,
-      meta: mappingProcessor.process(emptyMapping),
-    });
-    const generatedCount: number = getAllStylesCount(emptyMapping);
-    const expected: number = Object.values(value)
-      .map((component: IndexSignatureBase) => Object.keys(component).length - 1)
-      .reduce((acc: number, curr: number) => acc + curr);
+  it('* component style count computed properly', () => {
+    const value: number = calculateComponentStyleCount(mapping.Button);
 
-    expect(expected).toBe(generatedCount);
+    expect(value).toBe(288);
+  });
+
+  it('* generates all possible styles', () => {
+    const styles: ThemeStyleType = process(mapping);
+
+    const estimatedCount: number = calculateThemeStyleCount(mapping);
+    const generatedCount: number = Object.keys(styles).reduce((acc: number, component: string) => {
+      return acc + Object.keys(styles[component]).length;
+    }, 0);
+
+    expect(generatedCount).toEqual(estimatedCount);
   });
 
 });
+
+function calculateThemeStyleCount(themeMapping: ThemeMappingType): number {
+  return Object.keys(themeMapping).reduce((acc: number, component: string) => {
+    const componentMapping: ComponentMappingType = themeMapping[component];
+    const componentStyleCount: number = calculateComponentStyleCount(componentMapping);
+
+    return acc + componentStyleCount;
+  }, 0);
+}
+
+function calculateComponentStyleCount(component: ComponentMappingType): number {
+  const { appearances, variants, states } = createComponentTestMeta(component);
+
+  const stateCombinations: number = Math.pow(2, states.length) - 1;
+
+  const variantGroupCounts: number[] = variants.map((group: string[]) => {
+    return group.length;
+  });
+
+  const plainVariants: number = variantGroupCounts.reduce((acc: number, groupCount: number) => {
+    return acc + groupCount;
+  }, 0);
+
+  const combinedVariants: number = variantGroupCounts.reduce((acc: number, groupCount: number) => {
+    return acc * groupCount;
+  });
+
+  const accVariants: number = plainVariants + combinedVariants;
+  const stateVariants: number = accVariants * stateCombinations;
+
+  return appearances.length * (accVariants + stateVariants + stateCombinations + 1);
+}
+
+function createComponentTestMeta(component: ComponentMappingType): any {
+  const { appearances, variants, states } = component.meta;
+
+  return {
+    appearances: Object.keys(appearances),
+    variants: Object.keys(variants).map(group => Object.keys(variants[group])),
+    states: Object.keys(states),
+  };
+}
