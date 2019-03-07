@@ -693,8 +693,8 @@
             "color": "gray-400"
           },
           "icon": {
-            "maxWidth": 24,
-            "maxHeight": 24,
+            "width": 24,
+            "height": 24,
             "marginHorizontal": 6,
             "tintColor": "gray-400"
           },
