@@ -9697,135 +9697,115 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'status': {
             'primary': {
-              'mapping': {
-                'backgroundColor': '#2196F3',
-                'state': {
-                  'active': {
-                    'backgroundColor': '#1E88E5',
-                  },
+              'backgroundColor': '#2196F3',
+              'state': {
+                'active': {
+                  'backgroundColor': '#1E88E5',
                 },
               },
             },
             'success': {
-              'mapping': {
-                'backgroundColor': '#4CAF50',
-                'state': {
-                  'active': {
-                    'backgroundColor': '#43A047',
-                  },
+              'backgroundColor': '#4CAF50',
+              'state': {
+                'active': {
+                  'backgroundColor': '#43A047',
                 },
               },
             },
             'info': {
-              'mapping': {
-                'backgroundColor': '#03A9F4',
-                'state': {
-                  'active': {
-                    'backgroundColor': '#039BE5',
-                  },
+              'backgroundColor': '#03A9F4',
+              'state': {
+                'active': {
+                  'backgroundColor': '#039BE5',
                 },
               },
             },
             'warning': {
-              'mapping': {
-                'backgroundColor': '#FFC107',
-                'state': {
-                  'active': {
-                    'backgroundColor': '#FFB300',
-                  },
+              'backgroundColor': '#FFC107',
+              'state': {
+                'active': {
+                  'backgroundColor': '#FFB300',
                 },
               },
             },
             'danger': {
-              'mapping': {
-                'backgroundColor': '#F44336',
-                'state': {
-                  'active': {
-                    'backgroundColor': '#E53935',
-                  },
+              'backgroundColor': '#F44336',
+              'state': {
+                'active': {
+                  'backgroundColor': '#E53935',
                 },
               },
             },
           },
           'size': {
             'tiny': {
-              'mapping': {
-                'minHeight': 16,
-                'minWidth': 16,
-                'padding': 3,
-                'text': {
-                  'fontSize': 10,
-                  'marginHorizontal': 3,
-                },
-                'icon': {
-                  'width': 11,
-                  'height': 11,
-                  'marginHorizontal': 3,
-                },
+              'minHeight': 16,
+              'minWidth': 16,
+              'padding': 3,
+              'text': {
+                'fontSize': 10,
+                'marginHorizontal': 3,
+              },
+              'icon': {
+                'width': 11,
+                'height': 11,
+                'marginHorizontal': 3,
               },
             },
             'small': {
-              'mapping': {
-                'minHeight': 20,
-                'minWidth': 20,
-                'padding': 3.5,
-                'text': {
-                  'fontSize': 11,
-                  'marginHorizontal': 3.5,
-                },
-                'icon': {
-                  'width': 12,
-                  'height': 12,
-                  'marginHorizontal': 3.5,
-                },
+              'minHeight': 20,
+              'minWidth': 20,
+              'padding': 3.5,
+              'text': {
+                'fontSize': 11,
+                'marginHorizontal': 3.5,
+              },
+              'icon': {
+                'width': 12,
+                'height': 12,
+                'marginHorizontal': 3.5,
               },
             },
             'medium': {
-              'mapping': {
-                'minHeight': 24,
-                'minWidth': 24,
-                'padding': 4,
-                'text': {
-                  'fontSize': 12,
-                  'marginHorizontal': 4,
-                },
-                'icon': {
-                  'width': 13,
-                  'height': 13,
-                  'marginHorizontal': 4,
-                },
+              'minHeight': 24,
+              'minWidth': 24,
+              'padding': 4,
+              'text': {
+                'fontSize': 12,
+                'marginHorizontal': 4,
+              },
+              'icon': {
+                'width': 13,
+                'height': 13,
+                'marginHorizontal': 4,
               },
             },
             'large': {
-              'mapping': {
-                'minHeight': 30,
-                'minWidth': 30,
-                'padding': 4.5,
-                'text': {
-                  'fontSize': 13,
-                  'marginHorizontal': 4.5,
-                },
-                'icon': {
-                  'width': 14,
-                  'height': 14,
-                  'marginHorizontal': 4.5,
-                },
+              'minHeight': 30,
+              'minWidth': 30,
+              'padding': 4.5,
+              'text': {
+                'fontSize': 13,
+                'marginHorizontal': 4.5,
+              },
+              'icon': {
+                'width': 14,
+                'height': 14,
+                'marginHorizontal': 4.5,
               },
             },
             'giant': {
-              'mapping': {
-                'minHeight': 36,
-                'minWidth': 36,
-                'padding': 5,
-                'text': {
-                  'fontSize': 14,
-                  'marginHorizontal': 5,
-                },
-                'icon': {
-                  'width': 15,
-                  'height': 15,
-                  'marginHorizontal': 5,
-                },
+              'minHeight': 36,
+              'minWidth': 36,
+              'padding': 5,
+              'text': {
+                'fontSize': 14,
+                'marginHorizontal': 5,
+              },
+              'icon': {
+                'width': 15,
+                'height': 15,
+                'marginHorizontal': 5,
               },
             },
           },
@@ -9838,121 +9818,111 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'status': {
             'primary': {
-              'mapping': {
-                'backgroundColor': 'transparent',
-                'borderColor': '#2196F3',
-                'text': {
-                  'color': '#2196F3',
-                },
-                'icon': {
-                  'tintColor': '#2196F3',
-                },
-                'state': {
-                  'active': {
-                    'backgroundColor': 'transparent',
-                    'borderColor': '#1E88E5',
-                    'text': {
-                      'color': '#1E88E5',
-                    },
-                    'icon': {
-                      'tintColor': '#1E88E5',
-                    },
+              'backgroundColor': 'transparent',
+              'borderColor': '#2196F3',
+              'text': {
+                'color': '#2196F3',
+              },
+              'icon': {
+                'tintColor': '#2196F3',
+              },
+              'state': {
+                'active': {
+                  'backgroundColor': 'transparent',
+                  'borderColor': '#1E88E5',
+                  'text': {
+                    'color': '#1E88E5',
+                  },
+                  'icon': {
+                    'tintColor': '#1E88E5',
                   },
                 },
               },
             },
             'success': {
-              'mapping': {
-                'backgroundColor': 'transparent',
-                'borderColor': '#4CAF50',
-                'text': {
-                  'color': '#4CAF50',
-                },
-                'icon': {
-                  'tintColor': '#4CAF50',
-                },
-                'state': {
-                  'active': {
-                    'backgroundColor': 'transparent',
-                    'borderColor': '#43A047',
-                    'text': {
-                      'color': '#43A047',
-                    },
-                    'icon': {
-                      'tintColor': '#43A047',
-                    },
+              'backgroundColor': 'transparent',
+              'borderColor': '#4CAF50',
+              'text': {
+                'color': '#4CAF50',
+              },
+              'icon': {
+                'tintColor': '#4CAF50',
+              },
+              'state': {
+                'active': {
+                  'backgroundColor': 'transparent',
+                  'borderColor': '#43A047',
+                  'text': {
+                    'color': '#43A047',
+                  },
+                  'icon': {
+                    'tintColor': '#43A047',
                   },
                 },
               },
             },
             'info': {
-              'mapping': {
-                'backgroundColor': 'transparent',
-                'borderColor': '#03A9F4',
-                'text': {
-                  'color': '#03A9F4',
-                },
-                'icon': {
-                  'tintColor': '#03A9F4',
-                },
-                'state': {
-                  'active': {
-                    'backgroundColor': 'transparent',
-                    'borderColor': '#039BE5',
-                    'text': {
-                      'color': '#039BE5',
-                    },
-                    'icon': {
-                      'tintColor': '#039BE5',
-                    },
+              'backgroundColor': 'transparent',
+              'borderColor': '#03A9F4',
+              'text': {
+                'color': '#03A9F4',
+              },
+              'icon': {
+                'tintColor': '#03A9F4',
+              },
+              'state': {
+                'active': {
+                  'backgroundColor': 'transparent',
+                  'borderColor': '#039BE5',
+                  'text': {
+                    'color': '#039BE5',
+                  },
+                  'icon': {
+                    'tintColor': '#039BE5',
                   },
                 },
               },
             },
             'warning': {
-              'mapping': {
-                'backgroundColor': 'transparent',
-                'borderColor': '#FFC107',
-                'text': {
-                  'color': '#FFC107',
-                },
-                'icon': {
-                  'tintColor': '#FFC107',
-                },
-                'state': {
-                  'active': {
-                    'backgroundColor': 'transparent',
-                    'borderColor': '#FFB300',
-                    'text': {
-                      'color': '#FFB300',
-                    },
-                    'icon': {
-                      'tintColor': '#FFB300',
-                    },
+              'backgroundColor': 'transparent',
+              'borderColor': '#FFC107',
+              'text': {
+                'color': '#FFC107',
+              },
+              'icon': {
+                'tintColor': '#FFC107',
+              },
+              'state': {
+                'active': {
+                  'backgroundColor': 'transparent',
+                  'borderColor': '#FFB300',
+                  'text': {
+                    'color': '#FFB300',
+                  },
+                  'icon': {
+                    'tintColor': '#FFB300',
                   },
                 },
               },
             },
             'danger': {
-              'mapping': {
-                'backgroundColor': 'transparent',
-                'borderColor': '#F44336',
-                'text': {
-                  'color': '#F44336',
-                },
-                'icon': {
-                  'tintColor': '#F44336',
-                },
-                'state': {
-                  'active': {
-                    'backgroundColor': 'transparent',
-                    'borderColor': '#E53935',
-                    'text': {
-                      'color': '#E53935',
-                    },
-                    'icon': {
-                      'tintColor': '#E53935',
-                    },
+              'backgroundColor': 'transparent',
+              'borderColor': '#F44336',
+              'text': {
+                'color': '#F44336',
+              },
+              'icon': {
+                'tintColor': '#F44336',
+              },
+              'state': {
+                'active': {
+                  'backgroundColor': 'transparent',
+                  'borderColor': '#E53935',
+                  'text': {
+                    'color': '#E53935',
+                  },
+                  'icon': {
+                    'tintColor': '#E53935',
                   },
                 },
               },
@@ -10005,38 +9975,28 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'size': {
             'tiny': {
-              'mapping': {
-                'button': {
-                  'margin': 12,
-                },
+              'button': {
+                'margin': 12,
               },
             },
             'small': {
-              'mapping': {
-                'button': {
-                  'margin': 8,
-                },
+              'button': {
+                'margin': 8,
               },
             },
             'medium': {
-              'mapping': {
-                'button': {
-                  'margin': 4,
-                },
+              'button': {
+                'margin': 4,
               },
             },
             'large': {
-              'mapping': {
-                'button': {
-                  'margin': 4,
-                },
+              'button': {
+                'margin': 4,
               },
             },
             'giant': {
-              'mapping': {
-                'button': {
-                  'margin': 4,
-                },
+              'button': {
+                'margin': 4,
               },
             },
           },
@@ -10155,53 +10115,45 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'status': {
             'error': {
-              'mapping': {
-                'borderColor': 'pink-primary',
-                'backgroundColor': '#FFC9D9',
-                'state': {
-                  'active': {
-                    'borderColor': 'pink-primary',
-                  },
-                  'checked': {
-                    'borderColor': 'pink-primary',
-                    'backgroundColor': 'pink-primary',
-                  },
-                  'checked.active': {
-                    'borderColor': 'pink-primary',
-                  },
+              'borderColor': 'pink-primary',
+              'backgroundColor': '#FFC9D9',
+              'state': {
+                'active': {
+                  'borderColor': 'pink-primary',
+                },
+                'checked': {
+                  'borderColor': 'pink-primary',
+                  'backgroundColor': 'pink-primary',
+                },
+                'checked.active': {
+                  'borderColor': 'pink-primary',
                 },
               },
             },
           },
           'size': {
             'small': {
-              'mapping': {
-                'width': 24,
-                'height': 24,
-                'highlight': {
-                  'width': 40,
-                  'height': 40,
-                },
+              'width': 24,
+              'height': 24,
+              'highlight': {
+                'width': 40,
+                'height': 40,
               },
             },
             'medium': {
-              'mapping': {
-                'width': 30,
-                'height': 30,
-                'highlight': {
-                  'width': 50,
-                  'height': 50,
-                },
+              'width': 30,
+              'height': 30,
+              'highlight': {
+                'width': 50,
+                'height': 50,
               },
             },
             'large': {
-              'mapping': {
-                'width': 36,
-                'height': 36,
-                'highlight': {
-                  'width': 60,
-                  'height': 60,
-                },
+              'width': 36,
+              'height': 36,
+              'highlight': {
+                'width': 60,
+                'height': 60,
               },
             },
           },
@@ -10397,72 +10349,64 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'status': {
             'error': {
-              'mapping': {
-                'borderColor': 'pink-primary',
-                'state': {
-                  'checked': {
-                    'borderColor': 'pink-primary',
-                    'select': {
-                      'backgroundColor': 'pink-primary',
-                    },
+              'borderColor': 'pink-primary',
+              'state': {
+                'checked': {
+                  'borderColor': 'pink-primary',
+                  'select': {
+                    'backgroundColor': 'pink-primary',
                   },
-                  'checked.active': {
-                    'borderColor': 'pink-primary',
-                  },
+                },
+                'checked.active': {
+                  'borderColor': 'pink-primary',
                 },
               },
             },
           },
           'size': {
             'small': {
-              'mapping': {
-                'width': 30,
-                'height': 30,
-                'borderRadius': 15,
-                'select': {
-                  'width': 20,
-                  'height': 20,
-                  'borderRadius': 10,
-                },
-                'highlight': {
-                  'width': 50,
-                  'height': 50,
-                  'borderRadius': 25,
-                },
+              'width': 30,
+              'height': 30,
+              'borderRadius': 15,
+              'select': {
+                'width': 20,
+                'height': 20,
+                'borderRadius': 10,
+              },
+              'highlight': {
+                'width': 50,
+                'height': 50,
+                'borderRadius': 25,
               },
             },
             'medium': {
-              'mapping': {
-                'width': 36,
-                'height': 36,
-                'borderRadius': 18,
-                'select': {
-                  'width': 24,
-                  'height': 24,
-                  'borderRadius': 12,
-                },
-                'highlight': {
-                  'width': 60,
-                  'height': 60,
-                  'borderRadius': 30,
-                },
+              'width': 36,
+              'height': 36,
+              'borderRadius': 18,
+              'select': {
+                'width': 24,
+                'height': 24,
+                'borderRadius': 12,
+              },
+              'highlight': {
+                'width': 60,
+                'height': 60,
+                'borderRadius': 30,
               },
             },
             'large': {
-              'mapping': {
-                'width': 42,
-                'height': 42,
-                'borderRadius': 21,
-                'select': {
-                  'width': 28,
-                  'height': 28,
-                  'borderRadius': 14,
-                },
-                'highlight': {
-                  'width': 70,
-                  'height': 70,
-                  'borderRadius': 35,
-                },
+              'width': 42,
+              'height': 42,
+              'borderRadius': 21,
+              'select': {
+                'width': 28,
+                'height': 28,
+                'borderRadius': 14,
+              },
+              'highlight': {
+                'width': 70,
+                'height': 70,
+                'borderRadius': 35,
               },
             },
           },
@@ -10618,39 +10562,25 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'category': {
             'h1': {
-              'mapping': {
-                'fontSize': 64,
-              },
+              'fontSize': 64,
             },
             'h2': {
-              'mapping': {
-                'fontSize': 40,
-              },
+              'fontSize': 40,
             },
             'h3': {
-              'mapping': {
-                'fontSize': 32,
-              },
+              'fontSize': 32,
             },
             'h4': {
-              'mapping': {
-                'fontSize': 24,
-              },
+              'fontSize': 24,
             },
             'h5': {
-              'mapping': {
-                'fontSize': 16,
-              },
+              'fontSize': 16,
             },
             'h6': {
-              'mapping': {
-                'fontSize': 14,
-              },
+              'fontSize': 14,
             },
             'body': {
-              'mapping': {
-                'fontSize': 16,
-              },
+              'fontSize': 16,
             },
           },
         },
@@ -10750,55 +10680,47 @@ export const mapping: ThemeMappingType = {
         'variant': {
           'status': {
             'error': {
-              'mapping': {
-                'tintColor': '#FFD6D9',
-                'borderColor': 'pink-primary',
-                'state': {
-                  'disabled': {
-                    'tintColor': 'gray-light',
-                  },
+              'tintColor': '#FFD6D9',
+              'borderColor': 'pink-primary',
+              'state': {
+                'disabled': {
+                  'tintColor': 'gray-light',
                 },
               },
             },
           },
           'size': {
             'small': {
-              'mapping': {
-                'width': 38,
-                'height': 22,
-                'borderRadius': 11,
-                'borderWidth': 0.5,
-                'highlight': {
-                  'width': 48,
-                  'height': 32,
-                  'borderRadius': 16,
-                },
+              'width': 38,
+              'height': 22,
+              'borderRadius': 11,
+              'borderWidth': 0.5,
+              'highlight': {
+                'width': 48,
+                'height': 32,
+                'borderRadius': 16,
               },
             },
             'medium': {
-              'mapping': {
-                'width': 52,
-                'height': 32,
-                'borderRadius': 16,
-                'borderWidth': 1.5,
-                'highlight': {
-                  'width': 62,
-                  'height': 42,
-                  'borderRadius': 21,
-                },
+              'width': 52,
+              'height': 32,
+              'borderRadius': 16,
+              'borderWidth': 1.5,
+              'highlight': {
+                'width': 62,
+                'height': 42,
+                'borderRadius': 21,
               },
             },
             'large': {
-              'mapping': {
-                'width': 72,
-                'height': 42,
-                'borderRadius': 21,
-                'borderWidth': 2,
-                'highlight': {
-                  'width': 82,
-                  'height': 52,
-                  'borderRadius': 26,
-                },
+              'width': 72,
+              'height': 42,
+              'borderRadius': 21,
+              'borderWidth': 2,
+              'highlight': {
+                'width': 82,
+                'height': 52,
+                'borderRadius': 26,
               },
             },
           },

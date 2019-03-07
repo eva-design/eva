@@ -3,7 +3,6 @@ import {
   ComponentMappingType,
   AppearanceMappingType,
   MappingType,
-  VariantMappingType,
   StateMappingType,
 } from '@eva/types';
 import { safe } from '../common';
@@ -185,11 +184,7 @@ function getVariantMapping(mapping: ThemeMappingType,
       });
 
       return safe(groupName, (groupNameValue) => {
-        const groupConfig = groupValue[groupNameValue];
-
-        return safe(groupConfig[variant], (variantValue: VariantMappingType) => {
-          return variantValue.mapping;
-        });
+        return groupValue[groupNameValue][variant];
       });
     });
   });

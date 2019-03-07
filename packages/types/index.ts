@@ -49,13 +49,9 @@ export interface AppearanceMappingType {
   mapping: StateMappingType;
   variant?: {
     [key: string]: {
-      [key: string]: VariantMappingType;
+      [key: string]: StateMappingType;
     };
   };
-}
-
-export interface VariantMappingType {
-  mapping: StateMappingType;
 }
 
 export interface MappingType {
