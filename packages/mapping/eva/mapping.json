@@ -9,7 +9,13 @@
         }
       },
       "variants": {},
-      "states": {}
+      "states": {
+        "selected": {
+          "default": false,
+          "priority": 1,
+          "scope": "mobile"
+        }
+      }
     },
     "appearance": {
       "default": {
@@ -17,11 +23,21 @@
           "icon": {
             "width": 40,
             "height": 40,
-            "marginBottom": 5
+            "marginBottom": 5,
+            "tintColor": "gray-dark"
           },
           "text": {
-            "color": "gray-dark",
-            "selectedColor": "blue-primary"
+            "color": "gray-dark"
+          },
+          "state": {
+            "selected": {
+              "icon": {
+                "tintColor": "blue-primary"
+              },
+              "text": {
+                "color": "blue-primary"
+              }
+            }
           }
         }
       }
@@ -1000,10 +1016,18 @@
             "color": "gray-dark",
             "fontWeight": "600"
           },
+          "icon": {
+            "width": 20,
+            "height": 20,
+            "tintColor": "gray-dark"
+          },
           "state": {
             "selected": {
               "text": {
                 "color": "blue-primary"
+              },
+              "icon": {
+                "tintColor": "blue-primary"
               }
             }
           }
@@ -1378,6 +1402,9 @@
         },
         "marginRight": {
           "type": "number"
+        },
+        "tintColor": {
+          "type": "color"
         }
       },
       "appearances": {
@@ -1393,7 +1420,8 @@
         "mapping": {
           "width": 25,
           "height": 25,
-          "marginRight": 8
+          "marginRight": 8,
+          "tintColor": "white"
         }
       }
     }

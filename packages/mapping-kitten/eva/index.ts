@@ -7,10 +7,21 @@ export const style: ThemeStyleType = {
         'width': 40,
         'height': 40,
         'marginBottom': 5,
+        'tintColor': 'gray-dark',
       },
       'text': {
         'color': 'gray-dark',
-        'selectedColor': 'blue-primary',
+      },
+    },
+    'default.selected': {
+      'icon': {
+        'width': 40,
+        'height': 40,
+        'marginBottom': 5,
+        'tintColor': 'blue-primary',
+      },
+      'text': {
+        'color': 'blue-primary',
       },
     },
   },
@@ -8214,11 +8225,21 @@ export const style: ThemeStyleType = {
         'color': 'gray-dark',
         'fontWeight': '600',
       },
+      'icon': {
+        'width': 20,
+        'height': 20,
+        'tintColor': 'gray-dark',
+      },
     },
     'default.selected': {
       'text': {
         'color': 'blue-primary',
         'fontWeight': '600',
+      },
+      'icon': {
+        'width': 20,
+        'height': 20,
+        'tintColor': 'blue-primary',
       },
     },
   },
@@ -9476,6 +9497,7 @@ export const style: ThemeStyleType = {
       'width': 25,
       'height': 25,
       'marginRight': 8,
+      'tintColor': 'white',
     },
   },
 };
@@ -9491,7 +9513,13 @@ export const mapping: ThemeMappingType = {
         },
       },
       'variants': {},
-      'states': {},
+      'states': {
+        'selected': {
+          'default': false,
+          'priority': 1,
+          'scope': 'mobile',
+        },
+      },
     },
     'appearance': {
       'default': {
@@ -9500,10 +9528,20 @@ export const mapping: ThemeMappingType = {
             'width': 40,
             'height': 40,
             'marginBottom': 5,
+            'tintColor': 'gray-dark',
           },
           'text': {
             'color': 'gray-dark',
-            'selectedColor': 'blue-primary',
+          },
+          'state': {
+            'selected': {
+              'icon': {
+                'tintColor': 'blue-primary',
+              },
+              'text': {
+                'color': 'blue-primary',
+              },
+            },
           },
         },
       },
@@ -10481,10 +10519,18 @@ export const mapping: ThemeMappingType = {
             'color': 'gray-dark',
             'fontWeight': '600',
           },
+          'icon': {
+            'width': 20,
+            'height': 20,
+            'tintColor': 'gray-dark',
+          },
           'state': {
             'selected': {
               'text': {
                 'color': 'blue-primary',
+              },
+              'icon': {
+                'tintColor': 'blue-primary',
               },
             },
           },
@@ -10860,6 +10906,9 @@ export const mapping: ThemeMappingType = {
         'marginRight': {
           'type': 'number',
         },
+        'tintColor': {
+          'type': 'color',
+        },
       },
       'appearances': {
         'default': {
@@ -10875,6 +10924,7 @@ export const mapping: ThemeMappingType = {
           'width': 25,
           'height': 25,
           'marginRight': 8,
+          'tintColor': 'white',
         },
       },
     },
