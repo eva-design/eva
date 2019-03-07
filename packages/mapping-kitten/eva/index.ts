@@ -5810,76 +5810,64 @@ export const style: ThemeStyleType = {
     },
   },
   'ButtonGroup': {
-    'primary': {
+    'filled': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
-    'primary.tiny': {
+    'filled.tiny': {
       'button': {
         'borderRadius': 6,
-        'margin': 12,
       },
     },
-    'primary.small': {
+    'filled.small': {
       'button': {
         'borderRadius': 6,
-        'margin': 8,
       },
     },
-    'primary.medium': {
+    'filled.medium': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
-    'primary.large': {
+    'filled.large': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
-    'primary.giant': {
+    'filled.giant': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
     'outline': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
     'outline.tiny': {
       'button': {
         'borderRadius': 6,
-        'margin': 12,
       },
     },
     'outline.small': {
       'button': {
         'borderRadius': 6,
-        'margin': 8,
       },
     },
     'outline.medium': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
     'outline.large': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
     'outline.giant': {
       'button': {
         'borderRadius': 6,
-        'margin': 4,
       },
     },
   },
@@ -10395,7 +10383,7 @@ export const mapping: ThemeMappingType = {
       'scope': 'all',
       'mapping': {},
       'appearances': {
-        'primary': {
+        'filled': {
           'default': true,
         },
         'outline': {
@@ -10424,7 +10412,7 @@ export const mapping: ThemeMappingType = {
       'states': {},
     },
     'appearance': {
-      'primary': {
+      'filled': {
         'mapping': {
           'button': {
             'borderRadius': 6,
@@ -10432,31 +10420,11 @@ export const mapping: ThemeMappingType = {
         },
         'variant': {
           'size': {
-            'tiny': {
-              'button': {
-                'margin': 12,
-              },
-            },
-            'small': {
-              'button': {
-                'margin': 8,
-              },
-            },
-            'medium': {
-              'button': {
-                'margin': 4,
-              },
-            },
-            'large': {
-              'button': {
-                'margin': 4,
-              },
-            },
-            'giant': {
-              'button': {
-                'margin': 4,
-              },
-            },
+            'tiny': {},
+            'small': {},
+            'medium': {},
+            'large': {},
+            'giant': {},
           },
         },
       },

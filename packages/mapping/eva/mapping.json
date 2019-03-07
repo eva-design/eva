@@ -433,7 +433,7 @@
       "scope": "all",
       "mapping": {},
       "appearances": {
-        "primary": {
+        "filled": {
           "default": true
         },
         "outline": {
@@ -462,7 +462,7 @@
       "states": {}
     },
     "appearance": {
-      "primary": {
+      "filled": {
         "mapping": {
           "button": {
             "borderRadius": 6
@@ -470,31 +470,11 @@
         },
         "variant": {
           "size": {
-            "tiny": {
-              "button": {
-                "margin": 12
-              }
-            },
-            "small": {
-              "button": {
-                "margin": 8
-              }
-            },
-            "medium": {
-              "button": {
-                "margin": 4
-              }
-            },
-            "large": {
-              "button": {
-                "margin": 4
-              }
-            },
-            "giant": {
-              "button": {
-                "margin": 4
-              }
-            }
+            "tiny": {},
+            "small": {},
+            "medium": {},
+            "large": {},
+            "giant": {}
           }
         }
       },
