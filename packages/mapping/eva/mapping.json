@@ -1080,6 +1080,10 @@
         "mapping": {
           "borderWidth": 2,
           "borderColor": "gray-primary",
+          "text": {
+            "color": "text-primary",
+            "fontWeight": "500"
+          },
           "select": {
             "backgroundColor": "transparent"
           },
@@ -1100,7 +1104,10 @@
               }
             },
             "disabled": {
-              "borderColor": "gray-light"
+              "borderColor": "gray-light",
+              "text": {
+                "color": "gray-300"
+              }
             },
             "checked.active": {
               "borderColor": "blue-dark"
@@ -1143,6 +1150,10 @@
                 "width": 50,
                 "height": 50,
                 "borderRadius": 25
+              },
+              "text": {
+                "marginLeft": 10,
+                "fontSize": 14
               }
             },
             "medium": {
@@ -1158,6 +1169,10 @@
                 "width": 60,
                 "height": 60,
                 "borderRadius": 30
+              },
+              "text": {
+                "marginLeft": 12,
+                "fontSize": 16
               }
             },
             "large": {
@@ -1173,6 +1188,10 @@
                 "width": 70,
                 "height": 70,
                 "borderRadius": 35
+              },
+              "text": {
+                "marginLeft": 14,
+                "fontSize": 18
               }
             }
           }

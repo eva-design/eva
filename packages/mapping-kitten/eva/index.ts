@@ -7608,6 +7608,12 @@ export const style: ThemeStyleType = {
     'default': {
       'borderWidth': 2,
       'borderColor': 'gray-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7627,6 +7633,12 @@ export const style: ThemeStyleType = {
     'default.checked': {
       'borderWidth': 2,
       'borderColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 24,
@@ -7646,6 +7658,12 @@ export const style: ThemeStyleType = {
     'default.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -7665,6 +7683,12 @@ export const style: ThemeStyleType = {
     'default.checked.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 24,
@@ -7684,6 +7708,12 @@ export const style: ThemeStyleType = {
     'default.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -7703,6 +7733,12 @@ export const style: ThemeStyleType = {
     'default.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7722,6 +7758,12 @@ export const style: ThemeStyleType = {
     'default.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7741,6 +7783,12 @@ export const style: ThemeStyleType = {
     'default.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7760,6 +7808,12 @@ export const style: ThemeStyleType = {
     'default.error': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7779,6 +7833,12 @@ export const style: ThemeStyleType = {
     'default.error.small': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -7798,6 +7858,12 @@ export const style: ThemeStyleType = {
     'default.error.medium': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7817,6 +7883,12 @@ export const style: ThemeStyleType = {
     'default.error.large': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -7836,6 +7908,12 @@ export const style: ThemeStyleType = {
     'default.small': {
       'borderWidth': 2,
       'borderColor': 'gray-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -7855,6 +7933,12 @@ export const style: ThemeStyleType = {
     'default.medium': {
       'borderWidth': 2,
       'borderColor': 'gray-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7874,6 +7958,12 @@ export const style: ThemeStyleType = {
     'default.large': {
       'borderWidth': 2,
       'borderColor': 'gray-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -7893,6 +7983,12 @@ export const style: ThemeStyleType = {
     'default.error.checked': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 24,
@@ -7912,6 +8008,12 @@ export const style: ThemeStyleType = {
     'default.error.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -7931,6 +8033,12 @@ export const style: ThemeStyleType = {
     'default.error.checked.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 24,
@@ -7950,6 +8058,12 @@ export const style: ThemeStyleType = {
     'default.error.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -7969,6 +8083,12 @@ export const style: ThemeStyleType = {
     'default.error.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -7988,6 +8108,12 @@ export const style: ThemeStyleType = {
     'default.error.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8007,6 +8133,12 @@ export const style: ThemeStyleType = {
     'default.error.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8026,6 +8158,12 @@ export const style: ThemeStyleType = {
     'default.error.small.checked': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 20,
@@ -8045,6 +8183,12 @@ export const style: ThemeStyleType = {
     'default.error.small.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 20,
@@ -8064,6 +8208,12 @@ export const style: ThemeStyleType = {
     'default.error.small.checked.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 20,
@@ -8083,6 +8233,12 @@ export const style: ThemeStyleType = {
     'default.error.small.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 20,
@@ -8102,6 +8258,12 @@ export const style: ThemeStyleType = {
     'default.error.small.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8121,6 +8283,12 @@ export const style: ThemeStyleType = {
     'default.error.small.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8140,6 +8308,12 @@ export const style: ThemeStyleType = {
     'default.error.small.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8159,6 +8333,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.checked': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 24,
@@ -8178,6 +8358,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -8197,6 +8383,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.checked.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 24,
@@ -8216,6 +8408,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -8235,6 +8433,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8254,6 +8458,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8273,6 +8483,12 @@ export const style: ThemeStyleType = {
     'default.error.medium.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8292,6 +8508,12 @@ export const style: ThemeStyleType = {
     'default.error.large.checked': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 28,
@@ -8311,6 +8533,12 @@ export const style: ThemeStyleType = {
     'default.error.large.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 28,
@@ -8330,6 +8558,12 @@ export const style: ThemeStyleType = {
     'default.error.large.checked.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'pink-primary',
         'width': 28,
@@ -8349,6 +8583,12 @@ export const style: ThemeStyleType = {
     'default.error.large.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'pink-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 28,
@@ -8368,6 +8608,12 @@ export const style: ThemeStyleType = {
     'default.error.large.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -8387,6 +8633,12 @@ export const style: ThemeStyleType = {
     'default.error.large.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -8406,6 +8658,12 @@ export const style: ThemeStyleType = {
     'default.error.large.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -8425,6 +8683,12 @@ export const style: ThemeStyleType = {
     'default.small.checked': {
       'borderWidth': 2,
       'borderColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 20,
@@ -8444,6 +8708,12 @@ export const style: ThemeStyleType = {
     'default.small.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 20,
@@ -8463,6 +8733,12 @@ export const style: ThemeStyleType = {
     'default.small.checked.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 20,
@@ -8482,6 +8758,12 @@ export const style: ThemeStyleType = {
     'default.small.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 20,
@@ -8501,6 +8783,12 @@ export const style: ThemeStyleType = {
     'default.small.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8520,6 +8808,12 @@ export const style: ThemeStyleType = {
     'default.small.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8539,6 +8833,12 @@ export const style: ThemeStyleType = {
     'default.small.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 20,
@@ -8558,6 +8858,12 @@ export const style: ThemeStyleType = {
     'default.medium.checked': {
       'borderWidth': 2,
       'borderColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 24,
@@ -8577,6 +8883,12 @@ export const style: ThemeStyleType = {
     'default.medium.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -8596,6 +8908,12 @@ export const style: ThemeStyleType = {
     'default.medium.checked.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 24,
@@ -8615,6 +8933,12 @@ export const style: ThemeStyleType = {
     'default.medium.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 24,
@@ -8634,6 +8958,12 @@ export const style: ThemeStyleType = {
     'default.medium.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8653,6 +8983,12 @@ export const style: ThemeStyleType = {
     'default.medium.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8672,6 +9008,12 @@ export const style: ThemeStyleType = {
     'default.medium.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 24,
@@ -8691,6 +9033,12 @@ export const style: ThemeStyleType = {
     'default.large.checked': {
       'borderWidth': 2,
       'borderColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 28,
@@ -8710,6 +9058,12 @@ export const style: ThemeStyleType = {
     'default.large.checked.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 28,
@@ -8729,6 +9083,12 @@ export const style: ThemeStyleType = {
     'default.large.checked.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'blue-primary',
         'width': 28,
@@ -8748,6 +9108,12 @@ export const style: ThemeStyleType = {
     'default.large.checked.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'blue-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'gray-primary',
         'width': 28,
@@ -8767,6 +9133,12 @@ export const style: ThemeStyleType = {
     'default.large.disabled': {
       'borderWidth': 2,
       'borderColor': 'gray-light',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -8786,6 +9158,12 @@ export const style: ThemeStyleType = {
     'default.large.disabled.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -8805,6 +9183,12 @@ export const style: ThemeStyleType = {
     'default.large.active': {
       'borderWidth': 2,
       'borderColor': 'gray-dark',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'select': {
         'backgroundColor': 'transparent',
         'width': 28,
@@ -11508,6 +11892,10 @@ export const mapping: ThemeMappingType = {
         'mapping': {
           'borderWidth': 2,
           'borderColor': 'gray-primary',
+          'text': {
+            'color': 'text-primary',
+            'fontWeight': '500',
+          },
           'select': {
             'backgroundColor': 'transparent',
           },
@@ -11529,6 +11917,9 @@ export const mapping: ThemeMappingType = {
             },
             'disabled': {
               'borderColor': 'gray-light',
+              'text': {
+                'color': 'gray-300',
+              },
             },
             'checked.active': {
               'borderColor': 'blue-dark',
@@ -11572,6 +11963,10 @@ export const mapping: ThemeMappingType = {
                 'height': 50,
                 'borderRadius': 25,
               },
+              'text': {
+                'marginLeft': 10,
+                'fontSize': 14,
+              },
             },
             'medium': {
               'width': 36,
@@ -11587,6 +11982,10 @@ export const mapping: ThemeMappingType = {
                 'height': 60,
                 'borderRadius': 30,
               },
+              'text': {
+                'marginLeft': 12,
+                'fontSize': 16,
+              },
             },
             'large': {
               'width': 42,
@@ -11601,6 +12000,10 @@ export const mapping: ThemeMappingType = {
                 'width': 70,
                 'height': 70,
                 'borderRadius': 35,
+              },
+              'text': {
+                'marginLeft': 14,
+                'fontSize': 18,
               },
             },
           },
