@@ -7527,6 +7527,70 @@ export const style: ThemeStyleType = {
       'borderWidth': 1,
     },
   },
+  'List': {
+    'default': {
+      'item': {},
+    },
+  },
+  'ListItem': {
+    'default': {
+      'paddingVertical': 12,
+      'paddingHorizontal': 6,
+      'icon': {
+        'width': 48,
+        'height': 48,
+        'marginHorizontal': 6,
+        'tintColor': 'gray-primary',
+      },
+      'title': {
+        'color': 'text-primary',
+        'fontSize': 20,
+        'fontWeight': '600',
+        'marginHorizontal': 6,
+        'marginVertical': 4,
+      },
+      'description': {
+        'marginHorizontal': 6,
+        'marginVertical': 4,
+        'color': 'gray-400',
+        'fontSize': 14,
+      },
+      'accessory': {
+        'width': 48,
+        'height': 48,
+        'marginHorizontal': 6,
+      },
+    },
+    'default.active': {
+      'paddingVertical': 12,
+      'paddingHorizontal': 6,
+      'icon': {
+        'width': 48,
+        'height': 48,
+        'marginHorizontal': 6,
+        'tintColor': 'gray-primary',
+      },
+      'title': {
+        'color': 'text-primary',
+        'fontSize': 20,
+        'fontWeight': '600',
+        'marginHorizontal': 6,
+        'marginVertical': 4,
+      },
+      'description': {
+        'marginHorizontal': 6,
+        'marginVertical': 4,
+        'color': 'gray-400',
+        'fontSize': 14,
+      },
+      'accessory': {
+        'width': 48,
+        'height': 48,
+        'marginHorizontal': 6,
+      },
+      'backgroundColor': 'gray-100',
+    },
+  },
   'Modal': {
     'default': {
       'paddingHorizontal': 16,
@@ -11236,6 +11300,82 @@ export const mapping: ThemeMappingType = {
           'borderColor': 'blue-primary',
           'borderRadius': 3,
           'borderWidth': 1,
+        },
+      },
+    },
+  },
+  'List': {
+    'meta': {
+      'scope': 'all',
+      'mapping': {},
+      'appearances': {
+        'default': {
+          'default': true,
+        },
+      },
+      'variants': {},
+      'states': {},
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'item': {},
+        },
+      },
+    },
+  },
+  'ListItem': {
+    'meta': {
+      'scope': 'all',
+      'mapping': {},
+      'appearances': {
+        'default': {
+          'default': true,
+        },
+      },
+      'variants': {},
+      'states': {
+        'active': {
+          'default': false,
+          'priority': 0,
+          'scope': 'all',
+        },
+      },
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'paddingVertical': 12,
+          'paddingHorizontal': 6,
+          'icon': {
+            'width': 48,
+            'height': 48,
+            'marginHorizontal': 6,
+            'tintColor': 'gray-primary',
+          },
+          'title': {
+            'color': 'text-primary',
+            'fontSize': 20,
+            'fontWeight': '600',
+            'marginHorizontal': 6,
+            'marginVertical': 4,
+          },
+          'description': {
+            'marginHorizontal': 6,
+            'marginVertical': 4,
+            'color': 'gray-400',
+            'fontSize': 14,
+          },
+          'accessory': {
+            'width': 48,
+            'height': 48,
+            'marginHorizontal': 6,
+          },
+          'state': {
+            'active': {
+              'backgroundColor': 'gray-100',
+            },
+          },
         },
       },
     },
