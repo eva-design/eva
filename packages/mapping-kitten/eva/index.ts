@@ -1,6 +1,104 @@
 import { ThemeMappingType, ThemeStyleType } from '@eva/types';
 
 export const style: ThemeStyleType = {
+  'Avatar': {
+    'default': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 48,
+      'height': 48,
+    },
+    'default.round': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 48,
+      'height': 48,
+    },
+    'default.rounded': {
+      'margin': 16,
+      'roundCoefficient': 0.3,
+      'width': 48,
+      'height': 48,
+    },
+    'default.square': {
+      'margin': 16,
+      'roundCoefficient': 0,
+      'width': 48,
+      'height': 48,
+    },
+    'default.round.small': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 40,
+      'height': 40,
+    },
+    'default.round.medium': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 48,
+      'height': 48,
+    },
+    'default.round.large': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 64,
+      'height': 64,
+    },
+    'default.rounded.small': {
+      'margin': 16,
+      'roundCoefficient': 0.3,
+      'width': 40,
+      'height': 40,
+    },
+    'default.rounded.medium': {
+      'margin': 16,
+      'roundCoefficient': 0.3,
+      'width': 48,
+      'height': 48,
+    },
+    'default.rounded.large': {
+      'margin': 16,
+      'roundCoefficient': 0.3,
+      'width': 64,
+      'height': 64,
+    },
+    'default.square.small': {
+      'margin': 16,
+      'roundCoefficient': 0,
+      'width': 40,
+      'height': 40,
+    },
+    'default.square.medium': {
+      'margin': 16,
+      'roundCoefficient': 0,
+      'width': 48,
+      'height': 48,
+    },
+    'default.square.large': {
+      'margin': 16,
+      'roundCoefficient': 0,
+      'width': 64,
+      'height': 64,
+    },
+    'default.small': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 40,
+      'height': 40,
+    },
+    'default.medium': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 48,
+      'height': 48,
+    },
+    'default.large': {
+      'margin': 16,
+      'roundCoefficient': 0.5,
+      'width': 64,
+      'height': 64,
+    },
+  },
   'BottomNavigatorTab': {
     'default': {
       'icon': {
@@ -9949,6 +10047,89 @@ export const style: ThemeStyleType = {
 };
 
 export const mapping: ThemeMappingType = {
+  'Avatar': {
+    'meta': {
+      'scope': 'all',
+      'mapping': {
+        'roundCoefficient': {
+          'type': 'number',
+        },
+        'margin': {
+          'type': 'number',
+        },
+        'width': {
+          'type': 'number',
+        },
+        'height': {
+          'type': 'number',
+        },
+      },
+      'appearances': {
+        'default': {
+          'default': true,
+        },
+      },
+      'variants': {
+        'shape': {
+          'round': {
+            'default': true,
+          },
+          'rounded': {
+            'default': false,
+          },
+          'square': {
+            'default': false,
+          },
+        },
+        'size': {
+          'small': {
+            'default': false,
+          },
+          'medium': {
+            'default': true,
+          },
+          'large': {
+            'default': false,
+          },
+        },
+      },
+      'states': {},
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'margin': 16,
+        },
+        'variant': {
+          'shape': {
+            'round': {
+              'roundCoefficient': 0.5,
+            },
+            'rounded': {
+              'roundCoefficient': 0.3,
+            },
+            'square': {
+              'roundCoefficient': 0,
+            },
+          },
+          'size': {
+            'small': {
+              'width': 40,
+              'height': 40,
+            },
+            'medium': {
+              'width': 48,
+              'height': 48,
+            },
+            'large': {
+              'width': 64,
+              'height': 64,
+            },
+          },
+        },
+      },
+    },
+  },
   'BottomNavigatorTab': {
     'meta': {
       'scope': 'mobile',
