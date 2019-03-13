@@ -10044,6 +10044,323 @@ export const style: ThemeStyleType = {
       'tintColor': 'white',
     },
   },
+  'OverflowMenu': {
+    'default': {
+      'borderRadius': 6,
+      'menuItem': {
+        'borderRadius': 6,
+      },
+      'popover': {
+        'backgroundColor': 'white',
+      },
+    },
+  },
+  'OverflowMenuItem': {
+    'default': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.disabled': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.disabled.active': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.active': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.small': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 13,
+        'marginHorizontal': 6,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 20,
+        'height': 20,
+        'marginHorizontal': 6,
+      },
+      'minHeight': 40,
+      'padding': 10,
+    },
+    'default.medium': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.large': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 17,
+        'marginHorizontal': 10,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 28,
+        'height': 28,
+        'marginHorizontal': 10,
+      },
+      'minHeight': 56,
+      'padding': 14,
+    },
+    'default.small.disabled': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 13,
+        'marginHorizontal': 6,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 20,
+        'height': 20,
+        'marginHorizontal': 6,
+      },
+      'minHeight': 40,
+      'padding': 10,
+    },
+    'default.small.disabled.active': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 13,
+        'marginHorizontal': 6,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 20,
+        'height': 20,
+        'marginHorizontal': 6,
+      },
+      'minHeight': 40,
+      'padding': 10,
+    },
+    'default.small.active': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 13,
+        'marginHorizontal': 6,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 20,
+        'height': 20,
+        'marginHorizontal': 6,
+      },
+      'minHeight': 40,
+      'padding': 10,
+    },
+    'default.medium.disabled': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.medium.disabled.active': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.medium.active': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 15,
+        'marginHorizontal': 8,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 24,
+        'height': 24,
+        'marginHorizontal': 8,
+      },
+      'minHeight': 48,
+      'padding': 12,
+    },
+    'default.large.disabled': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-pitch-dark',
+        'fontWeight': '600',
+        'fontSize': 17,
+        'marginHorizontal': 10,
+      },
+      'icon': {
+        'tintColor': 'blue-pitch-dark',
+        'width': 28,
+        'height': 28,
+        'marginHorizontal': 10,
+      },
+      'minHeight': 56,
+      'padding': 14,
+    },
+    'default.large.disabled.active': {
+      'backgroundColor': 'gray-dark',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 17,
+        'marginHorizontal': 10,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 28,
+        'height': 28,
+        'marginHorizontal': 10,
+      },
+      'minHeight': 56,
+      'padding': 14,
+    },
+    'default.large.active': {
+      'backgroundColor': 'white',
+      'borderColor': 'gray-light',
+      'borderWidth': 1.2,
+      'text': {
+        'color': 'blue-primary',
+        'fontWeight': '600',
+        'fontSize': 17,
+        'marginHorizontal': 10,
+      },
+      'icon': {
+        'tintColor': 'blue-primary',
+        'width': 28,
+        'height': 28,
+        'marginHorizontal': 10,
+      },
+      'minHeight': 56,
+      'padding': 14,
+    },
+  },
 };
 
 export const mapping: ThemeMappingType = {
@@ -11584,6 +11901,154 @@ export const mapping: ThemeMappingType = {
           'height': 25,
           'marginRight': 8,
           'tintColor': 'white',
+        },
+      },
+    },
+  },
+  'OverflowMenu': {
+    'meta': {
+      'scope': 'all',
+      'mapping': {
+        'borderRadius': {
+          'type': 'number',
+        },
+      },
+      'appearances': {
+        'default': {
+          'default': true,
+        },
+      },
+      'states': {},
+      'variants': {},
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'borderRadius': 6,
+          'menuItem': {
+            'borderRadius': 6,
+          },
+          'popover': {
+            'backgroundColor': 'white',
+          },
+        },
+      },
+    },
+  },
+  'OverflowMenuItem': {
+    'meta': {
+      'scope': 'all',
+      'mapping': {
+        'backgroundColor': {
+          'type': 'color',
+        },
+        'borderColor': {
+          'type': 'color',
+        },
+        'borderWidth': {
+          'type': 'number',
+        },
+      },
+      'appearances': {
+        'default': {
+          'default': true,
+        },
+      },
+      'variants': {
+        'size': {
+          'small': {
+            'default': false,
+          },
+          'medium': {
+            'default': true,
+          },
+          'large': {
+            'default': false,
+          },
+        },
+      },
+      'states': {
+        'disabled': {
+          'default': false,
+          'priority': 0,
+          'scope': 'all',
+        },
+        'active': {
+          'default': false,
+          'priority': 1,
+          'scope': 'all',
+        },
+      },
+    },
+    'appearance': {
+      'default': {
+        'mapping': {
+          'backgroundColor': 'white',
+          'borderColor': 'gray-light',
+          'borderWidth': 1.2,
+          'text': {
+            'color': 'blue-pitch-dark',
+            'fontWeight': '600',
+          },
+          'icon': {
+            'tintColor': 'blue-pitch-dark',
+          },
+          'state': {
+            'disabled': {
+              'backgroundColor': 'gray-dark',
+            },
+            'active': {
+              'text': {
+                'color': 'blue-primary',
+              },
+              'icon': {
+                'tintColor': 'blue-primary',
+              },
+            },
+          },
+        },
+        'variant': {
+          'size': {
+            'small': {
+              'minHeight': 40,
+              'padding': 10,
+              'text': {
+                'fontSize': 13,
+                'marginHorizontal': 6,
+              },
+              'icon': {
+                'width': 20,
+                'height': 20,
+                'marginHorizontal': 6,
+              },
+            },
+            'medium': {
+              'minHeight': 48,
+              'padding': 12,
+              'text': {
+                'fontSize': 15,
+                'marginHorizontal': 8,
+              },
+              'icon': {
+                'width': 24,
+                'height': 24,
+                'marginHorizontal': 8,
+              },
+            },
+            'large': {
+              'minHeight': 56,
+              'padding': 14,
+              'text': {
+                'fontSize': 17,
+                'marginHorizontal': 10,
+              },
+              'icon': {
+                'width': 28,
+                'height': 28,
+                'marginHorizontal': 10,
+              },
+            },
+          },
         },
       },
     },
