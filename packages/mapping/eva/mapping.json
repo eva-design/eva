@@ -637,6 +637,10 @@
           "borderRadius": 4,
           "borderColor": "gray-primary",
           "backgroundColor": "gray-light",
+          "text": {
+            "color": "text-primary",
+            "fontWeight": "500"
+          },
           "highlight": {
             "borderRadius": 8,
             "backgroundColor": "transparent"
@@ -660,7 +664,10 @@
             },
             "disabled": {
               "borderColor": "gray-light",
-              "backgroundColor": "#F1F5F5"
+              "backgroundColor": "#F1F5F5",
+              "text": {
+                "color": "gray-300"
+              }
             },
             "checked.active": {
               "borderColor": "blue-dark"
@@ -694,6 +701,14 @@
             "small": {
               "width": 24,
               "height": 24,
+              "text": {
+                "marginLeft": 10,
+                "fontSize": 14
+              },
+              "select": {
+                "width": 12,
+                "height": 12
+              },
               "highlight": {
                 "width": 40,
                 "height": 40
@@ -702,6 +717,14 @@
             "medium": {
               "width": 30,
               "height": 30,
+              "text": {
+                "marginLeft": 12,
+                "fontSize": 16
+              },
+              "select": {
+                "width": 14,
+                "height": 14
+              },
               "highlight": {
                 "width": 50,
                 "height": 50
@@ -710,6 +733,14 @@
             "large": {
               "width": 36,
               "height": 36,
+              "text": {
+                "marginLeft": 14,
+                "fontSize": 18
+              },
+              "select": {
+                "width": 16,
+                "height": 16
+              },
               "highlight": {
                 "width": 60,
                 "height": 60

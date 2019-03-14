@@ -5975,6 +5975,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-primary',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -5983,6 +5989,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -5992,6 +6000,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6000,6 +6014,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6009,6 +6025,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6017,6 +6039,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6026,6 +6050,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6034,6 +6064,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6043,6 +6075,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6051,6 +6089,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6060,6 +6100,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6068,6 +6114,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6077,6 +6125,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6085,6 +6139,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6094,6 +6150,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6102,6 +6164,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6111,6 +6175,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6119,6 +6189,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6128,6 +6200,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6136,6 +6214,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6145,6 +6225,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6153,6 +6239,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6162,6 +6250,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6170,6 +6264,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6179,6 +6275,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-primary',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6187,6 +6289,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6196,6 +6300,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-primary',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6204,6 +6314,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6213,6 +6325,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-primary',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6221,6 +6339,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6230,6 +6350,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6238,6 +6364,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6247,6 +6375,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6255,6 +6389,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6264,6 +6400,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6272,6 +6414,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6281,6 +6425,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6289,6 +6439,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6298,6 +6450,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6306,6 +6464,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6315,6 +6475,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6323,6 +6489,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6332,6 +6500,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6340,6 +6514,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6349,6 +6525,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6357,6 +6539,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6366,6 +6550,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6374,6 +6564,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6383,6 +6575,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6391,6 +6589,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6400,6 +6600,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6408,6 +6614,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6417,6 +6625,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6425,6 +6639,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6434,6 +6650,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6442,6 +6664,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6451,6 +6675,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6459,6 +6689,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6468,6 +6700,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6476,6 +6714,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6485,6 +6725,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6493,6 +6739,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6502,6 +6750,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6510,6 +6764,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6519,6 +6775,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6527,6 +6789,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6536,6 +6800,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6544,6 +6814,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6553,6 +6825,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6561,6 +6839,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6570,6 +6850,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6578,6 +6864,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6587,6 +6875,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6595,6 +6889,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6604,6 +6900,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6612,6 +6914,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6621,6 +6925,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'pink-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6629,6 +6939,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6638,6 +6950,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6646,6 +6964,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6655,6 +6975,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6663,6 +6989,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6672,6 +7000,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6680,6 +7014,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6689,6 +7025,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'pink-primary',
       'backgroundColor': '#FFC9D9',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6697,6 +7039,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6706,6 +7050,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6714,6 +7064,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6723,6 +7075,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6731,6 +7089,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6740,6 +7100,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6748,6 +7114,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6757,6 +7125,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6765,6 +7139,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6774,6 +7150,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6782,6 +7164,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6791,6 +7175,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6799,6 +7189,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6808,6 +7200,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 10,
+        'fontSize': 14,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6816,6 +7214,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 12,
+        'height': 12,
       },
       'width': 24,
       'height': 24,
@@ -6825,6 +7225,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6833,6 +7239,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6842,6 +7250,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6850,6 +7264,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6859,6 +7275,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6867,6 +7289,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6876,6 +7300,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6884,6 +7314,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6893,6 +7325,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6901,6 +7339,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6910,6 +7350,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6918,6 +7364,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6927,6 +7375,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 12,
+        'fontSize': 16,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6935,6 +7389,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 14,
+        'height': 14,
       },
       'width': 30,
       'height': 30,
@@ -6944,6 +7400,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6952,6 +7414,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6961,6 +7425,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'transparent',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -6969,6 +7439,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6978,6 +7450,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'blue-primary',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -6986,6 +7464,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -6995,6 +7475,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'blue-dark',
       'backgroundColor': 'gray-primary',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -7003,6 +7489,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': '#FFFFFF',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -7012,6 +7500,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-light',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'transparent',
@@ -7020,6 +7514,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -7029,6 +7525,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': '#F1F5F5',
+      'text': {
+        'color': 'gray-300',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -7037,6 +7539,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -7046,6 +7550,12 @@ export const style: ThemeStyleType = {
       'borderRadius': 4,
       'borderColor': 'gray-dark',
       'backgroundColor': 'gray-light',
+      'text': {
+        'color': 'text-primary',
+        'fontWeight': '500',
+        'marginLeft': 14,
+        'fontSize': 18,
+      },
       'highlight': {
         'borderRadius': 8,
         'backgroundColor': 'gray-light',
@@ -7054,6 +7564,8 @@ export const style: ThemeStyleType = {
       },
       'select': {
         'backgroundColor': 'transparent',
+        'width': 16,
+        'height': 16,
       },
       'width': 36,
       'height': 36,
@@ -11450,6 +11962,10 @@ export const mapping: ThemeMappingType = {
           'borderRadius': 4,
           'borderColor': 'gray-primary',
           'backgroundColor': 'gray-light',
+          'text': {
+            'color': 'text-primary',
+            'fontWeight': '500',
+          },
           'highlight': {
             'borderRadius': 8,
             'backgroundColor': 'transparent',
@@ -11474,6 +11990,9 @@ export const mapping: ThemeMappingType = {
             'disabled': {
               'borderColor': 'gray-light',
               'backgroundColor': '#F1F5F5',
+              'text': {
+                'color': 'gray-300',
+              },
             },
             'checked.active': {
               'borderColor': 'blue-dark',
@@ -11507,6 +12026,14 @@ export const mapping: ThemeMappingType = {
             'small': {
               'width': 24,
               'height': 24,
+              'text': {
+                'marginLeft': 10,
+                'fontSize': 14,
+              },
+              'select': {
+                'width': 12,
+                'height': 12,
+              },
               'highlight': {
                 'width': 40,
                 'height': 40,
@@ -11515,6 +12042,14 @@ export const mapping: ThemeMappingType = {
             'medium': {
               'width': 30,
               'height': 30,
+              'text': {
+                'marginLeft': 12,
+                'fontSize': 16,
+              },
+              'select': {
+                'width': 14,
+                'height': 14,
+              },
               'highlight': {
                 'width': 50,
                 'height': 50,
@@ -11523,6 +12058,14 @@ export const mapping: ThemeMappingType = {
             'large': {
               'width': 36,
               'height': 36,
+              'text': {
+                'marginLeft': 14,
+                'fontSize': 18,
+              },
+              'select': {
+                'width': 16,
+                'height': 16,
+              },
               'highlight': {
                 'width': 60,
                 'height': 60,
