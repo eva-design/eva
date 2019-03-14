@@ -1436,7 +1436,19 @@
       },
       "variants": {
         "status": {
-          "error": {
+          "primary": {
+            "default": true
+          },
+          "success": {
+            "default": false
+          },
+          "info": {
+            "default": false
+          },
+          "warning": {
+            "default": false
+          },
+          "danger": {
             "default": false
           }
         },
@@ -1474,8 +1486,6 @@
       "default": {
         "mapping": {
           "offsetValue": 20,
-          "tintColor": "gray-light",
-          "borderColor": "blue-primary",
           "thumb": {
             "backgroundColor": "#ffffff"
           },
@@ -1489,20 +1499,32 @@
               }
             },
             "disabled": {
-              "borderColor": "gray-dark"
+              "borderColor": "gray-dark",
+              "tintColor": "gray-light"
             }
           }
         },
         "variant": {
           "status": {
-            "error": {
+            "primary": {
+              "tintColor": "#d9e4ff",
+              "borderColor": "blue-primary"
+            },
+            "success": {
+              "tintColor": "#b3ffd6",
+              "borderColor": "#00e096"
+            },
+            "info": {
+              "tintColor": "#c7e2ff",
+              "borderColor": "#0095ff"
+            },
+            "warning": {
+              "tintColor": "#fff1c2",
+              "borderColor": "#ffaa00"
+            },
+            "danger": {
               "tintColor": "#FFD6D9",
-              "borderColor": "pink-primary",
-              "state": {
-                "disabled": {
-                  "tintColor": "gray-light"
-                }
-              }
+              "borderColor": "pink-primary"
             }
           },
           "size": {
