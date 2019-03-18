@@ -2,6 +2,8 @@ import {
   ThemeMappingType,
   ControlMappingType,
   ThemedStyleType,
+  MappingType,
+  StrictTheme,
 } from '@eva/types';
 import {
   safe,
@@ -64,6 +66,7 @@ export const SEPARATOR_MAPPING_ENTRY = '.';
  * @param appearance: string - appearance applied to component
  * @param variants: string[] - variants applied to component. Default is []
  * @param states: string[] - states in which component is. Default is []
+ * @param theme: StrictTheme - theme configuration object. Default is {}
  *
  * @return ThemedStyleType - compiled component styles declared in mappings, mapped to theme values
  */
@@ -71,7 +74,8 @@ export function createStyle(mapping: ThemeMappingType,
                             component: string,
                             appearance: string,
                             variants: string[] = [],
-                            states: string[] = []): ThemedStyleType {
+                            states: string[] = [],
+                            theme: StrictTheme = {}): ThemedStyleType {
 
   const normalizedAppearance: string[] = normalizeAppearance(mapping, component, appearance);
   const normalizedVariants: string[] = normalizeVariants(mapping, component, variants);
@@ -103,7 +107,13 @@ export function createStyle(mapping: ThemeMappingType,
     return { ...appearanceStateMapping, ...variantStateMapping };
   });
 
-  return { ...appearanceMapping, ...variantMapping, ...stateMapping };
+  const strictlessMapping: MappingType = {
+    ...appearanceMapping,
+    ...variantMapping,
+    ...stateMapping,
+  };
+
+  return withStrictTokens(strictlessMapping, theme);
 }
 
 export function createAllStyles(mapping: ThemeMappingType,
@@ -267,6 +277,15 @@ function createStateVariations(states: string[], separator: string, result: stri
   }, [states.shift()]);
 
   return createStateVariations(states, separator, [...result, ...next]);
+}
+
+function withStrictTokens(mapping: MappingType, theme: StrictTheme): MappingType {
+  return Object.keys(mapping).reduce((acc: MappingType, next: string): MappingType => {
+    const currentToken: any = mapping[next];
+    const nextToken: any = theme[currentToken] || currentToken;
+
+    return { ...acc, [next]: nextToken };
+  }, {});
 }
 
 function getStateVariationWeight(state: string,

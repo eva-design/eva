@@ -4,6 +4,7 @@ import {
   ThemeMappingType,
   ControlThemedStyleType,
   ThemedStyleType,
+  StrictTheme,
 } from '@eva/types';
 import { MappingMetaType } from '@eva/processor/kitten';
 import { Processor } from '../processor';
@@ -16,6 +17,7 @@ import {
 export interface MappingProcessorParamsType {
   mapping: ThemeMappingType;
   meta: MappingMetaType[];
+  theme: StrictTheme;
 }
 
 export class MetaProcessor implements Processor<MappingProcessorParamsType, ThemeStyleType> {

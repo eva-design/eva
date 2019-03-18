@@ -31,7 +31,7 @@ function generatePackage(name: string) {
   const generatedDir: string = path.resolve(rootDir, 'mapping-kitten', name);
 
   const { default: mapping } = require(srcDir);
-  const themeMapping: ThemeMappingType = mapping.theme;
+  const themeMapping: ThemeMappingType = mapping.components;
 
   const meta: MappingMetaType[] = mappingProcessor.process(themeMapping);
   const style: ThemeStyleType = metaProcessor.process({

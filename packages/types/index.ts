@@ -1,6 +1,11 @@
 export interface SchemeType {
   version: number;
-  theme: ThemeMappingType;
+  strict: StrictTheme;
+  components: ThemeMappingType;
+}
+
+export interface StrictTheme {
+  [key: string]: string;
 }
 
 export interface ThemeMappingType {
@@ -60,7 +65,7 @@ export interface AppearanceMappingType {
 }
 
 export interface MappingType {
-  [key: string]: PropertyType | MappingType;
+  [key: string]: ParameterType | MappingType;
 }
 
 export interface StateMappingType extends MappingType {
@@ -69,7 +74,7 @@ export interface StateMappingType extends MappingType {
   };
 }
 
-export type PropertyType = string | number;
+export type ParameterType = string | number;
 
 export interface ControlMapMetaType {
   appearances: string[];

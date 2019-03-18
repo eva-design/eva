@@ -1,6 +1,9 @@
 import * as Service from './style.service';
 import { mapping } from './style.spec.config';
-import { ThemedStyleType } from '@eva/types';
+import {
+  ThemedStyleType,
+  StrictTheme,
+} from '@eva/types';
 
 describe('@style: service methods checks', () => {
 
@@ -475,6 +478,30 @@ describe('@style: service methods checks', () => {
 
         });
 
+      });
+
+      describe('* strict tokens', () => {
+
+        const textPrimaryInverseValue: string = 'white';
+
+        const strict: StrictTheme = {
+          'text-primary-inverse': textPrimaryInverseValue,
+        };
+
+        it('* maps strict tokens to corresponding values', () => {
+          const value: ThemedStyleType = Service.createStyle(
+            mapping,
+            'Button',
+            appearance,
+            [],
+            [],
+            strict,
+          );
+
+          const { textColor } = value;
+
+          expect(textColor).toEqual(textPrimaryInverseValue);
+        });
       });
 
     });
