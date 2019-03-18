@@ -6,21 +6,17 @@ Object {
   "borderColor": "#2196F3",
   "borderRadius": 6,
   "borderWidth": 2,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#2196F3",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#2196F3",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "#2196F3",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "#2196F3",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -30,21 +26,17 @@ Object {
   "borderColor": "#1E88E5",
   "borderRadius": 6,
   "borderWidth": 2,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#1E88E5",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#1E88E5",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "#1E88E5",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "#1E88E5",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -54,21 +46,17 @@ Object {
   "borderColor": "#2196F3",
   "borderRadius": 6,
   "borderWidth": 2,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#2196F3",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#2196F3",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "#2196F3",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "#2196F3",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -78,21 +66,17 @@ Object {
   "borderColor": "#4CAF50",
   "borderRadius": 6,
   "borderWidth": 2,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#4CAF50",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#4CAF50",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "#4CAF50",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "#4CAF50",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -102,21 +86,17 @@ Object {
   "borderColor": "#2196F3",
   "borderRadius": 6,
   "borderWidth": 2,
-  "icon": Object {
-    "height": 14,
-    "marginHorizontal": 4.5,
-    "tintColor": "#2196F3",
-    "width": 14,
-  },
+  "iconHeight": 14,
+  "iconMarginHorizontal": 4.5,
+  "iconTintColor": "#2196F3",
+  "iconWidth": 14,
   "minHeight": 30,
   "minWidth": 30,
   "padding": 4.5,
-  "text": Object {
-    "color": "#2196F3",
-    "fontSize": 13,
-    "fontWeight": 800,
-    "marginHorizontal": 4.5,
-  },
+  "textColor": "#2196F3",
+  "textFontSize": 13,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4.5,
 }
 `;
 
@@ -124,21 +104,17 @@ exports[`@style: service methods checks * styling * default appearance * statele
 Object {
   "backgroundColor": "#2196F3",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -146,21 +122,17 @@ exports[`@style: service methods checks * styling * default appearance * with st
 Object {
   "backgroundColor": "#1E88E5",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -168,21 +140,17 @@ exports[`@style: service methods checks * styling * default appearance * with st
 Object {
   "backgroundColor": "#1E88E5",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -190,21 +158,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#4CAF50",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 14,
-    "marginHorizontal": 4.5,
-    "tintColor": "#ffffff",
-    "width": 14,
-  },
+  "iconHeight": 14,
+  "iconMarginHorizontal": 4.5,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 14,
   "minHeight": 30,
   "minWidth": 30,
   "padding": 4.5,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 13,
-    "fontWeight": 800,
-    "marginHorizontal": 4.5,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 13,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4.5,
 }
 `;
 
@@ -212,21 +176,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#43A047",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 14,
-    "marginHorizontal": 4.5,
-    "tintColor": "#ffffff",
-    "width": 14,
-  },
+  "iconHeight": 14,
+  "iconMarginHorizontal": 4.5,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 14,
   "minHeight": 30,
   "minWidth": 30,
   "padding": 4.5,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 13,
-    "fontWeight": 800,
-    "marginHorizontal": 4.5,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 13,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4.5,
 }
 `;
 
@@ -234,21 +194,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#43A047",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 14,
-    "marginHorizontal": 4.5,
-    "tintColor": "#ffffff",
-    "width": 14,
-  },
+  "iconHeight": 14,
+  "iconMarginHorizontal": 4.5,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 14,
   "minHeight": 30,
   "minWidth": 30,
   "padding": 4.5,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 13,
-    "fontWeight": 800,
-    "marginHorizontal": 4.5,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 13,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4.5,
 }
 `;
 
@@ -256,21 +212,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#4CAF50",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -278,21 +230,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#43A047",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -300,21 +248,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#43A047",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -322,21 +266,17 @@ exports[`@style: service methods checks * styling * default appearance * with va
 Object {
   "backgroundColor": "#43A047",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;
 
@@ -344,20 +284,16 @@ exports[`@style: service methods checks * styling * undefined appearance * state
 Object {
   "backgroundColor": "#2196F3",
   "borderRadius": 6,
-  "icon": Object {
-    "height": 13,
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-    "width": 13,
-  },
+  "iconHeight": 13,
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "iconWidth": 13,
   "minHeight": 24,
   "minWidth": 24,
   "padding": 4,
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontSize": 12,
-    "fontWeight": 800,
-    "marginHorizontal": 4,
-  },
+  "textColor": "text-primary-inverse",
+  "textFontSize": 12,
+  "textFontWeight": 800,
+  "textMarginHorizontal": 4,
 }
 `;

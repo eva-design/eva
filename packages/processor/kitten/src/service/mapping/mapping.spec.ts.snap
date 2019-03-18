@@ -12,12 +12,8 @@ exports[`@mapping: service methods checks * appearance * custom * variant * stat
 Object {
   "backgroundColor": "transparent",
   "borderColor": "#43A047",
-  "icon": Object {
-    "tintColor": "#43A047",
-  },
-  "text": Object {
-    "color": "#43A047",
-  },
+  "iconTintColor": "#43A047",
+  "textColor": "#43A047",
 }
 `;
 
@@ -25,12 +21,8 @@ exports[`@mapping: service methods checks * appearance * custom * variant * succ
 Object {
   "backgroundColor": "transparent",
   "borderColor": "#4CAF50",
-  "icon": Object {
-    "tintColor": "#4CAF50",
-  },
-  "text": Object {
-    "color": "#4CAF50",
-  },
+  "iconTintColor": "#4CAF50",
+  "textColor": "#4CAF50",
 }
 `;
 
@@ -41,14 +33,10 @@ exports[`@mapping: service methods checks * appearance * default * state * activ
 exports[`@mapping: service methods checks * appearance * default * stateless 1`] = `
 Object {
   "borderRadius": 6,
-  "icon": Object {
-    "marginHorizontal": 4,
-    "tintColor": "#ffffff",
-  },
-  "text": Object {
-    "color": "text-primary-inverse",
-    "fontWeight": 800,
-  },
+  "iconMarginHorizontal": 4,
+  "iconTintColor": "#ffffff",
+  "textColor": "text-primary-inverse",
+  "textFontWeight": 800,
 }
 `;
 

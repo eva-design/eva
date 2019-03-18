@@ -1,4 +1,3 @@
-import * as _ from 'lodash';
 import {
   ThemeMappingType,
   ControlMappingType,
@@ -101,10 +100,10 @@ export function createStyle(mapping: ThemeMappingType,
       });
     });
 
-    return _.merge({}, appearanceStateMapping, variantStateMapping);
+    return { ...appearanceStateMapping, ...variantStateMapping };
   });
 
-  return _.merge({}, appearanceMapping, variantMapping, stateMapping);
+  return { ...appearanceMapping, ...variantMapping, ...stateMapping };
 }
 
 export function createAllStyles(mapping: ThemeMappingType,
@@ -342,5 +341,5 @@ function compareArrays(lhs: string[], rhs: string[]): boolean {
 }
 
 function reduce(items: string[], next: (item: string) => any): any {
-  return items.reduce((acc, current) => _.merge(acc, next(current)), {});
+  return items.reduce((acc, current) => ({ ...acc, ...next(current) }), {});
 }
