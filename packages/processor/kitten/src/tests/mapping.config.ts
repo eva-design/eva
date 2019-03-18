@@ -4,7 +4,7 @@ export const mapping: ThemeMappingType = {
   Button: {
     meta: {
       scope: 'all',
-      mapping: {
+      parameters: {
         highlightColor: {
           type: 'color',
         },
@@ -35,7 +35,7 @@ export const mapping: ThemeMappingType = {
           default: false,
         },
       },
-      variants: {
+      variantGroups: {
         status: {
           primary: {
             default: true,
@@ -84,7 +84,7 @@ export const mapping: ThemeMappingType = {
         },
       },
     },
-    appearance: {
+    appearances: {
       filled: {
         mapping: {
           borderRadius: 6,
@@ -97,7 +97,7 @@ export const mapping: ThemeMappingType = {
             marginHorizontal: 4,
           },
         },
-        variant: {
+        variantGroups: {
           status: {
             primary: {
               backgroundColor: '#2196F3',
@@ -218,7 +218,7 @@ export const mapping: ThemeMappingType = {
         mapping: {
           borderWidth: 2,
         },
-        variant: {
+        variantGroups: {
           status: {
             primary: {
               backgroundColor: 'transparent',

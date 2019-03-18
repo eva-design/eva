@@ -1,5 +1,5 @@
 import {
-  ComponentMappingType,
+  ControlMappingType,
   ThemeMappingType,
   ThemeStyleType,
 } from '@eva/types';
@@ -61,14 +61,14 @@ describe('@processor: e2e', () => {
 
 function calculateThemeStyleCount(themeMapping: ThemeMappingType): number {
   return Object.keys(themeMapping).reduce((acc: number, component: string) => {
-    const componentMapping: ComponentMappingType = themeMapping[component];
+    const componentMapping: ControlMappingType = themeMapping[component];
     const componentStyleCount: number = calculateComponentStyleCount(componentMapping);
 
     return acc + componentStyleCount;
   }, 0);
 }
 
-function calculateComponentStyleCount(component: ComponentMappingType): number {
+function calculateComponentStyleCount(component: ControlMappingType): number {
   const { appearances, variants, states } = createComponentTestMeta(component);
 
   const stateCombinations: number = Math.pow(2, states.length) - 1;
@@ -91,12 +91,12 @@ function calculateComponentStyleCount(component: ComponentMappingType): number {
   return appearances.length * (accVariants + stateVariants + stateCombinations + 1);
 }
 
-function createComponentTestMeta(component: ComponentMappingType): any {
-  const { appearances, variants, states } = component.meta;
+function createComponentTestMeta(component: ControlMappingType): any {
+  const { appearances, variantGroups, states } = component.meta;
 
   return {
     appearances: Object.keys(appearances),
-    variants: Object.keys(variants).map(group => Object.keys(variants[group])),
+    variants: Object.keys(variantGroups).map(group => Object.keys(variantGroups[group])),
     states: Object.keys(states),
   };
 }

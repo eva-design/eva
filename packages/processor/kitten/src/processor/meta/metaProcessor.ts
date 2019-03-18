@@ -1,8 +1,8 @@
 import {
   ThemeStyleType,
-  ComponentMapMetaType,
+  ControlMapMetaType,
   ThemeMappingType,
-  ComponentThemedStyleType,
+  ControlThemedStyleType,
   ThemedStyleType,
 } from '@eva/types';
 import { MappingMetaType } from '@eva/processor/kitten';
@@ -20,7 +20,7 @@ export interface MappingProcessorParamsType {
 
 export class MetaProcessor implements Processor<MappingProcessorParamsType, ThemeStyleType> {
 
-  process(params: MappingProcessorParamsType): ThemeStyleType {
+  public process(params: MappingProcessorParamsType): ThemeStyleType {
     const entries = params.meta.map((value: MappingMetaType) => {
       return this.processComponentMeta(params.mapping, value);
     });
@@ -28,7 +28,7 @@ export class MetaProcessor implements Processor<MappingProcessorParamsType, Them
     return toObject(entries);
   }
 
-  private processComponentMeta(mapping: ThemeMappingType, value: MappingMetaType): [string, ComponentThemedStyleType] {
+  private processComponentMeta(mapping: ThemeMappingType, value: MappingMetaType): [string, ControlThemedStyleType] {
     const { name: entryKey, appearance, variants, states } = value;
     const entryValue: [string, ThemedStyleType][] = createAllStyles(
       mapping,
@@ -41,13 +41,13 @@ export class MetaProcessor implements Processor<MappingProcessorParamsType, Them
     return [entryKey, toObject(entryValue)];
   }
 
-  private getComponentMapMeta(mapping: ThemeMappingType, component: string): ComponentMapMetaType {
+  private getComponentMapMeta(mapping: ThemeMappingType, component: string): ControlMapMetaType {
     const { meta } = getComponentMapping(mapping, component);
 
     const appearances: string[] = Object.keys(meta.appearances);
 
-    const variants = Object.keys(meta.variants).reduce((acc, group: string) => {
-      const groupVariants: string[] = Object.keys(meta.variants[group]);
+    const variants = Object.keys(meta.variantGroups).reduce((acc, group: string) => {
+      const groupVariants: string[] = Object.keys(meta.variantGroups[group]);
       return { ...acc, [group]: groupVariants };
     }, {});
 

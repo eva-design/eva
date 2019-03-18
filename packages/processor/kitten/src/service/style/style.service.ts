@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 import {
   ThemeMappingType,
-  ComponentMappingType,
+  ControlMappingType,
   ThemedStyleType,
 } from '@eva/types';
 import {
@@ -149,7 +149,7 @@ export function getStyle(mapping: ThemeMappingType,
                          states: string[]): ThemedStyleType | undefined {
 
   return safe(mapping, (themeMapping: ThemeMappingType) => {
-    return safe(themeMapping[component], (componentMapping: ComponentMappingType) => {
+    return safe(themeMapping[component], (componentMapping: ControlMappingType) => {
 
       const query = findStyleKey(Object.keys(componentMapping), [
         appearance,

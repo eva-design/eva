@@ -1,6 +1,6 @@
 import {
   ThemeMappingType,
-  ComponentMappingType,
+  ControlMappingType,
 } from '@eva/types';
 import { Processor } from '../processor';
 import {
@@ -12,13 +12,13 @@ import {
 export interface MappingMetaType {
   name: string;
   appearance: string;
-  states: string[];
   variants: string[];
+  states: string[];
 }
 
 export class MappingProcessor implements Processor<ThemeMappingType, MappingMetaType[]> {
 
-  process(params: ThemeMappingType): MappingMetaType[] {
+  public process(params: ThemeMappingType): MappingMetaType[] {
     return Object.keys(params).reduce((acc: MappingMetaType[], component: string) => {
       return [
         ...acc,
@@ -28,14 +28,16 @@ export class MappingProcessor implements Processor<ThemeMappingType, MappingMeta
   }
 
   private getComponentMappingMeta(mapping: ThemeMappingType, component: string): MappingMetaType[] {
-    const componentMapping: ComponentMappingType = mapping[component];
+    const componentMapping: ControlMappingType = mapping[component];
 
-    return Object.keys(componentMapping.appearance).map((appearance: string): MappingMetaType => ({
-      name: component,
-      appearance: appearance,
-      variants: this.getComponentVariants(mapping, component),
-      states: this.getComponentStates(mapping, component),
-    }));
+    return Object.keys(componentMapping.appearances).map((appearance: string): MappingMetaType => {
+      return {
+        name: component,
+        appearance: appearance,
+        variants: this.getComponentVariants(mapping, component),
+        states: this.getComponentStates(mapping, component),
+      };
+    });
   }
 
   private getComponentVariants(mapping: ThemeMappingType, component: string): string[] {

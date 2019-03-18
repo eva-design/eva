@@ -1,6 +1,6 @@
 import {
   ThemeMappingType,
-  ComponentMappingType,
+  ControlMappingType,
   AppearanceMappingType,
   MappingType,
   StateMappingType,
@@ -12,7 +12,7 @@ export function getComponentDefaultAppearance(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
+  return safe(componentMapping, (value: ControlMappingType) => {
     const { appearances } = value.meta;
 
     return Object.keys(appearances).find((appearance: string) => {
@@ -26,12 +26,12 @@ export function getComponentDefaultVariants(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
-    const { variants } = value.meta;
+  return safe(componentMapping, (value: ControlMappingType) => {
+    const { variantGroups } = value.meta;
 
-    return Object.keys(variants).map((group: string) => {
-      return Object.keys(variants[group]).find((variant: string) => {
-        return variants[group][variant].default === true;
+    return Object.keys(variantGroups).map((group: string) => {
+      return Object.keys(variantGroups[group]).find((variant: string) => {
+        return variantGroups[group][variant].default === true;
       });
     });
   });
@@ -42,7 +42,7 @@ export function getComponentDefaultState(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
+  return safe(componentMapping, (value: ControlMappingType) => {
     const { states } = value.meta;
 
     return Object.keys(states).find((state: string) => {
@@ -56,10 +56,10 @@ export function getComponentVariantGroups(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
-    const { variants } = value.meta;
+  return safe(componentMapping, (value: ControlMappingType) => {
+    const { variantGroups } = value.meta;
 
-    return Object.keys(variants);
+    return Object.keys(variantGroups);
   });
 }
 
@@ -68,11 +68,11 @@ export function getComponentVariants(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
-    const { variants } = value.meta;
+  return safe(componentMapping, (value: ControlMappingType) => {
+    const { variantGroups } = value.meta;
 
-    return Object.keys(variants).map((group: string) => {
-      return Object.keys(variants[group]);
+    return Object.keys(variantGroups).map((group: string) => {
+      return Object.keys(variantGroups[group]);
     });
   });
 }
@@ -82,7 +82,7 @@ export function getComponentStates(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
+  return safe(componentMapping, (value: ControlMappingType) => {
     const { states } = value.meta;
 
     return Object.keys(states);
@@ -142,7 +142,7 @@ export function getStatelessVariantMapping(mapping: ThemeMappingType,
 }
 
 export function getComponentMapping(mapping: ThemeMappingType,
-                                    component: string): ComponentMappingType | undefined {
+                                    component: string): ControlMappingType | undefined {
 
   return mapping[component];
 }
@@ -153,8 +153,8 @@ function getAppearance(mapping: ThemeMappingType,
 
   const componentMapping = getComponentMapping(mapping, component);
 
-  return safe(componentMapping, (value: ComponentMappingType) => {
-    return value.appearance[appearance];
+  return safe(componentMapping, (value: ControlMappingType) => {
+    return value.appearances[appearance];
   });
 }
 
@@ -177,7 +177,7 @@ function getVariantMapping(mapping: ThemeMappingType,
   const appearanceConfig = getAppearance(mapping, component, appearance);
 
   return safe(appearanceConfig, (value: AppearanceMappingType) => {
-    return safe(value.variant, (groupValue) => {
+    return safe(value.variantGroups, (groupValue) => {
 
       const groupName = Object.keys(groupValue).find((group: string) => {
         return groupValue[group][variant] !== undefined;

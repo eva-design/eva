@@ -1,6 +1,9 @@
 import * as fs from 'fs';
 import path from 'path';
-import { ThemeStyleType } from '@eva/types';
+import {
+  ThemeMappingType,
+  ThemeStyleType,
+} from '@eva/types';
 import {
   MappingProcessor,
   MetaProcessor,
@@ -28,17 +31,18 @@ function generatePackage(name: string) {
   const generatedDir: string = path.resolve(rootDir, 'mapping-kitten', name);
 
   const { default: mapping } = require(srcDir);
+  const themeMapping: ThemeMappingType = mapping.theme;
 
-  const meta: MappingMetaType[] = mappingProcessor.process(mapping);
+  const meta: MappingMetaType[] = mappingProcessor.process(themeMapping);
   const style: ThemeStyleType = metaProcessor.process({
-    mapping: mapping,
+    mapping: themeMapping,
     meta: meta,
   });
 
   const indexOutput: string = [
     `import { ThemeMappingType, ThemeStyleType } from '@eva/types';`,
     `export const style: ThemeStyleType = ${json(style)};`,
-    `export const mapping: ThemeMappingType = ${json(mapping)};`,
+    `export const mapping: ThemeMappingType = ${json(themeMapping)};`,
   ].join('\n\n');
 
   const packageOutput: string = json({

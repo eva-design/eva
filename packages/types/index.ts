@@ -1,17 +1,22 @@
-export interface ThemeMappingType {
-  [key: string]: ComponentMappingType;
+export interface SchemeType {
+  version: number;
+  theme: ThemeMappingType;
 }
 
-export interface ComponentMappingType {
+export interface ThemeMappingType {
+  [key: string]: ControlMappingType;
+}
+
+export interface ControlMappingType {
   meta: {
     scope: ScopeMetaType;
-    mapping: {
+    parameters: {
       [key: string]: PropertyMetaType;
     };
     appearances: {
       [key: string]: AppearanceMetaType;
     };
-    variants: {
+    variantGroups: {
       [key: string]: {
         [key: string]: VariantMetaType;
       };
@@ -20,7 +25,7 @@ export interface ComponentMappingType {
       [key: string]: StateMetaType;
     };
   };
-  appearance: {
+  appearances: {
     [key: string]: AppearanceMappingType;
   };
 }
@@ -28,7 +33,7 @@ export interface ComponentMappingType {
 export type ScopeMetaType = 'mobile' | 'web' | 'all';
 
 export interface PropertyMetaType {
-  type: 'number' | 'color';
+  type: 'number' | 'string';
 }
 
 export interface AppearanceMetaType {
@@ -47,7 +52,7 @@ export interface StateMetaType {
 
 export interface AppearanceMappingType {
   mapping: StateMappingType;
-  variant?: {
+  variantGroups?: {
     [key: string]: {
       [key: string]: StateMappingType;
     };
@@ -66,7 +71,7 @@ export interface StateMappingType extends MappingType {
 
 export type PropertyType = string | number;
 
-export interface ComponentMapMetaType {
+export interface ControlMapMetaType {
   appearances: string[];
   variants: {
     [key: string]: string[];
@@ -75,10 +80,10 @@ export interface ComponentMapMetaType {
 }
 
 export interface ThemeStyleType {
-  [key: string]: ComponentThemedStyleType;
+  [key: string]: ControlThemedStyleType;
 }
 
-export interface ComponentThemedStyleType {
+export interface ControlThemedStyleType {
   [key: string]: ThemedStyleType;
 }
 

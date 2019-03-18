@@ -1,1837 +1,1919 @@
 {
-  "Avatar": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "roundCoefficient": {
-          "type": "number"
-        },
-        "margin": {
-          "type": "number"
-        },
-        "width": {
-          "type": "number"
-        },
-        "height": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "shape": {
-          "round": {
-            "default": true
+  "$schema": "./schema.json",
+  "version": 1.0,
+  "theme": {
+    "Avatar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "roundCoefficient": {
+            "type": "number"
           },
-          "rounded": {
-            "default": false
+          "margin": {
+            "type": "number"
           },
-          "square": {
-            "default": false
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
           }
         },
-        "size": {
-          "small": {
-            "default": false
-          },
-          "medium": {
+        "appearances": {
+          "default": {
             "default": true
-          },
-          "large": {
-            "default": false
           }
-        }
-      },
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "margin": 16
         },
-        "variant": {
+        "variantGroups": {
           "shape": {
             "round": {
-              "roundCoefficient": 0.5
+              "default": true
             },
             "rounded": {
-              "roundCoefficient": 0.3
+              "default": false
             },
             "square": {
-              "roundCoefficient": 0.0
+              "default": false
             }
           },
           "size": {
             "small": {
-              "width": 40,
-              "height": 40
+              "default": false
             },
             "medium": {
-              "width": 48,
-              "height": 48
+              "default": true
             },
             "large": {
-              "width": 64,
-              "height": 64
+              "default": false
             }
           }
-        }
-      }
-    }
-  },
-  "BottomNavigatorTab": {
-    "meta": {
-      "scope": "mobile",
-      "mapping": {},
+        },
+        "states": {}
+      },
       "appearances": {
         "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {
-        "selected": {
-          "default": false,
-          "priority": 1,
-          "scope": "mobile"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "icon": {
-            "width": 40,
-            "height": 40,
-            "marginBottom": 5,
-            "tintColor": "gray-dark"
+          "mapping": {
+            "margin": 16
           },
-          "text": {
-            "color": "gray-dark"
-          },
-          "state": {
-            "selected": {
-              "icon": {
-                "tintColor": "blue-primary"
+          "variantGroups": {
+            "shape": {
+              "round": {
+                "roundCoefficient": 0.5
               },
-              "text": {
-                "color": "blue-primary"
+              "rounded": {
+                "roundCoefficient": 0.3
+              },
+              "square": {
+                "roundCoefficient": 0.0
+              }
+            },
+            "size": {
+              "small": {
+                "width": 40,
+                "height": 40
+              },
+              "medium": {
+                "width": 48,
+                "height": 48
+              },
+              "large": {
+                "width": 64,
+                "height": 64
               }
             }
           }
         }
       }
-    }
-  },
-  "BottomTabNavigator": {
-    "meta": {
-      "scope": "mobile",
-      "mapping": {
-        "backgroundColor": {
-          "type": "color"
+    },
+    "BottomNavigatorTab": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconMarginBottom": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontWeight": {
+            "type": "string"
+          }
         },
-        "paddingVertical": {
-          "type": "number"
+        "appearances": {
+          "default": {
+            "default": true
+          }
         },
-        "borderTopColor": {
-          "type": "color"
-        },
-        "borderTopWidth": {
-          "type": "number"
+        "variantGroups": {},
+        "states": {
+          "selected": {
+            "default": false,
+            "priority": 1,
+            "scope": "mobile"
+          }
         }
       },
       "appearances": {
         "default": {
-          "default": true
-        },
-        "no-indicator": {
-          "default": false
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "backgroundColor": "transparent",
-          "paddingVertical": 16,
-          "borderTopColor": "gray-primary",
-          "borderTopWidth": 1,
-          "indicator": {
-            "height": 3,
-            "backgroundColor": "blue-primary"
-          }
-        }
-      },
-      "no-indicator": {
-        "mapping": {
-          "indicator": {
-            "height": 0,
-            "backgroundColor": "transparent"
+          "mapping": {
+            "iconWidth": 40,
+            "iconHeight": 40,
+            "iconMarginBottom": 5,
+            "iconTintColor": "gray-dark",
+            "textColor": "gray-dark",
+            "textFontWeight": "600",
+            "state": {
+              "selected": {
+                "iconTintColor": "blue-primary",
+                "textColor": "blue-primary"
+              }
+            }
           }
         }
       }
-    }
-  },
-  "Button": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "highlightColor": {
-          "type": "color"
+    },
+    "BottomTabNavigator": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          },
+          "paddingVertical": {
+            "type": "number"
+          },
+          "borderTopColor": {
+            "type": "string"
+          },
+          "borderTopWidth": {
+            "type": "number"
+          },
+          "indicatorHeight": {
+            "type": "number"
+          },
+          "indicatorBackgroundColor": {
+            "type": "string"
+          }
         },
-        "innerSize": {
-          "type": "number"
+        "appearances": {
+          "default": {
+            "default": true
+          },
+          "noIndicator": {
+            "default": false
+          }
         },
-        "selectColor": {
-          "type": "color"
-        },
-        "borderColor": {
-          "type": "color"
-        },
-        "highlightSize": {
-          "type": "number"
-        },
-        "borderWidth": {
-          "type": "color"
-        },
-        "size": {
-          "type": "number"
-        }
+        "variantGroups": {},
+        "states": {}
       },
       "appearances": {
-        "filled": {
-          "default": true
-        },
-        "outline": {
-          "default": false
-        }
-      },
-      "variants": {
-        "status": {
-          "primary": {
-            "default": true
-          },
-          "success": {
-            "default": false
-          },
-          "info": {
-            "default": false
-          },
-          "warning": {
-            "default": false
-          },
-          "danger": {
-            "default": false
+        "default": {
+          "mapping": {
+            "backgroundColor": "transparent",
+            "paddingVertical": 16,
+            "borderTopColor": "gray-primary",
+            "borderTopWidth": 1,
+            "indicatorHeight": 3,
+            "indicatorBackgroundColor": "blue-primary"
           }
         },
-        "size": {
-          "tiny": {
-            "default": false
-          },
-          "small": {
-            "default": false
-          },
-          "medium": {
-            "default": true
-          },
-          "large": {
-            "default": false
-          },
-          "giant": {
-            "default": true
+        "noIndicator": {
+          "mapping": {
+            "indicatorHeight": 0,
+            "indicatorBackgroundColor": "transparent"
           }
-        }
-      },
-      "states": {
-        "disabled": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        },
-        "active": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
         }
       }
     },
-    "appearance": {
-      "filled": {
-        "mapping": {
-          "borderRadius": 6,
-          "text": {
-            "color": "text-primary-inverse",
-            "fontWeight": "800"
+    "Button": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "minWidth": {
+            "type": "number"
           },
-          "icon": {
-            "tintColor": "#ffffff",
-            "marginHorizontal": 4
+          "minHeight": {
+            "type": "number"
+          },
+          "padding": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          },
+          "iconMarginHorizontal": {
+            "type": "number"
           }
         },
-        "variant": {
+        "appearances": {
+          "filled": {
+            "default": true
+          },
+          "outline": {
+            "default": false
+          }
+        },
+        "variantGroups": {
           "status": {
             "primary": {
-              "backgroundColor": "#2196F3",
-              "state": {
-                "active": {
-                  "backgroundColor": "#1E88E5"
-                }
-              }
+              "default": true
             },
             "success": {
-              "backgroundColor": "#4CAF50",
-              "state": {
-                "active": {
-                  "backgroundColor": "#43A047"
-                }
-              }
+              "default": false
             },
             "info": {
-              "backgroundColor": "#03A9F4",
-              "state": {
-                "active": {
-                  "backgroundColor": "#039BE5"
-                }
-              }
+              "default": false
             },
             "warning": {
-              "backgroundColor": "#FFC107",
-              "state": {
-                "active": {
-                  "backgroundColor": "#FFB300"
-                }
-              }
+              "default": false
             },
             "danger": {
-              "backgroundColor": "#F44336",
-              "state": {
-                "active": {
-                  "backgroundColor": "#E53935"
-                }
-              }
+              "default": false
             }
           },
           "size": {
             "tiny": {
-              "minHeight": 16,
-              "minWidth": 16,
-              "padding": 3,
-              "text": {
-                "fontSize": 10,
-                "marginHorizontal": 3
-              },
-              "icon": {
-                "width": 11,
-                "height": 11,
-                "marginHorizontal": 3
-              }
+              "default": false
             },
             "small": {
-              "minHeight": 20,
-              "minWidth": 20,
-              "padding": 3.5,
-              "text": {
-                "fontSize": 11,
-                "marginHorizontal": 3.5
-              },
-              "icon": {
-                "width": 12,
-                "height": 12,
-                "marginHorizontal": 3.5
-              }
+              "default": false
             },
             "medium": {
-              "minHeight": 24,
-              "minWidth": 24,
-              "padding": 4,
-              "text": {
-                "fontSize": 12,
-                "marginHorizontal": 4
-              },
-              "icon": {
-                "width": 13,
-                "height": 13,
-                "marginHorizontal": 4
-              }
+              "default": true
             },
             "large": {
-              "minHeight": 30,
-              "minWidth": 30,
-              "padding": 4.5,
-              "text": {
-                "fontSize": 13,
-                "marginHorizontal": 4.5
-              },
-              "icon": {
-                "width": 14,
-                "height": 14,
-                "marginHorizontal": 4.5
-              }
+              "default": false
             },
             "giant": {
-              "minHeight": 36,
-              "minWidth": 36,
-              "padding": 5,
-              "text": {
-                "fontSize": 14,
-                "marginHorizontal": 5
-              },
-              "icon": {
-                "width": 15,
-                "height": 15,
-                "marginHorizontal": 5
-              }
+              "default": true
             }
+          }
+        },
+        "states": {
+          "disabled": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
           }
         }
       },
-      "outline": {
-        "mapping": {
-          "borderWidth": 2
-        },
-        "variant": {
-          "status": {
-            "primary": {
-              "backgroundColor": "transparent",
-              "borderColor": "#2196F3",
-              "text": {
-                "color": "#2196F3"
+      "appearances": {
+        "filled": {
+          "mapping": {
+            "borderRadius": 6,
+            "textColor": "text-primary-inverse",
+            "textFontWeight": "800",
+            "iconTintColor": "#ffffff",
+            "iconMarginHorizontal": 4
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "backgroundColor": "#2196F3",
+                "state": {
+                  "active": {
+                    "backgroundColor": "#1E88E5"
+                  }
+                }
               },
-              "icon": {
-                "tintColor": "#2196F3"
+              "success": {
+                "backgroundColor": "#4CAF50",
+                "state": {
+                  "active": {
+                    "backgroundColor": "#43A047"
+                  }
+                }
               },
-              "state": {
-                "active": {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#1E88E5",
-                  "text": {
-                    "color": "#1E88E5"
-                  },
-                  "icon": {
-                    "tintColor": "#1E88E5"
+              "info": {
+                "backgroundColor": "#03A9F4",
+                "state": {
+                  "active": {
+                    "backgroundColor": "#039BE5"
+                  }
+                }
+              },
+              "warning": {
+                "backgroundColor": "#FFC107",
+                "state": {
+                  "active": {
+                    "backgroundColor": "#FFB300"
+                  }
+                }
+              },
+              "danger": {
+                "backgroundColor": "#F44336",
+                "state": {
+                  "active": {
+                    "backgroundColor": "#E53935"
                   }
                 }
               }
             },
-            "success": {
-              "backgroundColor": "transparent",
-              "borderColor": "#4CAF50",
-              "text": {
-                "color": "#4CAF50"
+            "size": {
+              "tiny": {
+                "minWidth": 16,
+                "minHeight": 16,
+                "padding": 3,
+                "textFontSize": 10,
+                "textMarginHorizontal": 3,
+                "iconWidth": 11,
+                "iconHeight": 11,
+                "iconMarginHorizontal": 3
               },
-              "icon": {
-                "tintColor": "#4CAF50"
+              "small": {
+                "minHeight": 20,
+                "minWidth": 20,
+                "padding": 3.5,
+                "textFontSize": 11,
+                "textMarginHorizontal": 3.5,
+                "iconWidth": 12,
+                "iconHeight": 12,
+                "iconMarginHorizontal": 3.5
               },
-              "state": {
-                "active": {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#43A047",
-                  "text": {
-                    "color": "#43A047"
-                  },
-                  "icon": {
-                    "tintColor": "#43A047"
-                  }
-                }
-              }
-            },
-            "info": {
-              "backgroundColor": "transparent",
-              "borderColor": "#03A9F4",
-              "text": {
-                "color": "#03A9F4"
+              "medium": {
+                "minHeight": 24,
+                "minWidth": 24,
+                "padding": 4,
+                "textFontSize": 12,
+                "textMarginHorizontal": 4,
+                "iconWidth": 13,
+                "iconHeight": 13,
+                "iconMarginHorizontal": 4
               },
-              "icon": {
-                "tintColor": "#03A9F4"
+              "large": {
+                "minHeight": 30,
+                "minWidth": 30,
+                "padding": 4.5,
+                "textFontSize": 13,
+                "textMarginHorizontal": 4.5,
+                "iconWidth": 14,
+                "iconHeight": 14,
+                "iconMarginHorizontal": 4.5
               },
-              "state": {
-                "active": {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#039BE5",
-                  "text": {
-                    "color": "#039BE5"
-                  },
-                  "icon": {
-                    "tintColor": "#039BE5"
-                  }
-                }
-              }
-            },
-            "warning": {
-              "backgroundColor": "transparent",
-              "borderColor": "#FFC107",
-              "text": {
-                "color": "#FFC107"
-              },
-              "icon": {
-                "tintColor": "#FFC107"
-              },
-              "state": {
-                "active": {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#FFB300",
-                  "text": {
-                    "color": "#FFB300"
-                  },
-                  "icon": {
-                    "tintColor": "#FFB300"
-                  }
-                }
-              }
-            },
-            "danger": {
-              "backgroundColor": "transparent",
-              "borderColor": "#F44336",
-              "text": {
-                "color": "#F44336"
-              },
-              "icon": {
-                "tintColor": "#F44336"
-              },
-              "state": {
-                "active": {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#E53935",
-                  "text": {
-                    "color": "#E53935"
-                  },
-                  "icon": {
-                    "tintColor": "#E53935"
-                  }
-                }
+              "giant": {
+                "minHeight": 36,
+                "minWidth": 36,
+                "padding": 5,
+                "textFontSize": 14,
+                "textMarginHorizontal": 5,
+                "iconWidth": 15,
+                "iconHeight": 15,
+                "iconMarginHorizontal": 5
               }
             }
           }
-        }
-      }
-    }
-  },
-  "ButtonGroup": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "filled": {
-          "default": true
         },
         "outline": {
-          "default": false
-        }
-      },
-      "variants": {
-        "size": {
-          "tiny": {
-            "default": false
+          "mapping": {
+            "borderWidth": 2
           },
-          "small": {
-            "default": false
-          },
-          "medium": {
-            "default": true
-          },
-          "large": {
-            "default": false
-          },
-          "giant": {
-            "default": false
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "backgroundColor": "transparent",
+                "borderColor": "#2196F3",
+                "textColor": "#2196F3",
+                "iconTintColor": "#2196F3",
+                "state": {
+                  "active": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#1E88E5",
+                    "textColor": "#1E88E5",
+                    "iconTintColor": "#1E88E5"
+                  }
+                }
+              },
+              "success": {
+                "backgroundColor": "transparent",
+                "borderColor": "#4CAF50",
+                "textColor": "#4CAF50",
+                "iconTintColor": "#4CAF50",
+                "state": {
+                  "active": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#43A047",
+                    "textColor": "#43A047",
+                    "iconTintColor": "#43A047"
+                  }
+                }
+              },
+              "info": {
+                "backgroundColor": "transparent",
+                "borderColor": "#03A9F4",
+                "textColor": "#03A9F4",
+                "iconTintColor": "#03A9F4",
+                "state": {
+                  "active": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#039BE5",
+                    "textColor": "#039BE5",
+                    "iconTintColor": "#039BE5"
+                  }
+                }
+              },
+              "warning": {
+                "backgroundColor": "transparent",
+                "borderColor": "#FFC107",
+                "textColor": "#FFC107",
+                "iconTintColor": "#FFC107",
+                "state": {
+                  "active": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#FFB300",
+                    "textColor": "#FFB300",
+                    "iconTintColor": "#FFB300"
+                  }
+                }
+              },
+              "danger": {
+                "backgroundColor": "transparent",
+                "borderColor": "#F44336",
+                "textColor": "#F44336",
+                "iconTintColor": "#F44336",
+                "state": {
+                  "active": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#E53935",
+                    "textColor": "#E53935",
+                    "iconTintColor": "#E53935"
+                  }
+                }
+              }
+            }
           }
         }
-      },
-      "states": {}
+      }
     },
-    "appearance": {
-      "filled": {
-        "mapping": {
-          "button": {
-            "borderRadius": 6
+    "ButtonGroup": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "buttonBorderRadius": {
+            "type": "number"
           }
         },
-        "variant": {
+        "appearances": {
+          "filled": {
+            "default": true
+          },
+          "outline": {
+            "default": false
+          }
+        },
+        "variantGroups": {
           "size": {
-            "tiny": {},
-            "small": {},
-            "medium": {},
-            "large": {},
-            "giant": {}
-          }
-        }
-      },
-      "outline": {
-        "mapping": {}
-      }
-    }
-  },
-  "CheckBox": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "width": {
-          "type": "number"
-        },
-        "height": {
-          "type": "number"
-        },
-        "borderWidth": {
-          "type": "number"
-        },
-        "borderRadius": {
-          "type": "number"
-        },
-        "borderColor": {
-          "type": "color"
-        },
-        "backgroundColor": {
-          "type": "color"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "status": {
-          "error": {
-            "default": false
-          }
-        },
-        "size": {
-          "small": {
-            "default": false
-          },
-          "medium": {
-            "default": true
-          },
-          "large": {
-            "default": false
-          }
-        }
-      },
-      "states": {
-        "checked": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        },
-        "disabled": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
-        },
-        "active": {
-          "default": false,
-          "priority": 2,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "borderWidth": 2,
-          "borderRadius": 4,
-          "borderColor": "gray-primary",
-          "backgroundColor": "gray-light",
-          "text": {
-            "color": "text-primary",
-            "fontWeight": "500"
-          },
-          "highlight": {
-            "borderRadius": 8,
-            "backgroundColor": "transparent"
-          },
-          "select": {
-            "backgroundColor": "transparent"
-          },
-          "state": {
-            "active": {
-              "borderColor": "gray-dark",
-              "highlight": {
-                "backgroundColor": "gray-light"
-              }
+            "tiny": {
+              "default": false
             },
-            "checked": {
-              "borderColor": "transparent",
-              "backgroundColor": "blue-primary",
-              "select": {
-                "backgroundColor": "#FFFFFF"
-              }
+            "small": {
+              "default": false
             },
-            "disabled": {
-              "borderColor": "gray-light",
-              "backgroundColor": "#F1F5F5",
-              "text": {
-                "color": "gray-300"
-              }
+            "medium": {
+              "default": true
             },
-            "checked.active": {
-              "borderColor": "blue-dark"
+            "large": {
+              "default": false
             },
-            "checked.disabled": {
-              "borderColor": "transparent",
-              "backgroundColor": "gray-primary"
+            "giant": {
+              "default": false
             }
           }
         },
-        "variant": {
+        "states": {}
+      },
+      "appearances": {
+        "filled": {
+          "mapping": {
+            "buttonBorderRadius": 6
+          },
+          "variantGroups": {
+            "size": {
+              "tiny": {},
+              "small": {},
+              "medium": {},
+              "large": {},
+              "giant": {}
+            }
+          }
+        },
+        "outline": {
+          "mapping": {}
+        }
+      }
+    },
+    "CheckBox": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textMarginLeft": {
+            "type": "number"
+          },
+          "selectWidth": {
+            "type": "number"
+          },
+          "selectHeight": {
+            "type": "number"
+          },
+          "selectBackgroundColor": {
+            "type": "string"
+          },
+          "highlightWidth": {
+            "type": "number"
+          },
+          "highlightHeight": {
+            "type": "number"
+          },
+          "highlightBorderRadius": {
+            "type": "number"
+          },
+          "highlightBackgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
           "status": {
             "error": {
-              "borderColor": "pink-primary",
-              "backgroundColor": "#FFC9D9",
-              "state": {
-                "active": {
-                  "borderColor": "pink-primary"
-                },
-                "checked": {
-                  "borderColor": "pink-primary",
-                  "backgroundColor": "pink-primary"
-                },
-                "checked.active": {
-                  "borderColor": "pink-primary"
-                }
-              }
+              "default": false
             }
           },
           "size": {
             "small": {
-              "width": 24,
-              "height": 24,
-              "text": {
-                "marginLeft": 10,
-                "fontSize": 14
-              },
-              "select": {
-                "width": 12,
-                "height": 12
-              },
-              "highlight": {
-                "width": 40,
-                "height": 40
-              }
+              "default": false
             },
             "medium": {
-              "width": 30,
-              "height": 30,
-              "text": {
-                "marginLeft": 12,
-                "fontSize": 16
-              },
-              "select": {
-                "width": 14,
-                "height": 14
-              },
-              "highlight": {
-                "width": 50,
-                "height": 50
-              }
+              "default": true
             },
             "large": {
-              "width": 36,
-              "height": 36,
-              "text": {
-                "marginLeft": 14,
-                "fontSize": 18
+              "default": false
+            }
+          }
+        },
+        "states": {
+          "checked": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "disabled": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 2,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "borderWidth": 2,
+            "borderRadius": 4,
+            "borderColor": "gray-primary",
+            "backgroundColor": "gray-light",
+            "textColor": "text-primary",
+            "textFontWeight": "500",
+            "selectBackgroundColor": "transparent",
+            "highlightBorderRadius": 8,
+            "highlightBackgroundColor": "transparent",
+            "state": {
+              "active": {
+                "borderColor": "gray-dark",
+                "highlightBackgroundColor": "gray-light"
               },
-              "select": {
-                "width": 16,
-                "height": 16
+              "checked": {
+                "borderColor": "transparent",
+                "backgroundColor": "blue-primary",
+                "selectBackgroundColor": "#FFFFFF"
               },
-              "highlight": {
-                "width": 60,
-                "height": 60
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "Input": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "status": {
-          "primary": {
-            "default": true
-          },
-          "success": {
-            "default": false
-          },
-          "info": {
-            "default": false
-          },
-          "warning": {
-            "default": false
-          },
-          "error": {
-            "default": false
-          }
-        }
-      },
-      "states": {
-        "disabled": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        },
-        "focused": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "paddingVertical": 12,
-          "paddingHorizontal": 6,
-          "minHeight": 48,
-          "borderRadius": 6,
-          "borderWidth": 2,
-          "backgroundColor": "gray-100",
-          "borderColor": "transparent",
-          "text": {
-            "marginHorizontal": 6,
-            "color": "gray-400"
-          },
-          "icon": {
-            "width": 24,
-            "height": 24,
-            "marginHorizontal": 6,
-            "tintColor": "gray-400"
-          },
-          "state": {
-            "disabled": {
-              "backgroundColor": "gray-200",
-              "text": {
-                "color": "gray-300"
+              "disabled": {
+                "borderColor": "gray-light",
+                "backgroundColor": "#F1F5F5",
+                "textColor": "gray-300"
               },
-              "icon": {
-                "tintColor": "gray-300"
-              }
-            }
-          }
-        },
-        "variant": {
-          "status": {
-            "primary": {
-              "state": {
-                "focused": {
-                  "borderColor": "blue-primary",
-                  "icon": {
-                    "tintColor": "blue-primary"
-                  }
-                }
-              }
-            },
-            "success": {
-              "state": {
-                "focused": {
-                  "borderColor": "#4CAF50",
-                  "icon": {
-                    "tintColor": "#4CAF50"
-                  }
-                }
-              }
-            },
-            "info": {
-              "state": {
-                "focused": {
-                  "borderColor": "#03A9F4",
-                  "icon": {
-                    "tintColor": "#03A9F4"
-                  }
-                }
-              }
-            },
-            "warning": {
-              "state": {
-                "focused": {
-                  "borderColor": "#FFC107",
-                  "icon": {
-                    "tintColor": "#FFC107"
-                  }
-                }
-              }
-            },
-            "error": {
-              "state": {
-                "focused": {
-                  "borderColor": "#F44336",
-                  "icon": {
-                    "tintColor": "#F44336"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "Layout": {
-    "meta": {
-      "scope": "mobile",
-      "mapping": {
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "paddingHorizontal": 16,
-          "paddingVertical": 8,
-          "backgroundColor": "transparent",
-          "borderColor": "blue-primary",
-          "borderRadius": 3,
-          "borderWidth": 1
-        }
-      }
-    }
-  },
-  "List": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "item": {}
-        }
-      }
-    }
-  },
-  "ListItem": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {
-        "active": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "paddingVertical": 12,
-          "paddingHorizontal": 6,
-          "icon": {
-            "width": 48,
-            "height": 48,
-            "marginHorizontal": 6,
-            "tintColor": "gray-primary"
-          },
-          "title": {
-            "color": "text-primary",
-            "fontSize": 20,
-            "fontWeight": "600",
-            "marginHorizontal": 6,
-            "marginVertical": 4
-          },
-          "description": {
-            "marginHorizontal": 6,
-            "marginVertical": 4,
-            "color": "gray-400",
-            "fontSize": 14
-          },
-          "accessory": {
-            "width": 48,
-            "height": 48,
-            "marginHorizontal": 6
-          },
-          "state": {
-            "active": {
-              "backgroundColor": "gray-100"
-            }
-          }
-        }
-      }
-    }
-  },
-  "Modal": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "paddingHorizontal": {
-          "type": "number"
-        },
-        "paddingVertical": {
-          "type": "number"
-        },
-        "backgroundColor": {
-          "type": "color"
-        },
-        "borderColor": {
-          "type": "color"
-        },
-        "borderRadius": {
-          "type": "number"
-        },
-        "borderWidth": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "paddingHorizontal": 16,
-          "paddingVertical": 8,
-          "backgroundColor": "transparent",
-          "borderColor": "blue-dark",
-          "borderRadius": 3,
-          "borderWidth": 1
-        }
-      }
-    }
-  },
-  "Popover": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {}
-      }
-    }
-  },
-  "Radio": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "width": {
-          "type": "number"
-        },
-        "height": {
-          "type": "number"
-        },
-        "borderRadius": {
-          "type": "number"
-        },
-        "borderWidth": {
-          "type": "number"
-        },
-        "borderColor": {
-          "type": "color"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "status": {
-          "error": {
-            "default": false
-          }
-        },
-        "size": {
-          "small": {
-            "default": false
-          },
-          "medium": {
-            "default": true
-          },
-          "large": {
-            "default": false
-          }
-        }
-      },
-      "states": {
-        "checked": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        },
-        "disabled": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
-        },
-        "active": {
-          "default": false,
-          "priority": 2,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "borderWidth": 2,
-          "borderColor": "gray-primary",
-          "text": {
-            "color": "text-primary",
-            "fontWeight": "500"
-          },
-          "select": {
-            "backgroundColor": "transparent"
-          },
-          "highlight": {
-            "backgroundColor": "transparent"
-          },
-          "state": {
-            "active": {
-              "borderColor": "gray-dark",
-              "highlight": {
-                "backgroundColor": "gray-light"
-              }
-            },
-            "checked": {
-              "borderColor": "blue-primary",
-              "select": {
-                "backgroundColor": "blue-primary"
-              }
-            },
-            "disabled": {
-              "borderColor": "gray-light",
-              "text": {
-                "color": "gray-300"
-              }
-            },
-            "checked.active": {
-              "borderColor": "blue-dark"
-            },
-            "checked.disabled": {
-              "select": {
+              "checked.active": {
+                "borderColor": "blue-dark"
+              },
+              "checked.disabled": {
+                "borderColor": "transparent",
                 "backgroundColor": "gray-primary"
               }
             }
+          },
+          "variantGroups": {
+            "status": {
+              "error": {
+                "borderColor": "pink-primary",
+                "backgroundColor": "#FFC9D9",
+                "state": {
+                  "active": {
+                    "borderColor": "pink-primary"
+                  },
+                  "checked": {
+                    "borderColor": "pink-primary",
+                    "backgroundColor": "pink-primary"
+                  },
+                  "checked.active": {
+                    "borderColor": "pink-primary"
+                  }
+                }
+              }
+            },
+            "size": {
+              "small": {
+                "width": 24,
+                "height": 24,
+                "textMarginLeft": 10,
+                "textFontSize": 14,
+                "selectWidth": 12,
+                "selectHeight": 12,
+                "highlightWidth": 40,
+                "highlightHeight": 40
+              },
+              "medium": {
+                "width": 30,
+                "height": 30,
+                "textMarginLeft": 12,
+                "textFontSize": 16,
+                "selectWidth": 14,
+                "selectHeight": 14,
+                "highlightWidth": 50,
+                "highlightHeight": 50
+              },
+              "large": {
+                "width": 36,
+                "height": 36,
+                "textMarginLeft": 14,
+                "textFontSize": 18,
+                "selectWidth": 16,
+                "selectHeight": 16,
+                "highlightWidth": 60,
+                "highlightHeight": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "Input": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "paddingVertical": {
+            "type": "number"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "minHeight": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconMarginHorizontal": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
           }
         },
-        "variant": {
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
           "status": {
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
             "error": {
-              "borderColor": "pink-primary",
-              "state": {
-                "checked": {
-                  "borderColor": "pink-primary",
-                  "select": {
-                    "backgroundColor": "pink-primary"
+              "default": false
+            }
+          }
+        },
+        "states": {
+          "disabled": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "focused": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingVertical": 12,
+            "paddingHorizontal": 6,
+            "minHeight": 48,
+            "borderRadius": 6,
+            "borderWidth": 2,
+            "borderColor": "transparent",
+            "backgroundColor": "gray-100",
+            "textMarginHorizontal": 6,
+            "textColor": "gray-400",
+            "iconWidth": 24,
+            "iconHeight": 24,
+            "iconMarginHorizontal": 6,
+            "iconTintColor": "gray-400",
+            "state": {
+              "disabled": {
+                "backgroundColor": "gray-200",
+                "textColor": "gray-300",
+                "iconTintColor": "gray-300"
+              }
+            }
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "state": {
+                  "focused": {
+                    "borderColor": "blue-primary",
+                    "iconTintColor": "blue-primary"
                   }
-                },
-                "checked.active": {
-                  "borderColor": "pink-primary"
+                }
+              },
+              "success": {
+                "state": {
+                  "focused": {
+                    "borderColor": "#4CAF50",
+                    "iconTintColor": "#4CAF50"
+                  }
+                }
+              },
+              "info": {
+                "state": {
+                  "focused": {
+                    "borderColor": "#03A9F4",
+                    "iconTintColor": "#03A9F4"
+                  }
+                }
+              },
+              "warning": {
+                "state": {
+                  "focused": {
+                    "borderColor": "#FFC107",
+                    "iconTintColor": "#FFC107"
+                  }
+                }
+              },
+              "error": {
+                "state": {
+                  "focused": {
+                    "borderColor": "#F44336",
+                    "iconTintColor": "#F44336"
+                  }
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "Layout": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingVertical": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "borderColor": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+            "backgroundColor": "transparent",
+            "borderColor": "blue-primary",
+            "borderRadius": 3,
+            "borderWidth": 1
+          }
+        }
+      }
+    },
+    "List": {
+      "meta": {
+        "scope": "all",
+        "parameters": {},
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {}
+        }
+      }
+    },
+    "ListItem": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "paddingVertical": {
+            "type": "number"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconMarginHorizontal": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          },
+          "titleColor": {
+            "type": "string"
+          },
+          "titleFontSize": {
+            "type": "number"
+          },
+          "titleFontWeight": {
+            "type": "string"
+          },
+          "titleMarginHorizontal": {
+            "type": "number"
+          },
+          "titleMarginVertical": {
+            "type": "number"
+          },
+          "descriptionColor": {
+            "type": "string"
+          },
+          "descriptionFontSize": {
+            "type": "number"
+          },
+          "descriptionMarginHorizontal": {
+            "type": "number"
+          },
+          "descriptionMarginVertical": {
+            "type": "number"
+          },
+          "accessoryWidth": {
+            "type": "number"
+          },
+          "accessoryHeight": {
+            "type": "number"
+          },
+          "accessoryMarginHorizontal": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {
+          "active": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingVertical": 12,
+            "paddingHorizontal": 6,
+            "iconWidth": 48,
+            "iconHeight": 48,
+            "iconMarginHorizontal": 6,
+            "iconTintColor": "gray-primary",
+            "titleColor": "text-primary",
+            "titleFontSize": 20,
+            "titleFontWeight": "600",
+            "titleMarginHorizontal": 6,
+            "titleMarginVertical": 4,
+            "descriptionColor": "gray-400",
+            "descriptionFontSize": 14,
+            "descriptionMarginHorizontal": 6,
+            "descriptionMarginVertical": 4,
+            "accessoryWidth": 48,
+            "accessoryHeight": 48,
+            "accessoryMarginHorizontal": 6,
+            "state": {
+              "active": {
+                "backgroundColor": "gray-100"
+              }
+            }
+          }
+        }
+      }
+    },
+    "OverflowMenu": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "borderRadius": {
+            "type": "number"
+          },
+          "itemBorderRadius": {
+            "type": "number"
+          },
+          "popoverBackgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "states": {},
+        "variantGroups": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "borderRadius": 6,
+            "itemBorderRadius": 6,
+            "popoverBackgroundColor": "white"
+          }
+        }
+      }
+    },
+    "OverflowMenuItem": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "minHeight": {
+            "type": "number"
+          },
+          "padding": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconMarginHorizontal": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "size": {
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            }
+          }
+        },
+        "states": {
+          "disabled": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "backgroundColor": "white",
+            "borderColor": "gray-light",
+            "borderWidth": 1.2,
+            "textColor": "blue-pitch-dark",
+            "textFontWeight": "600",
+            "iconTintColor": "blue-pitch-dark",
+            "state": {
+              "disabled": {
+                "backgroundColor": "gray-dark"
+              },
+              "active": {
+                "textColor": "blue-primary",
+                "iconTintColor": "blue-primary"
+              }
+            }
+          },
+          "variantGroups": {
+            "size": {
+              "small": {
+                "minHeight": 40,
+                "padding": 10,
+                "textFontSize": 13,
+                "textMarginHorizontal": 6,
+                "iconWidth": 20,
+                "iconHeight": 20,
+                "iconMarginHorizontal": 6
+              },
+              "medium": {
+                "minHeight": 48,
+                "padding": 12,
+                "textFontSize": 15,
+                "textMarginHorizontal": 8,
+                "iconWidth": 24,
+                "iconHeight": 24,
+                "iconMarginHorizontal": 8
+              },
+              "large": {
+                "minHeight": 56,
+                "padding": 14,
+                "textFontSize": 17,
+                "textMarginHorizontal": 10,
+                "iconWidth": 28,
+                "iconHeight": 28,
+                "iconMarginHorizontal": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "Popover": {
+      "meta": {
+        "scope": "all",
+        "parameters": {},
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {}
+        }
+      }
+    },
+    "Radio": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textMarginLeft": {
+            "type": "number"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "selectWidth": {
+            "type": "number"
+          },
+          "selectHeight": {
+            "type": "number"
+          },
+          "selectBorderRadius": {
+            "type": "number"
+          },
+          "selectBackgroundColor": {
+            "type": "string"
+          },
+          "highlightWidth": {
+            "type": "number"
+          },
+          "highlightHeight": {
+            "type": "number"
+          },
+          "highlightBorderRadius": {
+            "type": "number"
+          },
+          "highlightBackgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "error": {
+              "default": false
+            }
           },
           "size": {
             "small": {
-              "width": 30,
-              "height": 30,
-              "borderRadius": 15,
-              "select": {
-                "width": 20,
-                "height": 20,
-                "borderRadius": 10
-              },
-              "highlight": {
-                "width": 50,
-                "height": 50,
-                "borderRadius": 25
-              },
-              "text": {
-                "marginLeft": 10,
-                "fontSize": 14
-              }
+              "default": false
             },
             "medium": {
-              "width": 36,
-              "height": 36,
-              "borderRadius": 18,
-              "select": {
-                "width": 24,
-                "height": 24,
-                "borderRadius": 12
-              },
-              "highlight": {
-                "width": 60,
-                "height": 60,
-                "borderRadius": 30
-              },
-              "text": {
-                "marginLeft": 12,
-                "fontSize": 16
-              }
+              "default": true
             },
             "large": {
-              "width": 42,
-              "height": 42,
-              "borderRadius": 21,
-              "select": {
-                "width": 28,
-                "height": 28,
-                "borderRadius": 14
-              },
-              "highlight": {
-                "width": 70,
-                "height": 70,
-                "borderRadius": 35
-              },
-              "text": {
-                "marginLeft": 14,
-                "fontSize": 18
-              }
+              "default": false
             }
           }
-        }
-      }
-    }
-  },
-  "RadioGroup": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "padding": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "padding": 0
-        }
-      }
-    }
-  },
-  "Tab": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {
-        "selected": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "text": {
-            "color": "gray-dark",
-            "fontWeight": "600"
-          },
-          "icon": {
-            "width": 20,
-            "height": 20,
-            "tintColor": "gray-dark"
-          },
-          "state": {
-            "selected": {
-              "text": {
-                "color": "blue-primary"
-              },
-              "icon": {
-                "tintColor": "blue-primary"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "TabBar": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "height": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "height": 42,
-          "indicator": {
-            "height": 4,
-            "borderRadius": 2,
-            "backgroundColor": "blue-primary"
-          }
-        }
-      }
-    }
-  },
-  "Text": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "color": {
-          "type": "color"
         },
-        "fontSize": {
-          "type": "number"
+        "states": {
+          "checked": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "disabled": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 2,
+            "scope": "all"
+          }
         }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "borderWidth": 2,
+            "borderColor": "gray-primary",
+            "textColor": "text-primary",
+            "textFontWeight": "500",
+            "selectBackgroundColor": "transparent",
+            "highlightBackgroundColor": "transparent",
+            "state": {
+              "active": {
+                "borderColor": "gray-dark",
+                "highlightBackgroundColor": "gray-light"
+              },
+              "checked": {
+                "borderColor": "blue-primary",
+                "selectBackgroundColor": "blue-primary"
+              },
+              "disabled": {
+                "borderColor": "gray-light",
+                "textColor": "gray-300"
+              },
+              "checked.active": {
+                "borderColor": "blue-dark"
+              },
+              "checked.disabled": {
+                "selectBackgroundColor": "gray-primary"
+              }
+            }
+          },
+          "variantGroups": {
+            "status": {
+              "error": {
+                "borderColor": "pink-primary",
+                "state": {
+                  "checked": {
+                    "borderColor": "pink-primary",
+                    "selectBackgroundColor": "pink-primary"
+                  },
+                  "checked.active": {
+                    "borderColor": "pink-primary"
+                  }
+                }
+              }
+            },
+            "size": {
+              "small": {
+                "width": 30,
+                "height": 30,
+                "borderRadius": 15,
+                "textMarginLeft": 10,
+                "textFontSize": 14,
+                "selectWidth": 20,
+                "selectHeight": 20,
+                "selectBorderRadius": 10,
+                "highlightWidth": 50,
+                "highlightHeight": 50,
+                "highlightBorderRadius": 25
+              },
+              "medium": {
+                "width": 36,
+                "height": 36,
+                "borderRadius": 18,
+                "textMarginLeft": 12,
+                "textFontSize": 16,
+                "selectWidth": 24,
+                "selectHeight": 24,
+                "selectBorderRadius": 12,
+                "highlightWidth": 60,
+                "highlightHeight": 60,
+                "highlightBorderRadius": 30
+              },
+              "large": {
+                "width": 42,
+                "height": 42,
+                "borderRadius": 21,
+                "textMarginLeft": 14,
+                "textFontSize": 18,
+                "selectWidth": 28,
+                "selectHeight": 28,
+                "selectBorderRadius": 14,
+                "highlightWidth": 70,
+                "highlightHeight": 70,
+                "highlightBorderRadius": 35
+              }
+            }
+          }
+        }
+      }
+    },
+    "RadioGroup": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "padding": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "padding": 0
+          }
+        }
+      }
+    },
+    "Tab": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "textColor": {
+            "type": "string"
+          },
+          "textFontWeight": {
+            "type": "number"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {
+          "selected": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textColor": "gray-dark",
+            "textFontWeight": "600",
+            "iconWidth": 20,
+            "iconHeight": 20,
+            "iconTintColor": "gray-dark",
+            "state": {
+              "selected": {
+                "textColor": "blue-primary",
+                "iconTintColor": "blue-primary"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TabBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "height": {
+            "type": "number"
+          },
+          "indicatorHeight": {
+            "type": "number"
+          },
+          "indicatorBorderRadius": {
+            "type": "number"
+          },
+          "indicatorBackgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "height": 42,
+            "indicatorHeight": 4,
+            "indicatorBorderRadius": 2,
+            "indicatorBackgroundColor": "blue-primary"
+          }
+        }
+      }
+    },
+    "Text": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "color": {
+            "type": "string"
+          },
+          "fontSize": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "primary": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "category": {
+            "h1": {
+              "default": false
+            },
+            "h2": {
+              "default": false
+            },
+            "h3": {
+              "default": false
+            },
+            "h4": {
+              "default": false
+            },
+            "h5": {
+              "default": false
+            },
+            "h6": {
+              "default": false
+            },
+            "body": {
+              "default": true
+            }
+          }
+        },
+        "states": {}
       },
       "appearances": {
         "primary": {
-          "default": true
-        }
-      },
-      "variants": {
-        "category": {
-          "h1": {
-            "default": false
+          "mapping": {
+            "color": "text-primary"
           },
-          "h2": {
-            "default": false
-          },
-          "h3": {
-            "default": false
-          },
-          "h4": {
-            "default": false
-          },
-          "h5": {
-            "default": false
-          },
-          "h6": {
-            "default": false
-          },
-          "body": {
-            "default": true
-          }
-        }
-      },
-      "states": {}
-    },
-    "appearance": {
-      "primary": {
-        "mapping": {
-          "color": "text-primary"
-        },
-        "variant": {
-          "category": {
-            "h1": {
-              "fontSize": 64
-            },
-            "h2": {
-              "fontSize": 40
-            },
-            "h3": {
-              "fontSize": 32
-            },
-            "h4": {
-              "fontSize": 24
-            },
-            "h5": {
-              "fontSize": 16
-            },
-            "h6": {
-              "fontSize": 14
-            },
-            "body": {
-              "fontSize": 16
-            }
-          }
-        }
-      }
-    }
-  },
-  "Toggle": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "width": {
-          "type": "number"
-        },
-        "height": {
-          "type": "number"
-        },
-        "borderRadius": {
-          "type": "number"
-        },
-        "borderWidth": {
-          "type": "number"
-        },
-        "offsetValue": {
-          "type": "number"
-        },
-        "tintColor": {
-          "type": "color"
-        },
-        "borderColor": {
-          "type": "color"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "status": {
-          "primary": {
-            "default": true
-          },
-          "success": {
-            "default": false
-          },
-          "info": {
-            "default": false
-          },
-          "warning": {
-            "default": false
-          },
-          "danger": {
-            "default": false
-          }
-        },
-        "size": {
-          "small": {
-            "default": false
-          },
-          "medium": {
-            "default": true
-          },
-          "large": {
-            "default": false
-          }
-        }
-      },
-      "states": {
-        "checked": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
-        },
-        "disabled": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
-        },
-        "active": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
-        }
-      }
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "offsetValue": 20,
-          "thumb": {
-            "backgroundColor": "#ffffff"
-          },
-          "highlight": {
-            "backgroundColor": "transparent"
-          },
-          "state": {
-            "active": {
-              "highlight": {
-                "backgroundColor": "#e5e7ea"
+          "variantGroups": {
+            "category": {
+              "h1": {
+                "fontSize": 64
+              },
+              "h2": {
+                "fontSize": 40
+              },
+              "h3": {
+                "fontSize": 32
+              },
+              "h4": {
+                "fontSize": 24
+              },
+              "h5": {
+                "fontSize": 16
+              },
+              "h6": {
+                "fontSize": 14
+              },
+              "body": {
+                "fontSize": 16
               }
-            },
-            "disabled": {
-              "borderColor": "gray-dark",
-              "tintColor": "gray-light"
             }
           }
+        }
+      }
+    },
+    "Toggle": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "offsetValue": {
+            "type": "number"
+          },
+          "tintBackgroundColor": {
+            "type": "string"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "thumbBackgroundColor": {
+            "type": "string"
+          },
+          "highlightBackgroundColor": {
+            "type": "string"
+          },
+          "highlightWidth": {
+            "type": "number"
+          },
+          "highlightHeight": {
+            "type": "number"
+          },
+          "highlightBorderRadius": {
+            "type": "number"
+          }
         },
-        "variant": {
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
           "status": {
             "primary": {
-              "tintColor": "#d9e4ff",
-              "borderColor": "blue-primary"
+              "default": true
             },
             "success": {
-              "tintColor": "#b3ffd6",
-              "borderColor": "#00e096"
+              "default": false
             },
             "info": {
-              "tintColor": "#c7e2ff",
-              "borderColor": "#0095ff"
+              "default": false
             },
             "warning": {
-              "tintColor": "#fff1c2",
-              "borderColor": "#ffaa00"
+              "default": false
             },
             "danger": {
-              "tintColor": "#FFD6D9",
-              "borderColor": "pink-primary"
+              "default": false
             }
           },
           "size": {
             "small": {
-              "width": 38,
-              "height": 22,
-              "borderRadius": 11,
-              "borderWidth": 0.5,
-              "highlight": {
-                "width": 48,
-                "height": 32,
-                "borderRadius": 16
-              }
+              "default": false
             },
             "medium": {
-              "width": 52,
-              "height": 32,
-              "borderRadius": 16,
-              "borderWidth": 1.5,
-              "highlight": {
-                "width": 62,
-                "height": 42,
-                "borderRadius": 21
-              }
+              "default": true
             },
             "large": {
-              "width": 72,
-              "height": 42,
-              "borderRadius": 21,
-              "borderWidth": 2,
-              "highlight": {
-                "width": 82,
-                "height": 52,
-                "borderRadius": 26
+              "default": false
+            }
+          }
+        },
+        "states": {
+          "checked": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "disabled": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "offsetValue": 20,
+            "thumbBackgroundColor": "#ffffff",
+            "highlightBackgroundColor": "transparent",
+            "state": {
+              "active": {
+                "highlightBackgroundColor": "#e5e7ea"
+              },
+              "disabled": {
+                "borderColor": "gray-dark",
+                "tintBackgroundColor": "gray-light"
+              }
+            }
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "tintBackgroundColor": "#d9e4ff",
+                "borderColor": "blue-primary"
+              },
+              "success": {
+                "tintBackgroundColor": "#b3ffd6",
+                "borderColor": "#00e096"
+              },
+              "info": {
+                "tintBackgroundColor": "#c7e2ff",
+                "borderColor": "#0095ff"
+              },
+              "warning": {
+                "tintBackgroundColor": "#fff1c2",
+                "borderColor": "#ffaa00"
+              },
+              "danger": {
+                "tintBackgroundColor": "#FFD6D9",
+                "borderColor": "pink-primary"
+              }
+            },
+            "size": {
+              "small": {
+                "width": 38,
+                "height": 22,
+                "borderRadius": 11,
+                "borderWidth": 0.5,
+                "highlightWidth": 48,
+                "highlightHeight": 32,
+                "highlightBorderRadius": 16
+              },
+              "medium": {
+                "width": 52,
+                "height": 32,
+                "borderRadius": 16,
+                "borderWidth": 1.5,
+                "highlightWidth": 62,
+                "highlightHeight": 42,
+                "highlightBorderRadius": 21
+              },
+              "large": {
+                "width": 72,
+                "height": 42,
+                "borderRadius": 21,
+                "borderWidth": 2,
+                "highlightWidth": 82,
+                "highlightHeight": 52,
+                "highlightBorderRadius": 26
               }
             }
           }
         }
       }
-    }
-  },
-  "Tooltip": {
-    "meta": {
-      "scope": "all",
-      "mapping": {},
+    },
+    "Tooltip": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "popoverPaddingHorizontal": {
+            "type": "number"
+          },
+          "popoverPaddingVertical": {
+            "type": "number"
+          },
+          "popoverBorderRadius": {
+            "type": "number"
+          },
+          "popoverBackgroundColor": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
       "appearances": {
         "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "popover": {
-            "paddingVertical": 4,
-            "paddingHorizontal": 8,
-            "borderRadius": 8,
-            "backgroundColor": "#0D1C2F"
-          },
-          "text": {
-            "color": "text-primary-inverse"
+          "mapping": {
+            "popoverPaddingHorizontal": 8,
+            "popoverPaddingVertical": 4,
+            "popoverBorderRadius": 8,
+            "popoverBackgroundColor": "#0D1C2F",
+            "textColor": "text-primary-inverse"
           }
         }
       }
-    }
-  },
-  "TopNavigationBar": {
-    "meta": {
-      "scope": "mobile",
-      "mapping": {
-        "height": {
-          "type": "number"
-        },
-        "paddingTop": {
-          "type": "number"
-        },
-        "paddingBottom": {
-          "type": "number"
-        },
-        "paddingHorizontal": {
-          "type": "number"
-        },
-        "backgroundColor": {
-          "type": "color"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        },
-        "title-centered": {
-          "default": false
-        }
-      },
-      "variants": {},
-      "states": {}
     },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "height": 46,
-          "paddingTop": 4,
-          "paddingBottom": 12,
-          "paddingHorizontal": 16,
-          "backgroundColor": "blue-primary",
-          "title": {
-            "color": "text-primary-inverse",
-            "fontSize": 16,
-            "fontWeight": "600"
+    "TopNavigationBar": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "height": {
+            "type": "number"
           },
-          "subtitle": {
-            "color": "text-primary-inverse",
-            "fontSize": 12,
-            "fontWeight": "400"
+          "paddingTop": {
+            "type": "number"
           },
-          "textAlign": "start"
-        }
-      },
-      "title-centered": {
-        "mapping": {
-          "textAlign": "center"
-        }
-      }
-    }
-  },
-  "TopNavigationBarAction": {
-    "meta": {
-      "scope": "mobile",
-      "mapping": {
-        "width": {
-          "type": "number"
-        },
-        "height": {
-          "type": "number"
-        },
-        "marginRight": {
-          "type": "number"
-        },
-        "tintColor": {
-          "type": "color"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {},
-      "states": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "width": 25,
-          "height": 25,
-          "marginRight": 8,
-          "tintColor": "white"
-        }
-      }
-    }
-  },
-  "OverflowMenu": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "borderRadius": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "states": {},
-      "variants": {}
-    },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "borderRadius": 6,
-          "menuItem": {
-            "borderRadius": 6
+          "paddingBottom": {
+            "type": "number"
           },
-          "popover": {
-            "backgroundColor": "white"
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textAlign": {
+            "type": "string"
+          },
+          "titleColor": {
+            "type": "string"
+          },
+          "titleFontSize": {
+            "type": "number"
+          },
+          "titleFontWeight": {
+            "type": "string"
+          },
+          "subtitleColor": {
+            "type": "string"
+          },
+          "subtitleFontSize": {
+            "type": "number"
+          },
+          "subtitleFontWeight": {
+            "type": "string"
           }
-        }
-      }
-    }
-  },
-  "OverflowMenuItem": {
-    "meta": {
-      "scope": "all",
-      "mapping": {
-        "backgroundColor": {
-          "type": "color"
         },
-        "borderColor": {
-          "type": "color"
-        },
-        "borderWidth": {
-          "type": "number"
-        }
-      },
-      "appearances": {
-        "default": {
-          "default": true
-        }
-      },
-      "variants": {
-        "size": {
-          "small": {
-            "default": false
-          },
-          "medium": {
+        "appearances": {
+          "default": {
             "default": true
           },
-          "large": {
+          "titleCentered": {
             "default": false
           }
-        }
-      },
-      "states": {
-        "disabled": {
-          "default": false,
-          "priority": 0,
-          "scope": "all"
         },
-        "active": {
-          "default": false,
-          "priority": 1,
-          "scope": "all"
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "height": 46,
+            "paddingTop": 4,
+            "paddingBottom": 12,
+            "paddingHorizontal": 16,
+            "backgroundColor": "blue-primary",
+            "titleColor": "text-primary-inverse",
+            "titleFontSize": 16,
+            "titleFontWeight": "600",
+            "subtitleColor": "text-primary-inverse",
+            "subtitleFontSize": 12,
+            "subtitleFontWeight": "400",
+            "textAlign": "start"
+          }
+        },
+        "titleCentered": {
+          "mapping": {
+            "textAlign": "center"
+          }
         }
       }
     },
-    "appearance": {
-      "default": {
-        "mapping": {
-          "backgroundColor": "white",
-          "borderColor": "gray-light",
-          "borderWidth": 1.2,
-          "text": {
-            "color": "blue-pitch-dark",
-            "fontWeight": "600"
+    "TopNavigationBarAction": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "width": {
+            "type": "number"
           },
-          "icon": {
-            "tintColor": "blue-pitch-dark"
+          "height": {
+            "type": "number"
           },
-          "state": {
-            "disabled": {
-              "backgroundColor": "gray-dark"
-            },
-            "active": {
-              "text": {
-                "color": "blue-primary"
-              },
-              "icon": {
-                "tintColor": "blue-primary"
-              }
-            }
+          "marginRight": {
+            "type": "number"
+          },
+          "tintColor": {
+            "type": "string"
           }
         },
-        "variant": {
-          "size": {
-            "small": {
-              "minHeight": 40,
-              "padding": 10,
-              "text": {
-                "fontSize": 13,
-                "marginHorizontal": 6
-              },
-              "icon": {
-                "width": 20,
-                "height": 20,
-                "marginHorizontal": 6
-              }
-            },
-            "medium": {
-              "minHeight": 48,
-              "padding": 12,
-              "text": {
-                "fontSize": 15,
-                "marginHorizontal": 8
-              },
-              "icon": {
-                "width": 24,
-                "height": 24,
-                "marginHorizontal": 8
-              }
-            },
-            "large": {
-              "minHeight": 56,
-              "padding": 14,
-              "text": {
-                "fontSize": 17,
-                "marginHorizontal": 10
-              },
-              "icon": {
-                "width": 28,
-                "height": 28,
-                "marginHorizontal": 10
-              }
-            }
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "width": 25,
+            "height": 25,
+            "marginRight": 8,
+            "tintColor": "white"
           }
         }
       }
