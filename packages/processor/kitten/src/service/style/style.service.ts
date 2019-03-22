@@ -120,25 +120,26 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 component: string,
                                 appearance: string,
                                 variants: string[],
-                                states: string[]): [string, ThemedStyleType][] {
+                                states: string[],
+                                theme: StrictTheme): [string, ThemedStyleType][] {
 
   const stateless = createStyleEntry(mapping, component, appearance, appearance);
 
   const withStates = states.reduce((acc: [string, ThemedStyleType][], current: string) => {
     const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current);
-    const next = createStyleEntry(mapping, component, key, appearance, '', current);
+    const next = createStyleEntry(mapping, component, key, appearance, '', current, theme);
     return [...acc, next];
   }, []);
 
   const withVariants = variants.map(variant => {
     const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, variant);
-    return createStyleEntry(mapping, component, key, appearance, variant);
+    return createStyleEntry(mapping, component, key, appearance, variant, '', theme);
   });
 
   const withVariantStates = variants.reduce((acc: [string, ThemedStyleType][], current: string) => {
     const next = states.map(state => {
       const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current, SEPARATOR_MAPPING_ENTRY, state);
-      return createStyleEntry(mapping, component, key, appearance, current, state);
+      return createStyleEntry(mapping, component, key, appearance, current, state, theme);
     });
     return [...acc, ...next];
   }, []);
@@ -333,7 +334,8 @@ function createStyleEntry(mapping: ThemeMappingType,
                           key: string,
                           appearance: string,
                           variant: string = '',
-                          state: string = ''): [string, ThemedStyleType] {
+                          state: string = '',
+                          theme: StrictTheme = {}): [string, ThemedStyleType] {
 
   const value = createStyle(
     mapping,
@@ -341,6 +343,7 @@ function createStyleEntry(mapping: ThemeMappingType,
     appearance,
     variant.split(SEPARATOR_MAPPING_ENTRY),
     state.split(SEPARATOR_MAPPING_ENTRY),
+    theme,
   );
 
   return [key, value];

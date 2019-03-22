@@ -13,25 +13,27 @@ export interface ThemeMappingType {
 }
 
 export interface ControlMappingType {
-  meta: {
-    scope: ScopeMetaType;
-    parameters: {
-      [key: string]: PropertyMetaType;
-    };
-    appearances: {
-      [key: string]: AppearanceMetaType;
-    };
-    variantGroups: {
-      [key: string]: {
-        [key: string]: VariantMetaType;
-      };
-    };
-    states: {
-      [key: string]: StateMetaType;
-    };
-  };
+  meta: ControlMetaType;
   appearances: {
     [key: string]: AppearanceMappingType;
+  };
+}
+
+export interface ControlMetaType {
+  scope: ScopeMetaType;
+  parameters: {
+    [key: string]: PropertyMetaType;
+  };
+  appearances: {
+    [key: string]: AppearanceMetaType;
+  };
+  variantGroups: {
+    [key: string]: {
+      [key: string]: VariantMetaType;
+    };
+  };
+  states: {
+    [key: string]: StateMetaType;
   };
 }
 
@@ -76,20 +78,15 @@ export interface StateMappingType extends MappingType {
 
 export type ParameterType = string | number;
 
-export interface ControlMapMetaType {
-  appearances: string[];
-  variants: {
-    [key: string]: string[];
-  };
-  states: string[];
-}
-
 export interface ThemeStyleType {
   [key: string]: ControlThemedStyleType;
 }
 
 export interface ControlThemedStyleType {
-  [key: string]: ThemedStyleType;
+  meta: ControlMetaType;
+  styles: {
+    [key: string]: ThemedStyleType;
+  };
 }
 
 export interface ThemedStyleType {

@@ -31,18 +31,18 @@ function generatePackage(name: string) {
   const generatedDir: string = path.resolve(rootDir, 'mapping-kitten', name);
 
   const { default: mapping } = require(srcDir);
-  const themeMapping: ThemeMappingType = mapping.components;
+  const { components: themeMapping, strict: strictTheme } = mapping;
 
   const meta: MappingMetaType[] = mappingProcessor.process(themeMapping);
   const style: ThemeStyleType = metaProcessor.process({
     mapping: themeMapping,
     meta: meta,
+    theme: strictTheme,
   });
 
   const indexOutput: string = [
-    `import { ThemeMappingType, ThemeStyleType } from '@eva/types';`,
+    `import { ThemeStyleType } from '@eva/types';`,
     `export const style: ThemeStyleType = ${json(style)};`,
-    `export const mapping: ThemeMappingType = ${json(themeMapping)};`,
   ].join('\n\n');
 
   const packageOutput: string = json({

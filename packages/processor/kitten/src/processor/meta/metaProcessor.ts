@@ -1,17 +1,15 @@
 import {
   ThemeStyleType,
-  ControlMapMetaType,
   ThemeMappingType,
-  ControlThemedStyleType,
-  ThemedStyleType,
   StrictTheme,
+  ThemedStyleType,
+  ControlThemedStyleType,
 } from '@eva/types';
 import { MappingMetaType } from '@eva/processor/kitten';
 import { Processor } from '../processor';
 import {
-  toObject,
   createAllStyles,
-  getComponentMapping,
+  toObject,
 } from '../../service';
 
 export interface MappingProcessorParamsType {
@@ -20,43 +18,38 @@ export interface MappingProcessorParamsType {
   theme: StrictTheme;
 }
 
+interface NoMetaThemeStyleType {
+  [key: string]: {
+    [key: string]: ThemedStyleType,
+  };
+}
+
 export class MetaProcessor implements Processor<MappingProcessorParamsType, ThemeStyleType> {
 
   public process(params: MappingProcessorParamsType): ThemeStyleType {
-    const entries = params.meta.map((value: MappingMetaType) => {
-      return this.processComponentMeta(params.mapping, value);
-    });
+    const { mapping, meta, theme } = params;
 
-    return toObject(entries);
-  }
+    const entries = meta.reduce((acc: ThemeStyleType, controlMeta: MappingMetaType) => {
+      const { name, appearance, variants, states } = controlMeta;
 
-  private processComponentMeta(mapping: ThemeMappingType, value: MappingMetaType): [string, ControlThemedStyleType] {
-    const { name: entryKey, appearance, variants, states } = value;
-    const entryValue: [string, ThemedStyleType][] = createAllStyles(
-      mapping,
-      entryKey,
-      appearance,
-      variants,
-      states,
-    );
+      const nextAppearanceEntries = createAllStyles(mapping, name, appearance, variants, states, theme);
+      const prevAppearanceStyles = acc[name];
+      const nextAppearanceStyles = toObject(nextAppearanceEntries);
 
-    return [entryKey, toObject(entryValue)];
-  }
-
-  private getComponentMapMeta(mapping: ThemeMappingType, component: string): ControlMapMetaType {
-    const { meta } = getComponentMapping(mapping, component);
-
-    const appearances: string[] = Object.keys(meta.appearances);
-
-    const variants = Object.keys(meta.variantGroups).reduce((acc, group: string) => {
-      const groupVariants: string[] = Object.keys(meta.variantGroups[group]);
-      return { ...acc, [group]: groupVariants };
+      return { ...acc, [name]: { ...prevAppearanceStyles, ...nextAppearanceStyles } };
     }, {});
 
-    const states: string[] = Object.keys(meta.states).sort((lhs: string, rhs: string) => {
-      return meta.states[lhs].priority - meta.states[rhs].priority;
-    });
+    return this.withControlMeta(mapping, entries);
+  }
 
-    return { appearances, variants, states };
+  private withControlMeta(mapping: ThemeMappingType, style: NoMetaThemeStyleType): ThemeStyleType {
+    return Object.keys(style).reduce((acc: ThemeStyleType, control: string) => {
+      const controlEntry: ControlThemedStyleType = {
+        meta: mapping[control].meta,
+        styles: style[control],
+      };
+
+      return { ...acc, [control]: controlEntry };
+    }, {});
   }
 }
