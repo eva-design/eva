@@ -1,5 +1,7 @@
-import { mapping } from '../../tests';
+import { schema } from '../../tests';
+
+const { components } = schema;
 
 export {
-  mapping,
+  components as mapping,
 };

@@ -1,44 +1,22 @@
-import * as fs from 'fs';
 import path from 'path';
 import {
-  ThemeMappingType,
-  ThemeStyleType,
-} from '@eva/types';
-import {
-  MappingProcessor,
-  MetaProcessor,
-  MappingMetaType,
-} from '../src/processor';
-
-const packages: string[] = process.argv.splice(2);
-
-if (packages.length === 0) {
-  console.error('No specified source mapping package name. Stopping\n');
-  process.exit(1);
-}
+  existsSync,
+  mkdirSync,
+  writeFileSync,
+} from 'fs';
+import { ThemeStyleType } from '@eva/types';
+import { SchemaProcessor } from '../src/processor';
 
 const json = (input: any): string => JSON.stringify(input, null, 2);
 
-const mappingProcessor: MappingProcessor = new MappingProcessor();
-const metaProcessor: MetaProcessor = new MetaProcessor();
+const schemaProcessor: SchemaProcessor = new SchemaProcessor();
 
-const rootDir: string = path.resolve('../../../');
+export function generateMappingPackage(source: string) {
+  const name: string = path.basename(source);
+  const generatedDir: string = path.resolve('packages', 'mapping-kitten', name);
 
-packages.forEach(generatePackage);
-
-function generatePackage(name: string) {
-  const srcDir: string = path.resolve(rootDir, 'mapping', name);
-  const generatedDir: string = path.resolve(rootDir, 'mapping-kitten', name);
-
-  const { default: mapping } = require(srcDir);
-  const { components: themeMapping, strict: strictTheme } = mapping;
-
-  const meta: MappingMetaType[] = mappingProcessor.process(themeMapping);
-  const style: ThemeStyleType = metaProcessor.process({
-    mapping: themeMapping,
-    meta: meta,
-    theme: strictTheme,
-  });
+  const { default: schema } = require(source);
+  const style: ThemeStyleType = schemaProcessor.process(schema);
 
   const indexOutput: string = [
     `import { ThemeStyleType } from '@eva/types';`,
@@ -57,10 +35,10 @@ function generatePackage(name: string) {
     },
   });
 
-  if (!fs.existsSync(generatedDir)) {
-    fs.mkdirSync(generatedDir);
+  if (!existsSync(generatedDir)) {
+    mkdirSync(generatedDir);
   }
 
-  fs.writeFileSync(path.resolve(generatedDir, 'index.ts'), indexOutput);
-  fs.writeFileSync(path.resolve(generatedDir, 'package.json'), packageOutput);
+  writeFileSync(path.resolve(generatedDir, 'index.ts'), indexOutput);
+  writeFileSync(path.resolve(generatedDir, 'package.json'), packageOutput);
 }

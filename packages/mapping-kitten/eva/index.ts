@@ -148,7 +148,7 @@ export const style: ThemeStyleType = {
       },
     },
   },
-  'BottomNavigatorTab': {
+  'BottomNavigationTab': {
     'meta': {
       'scope': 'mobile',
       'parameters': {
@@ -204,7 +204,7 @@ export const style: ThemeStyleType = {
       },
     },
   },
-  'BottomTabNavigator': {
+  'BottomNavigation': {
     'meta': {
       'scope': 'mobile',
       'parameters': {

@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/root",
+  "title": "Eva Design System Customization Configuration",
+  "definitions": {
+    "root": {
+      "type": "object",
+      "required": [
+        "$schema",
+        "components"
+      ],
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "components": {
+          "$ref": "#/definitions/components"
+        }
+      }
+    },
+    "components": {
+      "propertyNames": {
+        "pattern": "[A-Z][a-zA-Z]*"
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/control"
+      }
+    },
+    "control": {
+      "description": "UI Component",
+      "type": "object",
+      "required": [
+        "meta",
+        "appearances"
+      ],
+      "properties": {
+        "meta": {
+          "type": "object",
+          "required": [
+            "scope",
+            "parameters",
+            "appearances",
+            "variantGroups",
+            "states"
+          ],
+          "properties": {
+            "scope": {
+              "$ref": "#/definitions/scope"
+            },
+            "parameters": {
+              "type": "object",
+              "propertyNames": {
+                "pattern": "^[a-z][a-zA-Z]*"
+              },
+              "additionalProperties": {
+                "$ref": "#/definitions/parameterMeta"
+              }
+            },
+            "appearances": {
+              "type": "object",
+              "propertyNames": {
+                "pattern": "^[a-z][a-zA-Z]*"
+              },
+              "additionalProperties": {
+                "$ref": "#/definitions/appearanceMeta"
+              }
+            },
+            "variantGroups": {
+              "type": "object",
+              "propertyNames": {
+                "pattern": "^[a-z][a-zA-Z]*"
+              },
+              "additionalProperties": {
+                "type": "object",
+                "propertyNames": {
+                  "pattern": "^[a-z][a-zA-Z0-9]*"
+                },
+                "minProperties": 1,
+                "additionalProperties": {
+                  "$ref": "#/definitions/variantMeta"
+                }
+              }
+            },
+            "states": {
+              "type": "object",
+              "propertyNames": {
+                "pattern": "^[a-z][.a-z]*"
+              },
+              "additionalProperties": {
+                "$ref": "#/definitions/stateMeta"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "appearances": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[a-z][a-zA-Z]*"
+          },
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/definitions/appearance"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "appearanceMeta": {
+      "required": [
+        "default"
+      ],
+      "type": "object",
+      "properties": {
+        "default": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "variantMeta": {
+      "type": "object",
+      "required": [
+        "default"
+      ],
+      "properties": {
+        "default": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "stateMeta": {
+      "type": "object",
+      "required": [
+        "default",
+        "priority",
+        "scope"
+      ],
+      "properties": {
+        "default": {
+          "type": "boolean"
+        },
+        "priority": {
+          "type": "number",
+          "minimum": 0
+        },
+        "scope": {
+          "$ref": "#/definitions/scope"
+        }
+      }
+    },
+    "parameterMeta": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "number",
+            "string"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "scope": {
+      "description": "Platform where control is used. Also can be applied to particular state of control",
+      "type": "string",
+      "enum": [
+        "all",
+        "mobile",
+        "web"
+      ]
+    },
+    "appearance": {
+      "description": "Set of mappings that define at the high level view of related control: it's size, shape and main colors",
+      "type": "object",
+      "required": [
+        "mapping"
+      ],
+      "properties": {
+        "mapping": {
+          "$ref": "#/definitions/mapping"
+        },
+        "variantGroups": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[a-z][a-zA-Z]*"
+          },
+          "additionalProperties": {
+            "$ref": "#/definitions/variant"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "variant": {
+      "description": "Set of mapping that define control's appearance",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z][a-zA-Z0-9]*"
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/mapping"
+      }
+    },
+    "mapping": {
+      "description": "Set of parameters that define control's appearance",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z][a-zA-Z]*"
+      },
+      "patternProperties": {
+        "[Ww]idth": {
+          "type": "number"
+        },
+        "[Hh]eight": {
+          "type": "number"
+        },
+        "[Cc]olor": {
+          "type": "string"
+        }
+      },
+      "properties": {
+        "state": {
+          "$ref": "#/definitions/mapping",
+          "propertyNames": {
+            "pattern": "^[a-z][.a-z]*"
+          },
+          "minProperties": 1
+        }
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/parameter"
+      }
+    },
+    "parameter": {
+      "description": "Defines how the element or a component of the system will look like",
+      "anyOf": [
+        {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        {
+          "$ref": "#/definitions/mapping"
+        }
+      ]
+    }
+  }
+}

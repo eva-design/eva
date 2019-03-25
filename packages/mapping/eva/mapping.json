@@ -85,7 +85,7 @@
         }
       }
     },
-    "BottomNavigatorTab": {
+    "BottomNavigationTab": {
       "meta": {
         "scope": "mobile",
         "parameters": {
@@ -141,7 +141,7 @@
         }
       }
     },
-    "BottomTabNavigator": {
+    "BottomNavigation": {
       "meta": {
         "scope": "mobile",
         "parameters": {
