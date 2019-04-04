@@ -4,7 +4,7 @@ import {
   ThemedStyleType,
   MappingType,
   StrictTheme,
-} from '@eva/types';
+} from '@eva/core';
 import {
   safe,
   noNulls,

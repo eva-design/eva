@@ -1,7 +1,7 @@
 import {
   ThemeMappingType,
   ControlMappingType,
-} from '@eva/types';
+} from '@eva/core';
 import { Processor } from '../processor';
 import {
   getComponentVariants,

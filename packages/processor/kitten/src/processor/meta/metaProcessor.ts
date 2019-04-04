@@ -4,8 +4,8 @@ import {
   StrictTheme,
   ThemedStyleType,
   ControlThemedStyleType,
-} from '@eva/types';
-import { MappingMetaType } from '@eva/processor/kitten';
+} from '@eva/core';
+import { MappingMetaType } from '../mapping/mappingProcessor';
 import { Processor } from '../processor';
 import {
   createAllStyles,

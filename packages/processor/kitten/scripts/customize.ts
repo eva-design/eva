@@ -11,7 +11,7 @@ import { generateMappingPackage } from './generate';
 import {
   SchemaType,
   CustomSchemaType,
-} from '@eva/types';
+} from '@eva/core';
 
 const packages: string[] = process.argv.splice(2);
 

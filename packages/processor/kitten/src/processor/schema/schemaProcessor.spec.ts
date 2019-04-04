@@ -2,7 +2,7 @@ import {
   SchemaType,
   ControlMappingType,
   ThemeStyleType,
-} from '@eva/types';
+} from '@eva/core';
 import { SchemaProcessor } from './schemaProcessor';
 import { schema } from './schemaProcessor.spec.config';
 

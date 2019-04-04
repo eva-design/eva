@@ -1,4 +1,4 @@
-import { SchemaType } from '@eva/types';
+import { SchemaType } from '@eva/core';
 
 export const schema: SchemaType = {
   version: 1.0,

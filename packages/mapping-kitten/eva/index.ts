@@ -1,4 +1,4 @@
-import { ThemeStyleType } from '@eva/types';
+import { ThemeStyleType } from '@eva/core';
 
 export const style: ThemeStyleType = {
   'Avatar': {

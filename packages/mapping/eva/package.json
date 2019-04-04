@@ -8,5 +8,8 @@
   "repository": "git+https://github.com/akveo/eva.git",
   "bugs": {
     "url": "https://github.com/akveo/eva/issues"
+  },
+  "dependencies": {
+    "@eva/core": "github:akveo/eva#package/core"
   }
 }

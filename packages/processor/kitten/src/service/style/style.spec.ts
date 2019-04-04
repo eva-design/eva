@@ -3,7 +3,7 @@ import { mapping } from './style.spec.config';
 import {
   ThemedStyleType,
   StrictTheme,
-} from '@eva/types';
+} from '@eva/core';
 
 describe('@style: service methods checks', () => {
 

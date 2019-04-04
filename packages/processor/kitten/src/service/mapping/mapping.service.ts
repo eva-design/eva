@@ -4,7 +4,7 @@ import {
   AppearanceMappingType,
   MappingType,
   StateMappingType,
-} from '@eva/types';
+} from '@eva/core';
 import { safe } from '../common';
 
 export function getComponentDefaultAppearance(mapping: ThemeMappingType,

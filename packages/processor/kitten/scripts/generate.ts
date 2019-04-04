@@ -4,7 +4,7 @@ import {
   mkdirSync,
   writeFileSync,
 } from 'fs';
-import { ThemeStyleType } from '@eva/types';
+import { ThemeStyleType } from '@eva/core';
 import { SchemaProcessor } from '../src/processor';
 
 const json = (input: any): string => JSON.stringify(input, null, 2);
@@ -19,7 +19,7 @@ export function generateMappingPackage(source: string) {
   const style: ThemeStyleType = schemaProcessor.process(schema);
 
   const indexOutput: string = [
-    `import { ThemeStyleType } from '@eva/types';`,
+    `import { ThemeStyleType } from '@eva/core';`,
     `export const style: ThemeStyleType = ${json(style)};`,
   ].join('\n\n');
 

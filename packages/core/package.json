@@ -1,6 +1,6 @@
 {
-  "name": "@eva/typess",
-  "description": "Eva map/mapping types",
+  "name": "@eva/core",
+  "description": "Eva design system core",
   "version": "0.0.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
