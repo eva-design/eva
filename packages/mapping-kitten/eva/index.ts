@@ -16371,6 +16371,27 @@ export const style: ThemeStyleType = {
         'popoverBackgroundColor': {
           'type': 'string',
         },
+        'iconWidth': {
+          'type': 'number',
+        },
+        'iconHeight': {
+          'type': 'number',
+        },
+        'iconMarginHorizontal': {
+          'type': 'number',
+        },
+        'iconTintColor': {
+          'type': 'string',
+        },
+        'textMarginHorizontal': {
+          'type': 'number',
+        },
+        'textFontSize': {
+          'type': 'number',
+        },
+        'textLineHeight': {
+          'type': 'number',
+        },
         'textColor': {
           'type': 'string',
         },
@@ -16385,11 +16406,18 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'popoverPaddingHorizontal': 8,
-        'popoverPaddingVertical': 4,
+        'popoverPaddingHorizontal': 4,
+        'popoverPaddingVertical': 6,
         'popoverBorderRadius': 8,
-        'popoverBackgroundColor': '#0D1C2F',
-        'textColor': 'text-primary-inverse',
+        'popoverBackgroundColor': 'font-primary-color',
+        'iconWidth': 16,
+        'iconHeight': 16,
+        'iconMarginHorizontal': 4,
+        'iconTintColor': 'color-white',
+        'textMarginHorizontal': 4,
+        'textFontSize': 11,
+        'textLineHeight': 16,
+        'textColor': 'color-white',
       },
     },
   },
