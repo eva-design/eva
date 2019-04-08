@@ -16588,17 +16588,11 @@ export const style: ThemeStyleType = {
       },
     },
   },
-  'TopNavigationBar': {
+  'TopNavigation': {
     'meta': {
       'scope': 'mobile',
       'parameters': {
-        'height': {
-          'type': 'number',
-        },
-        'paddingTop': {
-          'type': 'number',
-        },
-        'paddingBottom': {
+        'paddingVertical': {
           'type': 'number',
         },
         'paddingHorizontal': {
@@ -16607,85 +16601,135 @@ export const style: ThemeStyleType = {
         'backgroundColor': {
           'type': 'string',
         },
-        'textAlign': {
-          'type': 'string',
-        },
-        'titleColor': {
+        'titleTextAlign': {
           'type': 'string',
         },
         'titleFontSize': {
           'type': 'number',
         },
+        'titleLineHeight': {
+          'type': 'number',
+        },
         'titleFontWeight': {
           'type': 'string',
         },
-        'subtitleColor': {
+        'titleColor': {
+          'type': 'string',
+        },
+        'subtitleTextAlign': {
           'type': 'string',
         },
         'subtitleFontSize': {
           'type': 'number',
         },
+        'subtitleLineHeight': {
+          'type': 'number',
+        },
         'subtitleFontWeight': {
           'type': 'string',
         },
+        'subtitleColor': {
+          'type': 'string',
+        },
+        'actionWidth': {
+          'type': 'number',
+        },
+        'actionHeight': {
+          'type': 'number',
+        },
+        'actionMarginHorizontal': {
+          'type': 'number',
+        },
       },
       'appearances': {
         'default': {
           'default': true,
         },
-        'titleCentered': {
-          'default': false,
+      },
+      'variantGroups': {
+        'alignment': {
+          'start': {
+            'default': true,
+          },
+          'center': {
+            'default': false,
+          },
         },
       },
-      'variantGroups': {},
       'states': {},
     },
     'styles': {
       'default': {
-        'height': 46,
-        'paddingTop': 4,
-        'paddingBottom': 12,
-        'paddingHorizontal': 16,
-        'backgroundColor': 'blue-primary',
-        'titleColor': 'text-primary-inverse',
-        'titleFontSize': 16,
+        'paddingVertical': 8,
+        'paddingHorizontal': 8,
+        'backgroundColor': 'color-white',
+        'titleFontSize': 15,
+        'titleLineHeight': 24,
         'titleFontWeight': '600',
-        'subtitleColor': 'text-primary-inverse',
-        'subtitleFontSize': 12,
+        'titleColor': 'font-primary-color',
+        'subtitleFontSize': 11,
+        'subtitleLineHeight': 16,
         'subtitleFontWeight': '400',
-        'textAlign': 'start',
+        'subtitleColor': 'color-basic-600',
+        'actionWidth': 24,
+        'actionHeight': 24,
+        'actionMarginHorizontal': 8,
+        'titleTextAlign': 'left',
+        'subtitleTextAlign': 'left',
       },
-      'titleCentered': {
-        'height': 46,
-        'paddingTop': 4,
-        'paddingBottom': 12,
-        'paddingHorizontal': 16,
-        'backgroundColor': 'blue-primary',
-        'titleColor': 'text-primary-inverse',
-        'titleFontSize': 16,
+      'default.start': {
+        'paddingVertical': 8,
+        'paddingHorizontal': 8,
+        'backgroundColor': 'color-white',
+        'titleFontSize': 15,
+        'titleLineHeight': 24,
         'titleFontWeight': '600',
-        'subtitleColor': 'text-primary-inverse',
-        'subtitleFontSize': 12,
+        'titleColor': 'font-primary-color',
+        'subtitleFontSize': 11,
+        'subtitleLineHeight': 16,
         'subtitleFontWeight': '400',
-        'textAlign': 'center',
+        'subtitleColor': 'color-basic-600',
+        'actionWidth': 24,
+        'actionHeight': 24,
+        'actionMarginHorizontal': 8,
+        'titleTextAlign': 'left',
+        'subtitleTextAlign': 'left',
+      },
+      'default.center': {
+        'paddingVertical': 8,
+        'paddingHorizontal': 8,
+        'backgroundColor': 'color-white',
+        'titleFontSize': 15,
+        'titleLineHeight': 24,
+        'titleFontWeight': '600',
+        'titleColor': 'font-primary-color',
+        'subtitleFontSize': 11,
+        'subtitleLineHeight': 16,
+        'subtitleFontWeight': '400',
+        'subtitleColor': 'color-basic-600',
+        'actionWidth': 24,
+        'actionHeight': 24,
+        'actionMarginHorizontal': 8,
+        'titleTextAlign': 'center',
+        'subtitleTextAlign': 'center',
       },
     },
   },
-  'TopNavigationBarAction': {
+  'TopNavigationAction': {
     'meta': {
       'scope': 'mobile',
       'parameters': {
-        'width': {
+        'iconWidth': {
           'type': 'number',
         },
-        'height': {
+        'iconHeight': {
           'type': 'number',
         },
-        'marginRight': {
-          'type': 'number',
-        },
-        'tintColor': {
+        'iconTintColor': {
           'type': 'string',
+        },
+        'marginHorizontal': {
+          'type': 'number',
         },
       },
       'appearances': {
@@ -16694,14 +16738,20 @@ export const style: ThemeStyleType = {
         },
       },
       'variantGroups': {},
-      'states': {},
+      'states': {
+        'active': {
+          'default': false,
+          'priority': 0,
+          'scope': 'all',
+        },
+      },
     },
     'styles': {
       'default': {
-        'width': 25,
-        'height': 25,
-        'marginRight': 8,
-        'tintColor': 'white',
+        'iconTintColor': 'font-primary-color',
+      },
+      'default.active': {
+        'iconTintColor': 'color-basic-900',
       },
     },
   },
