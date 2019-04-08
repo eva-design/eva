@@ -13411,16 +13411,28 @@ export const style: ThemeStyleType = {
     'meta': {
       'scope': 'all',
       'parameters': {
-        'textColor': {
-          'type': 'string',
+        'textFontSize': {
+          'type': 'number',
+        },
+        'textLineHeight': {
+          'type': 'number',
         },
         'textFontWeight': {
           'type': 'number',
+        },
+        'textMarginVertical': {
+          'type': 'number',
+        },
+        'textColor': {
+          'type': 'string',
         },
         'iconWidth': {
           'type': 'number',
         },
         'iconHeight': {
+          'type': 'number',
+        },
+        'iconMarginVertical': {
           'type': 'number',
         },
         'iconTintColor': {
@@ -13443,18 +13455,26 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'textColor': 'gray-dark',
-        'textFontWeight': '600',
-        'iconWidth': 20,
-        'iconHeight': 20,
-        'iconTintColor': 'gray-dark',
+        'textMarginVertical': 2,
+        'textFontSize': 14,
+        'textLineHeight': 16,
+        'textFontWeight': '800',
+        'textColor': 'color-basic-600',
+        'iconWidth': 24,
+        'iconHeight': 24,
+        'iconMarginVertical': 2,
+        'iconTintColor': 'color-basic-500',
       },
       'default.selected': {
-        'textColor': 'blue-primary',
-        'textFontWeight': '600',
-        'iconWidth': 20,
-        'iconHeight': 20,
-        'iconTintColor': 'blue-primary',
+        'textMarginVertical': 2,
+        'textFontSize': 14,
+        'textLineHeight': 16,
+        'textFontWeight': '800',
+        'textColor': 'color-primary-500',
+        'iconWidth': 24,
+        'iconHeight': 24,
+        'iconMarginVertical': 2,
+        'iconTintColor': 'color-primary-500',
       },
     },
   },
@@ -13462,7 +13482,7 @@ export const style: ThemeStyleType = {
     'meta': {
       'scope': 'all',
       'parameters': {
-        'height': {
+        'paddingVertical': {
           'type': 'number',
         },
         'indicatorHeight': {
@@ -13485,10 +13505,10 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'height': 42,
+        'paddingVertical': 4,
         'indicatorHeight': 4,
         'indicatorBorderRadius': 2,
-        'indicatorBackgroundColor': 'blue-primary',
+        'indicatorBackgroundColor': 'color-primary-500',
       },
     },
   },
