@@ -12056,7 +12056,20 @@ export const style: ThemeStyleType = {
   'Popover': {
     'meta': {
       'scope': 'all',
-      'parameters': {},
+      'parameters': {
+        'minWidth': {
+          'type': 'number',
+        },
+        'minHeight': {
+          'type': 'number',
+        },
+        'borderRadius': {
+          'type': 'number',
+        },
+        'backgroundColor': {
+          'type': 'string',
+        },
+      },
       'appearances': {
         'default': {
           'default': true,
@@ -12066,7 +12079,12 @@ export const style: ThemeStyleType = {
       'states': {},
     },
     'styles': {
-      'default': {},
+      'default': {
+        'minWidth': 56,
+        'minHeight': 32,
+        'borderRadius': 8,
+        'backgroundColor': 'color-white',
+      },
     },
   },
   'Radio': {
