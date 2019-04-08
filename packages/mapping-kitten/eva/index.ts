@@ -152,20 +152,35 @@ export const style: ThemeStyleType = {
     'meta': {
       'scope': 'mobile',
       'parameters': {
+        'paddingHorizontal': {
+          'type': 'number',
+        },
+        'paddingVertical': {
+          'type': 'number',
+        },
+        'iconMarginVertical': {
+          'type': 'number',
+        },
         'iconWidth': {
           'type': 'number',
         },
         'iconHeight': {
           'type': 'number',
         },
-        'iconMarginBottom': {
-          'type': 'number',
-        },
         'iconTintColor': {
           'type': 'string',
         },
+        'textMarginVertical': {
+          'type': 'number',
+        },
         'textColor': {
           'type': 'string',
+        },
+        'textFontSize': {
+          'type': 'number',
+        },
+        'textLineHeight': {
+          'type': 'number',
         },
         'textFontWeight': {
           'type': 'string',
@@ -187,20 +202,26 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'iconWidth': 40,
-        'iconHeight': 40,
-        'iconMarginBottom': 5,
-        'iconTintColor': 'gray-dark',
-        'textColor': 'gray-dark',
+        'iconWidth': 32,
+        'iconHeight': 32,
+        'iconMarginVertical': 4,
+        'iconTintColor': 'color-basic-500',
+        'textMarginVertical': 4,
+        'textFontSize': 13,
+        'textLineHeight': 16,
         'textFontWeight': '600',
+        'textColor': 'color-basic-600',
       },
       'default.selected': {
-        'iconWidth': 40,
-        'iconHeight': 40,
-        'iconMarginBottom': 5,
-        'iconTintColor': 'blue-primary',
-        'textColor': 'blue-primary',
+        'iconWidth': 32,
+        'iconHeight': 32,
+        'iconMarginVertical': 4,
+        'iconTintColor': 'color-primary-500',
+        'textMarginVertical': 4,
+        'textFontSize': 13,
+        'textLineHeight': 16,
         'textFontWeight': '600',
+        'textColor': 'color-primary-500',
       },
     },
   },
@@ -208,11 +229,11 @@ export const style: ThemeStyleType = {
     'meta': {
       'scope': 'mobile',
       'parameters': {
-        'backgroundColor': {
-          'type': 'string',
-        },
         'paddingVertical': {
           'type': 'number',
+        },
+        'backgroundColor': {
+          'type': 'string',
         },
         'borderTopColor': {
           'type': 'string',
@@ -240,20 +261,20 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'backgroundColor': 'transparent',
-        'paddingVertical': 16,
-        'borderTopColor': 'gray-primary',
+        'paddingVertical': 4,
+        'backgroundColor': 'color-white',
+        'borderTopColor': 'color-basic-400',
         'borderTopWidth': 1,
-        'indicatorHeight': 3,
-        'indicatorBackgroundColor': 'blue-primary',
+        'indicatorHeight': 4,
+        'indicatorBackgroundColor': 'color-primary-500',
       },
       'noIndicator': {
-        'backgroundColor': 'transparent',
-        'paddingVertical': 16,
-        'borderTopColor': 'gray-primary',
+        'paddingVertical': 4,
+        'backgroundColor': 'color-white',
+        'borderTopColor': 'color-basic-400',
         'borderTopWidth': 1,
         'indicatorHeight': 0,
-        'indicatorBackgroundColor': 'transparent',
+        'indicatorBackgroundColor': 'opacity-transparent',
       },
     },
   },
