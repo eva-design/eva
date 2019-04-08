@@ -11793,6 +11793,9 @@ export const style: ThemeStyleType = {
         'paddingHorizontal': {
           'type': 'number',
         },
+        'backgroundColor': {
+          'type': 'string',
+        },
         'iconWidth': {
           'type': 'number',
         },
@@ -11805,20 +11808,20 @@ export const style: ThemeStyleType = {
         'iconTintColor': {
           'type': 'string',
         },
-        'titleColor': {
-          'type': 'string',
+        'titleMarginHorizontal': {
+          'type': 'number',
         },
         'titleFontSize': {
+          'type': 'number',
+        },
+        'titleLineHeight': {
           'type': 'number',
         },
         'titleFontWeight': {
           'type': 'string',
         },
-        'titleMarginHorizontal': {
-          'type': 'number',
-        },
-        'titleMarginVertical': {
-          'type': 'number',
+        'titleColor': {
+          'type': 'string',
         },
         'descriptionColor': {
           'type': 'string',
@@ -11826,16 +11829,10 @@ export const style: ThemeStyleType = {
         'descriptionFontSize': {
           'type': 'number',
         },
+        'descriptionLineHeight': {
+          'type': 'number',
+        },
         'descriptionMarginHorizontal': {
-          'type': 'number',
-        },
-        'descriptionMarginVertical': {
-          'type': 'number',
-        },
-        'accessoryWidth': {
-          'type': 'number',
-        },
-        'accessoryHeight': {
           'type': 'number',
         },
         'accessoryMarginHorizontal': {
@@ -11858,45 +11855,42 @@ export const style: ThemeStyleType = {
     },
     'styles': {
       'default': {
-        'paddingVertical': 12,
-        'paddingHorizontal': 6,
-        'iconWidth': 48,
-        'iconHeight': 48,
-        'iconMarginHorizontal': 6,
-        'iconTintColor': 'gray-primary',
-        'titleColor': 'text-primary',
-        'titleFontSize': 20,
+        'paddingHorizontal': 8,
+        'paddingVertical': 8,
+        'backgroundColor': 'opacity-transparent',
+        'iconWidth': 40,
+        'iconHeight': 40,
+        'iconMarginHorizontal': 8,
+        'iconTintColor': 'color-basic-500',
+        'titleMarginHorizontal': 8,
+        'titleFontSize': 13,
+        'titleLineHeight': 24,
+        'titleColor': 'font-primary-color',
         'titleFontWeight': '600',
-        'titleMarginHorizontal': 6,
-        'titleMarginVertical': 4,
-        'descriptionColor': 'gray-400',
-        'descriptionFontSize': 14,
-        'descriptionMarginHorizontal': 6,
-        'descriptionMarginVertical': 4,
-        'accessoryWidth': 48,
-        'accessoryHeight': 48,
-        'accessoryMarginHorizontal': 6,
+        'descriptionMarginHorizontal': 8,
+        'descriptionFontSize': 11,
+        'descriptionLineHeight': 16,
+        'descriptionColor': 'color-basic-600',
+        'accessoryMarginHorizontal': 8,
       },
       'default.active': {
-        'paddingVertical': 12,
-        'paddingHorizontal': 6,
-        'iconWidth': 48,
-        'iconHeight': 48,
-        'iconMarginHorizontal': 6,
-        'iconTintColor': 'gray-primary',
-        'titleColor': 'text-primary',
-        'titleFontSize': 20,
+        'paddingHorizontal': 8,
+        'paddingVertical': 8,
+        'backgroundColor': 'color-basic-100',
+        'iconWidth': 40,
+        'iconHeight': 40,
+        'iconMarginHorizontal': 8,
+        'iconTintColor': 'color-basic-500',
+        'titleMarginHorizontal': 8,
+        'titleFontSize': 13,
+        'titleLineHeight': 24,
+        'titleColor': 'font-primary-color',
         'titleFontWeight': '600',
-        'titleMarginHorizontal': 6,
-        'titleMarginVertical': 4,
-        'descriptionColor': 'gray-400',
-        'descriptionFontSize': 14,
-        'descriptionMarginHorizontal': 6,
-        'descriptionMarginVertical': 4,
-        'accessoryWidth': 48,
-        'accessoryHeight': 48,
-        'accessoryMarginHorizontal': 6,
-        'backgroundColor': 'gray-100',
+        'descriptionMarginHorizontal': 8,
+        'descriptionFontSize': 11,
+        'descriptionLineHeight': 16,
+        'descriptionColor': 'color-basic-600',
+        'accessoryMarginHorizontal': 8,
       },
     },
   },
