@@ -8,9 +8,6 @@ export const style: ThemeStyleType = {
         'roundCoefficient': {
           'type': 'number',
         },
-        'margin': {
-          'type': 'number',
-        },
         'width': {
           'type': 'number',
         },
@@ -36,6 +33,9 @@ export const style: ThemeStyleType = {
           },
         },
         'size': {
+          'tiny': {
+            'default': false,
+          },
           'small': {
             'default': false,
           },
@@ -45,106 +45,133 @@ export const style: ThemeStyleType = {
           'large': {
             'default': false,
           },
+          'giant': {
+            'default': false,
+          },
         },
       },
       'states': {},
     },
     'styles': {
       'default': {
-        'margin': 16,
         'roundCoefficient': 0.5,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
       },
       'default.round': {
-        'margin': 16,
         'roundCoefficient': 0.5,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
       },
       'default.rounded': {
-        'margin': 16,
         'roundCoefficient': 0.3,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
       },
       'default.square': {
-        'margin': 16,
         'roundCoefficient': 0,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
+      },
+      'default.round.tiny': {
+        'roundCoefficient': 0.5,
+        'width': 24,
+        'height': 24,
       },
       'default.round.small': {
-        'margin': 16,
         'roundCoefficient': 0.5,
-        'width': 40,
-        'height': 40,
+        'width': 32,
+        'height': 32,
       },
       'default.round.medium': {
-        'margin': 16,
         'roundCoefficient': 0.5,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
       },
       'default.round.large': {
-        'margin': 16,
         'roundCoefficient': 0.5,
-        'width': 64,
-        'height': 64,
+        'width': 48,
+        'height': 48,
+      },
+      'default.round.giant': {
+        'roundCoefficient': 0.5,
+        'width': 56,
+        'height': 56,
+      },
+      'default.rounded.tiny': {
+        'roundCoefficient': 0.3,
+        'width': 24,
+        'height': 24,
       },
       'default.rounded.small': {
-        'margin': 16,
         'roundCoefficient': 0.3,
-        'width': 40,
-        'height': 40,
+        'width': 32,
+        'height': 32,
       },
       'default.rounded.medium': {
-        'margin': 16,
         'roundCoefficient': 0.3,
-        'width': 48,
-        'height': 48,
+        'width': 40,
+        'height': 40,
       },
       'default.rounded.large': {
-        'margin': 16,
         'roundCoefficient': 0.3,
-        'width': 64,
-        'height': 64,
+        'width': 48,
+        'height': 48,
+      },
+      'default.rounded.giant': {
+        'roundCoefficient': 0.3,
+        'width': 56,
+        'height': 56,
+      },
+      'default.square.tiny': {
+        'roundCoefficient': 0,
+        'width': 24,
+        'height': 24,
       },
       'default.square.small': {
-        'margin': 16,
         'roundCoefficient': 0,
-        'width': 40,
-        'height': 40,
+        'width': 32,
+        'height': 32,
       },
       'default.square.medium': {
-        'margin': 16,
+        'roundCoefficient': 0,
+        'width': 40,
+        'height': 40,
+      },
+      'default.square.large': {
         'roundCoefficient': 0,
         'width': 48,
         'height': 48,
       },
-      'default.square.large': {
-        'margin': 16,
+      'default.square.giant': {
         'roundCoefficient': 0,
-        'width': 64,
-        'height': 64,
+        'width': 56,
+        'height': 56,
+      },
+      'default.tiny': {
+        'roundCoefficient': 0.5,
+        'width': 24,
+        'height': 24,
       },
       'default.small': {
-        'margin': 16,
+        'roundCoefficient': 0.5,
+        'width': 32,
+        'height': 32,
+      },
+      'default.medium': {
         'roundCoefficient': 0.5,
         'width': 40,
         'height': 40,
       },
-      'default.medium': {
-        'margin': 16,
+      'default.large': {
         'roundCoefficient': 0.5,
         'width': 48,
         'height': 48,
       },
-      'default.large': {
-        'margin': 16,
+      'default.giant': {
         'roundCoefficient': 0.5,
-        'width': 64,
-        'height': 64,
+        'width': 56,
+        'height': 56,
       },
     },
   },
