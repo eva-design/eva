@@ -5,7 +5,7 @@ export interface SchemaType {
 }
 
 export interface StrictTheme {
-  [key: string]: string;
+  [key: string]: string | number;
 }
 
 export interface ThemeMappingType {

@@ -123,7 +123,14 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 states: string[],
                                 theme: StrictTheme): [string, ThemedStyleType][] {
 
-  const stateless = createStyleEntry(mapping, component, appearance, appearance);
+  const stateless = createStyleEntry(mapping,
+    component,
+    appearance,
+    appearance,
+    '',
+    '',
+    theme,
+  );
 
   const withStates = states.reduce((acc: [string, ThemedStyleType][], current: string) => {
     const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current);

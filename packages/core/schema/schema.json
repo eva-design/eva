@@ -34,10 +34,13 @@
       "description": "",
       "type": "object",
       "propertyNames": {
-        "pattern": "^[a-z][a-zA-Z]*"
+        "pattern": "^[a-z][a-zA-Z0-9]*"
       },
       "additionalProperties": {
-        "type": "string"
+        "type": [
+          "string",
+          "number"
+        ]
       }
     },
     "components": {
@@ -234,17 +237,6 @@
       "type": "object",
       "propertyNames": {
         "pattern": "^[a-z][a-zA-Z]*"
-      },
-      "patternProperties": {
-        "[Ww]idth": {
-          "type": "number"
-        },
-        "[Hh]eight": {
-          "type": "number"
-        },
-        "[Cc]olor": {
-          "type": "string"
-        }
       },
       "properties": {
         "state": {
