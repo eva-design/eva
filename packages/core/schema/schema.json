@@ -33,9 +33,6 @@
     "strictTokens": {
       "description": "",
       "type": "object",
-      "propertyNames": {
-        "pattern": "^[a-z][a-zA-Z0-9]*"
-      },
       "additionalProperties": {
         "type": [
           "string",
