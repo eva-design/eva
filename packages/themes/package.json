@@ -1,6 +1,6 @@
 {
-  "name": "@eva/theme-eva",
-  "description": "Eva design system default theme",
+  "name": "@eva/themes",
+  "description": "Eva design system themes",
   "version": "0.0.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
