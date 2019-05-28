@@ -1,6 +1,7 @@
 {
-  "name": "eva",
-  "description": "Eva design system",
+  "name": "eva-design",
+  "private": true,
+  "description": "Eva Design System",
   "version": "0.0.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
