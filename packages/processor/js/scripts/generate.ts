@@ -28,10 +28,10 @@ export function generateMappingPackage(source: string) {
     version: '0.0.1',
     license: 'MIT',
     author: 'akveo <contact@akveo.com>',
-    homepage: 'https://github.com/akveo/eva#readme',
-    repository: 'git+https://github.com/akveo/eva.git',
+    homepage: 'https://github.com/eva-design/eva#readme',
+    repository: 'git+https://github.com/eva-design/eva.git',
     bugs: {
-      url: 'https://github.com/akveo/eva/issues',
+      url: 'https://github.com/eva-design/eva/issues',
     },
   });
 
