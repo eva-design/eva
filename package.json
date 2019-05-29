@@ -5,10 +5,10 @@
   "version": "0.0.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
-  "homepage": "https://github.com/akveo/eva#readme",
-  "repository": "git+https://github.com/akveo/eva.git",
+  "homepage": "https://github.com/eva-design/eva#readme",
+  "repository": "git+https://github.com/eva-design/eva.git",
   "bugs": {
-    "url": "https://github.com/akveo/eva/issues"
+    "url": "https://github.com/eva-design/eva/issues"
   },
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,10 @@
     "lint:fix": "npm run lint -- --fix",
     "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
     "gen:js-custom": "ts-node ./packages/processor/js/scripts/customize",
-    "test": "jest"
+    "test": "jest",
+    "ci:lint": "npm run lint",
+    "ci:build": "npm run build",
+    "ci:test": "npm run test"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
