@@ -1,5 +1,6 @@
 {
-  "name": "eva",
+  "name": "eva-design",
+  "private": true,
   "description": "Eva Design System",
   "version": "0.0.1",
   "license": "MIT",
