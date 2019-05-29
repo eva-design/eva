@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/akveo/eva/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "@eva-design/dss": "github:akveo/eva#package/dss"
   }
 }
