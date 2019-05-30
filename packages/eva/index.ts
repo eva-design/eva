@@ -1,3 +1,3 @@
-export { default as mapping } from './mapping.json';
-export { default as light } from './themes/light.json';
-export { default as dark } from './themes/dark.json';
+export const mapping = require('./mapping.json');
+export const light = require('./themes/light.json');
+export const dark = require('./themes/dark.json');
