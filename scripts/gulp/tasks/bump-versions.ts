@@ -14,15 +14,15 @@ const FRAMEWORK_ROOT = './packages';
 
 task('version', () => {
   return fs.readdirSync(FRAMEWORK_ROOT)
-           .map(createFullPathToPackageJson)
-           .map(bumpVersionAndNebularPeers);
+    .map(createFullPathToPackageJson)
+    .map(bumpVersionAndEvaPeers);
 });
 
 function createFullPathToPackageJson(pkgName: string): string {
   return `${FRAMEWORK_ROOT}/${pkgName}/package.json`;
 }
 
-function bumpVersionAndNebularPeers(pkgPath: string) {
+function bumpVersionAndEvaPeers(pkgPath: string) {
   return src(pkgPath, { base: './' })
     .pipe(through.obj(function (file, encoding, callback) {
       const pkgJson = JSON.parse(file.contents.toString(encoding));
