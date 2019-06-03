@@ -1,39 +1,52 @@
 {
-  "name": "eva",
-  "description": "Eva design system",
-  "version": "0.0.1",
+  "name": "eva-design",
+  "private": true,
+  "description": "Eva Design System",
+  "version": "1.0.0-beta.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
-  "homepage": "https://github.com/akveo/eva#readme",
-  "repository": "git+https://github.com/akveo/eva.git",
+  "homepage": "https://github.com/eva-design/eva#readme",
+  "repository": "git+https://github.com/eva-design/eva.git",
   "bugs": {
-    "url": "https://github.com/akveo/eva/issues"
+    "url": "https://github.com/eva-design/eva/issues"
   },
   "scripts": {
-    "start": "npm run build -- --watch",
     "build": "tsc",
-    "clean": "rimraf ./dist",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
-    "ci:test": "npm test -- --coverage && cat ./dist/jest/coverage/lcov.info | coveralls",
+    "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
+    "gen:js-custom": "ts-node ./packages/processor/js/scripts/customize",
     "test": "jest",
-    "gen:kitten": "ts-node ./packages/processor/kitten/scripts/generateExisting",
-    "gen:kitten-all": "npm run gen:kitten -- eva",
-    "gen:kitten-custom": "ts-node ./packages/processor/kitten/scripts/customize"
+    "ci:lint": "npm run lint",
+    "ci:build": "npm run build",
+    "ci:test": "npm run test",
+    "clean": "rimraf ./dist",
+    "conventional-changelog": "conventional-changelog",
+    "version:bump": "gulp version",
+    "version:changelog": "npm run conventional-changelog -- -i CHANGELOG.md -s",
+    "publish": "./scripts/publish.sh",
+    "release:prepare": "npm run clean && npm run build",
+    "release:validate": "npm run lint && npm run test",
+    "release": "npm run release:prepare && npm run release:validate && npm run publish"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.11",
+    "@types/gulp": "^3.8.36",
+    "@types/jest": "^24.0.13",
     "@types/lodash.merge": "^4.6.6",
-    "@types/node": "^10.12.18",
+    "@types/node": "^12.0.3",
     "@types/rimraf": "^2.0.2",
     "ajv": "^6.10.0",
+    "conventional-changelog-cli": "^2.0.21",
+    "gulp": "^3.9.1",
     "husky": "^1.1.2",
     "jest": "^24.0.0-alpha.9",
     "lodash.merge": "^4.6.1",
     "rimraf": "^2.6.3",
+    "run-sequence": "^2.2.1",
+    "through2": "^3.0.1",
     "ts-jest": "^23.10.5",
     "ts-node": "^8.0.3",
     "tslint": "^5.12.0",
-    "typescript": "^3.2.2"
+    "typescript": "^3.4.5"
   }
 }

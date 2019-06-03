@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/tsc-out",
+    "outDir": "./dist",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -17,12 +17,16 @@
     ],
     "baseUrl": "./",
     "paths": {
-      "@eva/*": [
+      "@eva-design/*": [
         "./packages/*"
       ]
     },
     "typeRoots": [
       "./node_modules/@types"
     ]
-  }
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.json"
+  ]
 }
