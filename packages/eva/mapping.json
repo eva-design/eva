@@ -826,16 +826,16 @@
                 "dividerBackgroundColor": "border-primary-color-2"
               },
               "success": {
-                "dividerBackgroundColor": "border-color-success-2"
+                "dividerBackgroundColor": "border-success-color-2"
               },
               "info": {
-                "dividerBackgroundColor": "border-color-info-2"
+                "dividerBackgroundColor": "border-info-color-2"
               },
               "warning": {
-                "dividerBackgroundColor": "border-color-warning-2"
+                "dividerBackgroundColor": "border-warning-color-2"
               },
               "danger": {
-                "dividerBackgroundColor": "border-color-danger-2"
+                "dividerBackgroundColor": "border-danger-color-2"
               },
               "white": {
                 "dividerBackgroundColor": "color-white"
