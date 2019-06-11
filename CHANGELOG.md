@@ -1,3 +1,17 @@
+## 1.0.0 (2019-06-11)
+
+* release(eva): release version 1.0.0 ([e5cfce0](https://github.com/eva-design/eva/commit/e5cfce0))
+* fix(mapping): references fix ([a9cab91](https://github.com/eva-design/eva/commit/a9cab91))
+* fix(mapping): typo fix ([658df6a](https://github.com/eva-design/eva/commit/658df6a))
+* fix(mapping): white status & input sizes ([60b2626](https://github.com/eva-design/eva/commit/60b2626))
+* fix(mapping/theme): icons variables fix ([6d0f073](https://github.com/eva-design/eva/commit/6d0f073))
+* refactor(mapping/theme): eva-mapping and light/dark themes refactor ([016b0e8](https://github.com/eva-design/eva/commit/016b0e8))
+* refactor(mapping/theme): theme variables refactor ([d871295](https://github.com/eva-design/eva/commit/d871295))
+* Update packages/eva/themes/dark.json ([5360893](https://github.com/eva-design/eva/commit/5360893))
+* Update packages/eva/themes/light.json ([8133e75](https://github.com/eva-design/eva/commit/8133e75))
+
+
+
 ## 1.0.0-beta.1 (2019-05-31)
 
 * feat(build): build pipeline add ([482c466](https://github.com/eva-design/eva/commit/482c466))
