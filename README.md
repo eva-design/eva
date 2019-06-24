@@ -1,8 +1,8 @@
 # Eva Design System [<img src="https://i.imgur.com/oMcxwZ0.png" alt="Eva Design System" height="20px" />](https://eva.design) [![npm](https://img.shields.io/npm/l/@eva-design/eva.svg)]() [![npm](https://img.shields.io/npm/dt/@eva-design/eva.svg)](https://www.npmjs.com/package/@nebular/theme)
 Customizable Design System easily adaptable to your Brand. Available for Sketch with Mobile and Web component libraries.
-
 [Documentation](https://eva.design?utm_source=github&utm_medium=eva_readme)
 
+<a href="https://eva.design?utm_source=github&utm_medium=eva_cover"><img src="https://i.imgur.com/dQssjII.png"></a>
 
 ## What's included
 
