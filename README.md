@@ -14,9 +14,9 @@ Customizable Design System easily adaptable to your Brand. Available for Sketch 
 
 
 ## Quick Start - designers
-- [Eva Design System](https://eva.design) Eva Design System homepage
-- [Eva: Icons](https://akveo.github.io/eva-icons) Eva UI Icon Set
-- [Eva: Design Resources](https://gumroad.com/akveo) Resources for designers: UI Library, UI Kits & etc.
+- [Eva Design System](https://eva.design) - Product Homepage
+- [Eva: Icons](https://akveo.github.io/eva-icons) - UI Icon Set
+- [Eva: Design Resources](https://gumroad.com/akveo) - UI Library, UI Kits & etc.
 
 ## Quick Start - developers
 
