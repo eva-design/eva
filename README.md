@@ -12,17 +12,20 @@ Customizable Design System easily adaptable to your Brand. Available for Sketch 
 - **SVG Eva Icons support**  - 480+ general purpose icons
 - **2 visual themes** with Dark mode!
 
-
 ## Quick Start - designers
+
 - [Eva Design System](https://eva.design) - Product Homepage
-- [Eva: Icons](https://akveo.github.io/eva-icons) - UI Icon Set
-- [Eva: Design Resources](https://gumroad.com/akveo) - UI Library, UI Kits & etc.
+- [Eva Icons](https://akveo.github.io/eva-icons) - UI Icon Set
+- [Eva Sketch File](https://gumroad.com/akveo) - UI Library, UI Kits & etc.
 
 ## Quick Start - developers
 
 - [Nebular](https://github.com/akveo/nebular#quick-start) Angular UI library quick start guide
 - [UI Kitten](https://github.com/akveo/react-native-ui-kitten#quick-start) React Native UI library quick start guide
 
+## License
+- Code - [MIT](LICENSE.txt) license.
+- Design resources (Skech) - [MIT with restriction to distribute](DESIGN_LICENSE.txt) license.
 
 ## More from Akveo
 - [Eva Icons](https://github.com/akveo/eva-icons) - 480+ beautiful Open Source icons
