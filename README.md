@@ -3,7 +3,7 @@ Customizable Design System easily adaptable to your Brand. Available for Sketch 
 
 [Documentation](https://eva.design?utm_source=github&utm_medium=eva_readme)
 
-<a href="https://eva.design?utm_source=github&utm_medium=eva_cover"><img src="https://i.imgur.com/dQssjII.png"></a>
+<a href="https://eva.design?utm_source=github&utm_medium=eva_cover"><img src="https://i.imgur.com/E7c07F2.png"></a>
 
 ## What's included
 
