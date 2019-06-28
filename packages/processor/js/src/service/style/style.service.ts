@@ -4,6 +4,8 @@ import {
   ThemedStyleType,
   MappingType,
   StrictTheme,
+  StatelessMappingType,
+  ParameterType,
 } from '@eva-design/dss';
 import {
   safe,
@@ -79,26 +81,26 @@ export function createStyle(mapping: ThemeMappingType,
 
   const normalizedAppearance: string[] = normalizeAppearance(mapping, component, appearance);
   const normalizedVariants: string[] = normalizeVariants(mapping, component, variants);
-  const normalizedStates: string[] = normalizeStates(mapping, component, states, (state: string) => {
+  const normalizedStates: string[] = normalizeStates(mapping, component, states, (state: string): number => {
     return states.indexOf(state);
   });
 
-  const appearanceMapping = reduce(normalizedAppearance, apce => {
+  const appearanceMapping: StatelessMappingType = reduce(normalizedAppearance, apce => {
     return getStatelessAppearanceMapping(mapping, component, apce);
   });
 
-  const variantMapping = reduce(normalizedVariants, variant => {
+  const variantMapping: StatelessMappingType = reduce(normalizedVariants, variant => {
     return reduce(normalizedAppearance, apce => {
       return getStatelessVariantMapping(mapping, component, apce, variant);
     });
   });
 
-  const stateMapping = reduce(normalizedStates, state => {
+  const stateMapping: StatelessMappingType = reduce(normalizedStates, state => {
     const appearanceStateMapping = reduce(normalizedAppearance, apce => {
       return getStateAppearanceMapping(mapping, component, apce, state);
     });
 
-    const variantStateMapping = reduce(normalizedVariants, variant => {
+    const variantStateMapping: StatelessMappingType = reduce(normalizedVariants, variant => {
       return reduce(normalizedAppearance, apce => {
         return getStateVariantMapping(mapping, component, apce, variant, state);
       });
@@ -107,7 +109,7 @@ export function createStyle(mapping: ThemeMappingType,
     return { ...appearanceStateMapping, ...variantStateMapping };
   });
 
-  const strictlessMapping: MappingType = {
+  const strictlessMapping: StatelessMappingType = {
     ...appearanceMapping,
     ...variantMapping,
     ...stateMapping,
@@ -287,10 +289,10 @@ function createStateVariations(states: string[], separator: string, result: stri
   return createStateVariations(states, separator, [...result, ...next]);
 }
 
-function withStrictTokens(mapping: MappingType, theme: StrictTheme): MappingType {
-  return Object.keys(mapping).reduce((acc: MappingType, next: string): MappingType => {
-    const currentToken: any = mapping[next];
-    const nextToken: any = theme[currentToken] || currentToken;
+function withStrictTokens(mapping: StatelessMappingType, theme: StrictTheme): StatelessMappingType {
+  return Object.keys(mapping).reduce((acc: StatelessMappingType, next: string): StatelessMappingType => {
+    const currentToken: ParameterType = mapping[next];
+    const nextToken: ParameterType = theme[currentToken] || currentToken;
 
     return { ...acc, [next]: nextToken };
   }, {});
