@@ -1,3 +1,12 @@
+## <small>1.0.1 (2019-06-28)</small>
+
+* build: fix state property type ([0d1b537](https://github.com/eva-design/eva/commit/0d1b537))
+* chore: add licenses (#15) ([7f0c433](https://github.com/eva-design/eva/commit/7f0c433)), closes [#15](https://github.com/eva-design/eva/issues/15)
+* chore: fix readme badges ([f60992f](https://github.com/eva-design/eva/commit/f60992f))
+* docs(readme): new readme (#13) ([eb5b928](https://github.com/eva-design/eva/commit/eb5b928)), closes [#13](https://github.com/eva-design/eva/issues/13)
+
+
+
 ## 1.0.0 (2019-06-11)
 
 * release(eva): release version 1.0.0 ([e5cfce0](https://github.com/eva-design/eva/commit/e5cfce0))
