@@ -882,6 +882,168 @@
         }
       }
     },
+    "Calendar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "maxWidth": {
+            "type": "number"
+          },
+          "monthHeaderPaddingHorizontal": {
+            "type": "number"
+          },
+          "monthHeaderPaddingVertical": {
+            "type": "number"
+          },
+          "monthHeaderBackgroundColor": {
+            "type": "string"
+          },
+          "monthTextFontSize": {
+            "type": "number"
+          },
+          "monthTextFontWeight": {
+            "type": "string"
+          },
+          "monthTextLineHeight": {
+            "type": "number"
+          },
+          "monthTextColor": {
+            "type": "string"
+          },
+          "weekdayTextFontSize": {
+            "type": "number"
+          },
+          "weekdayTextFontWeight": {
+            "type": "number"
+          },
+          "weekdayTextLineHeight": {
+            "type": "number"
+          },
+          "weekdayTextColor": {
+            "type": "number"
+          },
+          "marginHorizontal": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+        },
+        "states": {
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "monthHeaderPaddingVertical": 4,
+            "monthHeaderBackgroundColor": "background-basic-color-3",
+            "monthTextFontSize": "text-heading-6-font-size",
+            "monthTextFontWeight": "text-heading-6-font-weight",
+            "monthTextLineHeight": "text-heading-6-line-height",
+            "monthTextColor": "text-basic-color",
+            "weekdayTextFontSize": "text-paragraph-2-font-size",
+            "weekdayTextFontWeight": "text-paragraph-2-font-weight",
+            "weekdayTextLineHeight": "text-paragraph-2-line-height",
+            "weekdayTextColor": "text-basic-color"
+          }
+        }
+      }
+    },
+    "CalendarCell": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "maxWidth": {
+            "type": "number"
+          },
+          "maxHeight": {
+            "type": "number"
+          },
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingVertical": {
+            "type": "number"
+          },
+          "contentBorderRadius": {
+            "type": "number"
+          },
+          "contentBorderColor": {
+            "type": "string"
+          },
+          "contentBackgroundColor": {
+            "type": "string"
+          },
+          "contentTextColor": {
+            "type": "string"
+          },
+          "contentTextFontSize": {
+            "type": "number"
+          },
+          "contentTextLineHeight": {
+            "type": "number"
+          },
+          "contentTextFontWeight": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+        },
+        "states": {
+          "selected": {
+            "scope": "all",
+            "priority": 0,
+            "default": false
+          },
+          "disabled": {
+            "scope": "all",
+            "priority": 1,
+            "default": false
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingHorizontal": 1,
+            "paddingVertical": 1,
+            "contentBorderRadius": 4,
+            "contentBorderColor": "transparent",
+            "contentBackgroundColor": "transparent",
+            "contentTextFontSize": "text-paragraph-1-font-size",
+            "contentTextLineHeight": "text-paragraph-1-line-height",
+            "contentTextFontWeight": "text-paragraph-1-font-weight",
+            "contentTextColor": "text-basic-color",
+            "state": {
+              "selected": {
+                "contentBorderColor": "color-primary-default",
+                "contentBackgroundColor": "color-primary-default",
+                "contentTextFontWeight": "600",
+                "contentTextColor": "text-control-color"
+              },
+              "disabled": {
+                "contentTextColor": "text-disabled-color"
+              }
+            }
+          }
+        }
+      }
+    },
     "CheckBox": {
       "meta": {
         "scope": "all",
