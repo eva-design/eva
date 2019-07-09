@@ -1020,14 +1020,19 @@
         "variantGroups": {
         },
         "states": {
-          "selected": {
+          "today": {
             "scope": "all",
             "priority": 0,
             "default": false
           },
-          "disabled": {
+          "selected": {
             "scope": "all",
             "priority": 1,
+            "default": false
+          },
+          "disabled": {
+            "scope": "all",
+            "priority": 2,
             "default": false
           }
         }
@@ -1038,8 +1043,6 @@
             "paddingHorizontal": 1,
             "paddingVertical": 1,
             "contentBorderRadius": 4,
-            "contentBorderColor": "transparent",
-            "contentBackgroundColor": "transparent",
             "contentTextFontSize": "text-paragraph-1-font-size",
             "contentTextLineHeight": "text-paragraph-1-line-height",
             "contentTextFontWeight": "text-paragraph-1-font-weight",
@@ -1052,7 +1055,12 @@
                 "contentTextColor": "text-control-color"
               },
               "disabled": {
+                "contentBackgroundColor": "background-basic-color-3",
                 "contentTextColor": "text-disabled-color"
+              },
+              "today": {
+                "contentBackgroundColor": "background-basic-color-3",
+                "contentTextFontWeight": "600"
               }
             }
           }
