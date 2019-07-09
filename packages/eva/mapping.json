@@ -886,44 +886,53 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "maxWidth": {
+          "headerPaddingHorizontal": {
             "type": "number"
           },
-          "monthHeaderPaddingHorizontal": {
+          "headerPaddingVertical": {
             "type": "number"
           },
           "monthHeaderPaddingVertical": {
             "type": "number"
           },
-          "monthHeaderBackgroundColor": {
-            "type": "string"
-          },
-          "monthTextFontSize": {
+          "titleFontSize": {
             "type": "number"
           },
-          "monthTextFontWeight": {
+          "titleFontWeight": {
             "type": "string"
           },
-          "monthTextLineHeight": {
+          "titleLineHeight": {
             "type": "number"
           },
-          "monthTextColor": {
+          "titleColor": {
             "type": "string"
+          },
+          "titleMarginHorizontal": {
+            "type": "number"
+          },
+          "subtitleFontSize": {
+            "type": "number"
+          },
+          "subtitleFontWeight": {
+            "type": "string"
+          },
+          "subtitleLineHeight": {
+            "type": "number"
+          },
+          "subtitleMarginHorizontal": {
+            "type": "number"
           },
           "weekdayTextFontSize": {
             "type": "number"
           },
           "weekdayTextFontWeight": {
-            "type": "number"
+            "type": "string"
           },
           "weekdayTextLineHeight": {
             "type": "number"
           },
           "weekdayTextColor": {
-            "type": "number"
-          },
-          "marginHorizontal": {
-            "type": "number"
+            "type": "string"
           }
         },
         "appearances": {
@@ -940,15 +949,21 @@
         "default": {
           "mapping": {
             "monthHeaderPaddingVertical": 4,
-            "monthHeaderBackgroundColor": "background-basic-color-3",
-            "monthTextFontSize": "text-heading-6-font-size",
-            "monthTextFontWeight": "text-heading-6-font-weight",
-            "monthTextLineHeight": "text-heading-6-line-height",
-            "monthTextColor": "text-basic-color",
+            "headerPaddingHorizontal": 4,
+            "headerPaddingVertical": 8,
+            "titleFontSize": "text-heading-6-font-size",
+            "titleFontWeight": "text-heading-6-font-weight",
+            "titleLineHeight": "text-heading-6-line-height",
+            "titleColor": "text-primary-color",
+            "titleMarginHorizontal": 4,
+            "subtitleFontSize": "text-heading-6-font-size",
+            "subtitleFontWeight": "text-paragraph-1-font-weight",
+            "subtitleLineHeight": "text-heading-6-line-height",
+            "subtitleMarginHorizontal": 4,
             "weekdayTextFontSize": "text-paragraph-2-font-size",
             "weekdayTextFontWeight": "text-paragraph-2-font-weight",
             "weekdayTextLineHeight": "text-paragraph-2-line-height",
-            "weekdayTextColor": "text-basic-color"
+            "weekdayTextColor": "text-hint-color"
           }
         }
       }
