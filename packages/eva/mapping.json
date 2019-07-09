@@ -1025,12 +1025,12 @@
             "priority": 0,
             "default": false
           },
-          "selected": {
+          "disabled": {
             "scope": "all",
             "priority": 1,
             "default": false
           },
-          "disabled": {
+          "selected": {
             "scope": "all",
             "priority": 2,
             "default": false
