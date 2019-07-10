@@ -5,7 +5,7 @@ export interface SchemaType {
 }
 
 export interface StrictTheme {
-  [key: string]: string | number;
+  [key: string]: ParameterType;
 }
 
 export interface ThemeMappingType {
@@ -58,23 +58,25 @@ export interface StateMetaType {
 }
 
 export interface AppearanceMappingType {
-  mapping: StateMappingType;
+  mapping: MappingType;
   variantGroups?: {
     [key: string]: {
-      [key: string]: StateMappingType;
+      [key: string]: MappingType;
     };
   };
 }
 
-export interface MappingType {
-  [key: string]: ParameterType | MappingType;
+export interface StatelessMappingType {
+  [key: string]: ParameterType;
 }
 
-export interface StateMappingType extends MappingType {
-  state?: {
-    [key: string]: MappingType;
+export interface StatefulMappingType {
+  state: {
+    [key: string]: StatelessMappingType;
   };
 }
+
+export type MappingType = StatelessMappingType | StatefulMappingType;
 
 export type ParameterType = string | number;
 
