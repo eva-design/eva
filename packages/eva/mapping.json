@@ -892,9 +892,6 @@
           "headerPaddingVertical": {
             "type": "number"
           },
-          "monthHeaderPaddingVertical": {
-            "type": "number"
-          },
           "titleFontSize": {
             "type": "number"
           },
@@ -948,7 +945,6 @@
       "appearances": {
         "default": {
           "mapping": {
-            "monthHeaderPaddingVertical": 4,
             "headerPaddingHorizontal": 4,
             "headerPaddingVertical": 8,
             "titleFontSize": "text-heading-6-font-size",
@@ -972,18 +968,6 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "maxWidth": {
-            "type": "number"
-          },
-          "maxHeight": {
-            "type": "number"
-          },
-          "width": {
-            "type": "number"
-          },
-          "height": {
-            "type": "number"
-          },
           "paddingHorizontal": {
             "type": "number"
           },
