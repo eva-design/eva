@@ -1190,6 +1190,21 @@
           },
           "menuBorderWidth": {
             "type": "number"
+          },
+          "labelColor": {
+            "type": "string"
+          },
+          "labelFontSize": {
+            "type": "number"
+          },
+          "labelLineHeight": {
+            "type": "number"
+          },
+          "labelFontWeight": {
+            "type": "string"
+          },
+          "labelMarginBottom": {
+            "type": "number"
           }
         },
         "appearances": {
@@ -1258,6 +1273,8 @@
             "menuBorderRadius": 4,
             "menuBorderColor": "border-basic-color-3",
             "menuBorderWidth": 1,
+            "labelColor": "text-hint-color",
+            "labelMarginBottom": 4,
             "state": {
               "disabled": {
                 "controlBorderColor": "border-basic-color-3",
