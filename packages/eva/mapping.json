@@ -1353,7 +1353,7 @@
                 }
               },
               "danger": {
-                "controlBorderColor": "color-danger-danger",
+                "controlBorderColor": "color-danger-500",
                 "controlBackgroundColor": "color-danger-default",
                 "iconTintColor": "text-control-color",
                 "textColor": "text-control-color",
