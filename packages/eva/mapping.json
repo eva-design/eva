@@ -1657,6 +1657,122 @@
         }
       }
     },
+    "DropdownGroup": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "paddingVertical": {
+            "type": "number"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textLineHeight": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "itemMarginLeft": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "filled": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {
+          "disabled": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          }
+        }
+      },
+      "appearances": {
+        "filled": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-1",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textLineHeight": "text-subtitle-2-line-height",
+            "textColor": "text-basic-color",
+            "state": {
+              "disabled": {
+                "backgroundColor": "background-basic-color-1",
+                "textColor": "text-disabled-color"
+              }
+            }
+          },
+          "variantGroups": {
+            "size": {
+              "tiny": {
+                "paddingHorizontal": 9,
+                "paddingVertical": 3,
+                "textMarginHorizontal": 9,
+                "itemMarginLeft": 9
+              },
+              "small": {
+                "paddingHorizontal": 9,
+                "paddingVertical": 3,
+                "textMarginHorizontal": 9,
+                "itemMarginLeft": 9
+              },
+              "medium": {
+                "paddingHorizontal": 9,
+                "paddingVertical": 7,
+                "textMarginHorizontal": 9,
+                "itemMarginLeft": 9
+              },
+              "large": {
+                "paddingHorizontal": 9,
+                "paddingVertical": 11,
+                "textMarginHorizontal": 9,
+                "itemMarginLeft": 9
+              },
+              "giant": {
+                "paddingHorizontal": 9,
+                "paddingVertical": 15,
+                "textMarginHorizontal": 9,
+                "itemMarginLeft": 9
+              }
+            }
+          }
+        }
+      }
+    },
     "Input": {
       "meta": {
         "scope": "all",
