@@ -2026,6 +2026,129 @@
         }
       }
     },
+    "Spinner": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            }
+          },
+          "size": {
+            "giant": {
+              "default": false
+            },
+            "large": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "small": {
+              "default": false
+            },
+            "tiny": {
+              "default": false
+            }
+          }
+        },
+        "states": {
+
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "borderColor": "color-primary-default"
+              },
+              "success": {
+                "borderColor": "color-success-default"
+              },
+              "info": {
+                "borderColor": "color-info-default"
+              },
+              "warning": {
+                "borderColor": "color-warning-default"
+              },
+              "danger": {
+                "borderColor": "color-danger-default"
+              }
+            },
+            "size": {
+              "giant": {
+                "width": 56,
+                "height": 56,
+                "borderWidth": 5,
+                "borderRadius": 28
+              },
+              "large": {
+                "width": 48,
+                "height": 48,
+                "borderWidth": 4.5,
+                "borderRadius": 24
+              },
+              "medium": {
+                "width": 40,
+                "height": 40,
+                "borderWidth": 4,
+                "borderRadius": 20
+              },
+              "small": {
+                "width": 32,
+                "height": 32,
+                "borderWidth": 3.5,
+                "borderRadius": 16
+              },
+              "tiny": {
+                "width": 24,
+                "height": 24,
+                "borderWidth": 3,
+                "borderRadius": 12
+              }
+            }
+          }
+        }
+      }
+    },
     "Tab": {
       "meta": {
         "scope": "all",
