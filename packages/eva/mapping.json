@@ -1546,9 +1546,6 @@
           "backgroundColor": {
             "type": "string"
           },
-          "selectedBackgroundColor": {
-            "type": "string"
-          },
           "textMarginHorizontal": {
             "type": "number"
           },
@@ -1562,9 +1559,6 @@
             "type": "string"
           },
           "textColor": {
-            "type": "string"
-          },
-          "selectedTextColor": {
             "type": "string"
           }
         },
@@ -1602,6 +1596,11 @@
             "default": false,
             "priority": 1,
             "scope": "all"
+          },
+          "selected": {
+            "default": false,
+            "priority": 2,
+            "scope": "all"
           }
         }
       },
@@ -1613,8 +1612,6 @@
             "textFontWeight": "text-subtitle-2-font-weight",
             "textLineHeight": "text-subtitle-2-line-height",
             "textColor": "text-basic-color",
-            "selectedBackgroundColor": "background-basic-color-1",
-            "selectedTextColor": "text-primary-color",
             "state": {
               "active": {
                 "backgroundColor": "background-basic-color-3"
@@ -1622,6 +1619,10 @@
               "disabled": {
                 "backgroundColor": "background-basic-color-1",
                 "textColor": "text-disabled-color"
+              },
+              "selected": {
+                "backgroundColor": "background-basic-color-1",
+                "textColor": "text-primary-color"
               }
             }
           },
