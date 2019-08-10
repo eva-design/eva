@@ -2244,7 +2244,7 @@
               "h3": {
                 "fontSize": "text-heading-3-font-size",
                 "lineHeight": "text-heading-3-line-height",
-                "fontWeight": "text-heading-4-font-weight"
+                "fontWeight": "text-heading-3-font-weight"
               },
               "h4": {
                 "fontSize": "text-heading-4-font-size",
