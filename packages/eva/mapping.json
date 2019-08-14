@@ -1152,6 +1152,21 @@
           "controlBackgroundColor": {
             "type": "string"
           },
+          "placeholderMarginHorizontal": {
+            "type": "number"
+          },
+          "placeholderFontSize": {
+            "type": "number"
+          },
+          "placeholderLineHeight": {
+            "type": "number"
+          },
+          "placeholderFontWeight": {
+            "type": "string"
+          },
+          "placeholderColor": {
+            "type": "string"
+          },
           "textMarginHorizontal": {
             "type": "number"
           },
@@ -1205,6 +1220,15 @@
           },
           "labelMarginBottom": {
             "type": "number"
+          },
+          "outlinePadding": {
+            "type": "number"
+          },
+          "outlineBorderRadius": {
+            "type": "number"
+          },
+          "outlineBackgroundColor": {
+            "type": "string"
           }
         },
         "appearances": {
@@ -1215,7 +1239,7 @@
         "variantGroups": {
           "status": {
             "primary": {
-              "default": false
+              "default": true
             },
             "success": {
               "default": false
@@ -1229,17 +1253,6 @@
             "danger": {
               "default": false
             }
-          },
-          "size": {
-            "small": {
-              "default": false
-            },
-            "medium": {
-              "default": true
-            },
-            "large": {
-              "default": false
-            }
           }
         },
         "states": {
@@ -1248,7 +1261,7 @@
             "priority": 0,
             "scope": "all"
           },
-          "focused": {
+          "active": {
             "default": false,
             "priority": 1,
             "scope": "all"
@@ -1267,23 +1280,36 @@
             "controlPaddingHorizontal": 8,
             "controlBorderColor": "border-basic-color-3",
             "controlBackgroundColor": "background-basic-color-2",
+            "controlMinHeight": 48,
+            "controlPaddingVertical": 7,
+            "placeholderMarginHorizontal": 8,
+            "placeholderColor": "text-hint-color",
+            "placeholderFontWeight": "text-paragraph-1-font-weight",
+            "placeholderFontSize": "text-subtitle-1-font-size",
+            "placeholderLineHeight": "text-paragraph-1-line-height",
             "textMarginHorizontal": 8,
-            "textColor": "text-hint-color",
+            "textColor": "border-alternative-color-1",
             "textFontWeight": "text-subtitle-1-font-weight",
+            "textFontSize": "text-subtitle-1-font-size",
+            "textLineHeight": "text-subtitle-1-line-height",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
             "iconTintColor": "icon-hint-color",
             "labelColor": "text-hint-color",
             "labelMarginBottom": 4,
+            "outlineBackgroundColor": "transparent",
+            "outlinePadding": 4,
+            "outlineBorderRadius": 4,
             "state": {
-              "focused": {
-                "textColor": "text-basic-color",
-                "controlBorderColor": "border-primary-color-1",
-                "iconTintColor": "icon-active-color"
+              "active": {
+                "outlineBackgroundColor": "outline-color",
+                "controlBackgroundColor": "background-basic-color-1",
+                "iconTintColor": "border-alternative-color-1"
               },
               "disabled": {
-                "controlBorderColor": "border-basic-color-3",
+                "controlBorderColor": "border-basic-color-4",
+                "placeholderColor": "text-disabled-color",
                 "textColor": "text-disabled-color",
                 "iconTintColor": "icon-disabled-color"
               }
@@ -1292,78 +1318,39 @@
           "variantGroups": {
             "status": {
               "primary": {
-                "controlBorderColor": "color-primary-default",
-                "iconTintColor": "color-primary-default",
                 "state": {
-                  "focused": {
-                    "textColor": "text-basic-color",
-                    "controlBorderColor": "border-primary-color-1",
-                    "iconTintColor": "icon-active-color"
+                  "active": {
+                    "controlBorderColor": "color-primary-default"
                   }
                 }
               },
               "success": {
-                "controlBorderColor": "color-success-default",
-                "iconTintColor": "color-success-default",
                 "state": {
-                  "focused": {
-                    "controlBorderColor": "color-success-focus",
-                    "iconTintColor": "color-success-focus"
+                  "active": {
+                    "controlBorderColor": "color-success-default"
                   }
                 }
               },
               "info": {
-                "controlBorderColor": "color-info-default",
-                "iconTintColor": "color-info-default",
                 "state": {
-                  "focused": {
-                    "controlBorderColor": "color-info-focus",
-                    "iconTintColor": "color-info-focus"
+                  "active": {
+                    "controlBorderColor": "color-info-default"
                   }
                 }
               },
               "warning": {
-                "controlBorderColor": "color-warning-default",
-                "iconTintColor": "color-warning-default",
                 "state": {
-                  "focused": {
-                    "controlBorderColor": "color-warning-focus",
-                    "iconTintColor": "color-warning-focus"
+                  "active": {
+                    "controlBorderColor": "color-warning-default"
                   }
                 }
               },
               "danger": {
-                "controlBorderColor": "color-danger-default",
-                "iconTintColor": "color-danger-default",
                 "state": {
-                  "focused": {
-                    "controlBorderColor": "color-danger-focus",
-                    "iconTintColor": "color-danger-focus"
+                  "active": {
+                    "controlBorderColor": "color-danger-default"
                   }
                 }
-              }
-            },
-            "size": {
-              "small": {
-                "controlMinHeight": 40,
-                "controlPaddingVertical": 3,
-                "textFontSize": "text-subtitle-2-font-size",
-                "textLineHeight": "text-subtitle-2-line-height",
-                "textFontWeight": "normal"
-              },
-              "medium": {
-                "controlMinHeight": 48,
-                "controlPaddingVertical": 7,
-                "textFontSize": "text-subtitle-1-font-size",
-                "textLineHeight": "text-subtitle-1-line-height",
-                "textFontWeight": "normal"
-              },
-              "large": {
-                "controlMinHeight": 56,
-                "controlPaddingVertical": 11,
-                "textFontSize": "text-subtitle-1-font-size",
-                "textLineHeight": "text-subtitle-1-line-height",
-                "textFontWeight": "normal"
               }
             }
           }
@@ -1381,6 +1368,12 @@
             "type": "number"
           },
           "backgroundColor": {
+            "type": "string"
+          },
+          "multiSelectBackgroundColor": {
+            "type": "string"
+          },
+          "multiSelectTextColor": {
             "type": "string"
           },
           "textMarginHorizontal": {
@@ -1404,19 +1397,7 @@
             "default": true
           }
         },
-        "variantGroups": {
-          "size": {
-            "small": {
-              "default": false
-            },
-            "medium": {
-              "default": true
-            },
-            "large": {
-              "default": false
-            }
-          }
-        },
+        "variantGroups": {},
         "states": {
           "disabled": {
             "default": false,
@@ -1438,40 +1419,27 @@
       "appearances": {
         "default": {
           "mapping": {
+            "paddingHorizontal": 8,
+            "paddingVertical": 8,
+            "textMarginHorizontal": 8,
             "backgroundColor": "background-basic-color-1",
+            "multiSelectBackgroundColor": "background-basic-color-1",
+            "multiSelectTextColor": "background-alternative-color-1",
             "textFontSize": "text-subtitle-1-font-size",
-            "textFontWeight": "text-paragraph-1-font-weight",
+            "textFontWeight": "text-subtitle-1-font-weight",
             "textLineHeight": "text-subtitle-2-line-height",
             "textColor": "background-alternative-color-1",
             "state": {
               "active": {
-                "backgroundColor": "background-basic-color-3"
-              },
-              "disabled": {
-                "textColor": "text-hint-color"
+                "backgroundColor": "background-basic-color-2"
               },
               "selected": {
-                "backgroundColor": "background-basic-color-1",
-                "textColor": "text-primary-color"
-              }
-            }
-          },
-          "variantGroups": {
-            "size": {
-              "small": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 3,
-                "textMarginHorizontal": 9
+                "textColor": "text-alternate-color",
+                "backgroundColor": "color-primary-default"
               },
-              "medium": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 7,
-                "textMarginHorizontal": 9
-              },
-              "large": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 11,
-                "textMarginHorizontal": 9
+              "disabled": {
+                "textColor": "text-hint-color",
+                "multiSelectTextColor": "text-hint-color"
               }
             }
           }
@@ -1482,12 +1450,6 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "paddingVertical": {
-            "type": "number"
-          },
-          "paddingHorizontal": {
-            "type": "number"
-          },
           "backgroundColor": {
             "type": "string"
           },
@@ -1506,7 +1468,7 @@
           "textColor": {
             "type": "string"
           },
-          "itemMarginLeft": {
+          "itemPaddingLeft": {
             "type": "number"
           }
         },
@@ -1515,19 +1477,7 @@
             "default": true
           }
         },
-        "variantGroups": {
-          "size": {
-            "small": {
-              "default": false
-            },
-            "medium": {
-              "default": true
-            },
-            "large": {
-              "default": false
-            }
-          }
-        },
+        "variantGroups": {},
         "states": {
           "disabled": {
             "default": false,
@@ -1541,34 +1491,14 @@
           "mapping": {
             "backgroundColor": "background-basic-color-1",
             "textFontSize": "text-subtitle-1-font-size",
-            "textFontWeight": "text-paragraph-1-font-weight",
+            "textFontWeight": "text-subtitle-1-font-weight",
             "textLineHeight": "text-subtitle-2-line-height",
             "textColor": "background-alternative-color-1",
+            "textMarginHorizontal": 16,
+            "itemPaddingLeft": 20,
             "state": {
               "disabled": {
                 "textColor": "text-hint-color"
-              }
-            }
-          },
-          "variantGroups": {
-            "size": {
-              "small": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 3,
-                "textMarginHorizontal": 9,
-                "itemMarginLeft": 6
-              },
-              "medium": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 7,
-                "textMarginHorizontal": 9,
-                "itemMarginLeft": 6
-              },
-              "large": {
-                "paddingHorizontal": 9,
-                "paddingVertical": 11,
-                "textMarginHorizontal": 9,
-                "itemMarginLeft": 6
               }
             }
           }
