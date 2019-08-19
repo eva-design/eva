@@ -1627,6 +1627,30 @@
         }
       }
     },
+    "MenuGroup": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "subItemsPaddingHorizontal": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "subItemsPaddingHorizontal": 16
+          }
+        }
+      }
+    },
     "MenuItem": {
       "meta": {
         "scope": "all",
@@ -1672,6 +1696,18 @@
           },
           "titleColor": {
             "type": "string"
+          },
+          "accessoryTintColor": {
+            "type": "string"
+          },
+          "accessoryWidth": {
+            "type": "number"
+          },
+          "accessoryHeight": {
+            "type": "number"
+          },
+          "accessoryMarginHorizontal": {
+            "type": "number"
           }
         },
         "appearances": {
@@ -1715,6 +1751,10 @@
             "titleColor": "text-basic-color",
             "indicatorWidth": 0,
             "indicatorBackgroundColor": "transparent",
+            "accessoryWidth": 20,
+            "accessoryHeight": 20,
+            "accessoryMarginHorizontal": 8,
+            "accessoryTintColor": "text-hint-color",
             "state": {
               "active": {
                 "backgroundColor": "background-basic-color-3"
