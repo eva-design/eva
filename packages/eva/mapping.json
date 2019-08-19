@@ -2067,6 +2067,12 @@
             },
             "danger": {
               "default": false
+            },
+            "white": {
+              "default": false
+            },
+            "black": {
+              "default": false
             }
           },
           "size": {
@@ -2111,38 +2117,44 @@
               },
               "danger": {
                 "borderColor": "color-danger-default"
+              },
+              "white": {
+                "borderColor": "border-basic-color-1"
+              },
+              "black": {
+                "borderColor": "border-alternative-color-1"
               }
             },
             "size": {
               "giant": {
-                "width": 56,
-                "height": 56,
-                "borderWidth": 5,
-                "borderRadius": 28
-              },
-              "large": {
-                "width": 48,
-                "height": 48,
-                "borderWidth": 4.5,
-                "borderRadius": 24
-              },
-              "medium": {
-                "width": 40,
-                "height": 40,
-                "borderWidth": 4,
-                "borderRadius": 20
-              },
-              "small": {
                 "width": 32,
                 "height": 32,
-                "borderWidth": 3.5,
+                "borderWidth": 4.5,
                 "borderRadius": 16
               },
-              "tiny": {
+              "large": {
+                "width": 28,
+                "height": 28,
+                "borderWidth": 3.9,
+                "borderRadius": 14
+              },
+              "medium": {
                 "width": 24,
                 "height": 24,
-                "borderWidth": 3,
+                "borderWidth": 3.4,
                 "borderRadius": 12
+              },
+              "small": {
+                "width": 20,
+                "height": 20,
+                "borderWidth": 2.8,
+                "borderRadius": 10
+              },
+              "tiny": {
+                "width": 16,
+                "height": 16,
+                "borderWidth": 2.3,
+                "borderRadius": 8
               }
             }
           }
