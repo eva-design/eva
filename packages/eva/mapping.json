@@ -1627,6 +1627,46 @@
         }
       }
     },
+    "MenuGroup": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "accessoryTintColor": {
+            "type": "string"
+          },
+          "accessoryWidth": {
+            "type": "number"
+          },
+          "accessoryHeight": {
+            "type": "number"
+          },
+          "accessoryMarginHorizontal": {
+            "type": "number"
+          },
+          "subItemsPaddingHorizontal": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "accessoryWidth": 20,
+            "accessoryHeight": 20,
+            "accessoryMarginHorizontal": 8,
+            "accessoryTintColor": "text-hint-color",
+            "subItemsPaddingHorizontal": 16
+          }
+        }
+      }
+    },
     "MenuItem": {
       "meta": {
         "scope": "all",
