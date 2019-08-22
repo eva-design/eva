@@ -2068,10 +2068,7 @@
             "danger": {
               "default": false
             },
-            "white": {
-              "default": false
-            },
-            "black": {
+            "bipolar": {
               "default": false
             }
           },
@@ -2118,10 +2115,7 @@
               "danger": {
                 "borderColor": "color-danger-default"
               },
-              "white": {
-                "borderColor": "border-basic-color-1"
-              },
-              "black": {
+              "bipolar": {
                 "borderColor": "border-alternative-color-1"
               }
             },
