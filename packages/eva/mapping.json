@@ -996,8 +996,8 @@
           "mapping": {
             "borderWidth": 1,
             "borderRadius": 3,
-            "backgroundColor": "background-basic-color-3",
-            "borderColor": "border-basic-color-4",
+            "backgroundColor": "color-basic-600-transparent-16",
+            "borderColor": "border-basic-color-5",
             "textColor": "text-basic-color",
             "iconTintColor": "transparent",
             "outlineBorderRadius": 6,
@@ -1014,8 +1014,9 @@
             "textMarginHorizontal": 12,
             "state": {
               "active": {
-                "borderColor": "border-basic-color-4",
-                "outlineBackgroundColor": "outline-color"
+                "borderColor": "text-hint-color",
+                "backgroundColor": "color-basic-600-transparent-40",
+                "outlineBackgroundColor": "color-basic-600-transparent-16"
               },
               "checked": {
                 "borderColor": "color-primary-default",
@@ -1023,7 +1024,8 @@
                 "iconTintColor": "text-control-color"
               },
               "checked.active": {
-                "borderColor": "color-primary-focus"
+                "borderColor": "color-primary-focus",
+                "backgroundColor": "color-primary-default"
               },
               "indeterminate": {
                 "iconTintColor": "text-control-color",
@@ -1031,9 +1033,14 @@
                 "iconBorderRadius": 1.5
               },
               "disabled": {
-                "borderColor": "border-basic-color-3",
-                "backgroundColor": "background-basic-color-2",
-                "textColor": "text-disabled-color"
+                "borderColor": "color-basic-600-transparent-24",
+                "backgroundColor": "color-basic-600-transparent-8",
+                "textColor": "color-basic-600-transparent-48"
+              },
+              "checked.disabled": {
+                "borderColor": "color-basic-600-transparent-48",
+                "backgroundColor": "color-basic-600-transparent-48",
+                "textColor": "color-basic-600-transparent-48"
               }
             }
           },
@@ -1041,81 +1048,71 @@
             "status": {
               "primary": {
                 "borderColor": "color-primary-default",
-                "backgroundColor": "color-primary-200",
+                "backgroundColor": "color-primary-500-transparent-16",
                 "state": {
-                  "active": {
-                    "borderColor": "color-primary-focus"
-                  },
                   "checked": {
                     "borderColor": "color-primary-default",
                     "backgroundColor": "color-primary-default"
                   },
                   "checked.active": {
-                    "borderColor": "color-primary-focus"
+                    "borderColor": "color-primary-focus",
+                    "backgroundColor": "color-primary-default"
                   }
                 }
               },
               "success": {
                 "borderColor": "color-success-default",
-                "backgroundColor": "color-success-200",
+                "backgroundColor": "color-success-500-transparent-16",
                 "state": {
-                  "active": {
-                    "borderColor": "color-success-focus"
-                  },
                   "checked": {
                     "borderColor": "color-success-default",
                     "backgroundColor": "color-success-default"
                   },
                   "checked.active": {
-                    "borderColor": "color-success-focus"
+                    "borderColor": "color-success-focus",
+                    "backgroundColor": "color-success-default"
                   }
                 }
               },
               "info": {
                 "borderColor": "color-info-default",
-                "backgroundColor": "color-info-200",
+                "backgroundColor": "color-info-500-transparent-16",
                 "state": {
-                  "active": {
-                    "borderColor": "colorInfoFocus"
-                  },
                   "checked": {
                     "borderColor": "color-info-default",
                     "backgroundColor": "color-info-default"
                   },
                   "checked.active": {
-                    "borderColor": "color-info-focus"
+                    "borderColor": "color-info-focus",
+                    "backgroundColor": "color-info-default"
                   }
                 }
               },
               "warning": {
                 "borderColor": "color-warning-default",
-                "backgroundColor": "color-warning-200",
+                "backgroundColor": "color-warning-500-transparent-16",
                 "state": {
-                  "active": {
-                    "borderColor": "color-warning-focus"
-                  },
                   "checked": {
                     "borderColor": "color-warning-default",
                     "backgroundColor": "color-warning-default"
                   },
                   "checked.active": {
-                    "borderColor": "color-warning-focus"
+                    "borderColor": "color-warning-focus",
+                    "backgroundColor": "color-warning-default"
                   }
                 }
               },
               "danger": {
                 "borderColor": "color-danger-default",
-                "backgroundColor": "color-danger-200",
+                "backgroundColor": "color-danger-500-transparent-16",
                 "state": {
-                  "active": {
-                    "borderColor": "color-danger-focus"
-                  },
                   "checked": {
                     "borderColor": "color-danger-default",
                     "backgroundColor": "color-danger-default"
                   },
                   "checked.active": {
-                    "borderColor": "color-danger-focus"
+                    "borderColor": "color-danger-focus",
+                    "backgroundColor": "color-danger-default"
                   }
                 }
               }
