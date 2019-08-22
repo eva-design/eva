@@ -2210,6 +2210,135 @@
         }
       }
     },
+    "Spinner": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "bipolar": {
+              "default": false
+            }
+          },
+          "size": {
+            "giant": {
+              "default": false
+            },
+            "large": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "small": {
+              "default": false
+            },
+            "tiny": {
+              "default": false
+            }
+          }
+        },
+        "states": {
+
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "borderColor": "color-primary-default"
+              },
+              "success": {
+                "borderColor": "color-success-default"
+              },
+              "info": {
+                "borderColor": "color-info-default"
+              },
+              "warning": {
+                "borderColor": "color-warning-default"
+              },
+              "danger": {
+                "borderColor": "color-danger-default"
+              },
+              "bipolar": {
+                "borderColor": "border-alternative-color-1"
+              }
+            },
+            "size": {
+              "giant": {
+                "width": 32,
+                "height": 32,
+                "borderWidth": 4.5,
+                "borderRadius": 16
+              },
+              "large": {
+                "width": 28,
+                "height": 28,
+                "borderWidth": 3.9,
+                "borderRadius": 14
+              },
+              "medium": {
+                "width": 24,
+                "height": 24,
+                "borderWidth": 3.4,
+                "borderRadius": 12
+              },
+              "small": {
+                "width": 20,
+                "height": 20,
+                "borderWidth": 2.8,
+                "borderRadius": 10
+              },
+              "tiny": {
+                "width": 16,
+                "height": 16,
+                "borderWidth": 2.3,
+                "borderRadius": 8
+              }
+            }
+          }
+        }
+      }
+    },
     "Tab": {
       "meta": {
         "scope": "all",
