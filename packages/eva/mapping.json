@@ -2602,7 +2602,7 @@
             "danger": {
               "default": false
             },
-            "bipolar": {
+            "alternative": {
               "default": false
             }
           },
@@ -2649,7 +2649,7 @@
               "danger": {
                 "borderColor": "color-danger-default"
               },
-              "bipolar": {
+              "alternative": {
                 "borderColor": "border-alternative-color-1"
               }
             },
