@@ -1781,6 +1781,9 @@
           "borderRadius": {
             "type": "number"
           },
+          "maxHeight": {
+            "type": "number"
+          },
           "indicatorBackgroundColor": {
             "type": "string"
           }
@@ -1800,7 +1803,8 @@
         "default": {
           "mapping": {
             "borderRadius": 12,
-            "indicatorBackgroundColor": "transparent"
+            "indicatorBackgroundColor": "transparent",
+            "maxHeight": 256
           }
         },
         "noDivider": {
