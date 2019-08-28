@@ -1156,19 +1156,16 @@
       "meta": {
         "scope": "mobile",
         "parameters": {
-          "headerPaddingHorizontal": {
-            "type": "number"
-          },
-          "headerPaddingVertical": {
-            "type": "number"
-          },
-          "headerBackgroundColor": {
-            "type": "number"
+          "backgroundColor": {
+            "type": "string"
           }
         },
         "appearances": {
           "default": {
             "default": true
+          },
+          "noDivider": {
+            "default": false
           }
         },
         "variantGroups": {},
@@ -1177,10 +1174,11 @@
       "appearances": {
         "default": {
           "mapping": {
-            "headerPaddingHorizontal": 8,
-            "headerPaddingVertical": 12,
-            "headerBackgroundColor": "background-basic-color-2"
+            "backgroundColor": "background-basic-color-1"
           }
+        },
+        "noDivider": {
+          "mapping": {}
         }
       }
     },
