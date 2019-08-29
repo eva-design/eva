@@ -886,10 +886,25 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "padding": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
           "headerPaddingHorizontal": {
             "type": "number"
           },
-          "headerPaddingVertical": {
+          "headerPaddingBottom": {
+            "type": "number"
+          },
+          "dividerMarginVertical": {
             "type": "number"
           },
           "titleFontSize": {
@@ -945,21 +960,26 @@
       "appearances": {
         "default": {
           "mapping": {
-            "headerPaddingHorizontal": 8,
-            "headerPaddingVertical": 16,
+            "padding": 12,
+            "borderColor": "border-basic-color-4",
+            "borderWidth": 1,
+            "borderRadius": 4,
+            "headerPaddingHorizontal": 4,
+            "headerPaddingBottom": 12,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
             "titleColor": "border-alternative-color-1",
-            "titleMarginHorizontal": 8,
+            "titleMarginHorizontal": 4,
             "iconWidth": 24,
             "iconHeight": 24,
-            "iconMarginHorizontal": 8,
+            "iconMarginHorizontal": 4,
             "iconTintColor": "border-alternative-color-1",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
             "weekdayTextLineHeight": "text-subtitle-1-line-height",
-            "weekdayTextColor": "text-hint-color"
+            "weekdayTextColor": "text-hint-color",
+            "dividerMarginVertical": 12
           }
         }
       }
