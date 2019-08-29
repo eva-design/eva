@@ -907,16 +907,16 @@
           "titleMarginHorizontal": {
             "type": "number"
           },
-          "subtitleFontSize": {
+          "iconWidth": {
             "type": "number"
           },
-          "subtitleFontWeight": {
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconTintColor": {
             "type": "string"
           },
-          "subtitleLineHeight": {
-            "type": "number"
-          },
-          "subtitleMarginHorizontal": {
+          "iconMarginHorizontal": {
             "type": "number"
           },
           "weekdayTextFontSize": {
@@ -945,17 +945,17 @@
       "appearances": {
         "default": {
           "mapping": {
-            "headerPaddingHorizontal": 4,
-            "headerPaddingVertical": 8,
+            "headerPaddingHorizontal": 8,
+            "headerPaddingVertical": 16,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
-            "titleColor": "text-primary-color",
-            "titleMarginHorizontal": 4,
-            "subtitleFontSize": "text-heading-6-font-size",
-            "subtitleFontWeight": "text-paragraph-1-font-weight",
-            "subtitleLineHeight": "text-heading-6-line-height",
-            "subtitleMarginHorizontal": 4,
+            "titleColor": "border-alternative-color-1",
+            "titleMarginHorizontal": 8,
+            "iconWidth": 24,
+            "iconHeight": 24,
+            "iconMarginHorizontal": 8,
+            "iconTintColor": "border-alternative-color-1",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
             "weekdayTextLineHeight": "text-subtitle-1-line-height",
@@ -1046,7 +1046,7 @@
             "paddingHorizontal": 1,
             "paddingVertical": 1,
             "contentBorderWidth": 1,
-            "contentBorderRadius": "50%",
+            "contentBorderRadius": 4,
             "contentBorderColor": "transparent",
             "contentTextFontSize": "text-subtitle-1-font-size",
             "contentTextLineHeight": "text-subtitle-1-line-height",
@@ -1058,14 +1058,17 @@
               },
               "selected": {
                 "contentBorderColor": "color-primary-default",
-                "contentBackgroundColor": "color-primary-100"
+                "contentBackgroundColor": "color-primary-default",
+                "contentTextColor": "text-control-color"
               },
               "disabled": {
                 "contentBackgroundColor": "background-basic-color-3",
-                "contentTextColor": "text-disabled-color"
+                "contentTextColor": "text-hint-color"
               },
               "today": {
-                "contentBackgroundColor": "background-basic-color-3"
+                "contentBackgroundColor": "color-primary-100",
+                "contentBorderColor": "color-primary-default",
+                "contentTextColor": "border-alternative-color-1"
               }
             }
           },
