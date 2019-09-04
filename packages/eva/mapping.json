@@ -945,6 +945,9 @@
           },
           "weekdayTextColor": {
             "type": "string"
+          },
+          "rowMinHeight": {
+            "type": "number"
           }
         },
         "appearances": {
@@ -979,7 +982,8 @@
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
             "weekdayTextLineHeight": "text-subtitle-1-line-height",
             "weekdayTextColor": "text-hint-color",
-            "dividerMarginVertical": 12
+            "dividerMarginVertical": 12,
+            "rowMinHeight": 45
           }
         }
       }
@@ -1353,6 +1357,32 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "Datepicker": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "popoverMarginHorizontal": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+        },
+        "states": {
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "popoverMarginHorizontal": 16
           }
         }
       }
@@ -2117,7 +2147,6 @@
           "mapping": {
             "minWidth": 56,
             "minHeight": 32,
-            "maxWidth": 256,
             "borderRadius": 8,
             "backgroundColor": "background-basic-color-1",
             "indicatorWidth": 6,
