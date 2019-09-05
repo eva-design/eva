@@ -1061,6 +1061,11 @@
             "scope": "all",
             "priority": 3,
             "default": false
+          },
+          "range": {
+            "scope": "all",
+            "priority": 4,
+            "default": false
           }
         }
       },
@@ -1093,6 +1098,10 @@
                 "contentBackgroundColor": "color-primary-100",
                 "contentBorderColor": "color-primary-default",
                 "contentTextColor": "border-alternative-color-1"
+              },
+              "range": {
+                "contentBackgroundColor": "red",
+                "contentTextColor": "white"
               }
             }
           },
