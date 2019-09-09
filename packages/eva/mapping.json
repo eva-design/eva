@@ -995,7 +995,7 @@
           "paddingHorizontal": {
             "type": "number"
           },
-          "marginVertical": {
+          "paddingVertical": {
             "type": "number"
           },
           "backgroundColor": {
@@ -1079,7 +1079,7 @@
         "default": {
           "mapping": {
             "paddingHorizontal": 1,
-            "marginVertical": 1,
+            "paddingVertical": 0,
             "backgroundColor": "transparent",
             "borderRadius": 0,
             "contentBorderWidth": 1,
@@ -1108,9 +1108,9 @@
                 "contentTextColor": "border-alternative-color-1"
               },
               "range": {
-                "contentBackgroundColor": "red",
-                "contentTextColor": "white",
-                "backgroundColor": "red",
+                "contentBackgroundColor": "color-primary-default",
+                "contentTextColor": "text-control-color",
+                "backgroundColor": "color-primary-default",
                 "borderRadius": 4
               }
             }
@@ -1384,6 +1384,45 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingVertical": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textLineHeight": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconTintColor": {
+            "type": "string"
+          },
           "popoverMarginHorizontal": {
             "type": "number"
           }
@@ -1394,14 +1433,109 @@
           }
         },
         "variantGroups": {
+          "status": {
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "white": {
+              "default": false
+            }
+          }
         },
         "states": {
+          "disabled": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          },
+          "active": {
+            "default": false,
+            "priority": 1,
+            "scope": "all"
+          }
         }
       },
       "appearances": {
         "default": {
           "mapping": {
-            "popoverMarginHorizontal": 16
+            "paddingHorizontal": 16,
+            "paddingVertical": 14,
+            "borderColor": "border-basic-color-4",
+            "borderWidth": 1,
+            "borderRadius": 4,
+            "backgroundColor": "background-basic-color-2",
+            "textFontSize": "text-paragraph-1-font-size",
+            "textLineHeight": "text-paragraph-1-line-height",
+            "textFontWeight": "text-paragraph-1-font-weight",
+            "textColor": "text-hint-color",
+            "iconWidth": 20,
+            "iconHeight": 20,
+            "iconTintColor": "text-hint-color",
+            "popoverMarginHorizontal": 16,
+            "state": {
+              "disabled": {
+                "borderColor": "border-basic-color-4",
+                "backgroundColor": "#FCFDFE",
+                "textColor": "#CACFDB",
+                "iconTintColor": "text-hint-color"
+              }
+            }
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "state": {
+                  "active": {
+                    "borderColor": "color-primary-active",
+                    "backgroundColor": "background-basic-color-2"
+                  }
+                }
+              },
+              "success": {
+                "state": {
+                  "active": {
+                    "borderColor": "color-success-active",
+                    "backgroundColor": "background-basic-color-2"
+                  }
+                }
+              },
+              "info": {
+                "state": {
+                  "active": {
+                    "borderColor": "color-info-active",
+                    "backgroundColor": "background-basic-color-2"
+                  }
+                }
+              },
+              "warning": {
+                "state": {
+                  "active": {
+                    "borderColor": "color-warning-active",
+                    "backgroundColor": "background-basic-color-2"
+                  }
+                }
+              },
+              "danger": {
+                "state": {
+                  "active": {
+                    "borderColor": "color-danger-active",
+                    "backgroundColor": "background-basic-color-2"
+                  }
+                }
+              }
+            }
           }
         }
       }
