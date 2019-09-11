@@ -1099,8 +1099,7 @@
                 "contentTextColor": "text-control-color"
               },
               "disabled": {
-                "contentBackgroundColor": "background-basic-color-3",
-                "contentTextColor": "text-hint-color"
+                "contentTextColor": "#CACFDB"
               },
               "today": {
                 "contentBackgroundColor": "color-primary-100",
