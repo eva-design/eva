@@ -886,7 +886,7 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "padding": {
+          "paddingVertical": {
             "type": "number"
           },
           "borderColor": {
@@ -901,7 +901,7 @@
           "headerPaddingHorizontal": {
             "type": "number"
           },
-          "headerPaddingBottom": {
+          "headerPaddingVertical": {
             "type": "number"
           },
           "dividerMarginVertical": {
@@ -919,9 +919,6 @@
           "titleColor": {
             "type": "string"
           },
-          "titleMarginHorizontal": {
-            "type": "number"
-          },
           "iconWidth": {
             "type": "number"
           },
@@ -931,7 +928,7 @@
           "iconTintColor": {
             "type": "string"
           },
-          "iconMarginHorizontal": {
+          "iconMarginLeft": {
             "type": "number"
           },
           "weekdayTextFontSize": {
@@ -948,6 +945,9 @@
           },
           "rowMinHeight": {
             "type": "number"
+          },
+          "rowMarginHorizontal": {
+            "type": "number"
           }
         },
         "appearances": {
@@ -963,27 +963,27 @@
       "appearances": {
         "default": {
           "mapping": {
-            "padding": 12,
+            "paddingVertical": 8,
             "borderColor": "border-basic-color-4",
             "borderWidth": 1,
             "borderRadius": 4,
-            "headerPaddingHorizontal": 4,
-            "headerPaddingBottom": 12,
+            "headerPaddingHorizontal": 20,
+            "headerPaddingVertical": 16,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
             "titleColor": "border-alternative-color-1",
-            "titleMarginHorizontal": 4,
             "iconWidth": 24,
             "iconHeight": 24,
-            "iconMarginHorizontal": 4,
+            "iconMarginLeft": 4,
             "iconTintColor": "border-alternative-color-1",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
             "weekdayTextLineHeight": "text-subtitle-1-line-height",
             "weekdayTextColor": "text-hint-color",
-            "dividerMarginVertical": 12,
-            "rowMinHeight": 45
+            "dividerMarginVertical": 4,
+            "rowMinHeight": 45,
+            "rowMarginHorizontal": 10
           }
         }
       }
