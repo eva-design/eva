@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
-# Iterates over all modules bundled in the ./dist and publish them
-for dir in ./dist
-do
-    dir=${dir%*/}
+env=${1}
+
+if [[ $env == "beta" ]]
+then
+    npm publish --tag beta --access=public ./dist/dss
+    npm publish --tag beta --access=public ./dist/eva
+    npm publish --tag beta --access=public ./dist/processor
+else
     npm publish --access=public ./dist/dss
     npm publish --access=public ./dist/eva
     npm publish --access=public ./dist/processor
-done
+fi

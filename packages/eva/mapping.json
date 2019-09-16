@@ -2307,6 +2307,7 @@
           "mapping": {
             "minWidth": 56,
             "minHeight": 32,
+            "maxWidth": 256,
             "borderRadius": 8,
             "backgroundColor": "background-basic-color-1",
             "indicatorWidth": 6,
