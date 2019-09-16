@@ -898,6 +898,12 @@
           "borderRadius": {
             "type": "number"
           },
+          "maxWidth": {
+            "type": "number"
+          },
+          "maxHeight": {
+            "type": "number"
+          },
           "headerPaddingHorizontal": {
             "type": "number"
           },
@@ -963,6 +969,8 @@
       "appearances": {
         "default": {
           "mapping": {
+            "maxWidth": 480,
+            "maxHeight": 412,
             "paddingVertical": 8,
             "borderColor": "border-basic-color-4",
             "borderWidth": 1,
