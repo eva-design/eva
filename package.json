@@ -2,7 +2,7 @@
   "name": "eva-design",
   "private": true,
   "description": "Eva Design System",
-  "version": "1.0.1",
+  "version": "1.1.0-beta.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
   "homepage": "https://github.com/eva-design/eva#readme",
@@ -25,9 +25,11 @@
     "version:bump": "gulp version",
     "version:changelog": "npm run conventional-changelog -- -i CHANGELOG.md -s",
     "publish": "./scripts/publish.sh",
+    "publish:beta": "./scripts/publish.sh -- beta",
     "release:prepare": "npm run clean && npm run build",
     "release:validate": "npm run lint && npm run test",
-    "release": "npm run release:prepare && npm run release:validate && npm run publish"
+    "release": "npm run release:prepare && npm run release:validate && npm run publish",
+    "release:beta": "npm run release:prepare && npm run release:validate && npm run publish:beta"
   },
   "devDependencies": {
     "@types/gulp": "^3.8.36",
