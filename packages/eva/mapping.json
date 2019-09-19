@@ -1810,12 +1810,12 @@
             "indicatorBackgroundColor": "transparent",
             "state": {
               "active": {
-                "backgroundColor": "background-basic-color-3"
+                "backgroundColor": "color-basic-600-transparent-8"
               },
               "selected": {
                 "indicatorWidth": 4,
                 "indicatorBackgroundColor": "color-primary-default",
-                "backgroundColor": "rgba(51, 102, 255, 0.08)",
+                "backgroundColor": "color-primary-500-transparent-8",
                 "titleColor": "color-primary-default",
                 "iconTintColor": "color-primary-default"
               },
