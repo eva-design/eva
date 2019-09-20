@@ -348,6 +348,9 @@
             },
             "danger": {
               "default": false
+            },
+            "control": {
+              "default": false
             }
           },
           "size": {
@@ -447,6 +450,26 @@
                   "active": {
                     "borderColor": "color-danger-active",
                     "backgroundColor": "color-danger-active"
+                  }
+                }
+              },
+              "control": {
+                "backgroundColor": "color-basic-100",
+                "borderColor": "color-basic-100",
+                "textColor": "color-primary-default",
+                "iconTintColor": "color-primary-default",
+                "state": {
+                  "active": {
+                    "backgroundColor": "color-basic-300",
+                    "borderColor": "color-basic-300",
+                    "textColor": "color-primary-active",
+                    "iconTintColor": "color-primary-active"
+                  },
+                  "disabled": {
+                    "backgroundColor": "color-basic-300",
+                    "borderColor": "color-basic-300",
+                    "textColor": "color-basic-500",
+                    "iconTintColor": "color-basic-500"
                   }
                 }
               }
@@ -582,6 +605,19 @@
                     "backgroundColor": "color-danger-500-transparent-16"
                   }
                 }
+              },
+              "control": {
+                "backgroundColor": "background-basic-color-2",
+                "state": {
+                  "active": {
+                    "borderColor": "color-basic-300",
+                    "backgroundColor": "background-basic-color-2"
+                  },
+                  "disabled": {
+                    "borderColor": "color-basic-300",
+                    "backgroundColor": "background-basic-color-3"
+                  }
+                }
               }
             }
           }
@@ -679,6 +715,20 @@
                   },
                   "disabled": {
                     "borderColor": "transparent"
+                  }
+                }
+              },
+              "control": {
+                "borderColor": "transparent",
+                "backgroundColor": "transparent",
+                "state": {
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "transparent"
+                  },
+                  "disabled": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "transparent"
                   }
                 }
               }
