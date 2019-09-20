@@ -2023,6 +2023,17 @@
             "danger": {
               "default": false
             }
+          },
+          "size": {
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            }
           }
         },
         "states": {
@@ -2050,8 +2061,6 @@
             "paddingHorizontal": 8,
             "borderColor": "border-basic-color-3",
             "backgroundColor": "background-basic-color-2",
-            "minHeight": 48,
-            "paddingVertical": 7,
             "placeholderMarginHorizontal": 8,
             "placeholderColor": "text-hint-color",
             "placeholderFontWeight": "text-paragraph-1-font-weight",
@@ -2059,9 +2068,6 @@
             "placeholderLineHeight": "text-paragraph-1-line-height",
             "textMarginHorizontal": 8,
             "textColor": "border-alternative-color-1",
-            "textFontWeight": "text-subtitle-1-font-weight",
-            "textFontSize": "text-subtitle-1-font-size",
-            "textLineHeight": "text-subtitle-1-line-height",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
@@ -2121,6 +2127,29 @@
                     "borderColor": "color-danger-default"
                   }
                 }
+              }
+            },
+            "size": {
+              "small": {
+                "minHeight": 40,
+                "paddingVertical": 3,
+                "textFontSize": "text-subtitle-2-font-size",
+                "textLineHeight": "text-subtitle-2-line-height",
+                "textFontWeight": "text-subtitle-2-font-weight"
+              },
+              "medium": {
+                "minHeight": 48,
+                "paddingVertical": 7,
+                "textFontSize": "text-subtitle-1-font-size",
+                "textLineHeight": "text-subtitle-1-line-height",
+                "textFontWeight": "text-subtitle-1-font-weight"
+              },
+              "large": {
+                "minHeight": 56,
+                "paddingVertical": 11,
+                "textFontSize": "text-subtitle-1-font-size",
+                "textLineHeight": "text-subtitle-1-line-height",
+                "textFontWeight": "text-subtitle-1-font-weight"
               }
             }
           }
