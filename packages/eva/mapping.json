@@ -1223,6 +1223,9 @@
           "textMarginHorizontal": {
             "type": "number"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -1657,11 +1660,13 @@
             "iconMarginHorizontal": 8,
             "iconTintColor": "text-hint-color",
             "titleMarginHorizontal": 8,
+            "titleFontFamily": "text-font-family",
             "titleFontSize": "text-subtitle-2-font-size",
             "titleFontWeight": "text-subtitle-2-font-weight",
             "titleLineHeight": "text-subtitle-2-line-height",
             "titleColor": "text-basic-color",
             "descriptionMarginHorizontal": 8,
+            "descriptionFontFamily": "text-font-family",
             "descriptionFontSize": "text-caption-1-font-size",
             "descriptionFontWeight": "text-caption-1-font-weight",
             "descriptionLineHeight": "text-caption-1-line-height",
