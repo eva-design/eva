@@ -2379,6 +2379,9 @@
             },
             "basic": {
               "default": true
+            },
+            "control": {
+              "default": false
             }
           }
         },
@@ -2547,6 +2550,29 @@
                   },
                   "checked.active": {
                     "borderColor": "color-danger-default"
+                  }
+                }
+              },
+              "control": {
+                "borderColor": "color-basic-100",
+                "backgroundColor": "color-basic-100-transparent-40",
+                "state": {
+                  "active": {
+                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "borderColor": "color-basic-100"
+                  },
+                  "checked": {
+                    "iconTintColor": "color-basic-100",
+                    "borderColor": "color-basic-100",
+                    "backgroundColor": "color-basic-800"
+                  },
+                  "checked.active": {
+                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "borderColor": "color-basic-100"
+                  },
+                  "disabled": {
+                    "backgroundColor": "color-basic-600-transparent-16",
+                    "borderColor": "color-basic-600-transparent-32"
                   }
                 }
               }
