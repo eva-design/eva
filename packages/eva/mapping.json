@@ -3119,6 +3119,9 @@
             },
             "basic": {
               "default": true
+            },
+            "control": {
+              "default": false
             }
           },
           "size": {
@@ -3288,6 +3291,26 @@
                   },
                   "checked.active": {
                     "borderColor": "color-danger-default"
+                  }
+                }
+              },
+              "control": {
+                "borderColor": "color-basic-100",
+                "backgroundColor": "color-basic-700",
+                "thumbBackgroundColor": "color-basic-100",
+                "iconTintColor": "color-basic-700",
+                "state": {
+                  "active": {
+                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "borderColor": "color-basic-100"
+                  },
+                  "checked": {
+                    "borderColor": "color-basic-100-transparent-48",
+                    "backgroundColor": "color-basic-100"
+                  },
+                  "checked.active": {
+                    "borderColor": "color-basic-100-transparent-48",
+                    "backgroundColor": "color-basic-100"
                   }
                 }
               }
