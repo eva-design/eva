@@ -3437,6 +3437,9 @@
         "appearances": {
           "default": {
             "default": true
+          },
+          "control": {
+            "default": false
           }
         },
         "variantGroups": {
@@ -3481,6 +3484,11 @@
               }
             }
           }
+        },
+        "control": {
+          "mapping": {
+            "backgroundColor": "transparent"
+          }
         }
       }
     },
@@ -3504,6 +3512,9 @@
         "appearances": {
           "default": {
             "default": true
+          },
+          "control": {
+            "default": false
           }
         },
         "variantGroups": {},
@@ -3525,6 +3536,16 @@
             "state": {
               "active": {
                 "iconTintColor": "background-alternative-color-3"
+              }
+            }
+          }
+        },
+        "control": {
+          "mapping": {
+            "iconTintColor": "color-basic-100",
+            "state": {
+              "active": {
+                "iconTintColor": "color-basic-300"
               }
             }
           }
