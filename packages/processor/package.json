@@ -1,7 +1,7 @@
 {
   "name": "@eva-design/processor",
   "description": "Eva Design System Schema Processor",
-  "version": "1.0.1",
+  "version": "1.1.0-beta.1",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
   "homepage": "https://github.com/eva-design/eva#readme",
@@ -10,6 +10,6 @@
     "url": "https://github.com/eva-design/eva/issues"
   },
   "devDependencies": {
-    "@eva-design/dss": "1.0.1"
+    "@eva-design/dss": "1.1.0-beta.1"
   }
 }

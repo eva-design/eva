@@ -1,3 +1,33 @@
+## 1.1.0-beta.1 (2019-08-29)
+
+* feat(demo): add fitness app demo file (#23) ([6388333](https://github.com/eva-design/eva/commit/6388333)), closes [#23](https://github.com/eva-design/eva/issues/23)
+* feat(mapping): add drawer mapping ([c111181](https://github.com/eva-design/eva/commit/c111181))
+* feat(mapping): add spinner mapping ([1549436](https://github.com/eva-design/eva/commit/1549436))
+* feat(mapping): dropdown group mapping add ([64f50f1](https://github.com/eva-design/eva/commit/64f50f1))
+* feat(mapping): dropdown label mappings add ([c1a60ea](https://github.com/eva-design/eva/commit/c1a60ea))
+* feat(mapping): menu basic mappings add ([b415f34](https://github.com/eva-design/eva/commit/b415f34))
+* feat(mapping): menu-groups mappings add ([058566f](https://github.com/eva-design/eva/commit/058566f))
+* feat(mapping): part of dropdown mappings add ([b35baaf](https://github.com/eva-design/eva/commit/b35baaf))
+* fix(mapping): dropdown danger border-color fix ([0726fe3](https://github.com/eva-design/eva/commit/0726fe3))
+* fix(mapping): spinner status variant naming refactor ([e5c309f](https://github.com/eva-design/eva/commit/e5c309f))
+* refactor(mapping): dropdown component rename ([8fe888b](https://github.com/eva-design/eva/commit/8fe888b))
+* refactor(mapping): dropdown icon mapping refactor ([cf6975c](https://github.com/eva-design/eva/commit/cf6975c))
+* refactor(mapping): dropdown item selected state refactor ([e414abf](https://github.com/eva-design/eva/commit/e414abf))
+* refactor(mapping): dropdown mapping refactor ([36d4955](https://github.com/eva-design/eva/commit/36d4955))
+* refactor(mapping): dropdown mapping refactor ([752e1d3](https://github.com/eva-design/eva/commit/752e1d3))
+* refactor(mapping): dropdown mapping refactor ([be2f039](https://github.com/eva-design/eva/commit/be2f039))
+* refactor(mapping): dropdown mappings refactor ([d175807](https://github.com/eva-design/eva/commit/d175807))
+* refactor(mapping): dropdown mappings refactor ([68c3ef2](https://github.com/eva-design/eva/commit/68c3ef2))
+* refactor(mapping): menu mappings refactor ([9806b89](https://github.com/eva-design/eva/commit/9806b89))
+* refactor(mapping): menu mappings refactor ([c55f216](https://github.com/eva-design/eva/commit/c55f216))
+* refactor(mapping): menu mappings refactor ([49d5704](https://github.com/eva-design/eva/commit/49d5704))
+* refactor(mapping): overflow-menu mappings refactor ([03e28eb](https://github.com/eva-design/eva/commit/03e28eb))
+* refactor(mapping): select mapping keys refactor ([382de24](https://github.com/eva-design/eva/commit/382de24))
+* refactor(mapping): spinner mappings refactor ([d59033a](https://github.com/eva-design/eva/commit/d59033a))
+* refactor(mapping): spinner statuses refactor ([3725c88](https://github.com/eva-design/eva/commit/3725c88))
+
+
+
 ## <small>1.0.1 (2019-06-28)</small>
 
 * build: fix state property type ([0d1b537](https://github.com/eva-design/eva/commit/0d1b537))
