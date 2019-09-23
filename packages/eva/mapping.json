@@ -970,7 +970,7 @@
         "default": {
           "mapping": {
             "maxWidth": 480,
-            "maxHeight": 412,
+            "maxHeight": 480,
             "paddingVertical": 8,
             "borderColor": "border-basic-color-4",
             "borderWidth": 1,
