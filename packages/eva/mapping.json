@@ -1492,6 +1492,9 @@
             "iconTintColor": "text-hint-color",
             "popoverMarginHorizontal": 16,
             "state": {
+              "active": {
+                "textColor": "background-alternative-color-1"
+              },
               "disabled": {
                 "borderColor": "border-basic-color-4",
                 "backgroundColor": "#FCFDFE",
