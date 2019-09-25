@@ -1107,7 +1107,7 @@
                 "contentTextColor": "text-control-color"
               },
               "disabled": {
-                "contentTextColor": "#CACFDB"
+                "contentTextColor": "rgba(143, 155, 179, 0.48)"
               },
               "today": {
                 "contentBackgroundColor": "color-primary-100",
@@ -1115,10 +1115,13 @@
                 "contentTextColor": "border-alternative-color-1"
               },
               "range": {
-                "contentBackgroundColor": "color-primary-default",
                 "contentTextColor": "text-control-color",
                 "backgroundColor": "color-primary-default",
                 "borderRadius": 4
+              },
+              "today.range": {
+                "contentBackgroundColor": "rgba(255, 255, 255, 0.16)",
+                "contentBorderColor": "color-primary-300"
               }
             }
           },
@@ -1497,8 +1500,8 @@
               },
               "disabled": {
                 "borderColor": "border-basic-color-4",
-                "backgroundColor": "#FCFDFE",
-                "textColor": "#CACFDB",
+                "backgroundColor": "background-basic-color-2",
+                "textColor": "rgba(143, 155, 179, 0.48)",
                 "iconTintColor": "text-hint-color"
               }
             }
