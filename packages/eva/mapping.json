@@ -2967,6 +2967,21 @@
           "thumbBackgroundColor": {
             "type": "string"
           },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textLineHeight": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
           "iconWidth": {
             "type": "number"
           },
@@ -3054,6 +3069,11 @@
             "borderColor": "border-basic-color-3",
             "backgroundColor": "background-basic-color-2",
             "thumbBackgroundColor": "background-basic-color-1",
+            "textMarginHorizontal": 12,
+            "textFontSize": "text-subtitle-2-font-size",
+            "textLineHeight": "text-subtitle-2-line-height",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textColor": "text-basic-color",
             "outlineBackgroundColor": "transparent",
             "state": {
               "active": {
