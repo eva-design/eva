@@ -334,6 +334,9 @@
         },
         "variantGroups": {
           "status": {
+            "basic": {
+              "default": false
+            },
             "primary": {
               "default": true
             },
@@ -403,6 +406,20 @@
           },
           "variantGroups": {
             "status": {
+              "basic": {
+                "borderColor": "background-basic-color-3",
+                "backgroundColor": "background-basic-color-3",
+                "textColor": "background-alternative-color-1",
+                "iconTintColor": "background-alternative-color-1",
+                "state": {
+                  "active": {
+                    "borderColor": "red",
+                    "backgroundColor": "red",
+                    "textColor": "red",
+                    "iconTintColor": "red"
+                  }
+                }
+              },
               "primary": {
                 "borderColor": "color-primary-default",
                 "backgroundColor": "color-primary-default",
@@ -456,8 +473,8 @@
               "control": {
                 "backgroundColor": "color-basic-100",
                 "borderColor": "color-basic-100",
-                "textColor": "text-primary-color",
-                "iconTintColor": "color-primary-default",
+                "textColor": "color-basic-800",
+                "iconTintColor": "color-basic-800",
                 "state": {
                   "active": {
                     "backgroundColor": "color-basic-300",
@@ -556,6 +573,17 @@
           },
           "variantGroups": {
             "status": {
+              "basic": {
+                "backgroundColor": "color-basic-600-transparent-8",
+                "borderColor": "color-basic-600",
+                "textColor": "text-hint-color",
+                "iconTintColor": "text-hint-color",
+                "state": {
+                  "active": {
+                    "backgroundColor": "red"
+                  }
+                }
+              },
               "primary": {
                 "backgroundColor": "background-basic-color-1",
                 "textColor": "text-primary-color",
@@ -607,15 +635,14 @@
                 }
               },
               "control": {
-                "backgroundColor": "background-basic-color-2",
+                "backgroundColor": "color-basic-100-transparent-8",
+                "borderColor": "color-basic-100",
+                "textColor": "color-basic-100",
+                "iconTintColor": "color-basic-100",
                 "state": {
                   "active": {
-                    "borderColor": "color-basic-300",
-                    "backgroundColor": "background-basic-color-2"
-                  },
-                  "disabled": {
-                    "borderColor": "color-basic-300",
-                    "backgroundColor": "background-basic-color-3"
+                    "borderColor": "red",
+                    "backgroundColor": "red"
                   }
                 }
               }
@@ -633,6 +660,23 @@
           },
           "variantGroups": {
             "status": {
+              "basic": {
+                "borderColor": "transparent",
+                "backgroundColor": "transparent",
+                "textColor": "text-hint-color",
+                "iconTintColor": "text-hint-color",
+                "state": {
+                  "active": {
+                    "borderColor": "color-primary-500-transparent-16",
+                    "backgroundColor": "color-primary-500-transparent-16",
+                    "textColor": "text-primary-active-color",
+                    "iconTintColor": "text-primary-active-color"
+                  },
+                  "disabled": {
+                    "borderColor": "transparent"
+                  }
+                }
+              },
               "primary": {
                 "borderColor": "transparent",
                 "backgroundColor": "transparent",
@@ -721,14 +765,17 @@
               "control": {
                 "borderColor": "transparent",
                 "backgroundColor": "transparent",
+                "textColor": "color-basic-100",
+                "iconTintColor": "color-basic-100",
                 "state": {
                   "active": {
-                    "borderColor": "transparent",
-                    "backgroundColor": "transparent"
+                    "borderColor": "red",
+                    "backgroundColor": "red",
+                    "textColor": "red",
+                    "iconTintColor": "red"
                   },
                   "disabled": {
-                    "borderColor": "transparent",
-                    "backgroundColor": "transparent"
+                    "borderColor": "transparent"
                   }
                 }
               }
