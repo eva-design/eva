@@ -422,10 +422,10 @@
                 "iconTintColor": "background-alternative-color-1",
                 "state": {
                   "active": {
-                    "borderColor": "red",
-                    "backgroundColor": "red",
-                    "textColor": "red",
-                    "iconTintColor": "red"
+                    "borderColor": "color-basic-active",
+                    "backgroundColor": "color-basic-active",
+                    "textColor": "color-basic-700",
+                    "iconTintColor": "color-basic-700"
                   }
                 }
               },
@@ -486,10 +486,10 @@
                 "iconTintColor": "color-basic-800",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-basic-300",
-                    "borderColor": "color-basic-300",
-                    "textColor": "color-primary-active",
-                    "iconTintColor": "color-primary-active"
+                    "backgroundColor": "color-basic-transparent-200",
+                    "borderColor": "color-basic-transparent-200",
+                    "textColor": "icon-basic-color",
+                    "iconTintColor": "icon-basic-color"
                   },
                   "disabled": {
                     "backgroundColor": "color-basic-300",
@@ -589,7 +589,10 @@
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "red"
+                    "borderColor": "color-basic-600",
+                    "backgroundColor": "color-basic-transparent-300",
+                    "textColor": "text-hint-color",
+                    "iconTintColor": "text-hint-color"
                   }
                 }
               },
@@ -650,8 +653,14 @@
                 "iconTintColor": "color-basic-100",
                 "state": {
                   "active": {
-                    "borderColor": "red",
-                    "backgroundColor": "red"
+                    "borderColor": "color-basic-100",
+                    "backgroundColor": "color-basic-control-transparent-300"
+                  },
+                  "disabled": {
+                    "borderColor": "color-basic-transparent-300",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "color-basic-transparent-600",
+                    "iconTintColor": "color-basic-transparent-600"
                   }
                 }
               }
@@ -662,8 +671,10 @@
           "mapping": {
             "state": {
               "disabled": {
-                "backgroundColor": "transparent",
-                "borderColor": "color-basic-transparent-200"
+                "backgroundColor": "color-basic-transparent-200",
+                "borderColor": "color-basic-transparent-200",
+                "textColor": "color-basic-transparent-600",
+                "iconTintColor": "color-basic-transparent-600"
               }
             }
           },
@@ -676,13 +687,10 @@
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-transparent-200",
-                    "backgroundColor": "color-primary-transparent-200",
-                    "textColor": "text-primary-active-color",
-                    "iconTintColor": "text-primary-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-hint-color",
+                    "iconTintColor": "text-hint-color"
                   }
                 }
               },
@@ -693,13 +701,10 @@
                 "iconTintColor": "text-primary-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-transparent-200",
-                    "backgroundColor": "color-primary-transparent-200",
-                    "textColor": "text-primary-active-color",
-                    "iconTintColor": "text-primary-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-primary-color",
+                    "iconTintColor": "text-primary-color"
                   }
                 }
               },
@@ -710,13 +715,10 @@
                 "iconTintColor": "text-success-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-success-transparent-200",
-                    "backgroundColor": "color-success-transparent-200",
-                    "textColor": "text-success-active-color",
-                    "iconTintColor": "text-success-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-success-color",
+                    "iconTintColor": "text-success-color"
                   }
                 }
               },
@@ -727,13 +729,10 @@
                 "iconTintColor": "text-info-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-info-transparent-200",
-                    "backgroundColor": "color-info-transparent-200",
-                    "textColor": "text-info-active-color",
-                    "iconTintColor": "text-info-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-info-color",
+                    "iconTintColor": "text-info-color"
                   }
                 }
               },
@@ -744,13 +743,10 @@
                 "iconTintColor": "text-warning-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-warning-transparent-200",
-                    "backgroundColor": "color-warning-transparent-200",
-                    "textColor": "text-warning-active-color",
-                    "iconTintColor": "text-warning-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-warning-color",
+                    "iconTintColor": "text-warning-color"
                   }
                 }
               },
@@ -761,13 +757,10 @@
                 "iconTintColor": "text-danger-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-danger-transparent-200",
-                    "backgroundColor": "color-danger-transparent-200",
-                    "textColor": "text-danger-active-color",
-                    "iconTintColor": "text-danger-active-color"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "text-danger-color",
+                    "iconTintColor": "text-danger-color"
                   }
                 }
               },
@@ -778,13 +771,10 @@
                 "iconTintColor": "color-basic-100",
                 "state": {
                   "active": {
-                    "borderColor": "red",
-                    "backgroundColor": "red",
-                    "textColor": "red",
-                    "iconTintColor": "red"
-                  },
-                  "disabled": {
-                    "borderColor": "transparent"
+                    "borderColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "color-basic-100",
+                    "iconTintColor": "color-basic-100"
                   }
                 }
               }
