@@ -662,7 +662,7 @@
           "mapping": {
             "state": {
               "disabled": {
-                "backgroundColor": "color-basic-transparent-200",
+                "backgroundColor": "transparent",
                 "borderColor": "color-basic-transparent-200"
               }
             }
