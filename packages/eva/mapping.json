@@ -397,8 +397,8 @@
             "iconMarginHorizontal": 4,
             "state": {
               "disabled": {
-                "borderColor": "color-basic-600-transparent-24",
-                "backgroundColor": "color-basic-600-transparent-24",
+                "borderColor": "color-basic-transparent-300",
+                "backgroundColor": "color-basic-transparent-300",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color"
               }
@@ -563,18 +563,18 @@
           "mapping": {
             "state": {
               "active": {
-                "backgroundColor": "color-primary-500-transparent-16"
+                "backgroundColor": "color-primary-transparent-200"
               },
               "disabled": {
-                "backgroundColor": "color-basic-600-transparent-16",
-                "borderColor": "color-basic-600-transparent-24"
+                "backgroundColor": "color-basic-transparent-200",
+                "borderColor": "color-basic-transparent-300"
               }
             }
           },
           "variantGroups": {
             "status": {
               "basic": {
-                "backgroundColor": "color-basic-600-transparent-8",
+                "backgroundColor": "color-basic-transparent-100",
                 "borderColor": "color-basic-600",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
@@ -590,7 +590,7 @@
                 "iconTintColor": "text-primary-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-primary-500-transparent-16"
+                    "backgroundColor": "color-primary-transparent-200"
                   }
                 }
               },
@@ -600,7 +600,7 @@
                 "iconTintColor": "text-success-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-success-500-transparent-16"
+                    "backgroundColor": "color-success-transparent-200"
                   }
                 }
               },
@@ -610,7 +610,7 @@
                 "iconTintColor": "text-info-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-info-500-transparent-16"
+                    "backgroundColor": "color-info-transparent-200"
                   }
                 }
               },
@@ -620,7 +620,7 @@
                 "iconTintColor": "text-warning-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-warning-500-transparent-16"
+                    "backgroundColor": "color-warning-transparent-200"
                   }
                 }
               },
@@ -630,12 +630,12 @@
                 "iconTintColor": "text-danger-color",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-danger-500-transparent-16"
+                    "backgroundColor": "color-danger-transparent-200"
                   }
                 }
               },
               "control": {
-                "backgroundColor": "color-basic-100-transparent-8",
+                "backgroundColor": "color-basic-control-transparent-100",
                 "borderColor": "color-basic-100",
                 "textColor": "color-basic-100",
                 "iconTintColor": "color-basic-100",
@@ -653,8 +653,8 @@
           "mapping": {
             "state": {
               "disabled": {
-                "backgroundColor": "color-basic-600-transparent-16",
-                "borderColor": "color-basic-600-transparent-16"
+                "backgroundColor": "color-basic-transparent-200",
+                "borderColor": "color-basic-transparent-200"
               }
             }
           },
@@ -667,8 +667,8 @@
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-500-transparent-16",
-                    "backgroundColor": "color-primary-500-transparent-16",
+                    "borderColor": "color-primary-transparent-200",
+                    "backgroundColor": "color-primary-transparent-200",
                     "textColor": "text-primary-active-color",
                     "iconTintColor": "text-primary-active-color"
                   },
@@ -684,8 +684,8 @@
                 "iconTintColor": "text-primary-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-500-transparent-16",
-                    "backgroundColor": "color-primary-500-transparent-16",
+                    "borderColor": "color-primary-transparent-200",
+                    "backgroundColor": "color-primary-transparent-200",
                     "textColor": "text-primary-active-color",
                     "iconTintColor": "text-primary-active-color"
                   },
@@ -701,8 +701,8 @@
                 "iconTintColor": "text-success-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-success-500-transparent-16",
-                    "backgroundColor": "color-success-500-transparent-16",
+                    "borderColor": "color-success-transparent-200",
+                    "backgroundColor": "color-success-transparent-200",
                     "textColor": "text-success-active-color",
                     "iconTintColor": "text-success-active-color"
                   },
@@ -718,8 +718,8 @@
                 "iconTintColor": "text-info-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-info-500-transparent-16",
-                    "backgroundColor": "color-info-500-transparent-16",
+                    "borderColor": "color-info-transparent-200",
+                    "backgroundColor": "color-info-transparent-200",
                     "textColor": "text-info-active-color",
                     "iconTintColor": "text-info-active-color"
                   },
@@ -735,8 +735,8 @@
                 "iconTintColor": "text-warning-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-warning-500-transparent-16",
-                    "backgroundColor": "color-warning-500-transparent-16",
+                    "borderColor": "color-warning-transparent-200",
+                    "backgroundColor": "color-warning-transparent-200",
                     "textColor": "text-warning-active-color",
                     "iconTintColor": "text-warning-active-color"
                   },
@@ -752,8 +752,8 @@
                 "iconTintColor": "text-danger-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-danger-500-transparent-16",
-                    "backgroundColor": "color-danger-500-transparent-16",
+                    "borderColor": "color-danger-transparent-200",
+                    "backgroundColor": "color-danger-transparent-200",
                     "textColor": "text-danger-active-color",
                     "iconTintColor": "text-danger-active-color"
                   },
@@ -1068,14 +1068,14 @@
                 "iconBorderRadius": 1.5
               },
               "disabled": {
-                "borderColor": "color-basic-600-transparent-24",
-                "backgroundColor": "color-basic-600-transparent-8",
-                "textColor": "color-basic-600-transparent-48"
+                "borderColor": "color-basic-transparent-300",
+                "backgroundColor": "color-basic-transparent-100",
+                "textColor": "color-basic-transparent-600"
               },
               "checked.disabled": {
-                "borderColor": "color-basic-600-transparent-48",
-                "backgroundColor": "color-basic-600-transparent-48",
-                "textColor": "color-basic-600-transparent-48"
+                "borderColor": "color-basic-transparent-600",
+                "backgroundColor": "color-basic-transparent-600",
+                "textColor": "color-basic-transparent-600"
               }
             }
           },
@@ -1087,7 +1087,7 @@
                 "state": {
                   "active": {
                     "borderColor": "text-hint-color",
-                    "outlineBackgroundColor": "color-basic-600-transparent-16"
+                    "outlineBackgroundColor": "color-basic-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-primary-default",
@@ -1100,11 +1100,11 @@
               },
               "primary": {
                 "borderColor": "color-primary-default",
-                "backgroundColor": "color-primary-500-transparent-16",
+                "backgroundColor": "color-primary-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-default",
-                    "outlineBackgroundColor": "color-primary-500-transparent-16"
+                    "outlineBackgroundColor": "color-primary-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-primary-default",
@@ -1118,11 +1118,11 @@
               },
               "success": {
                 "borderColor": "color-success-default",
-                "backgroundColor": "color-success-500-transparent-16",
+                "backgroundColor": "color-success-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-success-default",
-                    "outlineBackgroundColor": "color-success-500-transparent-16"
+                    "outlineBackgroundColor": "color-success-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-success-default",
@@ -1136,11 +1136,11 @@
               },
               "info": {
                 "borderColor": "color-info-default",
-                "backgroundColor": "color-info-500-transparent-16",
+                "backgroundColor": "color-info-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-info-default",
-                    "outlineBackgroundColor": "color-info-500-transparent-16"
+                    "outlineBackgroundColor": "color-info-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-info-default",
@@ -1154,11 +1154,11 @@
               },
               "warning": {
                 "borderColor": "color-warning-default",
-                "backgroundColor": "color-warning-500-transparent-16",
+                "backgroundColor": "color-warning-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-warning-default",
-                    "outlineBackgroundColor": "color-warning-500-transparent-16"
+                    "outlineBackgroundColor": "color-warning-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-warning-default",
@@ -1172,11 +1172,11 @@
               },
               "danger": {
                 "borderColor": "color-danger-default",
-                "backgroundColor": "color-danger-500-transparent-16",
+                "backgroundColor": "color-danger-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-danger-default",
-                    "outlineBackgroundColor": "color-danger-500-transparent-16"
+                    "outlineBackgroundColor": "color-danger-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-danger-default",
@@ -1190,10 +1190,10 @@
               },
               "control": {
                 "borderColor": "color-basic-100",
-                "backgroundColor": "color-basic-100-transparent-40",
+                "backgroundColor": "color-basic-control-transparent-500",
                 "state": {
                   "active": {
-                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "outlineBackgroundColor": "color-basic-control-transparent-200",
                     "borderColor": "color-basic-100"
                   },
                   "checked": {
@@ -1205,12 +1205,12 @@
                     "borderColor": "color-basic-100"
                   },
                   "disabled": {
-                    "backgroundColor": "color-basic-600-transparent-8",
-                    "borderColor": "color-basic-600-transparent-24"
+                    "backgroundColor": "color-basic-transparent-100",
+                    "borderColor": "color-basic-transparent-300"
                   },
                   "checked.disabled": {
-                    "backgroundColor": "color-basic-600-transparent-48",
-                    "borderColor": "color-basic-600-transparent-48",
+                    "backgroundColor": "color-basic-transparent-600",
+                    "borderColor": "color-basic-transparent-600",
                     "iconTintColor": "color-basic-100"
                   }
                 }
@@ -1882,12 +1882,12 @@
             "indicatorBackgroundColor": "transparent",
             "state": {
               "active": {
-                "backgroundColor": "color-basic-600-transparent-8"
+                "backgroundColor": "color-basic-transparent-100"
               },
               "selected": {
                 "indicatorWidth": 4,
                 "indicatorBackgroundColor": "color-primary-default",
-                "backgroundColor": "color-primary-500-transparent-8",
+                "backgroundColor": "color-primary-transparent-100",
                 "titleColor": "color-primary-default",
                 "iconTintColor": "color-primary-default"
               },
@@ -2475,8 +2475,8 @@
                 "backgroundColor": "transparent"
               },
               "disabled": {
-                "backgroundColor": "color-basic-600-transparent-16",
-                "borderColor": "color-basic-600-transparent-8",
+                "backgroundColor": "color-basic-transparent-200",
+                "borderColor": "color-basic-transparent-100",
                 "textColor": "text-hint-color"
               },
               "checked.active": {
@@ -2484,8 +2484,8 @@
               },
               "checked.disabled": {
                 "backgroundColor": "transparent",
-                "iconTintColor": "color-basic-600-transparent-48",
-                "borderColor": "color-basic-600-transparent-48",
+                "iconTintColor": "color-basic-transparent-600",
+                "borderColor": "color-basic-transparent-600",
                 "textColor": "text-hint-color"
               }
             }
@@ -2498,8 +2498,8 @@
                 "state": {
                   "active": {
                     "borderColor": "text-hint-color",
-                    "backgroundColor": "color-basic-600-transparent-40",
-                    "outlineBackgroundColor": "color-basic-600-transparent-16"
+                    "backgroundColor": "color-basic-transparent-500",
+                    "outlineBackgroundColor": "color-basic-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-primary-default",
@@ -2512,12 +2512,12 @@
               },
               "primary": {
                 "borderColor": "color-primary-default",
-                "backgroundColor": "color-primary-500-transparent-16",
+                "backgroundColor": "color-primary-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-default",
-                    "backgroundColor": "color-primary-500-transparent-40",
-                    "outlineBackgroundColor": "color-primary-500-transparent-16"
+                    "backgroundColor": "color-primary-transparent-500",
+                    "outlineBackgroundColor": "color-primary-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-primary-default",
@@ -2530,12 +2530,12 @@
               },
               "success": {
                 "borderColor": "color-success-default",
-                "backgroundColor": "color-success-500-transparent-16",
+                "backgroundColor": "color-success-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-success-default",
-                    "backgroundColor": "color-success-500-transparent-40",
-                    "outlineBackgroundColor": "color-success-500-transparent-16"
+                    "backgroundColor": "color-success-transparent-500",
+                    "outlineBackgroundColor": "color-success-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-success-default",
@@ -2548,12 +2548,12 @@
               },
               "info": {
                 "borderColor": "color-info-default",
-                "backgroundColor": "color-info-500-transparent-16",
+                "backgroundColor": "color-info-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-info-default",
-                    "backgroundColor": "color-info-500-transparent-40",
-                    "outlineBackgroundColor": "color-info-500-transparent-16"
+                    "backgroundColor": "color-info-transparent-500",
+                    "outlineBackgroundColor": "color-info-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-info-default",
@@ -2566,12 +2566,12 @@
               },
               "warning": {
                 "borderColor": "color-warning-default",
-                "backgroundColor": "color-warning-500-transparent-16",
+                "backgroundColor": "color-warning-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-warning-default",
-                    "backgroundColor": "color-warning-500-transparent-40",
-                    "outlineBackgroundColor": "color-warning-500-transparent-16"
+                    "backgroundColor": "color-warning-transparent-500",
+                    "outlineBackgroundColor": "color-warning-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-warning-default",
@@ -2584,12 +2584,12 @@
               },
               "danger": {
                 "borderColor": "color-danger-default",
-                "backgroundColor": "color-danger-500-transparent-16",
+                "backgroundColor": "color-danger-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-danger-default",
-                    "backgroundColor": "color-danger-500-transparent-40",
-                    "outlineBackgroundColor": "color-danger-500-transparent-16"
+                    "backgroundColor": "color-danger-transparent-500",
+                    "outlineBackgroundColor": "color-danger-transparent-200"
                   },
                   "checked": {
                     "borderColor": "color-danger-default",
@@ -2602,10 +2602,10 @@
               },
               "control": {
                 "borderColor": "color-basic-100",
-                "backgroundColor": "color-basic-100-transparent-40",
+                "backgroundColor": "color-basic-control-transparent-500",
                 "state": {
                   "active": {
-                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "outlineBackgroundColor": "color-basic-control-transparent-200",
                     "borderColor": "color-basic-100"
                   },
                   "checked": {
@@ -2614,12 +2614,12 @@
                     "backgroundColor": "color-basic-800"
                   },
                   "checked.active": {
-                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "outlineBackgroundColor": "color-basic-control-transparent-200",
                     "borderColor": "color-basic-100"
                   },
                   "disabled": {
-                    "backgroundColor": "color-basic-600-transparent-16",
-                    "borderColor": "color-basic-600-transparent-32"
+                    "backgroundColor": "color-basic-transparent-200",
+                    "borderColor": "color-basic-transparent-400"
                   }
                 }
               }
@@ -3212,9 +3212,9 @@
           "mapping": {
             "state": {
               "disabled": {
-                "thumbBackgroundColor": "color-basic-600-transparent-48",
-                "borderColor": "color-basic-600-transparent-32",
-                "backgroundColor": "color-basic-600-transparent-16",
+                "thumbBackgroundColor": "color-basic-transparent-600",
+                "borderColor": "color-basic-transparent-400",
+                "backgroundColor": "color-basic-transparent-200",
                 "iconTintColor": "transparent"
               },
               "checked.disabled": {
@@ -3226,15 +3226,15 @@
             "status": {
               "basic": {
                 "borderColor": "border-basic-color-5",
-                "backgroundColor": "color-basic-600-transparent-16",
+                "backgroundColor": "color-basic-transparent-200",
                 "thumbBackgroundColor": "background-basic-color-1",
                 "outlineBackgroundColor": "transparent",
                 "iconTintColor": "transparent",
                 "state": {
                   "active": {
                     "borderColor": "text-hint-color",
-                    "outlineBackgroundColor": "color-basic-600-transparent-16",
-                    "backgroundColor": "color-basic-600-transparent-40"
+                    "outlineBackgroundColor": "color-basic-transparent-200",
+                    "backgroundColor": "color-basic-transparent-500"
                   },
                   "checked": {
                     "iconTintColor": "color-primary-default",
@@ -3249,12 +3249,12 @@
               },
               "primary": {
                 "borderColor": "border-primary-color-1",
-                "backgroundColor": "color-primary-500-transparent-16",
+                "backgroundColor": "color-primary-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-default",
-                    "backgroundColor": "color-primary-500-transparent-40",
-                    "outlineBackgroundColor": "color-primary-500-transparent-16"
+                    "backgroundColor": "color-primary-transparent-500",
+                    "outlineBackgroundColor": "color-primary-transparent-200"
                   },
                   "checked": {
                     "iconTintColor": "color-primary-default",
@@ -3268,12 +3268,12 @@
               },
               "success": {
                 "borderColor": "border-success-color-1",
-                "backgroundColor": "color-success-500-transparent-16",
+                "backgroundColor": "color-success-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-success-default",
-                    "backgroundColor": "color-success-500-transparent-40",
-                    "outlineBackgroundColor": "color-success-500-transparent-16"
+                    "backgroundColor": "color-success-transparent-500",
+                    "outlineBackgroundColor": "color-success-transparent-200"
                   },
                   "checked": {
                     "iconTintColor": "color-success-default",
@@ -3287,12 +3287,12 @@
               },
               "info": {
                 "borderColor": "border-info-color-1",
-                "backgroundColor": "color-info-500-transparent-16",
+                "backgroundColor": "color-info-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-info-default",
-                    "backgroundColor": "color-info-500-transparent-40",
-                    "outlineBackgroundColor": "color-info-500-transparent-16"
+                    "backgroundColor": "color-info-transparent-500",
+                    "outlineBackgroundColor": "color-info-transparent-200"
                   },
                   "checked": {
                     "iconTintColor": "color-info-default",
@@ -3306,12 +3306,12 @@
               },
               "warning": {
                 "borderColor": "border-warning-color-1",
-                "backgroundColor": "color-warning-500-transparent-16",
+                "backgroundColor": "color-warning-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-warning-default",
-                    "backgroundColor": "color-warning-500-transparent-40",
-                    "outlineBackgroundColor": "color-warning-500-transparent-16"
+                    "backgroundColor": "color-warning-transparent-500",
+                    "outlineBackgroundColor": "color-warning-transparent-200"
                   },
                   "checked": {
                     "iconTintColor": "color-warning-default",
@@ -3325,12 +3325,12 @@
               },
               "danger": {
                 "borderColor": "border-danger-color-1",
-                "backgroundColor": "color-danger-500-transparent-16",
+                "backgroundColor": "color-danger-transparent-200",
                 "state": {
                   "active": {
                     "borderColor": "color-danger-default",
-                    "backgroundColor": "color-danger-500-transparent-40",
-                    "outlineBackgroundColor": "color-danger-500-transparent-16"
+                    "backgroundColor": "color-danger-transparent-500",
+                    "outlineBackgroundColor": "color-danger-transparent-200"
                   },
                   "checked": {
                     "iconTintColor": "color-danger-default",
@@ -3348,16 +3348,16 @@
                 "thumbBackgroundColor": "color-basic-100",
                 "state": {
                   "active": {
-                    "outlineBackgroundColor": "color-basic-100-transparent-16",
+                    "outlineBackgroundColor": "color-basic-control-transparent-200",
                     "borderColor": "color-basic-100"
                   },
                   "checked": {
                     "iconTintColor": "color-basic-700",
-                    "borderColor": "color-basic-100-transparent-48",
+                    "borderColor": "color-basic-control-transparent-600",
                     "backgroundColor": "color-basic-100"
                   },
                   "checked.active": {
-                    "borderColor": "color-basic-100-transparent-48",
+                    "borderColor": "color-basic-control-transparent-600",
                     "backgroundColor": "color-basic-100"
                   }
                 }
