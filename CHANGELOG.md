@@ -1,3 +1,9 @@
+## 1.2.0 (2019-09-27)
+
+* feat(mapping/theme): basic and control statuses add / transparent colors add ([9e809e0](https://github.com/eva-design/eva/commit/9e809e0))
+
+
+
 ## 1.1.0 (2019-09-27)
 
 * feat(mapping): add font-family for each component that has text ([35361cc](https://github.com/eva-design/eva/commit/35361cc))
@@ -5,7 +11,6 @@
 * feat(mapping): calendar/datepicker mappings add ([19103f6](https://github.com/eva-design/eva/commit/19103f6))
 * feat(mapping): toggle - add text mappings ([40e2ccf](https://github.com/eva-design/eva/commit/40e2ccf))
 * feat(mapping): top-navigation - control appearance ([7394046](https://github.com/eva-design/eva/commit/7394046))
-* feat(mapping/theme): basic and control statuses add / transparent colors add ([9e809e0](https://github.com/eva-design/eva/commit/9e809e0))
 
 
 
