@@ -597,7 +597,7 @@
                 }
               },
               "primary": {
-                "backgroundColor": "background-basic-color-1",
+                "backgroundColor": "color-primary-transparent-100",
                 "textColor": "text-primary-color",
                 "iconTintColor": "text-primary-color",
                 "state": {
@@ -607,7 +607,7 @@
                 }
               },
               "success": {
-                "backgroundColor": "background-basic-color-1",
+                "backgroundColor": "color-success-transparent-100",
                 "textColor": "text-success-color",
                 "iconTintColor": "text-success-color",
                 "state": {
@@ -617,7 +617,7 @@
                 }
               },
               "info": {
-                "backgroundColor": "background-basic-color-1",
+                "backgroundColor": "color-info-transparent-100",
                 "textColor": "text-info-color",
                 "iconTintColor": "text-info-color",
                 "state": {
@@ -627,7 +627,7 @@
                 }
               },
               "warning": {
-                "backgroundColor": "background-basic-color-1",
+                "backgroundColor": "color-warning-transparent-100",
                 "textColor": "text-warning-color",
                 "iconTintColor": "text-warning-color",
                 "state": {
@@ -637,7 +637,7 @@
                 }
               },
               "danger": {
-                "backgroundColor": "background-basic-color-1",
+                "backgroundColor": "color-danger-transparent-100",
                 "textColor": "text-danger-color",
                 "iconTintColor": "text-danger-color",
                 "state": {
@@ -2657,7 +2657,7 @@
                   "checked": {
                     "iconTintColor": "color-basic-100",
                     "borderColor": "color-basic-100",
-                    "backgroundColor": "color-basic-800"
+                    "backgroundColor": "transparent"
                   },
                   "checked.active": {
                     "outlineBackgroundColor": "color-basic-control-transparent-200",
