@@ -964,6 +964,9 @@
           "titleColor": {
             "type": "string"
           },
+          "titleFontFamily": {
+            "type": "string"
+          },
           "iconWidth": {
             "type": "number"
           },
@@ -983,6 +986,9 @@
             "type": "number"
           },
           "weekdayTextColor": {
+            "type": "string"
+          },
+          "weekdayTextFontFamily": {
             "type": "string"
           },
           "rowMinHeight": {
@@ -1017,12 +1023,14 @@
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
             "titleColor": "border-alternative-color-1",
+            "titleFontFamily": "text-font-family",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconTintColor": "border-alternative-color-1",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
             "weekdayTextLineHeight": "text-subtitle-1-line-height",
+            "weekdayTextFontFamily": "text-font-family",
             "weekdayTextColor": "text-hint-color",
             "dividerMarginVertical": 4,
             "rowMinHeight": 45,
@@ -1070,6 +1078,9 @@
           },
           "contentTextFontWeight": {
             "type": "number"
+          },
+          "contentTextFontFamily": {
+            "type": "string"
           }
         },
         "appearances": {
@@ -1132,6 +1143,7 @@
             "contentTextLineHeight": "text-subtitle-1-line-height",
             "contentTextFontWeight": "text-subtitle-1-font-weight",
             "contentTextColor": "text-basic-color",
+            "contentTextFontFamily": "text-font-family",
             "state": {
               "bounding": {
                 "contentTextColor": "text-hint-color"
@@ -1142,7 +1154,7 @@
                 "contentTextColor": "text-control-color"
               },
               "disabled": {
-                "contentTextColor": "rgba(143, 155, 179, 0.48)"
+                "contentTextColor": "color-basic-transparent-600"
               },
               "today": {
                 "contentBackgroundColor": "color-primary-100",
@@ -1155,7 +1167,7 @@
                 "borderRadius": 4
               },
               "today.range": {
-                "contentBackgroundColor": "rgba(255, 255, 255, 0.16)",
+                "contentBackgroundColor": "color-basic-control-transparent-200",
                 "contentBorderColor": "color-primary-300"
               }
             }
@@ -1514,6 +1526,9 @@
           "textFontWeight": {
             "type": "string"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textColor": {
             "type": "string"
           },
@@ -1582,6 +1597,7 @@
             "textFontSize": "text-paragraph-1-font-size",
             "textLineHeight": "text-paragraph-1-line-height",
             "textFontWeight": "text-paragraph-1-font-weight",
+            "textFontFamily": "text-font-family",
             "textColor": "text-hint-color",
             "iconWidth": 20,
             "iconHeight": 20,
@@ -1594,7 +1610,7 @@
               "disabled": {
                 "borderColor": "border-basic-color-4",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "rgba(143, 155, 179, 0.48)",
+                "textColor": "color-basic-transparent-600",
                 "iconTintColor": "text-hint-color"
               }
             }
