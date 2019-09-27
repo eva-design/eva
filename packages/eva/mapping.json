@@ -486,10 +486,8 @@
                 "iconTintColor": "color-basic-800",
                 "state": {
                   "active": {
-                    "backgroundColor": "color-basic-transparent-200",
-                    "borderColor": "color-basic-transparent-200",
-                    "textColor": "icon-basic-color",
-                    "iconTintColor": "icon-basic-color"
+                    "backgroundColor": "color-basic-300",
+                    "borderColor": "color-basic-300"
                   },
                   "disabled": {
                     "backgroundColor": "color-basic-300",
