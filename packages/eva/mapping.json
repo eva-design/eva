@@ -40,7 +40,8 @@
     "text-caption-2-font-weight": "600",
     "text-label-font-size": 12,
     "text-label-line-height": 16,
-    "text-label-font-weight": "800"
+    "text-label-font-weight": "800",
+    "text-font-family": "System"
   },
   "components": {
     "Avatar": {
@@ -164,6 +165,9 @@
           "textColor": {
             "type": "string"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -196,6 +200,7 @@
             "iconMarginVertical": 2,
             "iconTintColor": "color-basic-500",
             "textMarginVertical": 2,
+            "textFontFamily": "text-font-family",
             "textFontSize": "text-caption-2-font-size",
             "textLineHeight": "text-caption-2-line-height",
             "textFontWeight": "text-caption-2-font-weight",
@@ -296,6 +301,9 @@
           "textMarginHorizontal": {
             "type": "number"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -392,6 +400,7 @@
             "textColor": "text-control-color",
             "iconTintColor": "text-control-color",
             "iconMarginHorizontal": 4,
+            "textFontFamily": "text-font-family",
             "state": {
               "disabled": {
                 "borderColor": "border-basic-color-3",
@@ -1176,6 +1185,9 @@
           "textColor": {
             "type": "string"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -1274,6 +1286,7 @@
             "iconHeight": 12,
             "outlineWidth": 40,
             "outlineHeight": 40,
+            "textFontFamily": "text-font-family",
             "textFontSize": "text-subtitle-2-font-size",
             "textLineHeight": "text-subtitle-2-line-height",
             "textFontWeight": "text-subtitle-2-font-weight",
@@ -1639,6 +1652,9 @@
           "textMarginHorizontal": {
             "type": "number"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -1669,6 +1685,9 @@
           "labelColor": {
             "type": "string"
           },
+          "labelFontFamily": {
+            "type": "string"
+          },
           "labelFontSize": {
             "type": "number"
           },
@@ -1685,6 +1704,9 @@
             "type": "number"
           },
           "captionColor": {
+            "type": "string"
+          },
+          "captionFontFamily": {
             "type": "string"
           },
           "captionFontSize": {
@@ -1766,6 +1788,7 @@
             "borderColor": "border-basic-color-3",
             "backgroundColor": "background-basic-color-2",
             "textMarginHorizontal": 8,
+            "textFontFamily": "text-font-family",
             "textColor": "text-hint-color",
             "placeholderColor": "text-hint-color",
             "iconWidth": 24,
@@ -1773,9 +1796,11 @@
             "iconMarginHorizontal": 8,
             "iconTintColor": "icon-hint-color",
             "labelColor": "text-hint-color",
+            "labelFontFamily": "text-font-family",
             "labelMarginBottom": 4,
             "captionMarginTop": 4,
             "captionColor": "text-hint-color",
+            "captionFontFamily": "text-font-family",
             "captionFontSize": "text-caption-1-font-size",
             "captionLineHeight": "text-caption-1-line-height",
             "captionFontWeight": "text-caption-1-font-weight",
@@ -2002,6 +2027,9 @@
           "titleMarginHorizontal": {
             "type": "number"
           },
+          "titleFontFamily": {
+            "type": "string"
+          },
           "titleFontSize": {
             "type": "number"
           },
@@ -2015,6 +2043,9 @@
             "type": "string"
           },
           "descriptionColor": {
+            "type": "string"
+          },
+          "descriptionFontFamily": {
             "type": "string"
           },
           "descriptionFontSize": {
@@ -2058,11 +2089,13 @@
             "iconMarginHorizontal": 8,
             "iconTintColor": "text-hint-color",
             "titleMarginHorizontal": 8,
+            "titleFontFamily": "text-font-family",
             "titleFontSize": "text-subtitle-2-font-size",
             "titleFontWeight": "text-subtitle-2-font-weight",
             "titleLineHeight": "text-subtitle-2-line-height",
             "titleColor": "text-basic-color",
             "descriptionMarginHorizontal": 8,
+            "descriptionFontFamily": "text-font-family",
             "descriptionFontSize": "text-caption-1-font-size",
             "descriptionFontWeight": "text-caption-1-font-weight",
             "descriptionLineHeight": "text-caption-1-line-height",
@@ -2159,6 +2192,9 @@
           "titleMarginHorizontal": {
             "type": "number"
           },
+          "titleFontFamily": {
+            "type": "string"
+          },
           "titleFontSize": {
             "type": "number"
           },
@@ -2207,6 +2243,7 @@
             "iconMarginHorizontal": 8,
             "iconTintColor": "text-hint-color",
             "titleMarginHorizontal": 8,
+            "titleFontFamily": "text-font-family",
             "titleFontSize": "text-subtitle-2-font-size",
             "titleFontWeight": "text-subtitle-2-font-weight",
             "titleLineHeight": "text-subtitle-2-line-height",
@@ -2354,6 +2391,9 @@
           "placeholderMarginHorizontal": {
             "type": "number"
           },
+          "placeholderFontFamily": {
+            "type": "string"
+          },
           "placeholderFontSize": {
             "type": "number"
           },
@@ -2368,6 +2408,9 @@
           },
           "textMarginHorizontal": {
             "type": "number"
+          },
+          "textFontFamily": {
+            "type": "string"
           },
           "textFontSize": {
             "type": "number"
@@ -2406,6 +2449,9 @@
             "type": "number"
           },
           "labelColor": {
+            "type": "string"
+          },
+          "labelFontFamily": {
             "type": "string"
           },
           "labelFontSize": {
@@ -2490,12 +2536,14 @@
             "textColor": "border-alternative-color-1",
             "textFontWeight": "text-subtitle-1-font-weight",
             "textFontSize": "text-subtitle-1-font-size",
+            "textFontFamily": "text-font-family",
             "textLineHeight": "text-subtitle-1-line-height",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
             "iconTintColor": "text-hint-color",
             "labelColor": "text-hint-color",
+            "labelFontFamily": "text-font-family",
             "labelMarginBottom": 4,
             "outlineBackgroundColor": "transparent",
             "outlinePadding": 4,
@@ -2606,6 +2654,9 @@
           "textMarginHorizontal": {
             "type": "number"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -2652,6 +2703,7 @@
             "backgroundColor": "background-basic-color-1",
             "multiSelectBackgroundColor": "background-basic-color-1",
             "multiSelectTextColor": "background-alternative-color-1",
+            "textFontFamily": "text-font-family",
             "textFontSize": "text-subtitle-1-font-size",
             "textFontWeight": "text-subtitle-1-font-weight",
             "textLineHeight": "text-subtitle-2-line-height",
@@ -2696,6 +2748,9 @@
             "type": "string"
           },
           "textColor": {
+            "type": "string"
+          },
+          "textFontFamily": {
             "type": "string"
           },
           "textMarginHorizontal": {
@@ -2796,6 +2851,7 @@
             "iconBorderRadius": 8,
             "outlineBorderRadius": 20,
             "textMarginHorizontal": 12,
+            "textFontFamily": "text-font-family",
             "textFontSize": "text-subtitle-2-font-size",
             "textLineHeight": "text-subtitle-2-line-height",
             "textFontWeight": "text-subtitle-2-font-weight",
@@ -3061,6 +3117,9 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -3107,6 +3166,7 @@
         "default": {
           "mapping": {
             "textMarginVertical": 2,
+            "textFontFamily": "text-font-family",
             "textFontSize": 14,
             "textLineHeight": 16,
             "textFontWeight": "bold",
@@ -3169,6 +3229,9 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "fontFamily": {
+            "type": "string"
+          },
           "fontSize": {
             "type": "number"
           },
@@ -3258,6 +3321,7 @@
       "appearances": {
         "default": {
           "mapping": {
+            "fontFamily": "text-font-family",
             "color": "text-basic-color"
           },
           "variantGroups": {
@@ -3396,6 +3460,24 @@
           "thumbBackgroundColor": {
             "type": "string"
           },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
+          "textFontFamily": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          },
+          "textLineHeight": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
           "iconWidth": {
             "type": "number"
           },
@@ -3483,6 +3565,12 @@
             "borderColor": "border-basic-color-3",
             "backgroundColor": "background-basic-color-2",
             "thumbBackgroundColor": "background-basic-color-1",
+            "textMarginHorizontal": 12,
+            "textFontFamily": "text-font-family",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textLineHeight": "text-subtitle-2-line-height",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textColor": "text-basic-color",
             "outlineBackgroundColor": "transparent",
             "state": {
               "active": {
@@ -3676,6 +3764,9 @@
           "textMarginHorizontal": {
             "type": "number"
           },
+          "textFontFamily": {
+            "type": "string"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -3710,6 +3801,7 @@
             "iconMarginHorizontal": 4,
             "iconTintColor": "text-alternate-color",
             "textMarginHorizontal": 4,
+            "textFontFamily": "text-font-family",
             "textFontSize": "text-caption-2-font-size",
             "textLineHeight": "text-caption-2-line-height",
             "textFontWeight": "text-caption-2-font-weight",
@@ -3737,6 +3829,9 @@
           "titleTextAlign": {
             "type": "string"
           },
+          "titleFontFamily": {
+            "type": "string"
+          },
           "titleFontSize": {
             "type": "number"
           },
@@ -3750,6 +3845,9 @@
             "type": "string"
           },
           "subtitleTextAlign": {
+            "type": "string"
+          },
+          "subtitleFontFamily": {
             "type": "string"
           },
           "subtitleFontSize": {
@@ -3792,10 +3890,12 @@
             "paddingVertical": 8,
             "paddingHorizontal": 8,
             "backgroundColor": "background-basic-color-1",
+            "titleFontFamily": "text-font-family",
             "titleFontSize": "text-subtitle-1-font-size",
             "titleLineHeight": "text-subtitle-1-line-height",
             "titleFontWeight": "text-subtitle-1-font-weight",
             "titleColor": "text-basic-color",
+            "subtitleFontFamily": "text-font-family",
             "subtitleFontSize": "text-caption-1-font-size",
             "subtitleLineHeight": "text-caption-1-line-height",
             "subtitleFontWeight": "text-caption-1-font-weight",
