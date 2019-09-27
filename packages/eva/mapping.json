@@ -934,9 +934,6 @@
           "iconTintColor": {
             "type": "string"
           },
-          "iconMarginLeft": {
-            "type": "number"
-          },
           "weekdayTextFontSize": {
             "type": "number"
           },
@@ -983,7 +980,6 @@
             "titleColor": "border-alternative-color-1",
             "iconWidth": 24,
             "iconHeight": 24,
-            "iconMarginLeft": 4,
             "iconTintColor": "border-alternative-color-1",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
