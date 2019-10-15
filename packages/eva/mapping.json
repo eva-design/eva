@@ -4554,8 +4554,14 @@
           "paddingVertical": {
             "type": "number"
           },
+          "borderWidth": {
+            "type": "number"
+          },
           "borderRadius": {
             "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
           },
           "backgroundColor": {
             "type": "string"
@@ -4608,6 +4614,7 @@
             "paddingHorizontal": 16,
             "paddingVertical": 8,
             "borderRadius": 4,
+            "borderColor": "background-alternative-color-3",
             "backgroundColor": "background-alternative-color-3",
             "indicatorBackgroundColor": "background-alternative-color-3",
             "iconWidth": 16,
