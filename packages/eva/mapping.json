@@ -2747,6 +2747,12 @@
           "borderRadius": {
             "type": "number"
           },
+          "borderWidth": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "number"
+          },
           "backgroundColor": {
             "type": "string"
           },
@@ -2775,6 +2781,8 @@
             "minHeight": 32,
             "maxWidth": 256,
             "borderRadius": 8,
+            "borderWidth": 1,
+            "borderColor": "border-basic-color-2",
             "backgroundColor": "background-basic-color-1",
             "indicatorWidth": 6,
             "indicatorHeight": 6,
@@ -4546,8 +4554,14 @@
           "paddingVertical": {
             "type": "number"
           },
+          "borderWidth": {
+            "type": "number"
+          },
           "borderRadius": {
             "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
           },
           "backgroundColor": {
             "type": "string"
@@ -4600,6 +4614,7 @@
             "paddingHorizontal": 16,
             "paddingVertical": 8,
             "borderRadius": 4,
+            "borderColor": "background-alternative-color-3",
             "backgroundColor": "background-alternative-color-3",
             "indicatorBackgroundColor": "background-alternative-color-3",
             "iconWidth": 16,
