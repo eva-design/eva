@@ -2782,7 +2782,7 @@
             "maxWidth": 256,
             "borderRadius": 8,
             "borderWidth": 1,
-            "borderColor": "border-basic-color-2",
+            "borderColor": "border-basic-color-3",
             "backgroundColor": "background-basic-color-1",
             "indicatorWidth": 6,
             "indicatorHeight": 6,
