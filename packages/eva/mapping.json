@@ -3181,8 +3181,7 @@
                 "backgroundColor": "background-basic-color-2"
               },
               "selected": {
-                "textColor": "text-alternate-color",
-                "backgroundColor": "color-primary-default"
+                "backgroundColor": "color-primary-transparent-100"
               },
               "disabled": {
                 "backgroundColor": "background-basic-color-1",
