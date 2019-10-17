@@ -1,3 +1,13 @@
+## 1.3.0-beta.1 (2019-10-17)
+
+* refactor(mapping): popover borderColor value ([a1d6d53](https://github.com/eva-design/eva/commit/a1d6d53))
+* refactor(mapping): select-option - background-color on selected state ([888a8be](https://github.com/eva-design/eva/commit/888a8be))
+* feat: describe web states mappings ([746e3cc](https://github.com/eva-design/eva/commit/746e3cc))
+* feat(mapping): add tooltip border color ([0109098](https://github.com/eva-design/eva/commit/0109098))
+* feat(mapping): popover - add border parameters ([50fcc28](https://github.com/eva-design/eva/commit/50fcc28))
+
+
+
 ## 1.2.0 (2019-09-27)
 
 * feat(mapping/theme): basic and control statuses add / transparent colors add ([9e809e0](https://github.com/eva-design/eva/commit/9e809e0))
