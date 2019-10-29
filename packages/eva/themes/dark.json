@@ -189,7 +189,7 @@
 
   "border-alternative-color-1": "$color-basic-100",
   "border-alternative-color-2": "$color-basic-200",
-  "border-alternative-color-3": "$color-basic-3000",
+  "border-alternative-color-3": "$color-basic-300",
   "border-alternative-color-4": "$color-basic-400",
   "border-alternative-color-5": "$color-basic-500",
 
