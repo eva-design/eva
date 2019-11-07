@@ -4433,7 +4433,11 @@
     "RadioGroup": {
       "meta": {
         "scope": "all",
-        "parameters": {},
+        "parameters": {
+          "itemMarginVertical": {
+            "type": "number"
+          }
+        },
         "appearances": {
           "default": {
             "default": true
@@ -4444,7 +4448,9 @@
       },
       "appearances": {
         "default": {
-          "mapping": {}
+          "mapping": {
+            "itemMarginVertical": 8
+          }
         }
       }
     },
