@@ -4831,7 +4831,7 @@
               },
               "h3": {
                 "fontSize": "text-heading-3-font-size",
-                "fontWeight": "text-heading-4-font-weight",
+                "fontWeight": "text-heading-3-font-weight",
                 "lineHeight": "text-heading-3-line-height"
               },
               "h4": {
