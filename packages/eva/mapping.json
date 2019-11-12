@@ -4099,7 +4099,7 @@
                     "iconTintColor": "color-primary-hover"
                   },
                   "active": {
-                    "borderColor": "color-primary-active",
+                    "borderColor": "color-primary-transparent-active-border",
                     "outlineBackgroundColor": "outline-color"
                   },
                   "checked.active": {
@@ -4144,7 +4144,7 @@
                     "backgroundColor": "color-primary-transparent-hover"
                   },
                   "checked.hover": {
-                    "borderColor": "color-primary-default-hover",
+                    "borderColor": "color-primary-hover-border",
                     "backgroundColor": "transparent",
                     "iconTintColor": "color-primary-hover"
                   },
@@ -5086,7 +5086,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-primary-default",
+                    "borderColor": "color-primary-default-border",
                     "backgroundColor": "color-primary-default",
                     "iconTintColor": "text-primary-color"
                   },
@@ -5108,12 +5108,12 @@
                     "backgroundColor": "color-primary-hover"
                   },
                   "active": {
-                    "borderColor": "color-basic-transparent-active-border",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "borderColor": "color-primary-transparent-active-border",
+                    "backgroundColor": "color-primary-transparent-active",
                     "outlineBackgroundColor": "outline-color"
                   },
                   "checked.active": {
-                    "borderColor": "color-primary-active",
+                    "borderColor": "color-primary-active-border",
                     "backgroundColor": "color-primary-active"
                   },
                   "disabled": {
@@ -5136,7 +5136,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-primary-default",
+                    "borderColor": "color-primary-default-border",
                     "backgroundColor": "color-primary-default",
                     "iconTintColor": "text-primary-color"
                   },
@@ -5186,7 +5186,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-success-default",
+                    "borderColor": "color-success-default-border",
                     "backgroundColor": "color-success-default",
                     "iconTintColor": "text-success-color"
                   },
@@ -5236,7 +5236,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-info-default",
+                    "borderColor": "color-info-default-border",
                     "backgroundColor": "color-info-default",
                     "iconTintColor": "text-info-color"
                   },
@@ -5286,7 +5286,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-warning-default",
+                    "borderColor": "color-warning-default-border",
                     "backgroundColor": "color-warning-default",
                     "iconTintColor": "text-warning-color"
                   },
@@ -5336,7 +5336,7 @@
                 "iconTintColor": "transparent",
                 "state": {
                   "checked": {
-                    "borderColor": "color-danger-default",
+                    "borderColor": "color-danger-default-border",
                     "backgroundColor": "color-danger-default",
                     "iconTintColor": "text-danger-color"
                   },
