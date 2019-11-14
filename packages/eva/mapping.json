@@ -1426,7 +1426,7 @@
         "variantGroups": {
           "status": {
             "basic": {
-              "default": true
+              "default": false
             },
             "primary": {
               "default": false
@@ -1442,6 +1442,9 @@
             },
             "danger": {
               "default": false
+            },
+            "control": {
+              "default": false
             }
           }
         },
@@ -1451,21 +1454,22 @@
         "outline": {
           "mapping": {
             "backgroundColor": "background-basic-color-1",
-            "borderRadius": 4,
+            "borderRadius": "border-radius",
             "borderColor": "border-basic-color-4",
             "borderWidth": 1,
             "headerPaddingHorizontal": 24,
             "headerPaddingVertical": 16,
-            "titleFontFamily": "text-font-family",
+            "accentHeight": 0,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
+            "titleFontFamily": "text-font-family",
             "titleColor": "text-basic-color",
             "titleMarginHorizontal": 0,
-            "descriptionFontFamily": "text-font-family",
             "descriptionFontSize": "text-subtitle-2-font-size",
             "descriptionFontWeight": "text-subtitle-2-font-weight",
             "descriptionLineHeight": "text-subtitle-2-line-height",
+            "descriptionFontFamily": "text-font-family",
             "descriptionMarginHorizontal": 0,
             "descriptionColor": "text-basic-color",
             "bodyPaddingHorizontal": 24,
@@ -1476,28 +1480,32 @@
           "variantGroups": {
             "status": {
               "basic": {
-                "accentBackgroundColor": "transparent",
-                "accentHeight": 0
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-basic-default"
               },
               "primary": {
-                "accentBackgroundColor": "color-primary-default",
-                "accentHeight": 4
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-primary-default"
               },
               "success": {
-                "accentBackgroundColor": "color-success-default",
-                "accentHeight": 4
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-success-default"
               },
               "info": {
-                "accentBackgroundColor": "color-info-default",
-                "accentHeight": 4
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-info-default"
               },
               "warning": {
-                "accentBackgroundColor": "color-warning-default",
-                "accentHeight": 4
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-warning-default"
               },
               "danger": {
-                "accentBackgroundColor": "color-danger-default",
-                "accentHeight": 4
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-danger-default"
+              },
+              "control": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-control-default"
               }
             }
           }
@@ -4960,7 +4968,7 @@
           },
           "status": {
             "basic": {
-              "default": true
+              "default": false
             },
             "primary": {
               "default": false
@@ -4987,7 +4995,8 @@
       "appearances": {
         "default": {
           "mapping": {
-            "fontFamily": "text-font-family"
+            "fontFamily": "text-font-family",
+            "color": "text-basic-color"
           },
           "variantGroups": {
             "category": {
