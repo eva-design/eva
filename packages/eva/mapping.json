@@ -1338,6 +1338,186 @@
         }
       }
     },
+    "Card": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "borderColor": {
+            "type": "string"
+          },
+          "borderWidth": {
+            "type": "number"
+          },
+          "headerPaddingHorizontal": {
+            "type": "number"
+          },
+          "headerPaddingVertical": {
+            "type": "number"
+          },
+          "titleFontFamily": {
+            "type": "string"
+          },
+          "titleFontSize": {
+            "type": "number"
+          },
+          "titleLineHeight": {
+            "type": "number"
+          },
+          "titleFontWeight": {
+            "type": "string"
+          },
+          "titleColor": {
+            "type": "string"
+          },
+          "titleMarginHorizontal": {
+            "type": "number"
+          },
+          "descriptionColor": {
+            "type": "string"
+          },
+          "descriptionFontFamily": {
+            "type": "string"
+          },
+          "descriptionFontSize": {
+            "type": "number"
+          },
+          "descriptionFontWeight": {
+            "type": "string"
+          },
+          "descriptionLineHeight": {
+            "type": "number"
+          },
+          "descriptionMarginHorizontal": {
+            "type": "number"
+          },
+          "bodyPaddingHorizontal": {
+            "type": "number"
+          },
+          "bodyPaddingVertical": {
+            "type": "number"
+          },
+          "footerPaddingHorizontal": {
+            "type": "number"
+          },
+          "footerPaddingVertical": {
+            "type": "number"
+          },
+          "accentBackgroundColor": {
+            "type": "string"
+          },
+          "accentHeight": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "filled": {
+            "default": false
+          },
+          "outline": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": false
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "outline": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-1",
+            "borderRadius": "border-radius",
+            "borderColor": "border-basic-color-4",
+            "borderWidth": 1,
+            "headerPaddingHorizontal": 24,
+            "headerPaddingVertical": 16,
+            "accentHeight": 0,
+            "titleFontSize": "text-heading-6-font-size",
+            "titleFontWeight": "text-heading-6-font-weight",
+            "titleLineHeight": "text-heading-6-line-height",
+            "titleFontFamily": "text-font-family",
+            "titleColor": "text-basic-color",
+            "titleMarginHorizontal": 0,
+            "descriptionFontSize": "text-subtitle-2-font-size",
+            "descriptionFontWeight": "text-subtitle-2-font-weight",
+            "descriptionLineHeight": "text-subtitle-2-line-height",
+            "descriptionFontFamily": "text-font-family",
+            "descriptionMarginHorizontal": 0,
+            "descriptionColor": "text-basic-color",
+            "bodyPaddingHorizontal": 24,
+            "bodyPaddingVertical": 16,
+            "footerPaddingHorizontal": 24,
+            "footerPaddingVertical": 16
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-basic-default"
+              },
+              "primary": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-primary-default"
+              },
+              "success": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-success-default"
+              },
+              "info": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-info-default"
+              },
+              "warning": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-warning-default"
+              },
+              "danger": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-danger-default"
+              },
+              "control": {
+                "accentHeight": 4,
+                "accentBackgroundColor": "color-control-default"
+              }
+            }
+          }
+        },
+        "filled": {
+          "mapping": {
+            "borderWidth": 0,
+            "borderColor": "transparent"
+          }
+        }
+      }
+    },
     "Calendar": {
       "meta": {
         "scope": "all",
@@ -4788,7 +4968,7 @@
           },
           "status": {
             "basic": {
-              "default": true
+              "default": false
             },
             "primary": {
               "default": false
@@ -4815,7 +4995,8 @@
       "appearances": {
         "default": {
           "mapping": {
-            "fontFamily": "text-font-family"
+            "fontFamily": "text-font-family",
+            "color": "text-basic-color"
           },
           "variantGroups": {
             "category": {
