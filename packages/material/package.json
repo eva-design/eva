@@ -1,0 +1,12 @@
+{
+  "name": "@eva-design/material",
+  "description": "Eva Design System Material",
+  "version": "1.3.0-beta.1",
+  "license": "MIT",
+  "author": "akveo <contact@akveo.com>",
+  "homepage": "https://github.com/eva-design/eva#readme",
+  "repository": "git+https://github.com/eva-design/eva.git",
+  "bugs": {
+    "url": "https://github.com/eva-design/eva/issues"
+  }
+}
