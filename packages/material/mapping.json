@@ -229,7 +229,7 @@
           "mapping": {
             "textMarginVertical": 2,
             "textFontSize": 14,
-            "textFontWeight": "800",
+            "textFontWeight": "600",
             "textLineHeight": 16,
             "textFontFamily": "text-font-family",
             "textColor": "text-hint-color",
@@ -642,7 +642,7 @@
                 "paddingVertical": 6,
                 "textMarginHorizontal": 6,
                 "textFontSize": 10,
-                "textFontWeight": "800",
+                "textFontWeight": "600",
                 "textLineHeight": 12,
                 "iconWidth": 12,
                 "iconHeight": 12,
@@ -657,7 +657,7 @@
                 "paddingVertical": 8,
                 "textMarginHorizontal": 8,
                 "textFontSize": 12,
-                "textFontWeight": "800",
+                "textFontWeight": "600",
                 "textLineHeight": 16,
                 "iconWidth": 16,
                 "iconHeight": 16,
@@ -672,7 +672,7 @@
                 "paddingVertical": 12,
                 "textMarginHorizontal": 10,
                 "textFontSize": 14,
-                "textFontWeight": "800",
+                "textFontWeight": "600",
                 "textLineHeight": 16,
                 "iconWidth": 20,
                 "iconHeight": 20,
@@ -687,7 +687,7 @@
                 "paddingVertical": 14,
                 "textMarginHorizontal": 10,
                 "textFontSize": 16,
-                "textFontWeight": "800",
+                "textFontWeight": "600",
                 "textLineHeight": 20,
                 "iconWidth": 24,
                 "iconHeight": 24,
@@ -702,7 +702,7 @@
                 "paddingVertical": 16,
                 "textMarginHorizontal": 12,
                 "textFontSize": 18,
-                "textFontWeight": "800",
+                "textFontWeight": "600",
                 "textLineHeight": 24,
                 "iconWidth": 24,
                 "iconHeight": 24,
@@ -2405,8 +2405,8 @@
           "variantGroups": {
             "status": {
               "basic": {
-                "borderColor": "border-basic-color-4",
-                "backgroundColor": "background-basic-color-2",
+                "borderColor": "color-basic-600",
+                "backgroundColor": "background-basic-color-1",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
@@ -2417,7 +2417,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2436,7 +2436,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2455,7 +2455,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2463,7 +2463,7 @@
               },
               "info": {
                 "borderColor": "color-info-default-border",
-                "backgroundColor": "background-basic-color-2",
+                "backgroundColor": "background-basic-color-1",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
@@ -2474,7 +2474,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2482,7 +2482,7 @@
               },
               "warning": {
                 "borderColor": "color-warning-default-border",
-                "backgroundColor": "background-basic-color-2",
+                "backgroundColor": "background-basic-color-1",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
@@ -2493,7 +2493,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2501,7 +2501,7 @@
               },
               "danger": {
                 "borderColor": "color-danger-default-border",
-                "backgroundColor": "background-basic-color-2",
+                "backgroundColor": "background-basic-color-1",
                 "textColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
@@ -2512,7 +2512,7 @@
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
-                    "backgroundColor": "background-basic-color-2",
+                    "backgroundColor": "background-basic-color-1",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2821,7 +2821,7 @@
           "variantGroups": {
             "status": {
               "basic": {
-                "borderColor": "border-basic-color-5",
+                "borderColor": "color-basic-600",
                 "backgroundColor": "background-basic-color-1",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -2836,7 +2836,7 @@
                     "iconTintColor": "text-primary-color"
                   },
                   "hover": {
-                    "borderColor": "color-basic-800",
+                    "borderColor": "border-alternative-color-1",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "disabled": {
@@ -3724,7 +3724,7 @@
           "variantGroups": {
             "status": {
               "basic": {
-                "borderColor": "border-basic-color-5",
+                "borderColor": "color-basic-600",
                 "backgroundColor": "background-basic-color-1",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -3736,7 +3736,7 @@
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-basic-800",
+                    "borderColor": "border-alternative-color-1",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "active": {
@@ -4828,9 +4828,9 @@
       "appearances": {
         "default": {
           "mapping": {
-            "textMarginVertical": 2,
+            "textMarginVertical": 4,
             "textFontSize": 14,
-            "textFontWeight": "800",
+            "textFontWeight": "600",
             "textLineHeight": 16,
             "textFontFamily": "text-font-family",
             "textColor": "color-basic-default",
@@ -4887,7 +4887,7 @@
             "backgroundColor": "color-primary-default",
             "indicatorHeight": 4,
             "indicatorBorderRadius": 0,
-            "indicatorBackgroundColor": "color-success-default"
+            "indicatorBackgroundColor": "color-primary-100"
           }
         }
       }
