@@ -953,26 +953,26 @@
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-hint-color",
                     "iconTintColor": "text-hint-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-hint-color",
                     "iconTintColor": "text-hint-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-hint-color",
                     "iconTintColor": "text-hint-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -985,26 +985,26 @@
                 "iconTintColor": "text-primary-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-primary-color",
                     "iconTintColor": "text-primary-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-primary-color",
                     "iconTintColor": "text-primary-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-primary-color",
                     "iconTintColor": "text-primary-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -1017,26 +1017,26 @@
                 "iconTintColor": "text-success-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-success-color",
                     "iconTintColor": "text-success-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-success-color",
                     "iconTintColor": "text-success-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-success-color",
                     "iconTintColor": "text-success-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -1049,26 +1049,26 @@
                 "iconTintColor": "text-info-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-info-color",
                     "iconTintColor": "text-info-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-info-color",
                     "iconTintColor": "text-info-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-info-color",
                     "iconTintColor": "text-info-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -1081,26 +1081,26 @@
                 "iconTintColor": "text-warning-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-info-color",
                     "iconTintColor": "text-info-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-warning-color",
                     "iconTintColor": "text-warning-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-warning-color",
                     "iconTintColor": "text-warning-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -1113,26 +1113,26 @@
                 "iconTintColor": "text-danger-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-danger-color",
                     "iconTintColor": "text-danger-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-danger-color",
                     "iconTintColor": "text-danger-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-danger-color",
                     "iconTintColor": "text-danger-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -1145,26 +1145,26 @@
                 "iconTintColor": "text-control-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-basic-transparent-focus-border",
-                    "backgroundColor": "color-basic-transparent-focus",
+                    "borderColor": "color-basic-transparent-500",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-control-color",
                     "iconTintColor": "text-control-color"
                   },
                   "hover": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-hover",
+                    "backgroundColor": "color-basic-transparent-100",
                     "textColor": "text-control-color",
                     "iconTintColor": "text-control-color"
                   },
                   "active": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-active",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-control-color",
                     "iconTintColor": "text-control-color"
                   },
                   "disabled": {
                     "borderColor": "transparent",
-                    "backgroundColor": "color-basic-transparent-disabled",
+                    "backgroundColor": "color-basic-transparent-200",
                     "textColor": "text-disabled-color",
                     "iconTintColor": "text-disabled-color"
                   }
@@ -2831,7 +2831,7 @@
                 "captionIconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-primary-default-border",
+                    "borderColor": "color-primary-default",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-primary-color"
                   },
@@ -2852,7 +2852,7 @@
                 }
               },
               "primary": {
-                "borderColor": "color-primary-default-border",
+                "borderColor": "color-primary-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -2862,12 +2862,12 @@
                 "captionIconTintColor": "text-primary-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-primary-focus-border",
+                    "borderColor": "color-primary-focus",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-primary-focus-color"
                   },
                   "hover": {
-                    "borderColor": "color-primary-hover-border",
+                    "borderColor": "color-primary-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "disabled": {
@@ -2883,7 +2883,7 @@
                 }
               },
               "success": {
-                "borderColor": "color-success-default-border",
+                "borderColor": "color-success-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -2893,12 +2893,12 @@
                 "captionIconTintColor": "text-success-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-success-focus-border",
+                    "borderColor": "color-success-focus",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-success-focus-color"
                   },
                   "hover": {
-                    "borderColor": "color-success-hover-border",
+                    "borderColor": "color-success-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "disabled": {
@@ -2914,7 +2914,7 @@
                 }
               },
               "info": {
-                "borderColor": "color-info-default-border",
+                "borderColor": "color-info-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -2924,12 +2924,12 @@
                 "captionIconTintColor": "text-info-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-info-focus-border",
+                    "borderColor": "color-info-focus",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-info-focus-color"
                   },
                   "hover": {
-                    "borderColor": "color-info-hover-border",
+                    "borderColor": "color-info-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "disabled": {
@@ -2945,7 +2945,7 @@
                 }
               },
               "warning": {
-                "borderColor": "color-warning-default-border",
+                "borderColor": "color-warning-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
@@ -2976,7 +2976,7 @@
                 }
               },
               "danger": {
-                "borderColor": "color-danger-default-border",
+                "borderColor": "color-danger-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
