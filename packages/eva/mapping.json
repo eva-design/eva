@@ -5852,32 +5852,32 @@
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
-            "iconTintColor": "color-basic-800",
+            "iconTintColor": "text-basic-color",
             "state": {
               "hover": {
-                "iconTintColor": "color-basic-700"
+                "iconTintColor": "text-hint-color"
               },
               "focused": {
-                "iconTintColor": "color-basic-1000"
+                "iconTintColor": "text-hint-color"
               },
               "active": {
-                "iconTintColor": "color-basic-900"
+                "iconTintColor": "text-hint-color"
               }
             }
           }
         },
         "control": {
           "mapping": {
-            "iconTintColor": "color-basic-100",
+            "iconTintColor": "color-control-default",
             "state": {
               "hover": {
-                "iconTintColor": "color-basic-200"
+                "iconTintColor": "color-control-hover"
               },
               "focused": {
-                "iconTintColor": "color-basic-300"
+                "iconTintColor": "color-control-focus"
               },
               "active": {
-                "iconTintColor": "color-basic-200"
+                "iconTintColor": "color-control-active"
               }
             }
           }
