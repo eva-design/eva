@@ -4,45 +4,45 @@
   "strict": {
     "text-font-family": "System",
 
-    "text-heading-1-font-size": 96,
-    "text-heading-1-line-height": 96,
-    "text-heading-1-font-weight": "200",
+    "text-heading-1-font-size": 36,
+    "text-heading-1-line-height": 48,
+    "text-heading-1-font-weight": "800",
 
-    "text-heading-2-font-size": 60,
-    "text-heading-2-line-height": 60,
-    "text-heading-2-font-weight": "200",
+    "text-heading-2-font-size": 32,
+    "text-heading-2-line-height": 40,
+    "text-heading-2-font-weight": "800",
 
-    "text-heading-3-font-size": 48,
-    "text-heading-3-line-height": 48,
-    "text-heading-3-font-weight": "400",
+    "text-heading-3-font-size": 30,
+    "text-heading-3-line-height": 40,
+    "text-heading-3-font-weight": "800",
 
-    "text-heading-4-font-size": 34,
+    "text-heading-4-font-size": 26,
     "text-heading-4-line-height": 32,
-    "text-heading-4-font-weight": "400",
+    "text-heading-4-font-weight": "800",
 
-    "text-heading-5-font-size": 24,
+    "text-heading-5-font-size": 22,
     "text-heading-5-line-height": 32,
-    "text-heading-5-font-weight": "400",
+    "text-heading-5-font-weight": "800",
 
-    "text-heading-6-font-size": 20,
+    "text-heading-6-font-size": 18,
     "text-heading-6-line-height": 24,
-    "text-heading-6-font-weight": "600",
+    "text-heading-6-font-weight": "800",
 
-    "text-subtitle-1-font-size": 16,
+    "text-subtitle-1-font-size": 15,
     "text-subtitle-1-line-height": 24,
-    "text-subtitle-1-font-weight": "400",
+    "text-subtitle-1-font-weight": "600",
 
-    "text-subtitle-2-font-size": 14,
+    "text-subtitle-2-font-size": 13,
     "text-subtitle-2-line-height": 24,
-    "text-subtitle-2-font-weight": "400",
+    "text-subtitle-2-font-weight": "600",
 
-    "text-paragraph-1-font-size": 16,
+    "text-paragraph-1-font-size": 15,
     "text-paragraph-1-line-height": 20,
     "text-paragraph-1-font-weight": "400",
 
-    "text-paragraph-2-font-size": 14,
-    "text-paragraph-2-line-height": 18,
-    "text-paragraph-2-font-weight": "600",
+    "text-paragraph-2-font-size": 13,
+    "text-paragraph-2-line-height": 16,
+    "text-paragraph-2-font-weight": "400",
 
     "text-caption-1-font-size": 12,
     "text-caption-1-line-height": 16,
@@ -52,9 +52,9 @@
     "text-caption-2-line-height": 16,
     "text-caption-2-font-weight": "600",
 
-    "text-label-font-size": 14,
+    "text-label-font-size": 12,
     "text-label-line-height": 16,
-    "text-label-font-weight": "600",
+    "text-label-font-weight": "800",
 
     "size-tiny": 24,
     "size-small": 32,
@@ -1895,9 +1895,9 @@
             "outlineHeight": 32,
             "outlineBorderRadius": 6,
             "outlineBackgroundColor": "transparent",
-            "textFontSize": "text-label-font-size",
-            "textFontWeight": "text-label-font-weight",
-            "textLineHeight": "text-label-line-height",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textLineHeight": "text-subtitle-2-line-height",
             "textFontFamily": "text-font-family",
             "textMarginHorizontal": 12,
             "iconWidth": 12,
@@ -4076,10 +4076,10 @@
             "textColor": "text-basic-color",
             "state": {
               "hover": {
-                "backgroundColor": "color-basic-hover"
+                "backgroundColor": "color-basic-transparent-hover"
               },
               "active": {
-                "backgroundColor": "color-basic-active"
+                "backgroundColor": "color-basic-transparent-active"
               },
               "selected": {
                 "backgroundColor": "color-basic-transparent-default"
@@ -4232,9 +4232,9 @@
             "outlineBorderRadius": 16,
             "outlineBackgroundColor": "transparent",
             "textMarginHorizontal": 12,
-            "textFontSize": "text-label-font-size",
-            "textLineHeight": "text-label-line-height",
-            "textFontWeight": "text-label-font-weight",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textLineHeight": "text-subtitle-2-line-height",
+            "textFontWeight": "text-subtitle-2-font-weight",
             "textFontFamily": "text-font-family"
           },
           "variantGroups": {
@@ -4831,8 +4831,8 @@
             "iconTintColor": "color-basic-default",
             "state": {
               "hover": {
-                "textColor": "text-primary-hover-color",
-                "iconTintColor": "text-primary-hover-color"
+                "textColor": "text-control-color",
+                "iconTintColor": "text-control-color"
               },
               "selected": {
                 "textColor": "text-control-color",
@@ -4878,7 +4878,7 @@
             "backgroundColor": "color-primary-default",
             "indicatorHeight": 4,
             "indicatorBorderRadius": 0,
-            "indicatorBackgroundColor": "color-primary-100"
+            "indicatorBackgroundColor": "color-primary-200"
           }
         }
       }
@@ -5239,9 +5239,9 @@
             "outlineHeight": 42,
             "outlineBorderRadius": 21,
             "textMarginHorizontal": 12,
-            "textFontSize": "text-label-font-size",
-            "textFontWeight": "text-label-font-weight",
-            "textLineHeight": "text-label-line-height",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textLineHeight": "text-subtitle-2-line-height",
             "textFontFamily": "text-font-family",
             "iconWidth": 12,
             "iconHeight": 12
