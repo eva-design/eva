@@ -1614,8 +1614,8 @@
             "borderWidth": "border-width",
             "borderColor": "border-basic-color-4",
             "paddingVertical": 8,
-            "headerPaddingHorizontal": 20,
-            "headerPaddingVertical": 16,
+            "headerPaddingHorizontal": 10,
+            "headerPaddingVertical": 4,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
             "titleLineHeight": "text-heading-6-line-height",
@@ -1717,8 +1717,8 @@
       "appearances": {
         "default": {
           "mapping": {
-            "paddingHorizontal": 1,
-            "paddingVertical": 1,
+            "paddingHorizontal": 0,
+            "paddingVertical": 0,
             "borderRadius": 0,
             "backgroundColor": "transparent",
             "contentBorderRadius": "border-radius",
@@ -3733,8 +3733,7 @@
                   },
                   "active": {
                     "borderColor": "color-primary-default-border",
-                    "backgroundColor": "background-basic-color-1",
-                    "iconTintColor": "text-basic-color"
+                    "backgroundColor": "background-basic-color-1"
                   },
                   "disabled": {
                     "borderColor": "border-basic-color-4",
@@ -4060,6 +4059,11 @@
             "default": false,
             "priority": 4,
             "scope": "all"
+          },
+          "multi": {
+            "default": false,
+            "priority": 5,
+            "scope": "all"
           }
         }
       },
@@ -4077,13 +4081,22 @@
             "textColor": "text-basic-color",
             "state": {
               "hover": {
-                "backgroundColor": "color-basic-hover"
+                "backgroundColor": "color-basic-transparent-hover"
               },
               "active": {
                 "backgroundColor": "color-basic-active"
               },
               "selected": {
-                "backgroundColor": "color-primary-transparent-default"
+                "backgroundColor": "color-primary-default",
+                "textColor": "text-control-color"
+              },
+              "selected.hover": {
+                "background-color": "color-primary-transparent-100",
+                "text-color": "text-basic-color"
+              },
+              "selected.multi": {
+                "backgroundColor": "background-basic-color-1",
+                "textColor": "text-basic-color"
               },
               "disabled": {
                 "backgroundColor": "background-basic-color-1",
