@@ -1522,6 +1522,9 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "width": {
+            "type": "number"
+          },
           "paddingVertical": {
             "type": "number"
           },
@@ -1602,6 +1605,7 @@
       "appearances": {
         "default": {
           "mapping": {
+            "width": 344,
             "borderRadius": "border-radius",
             "borderWidth": "border-width",
             "borderColor": "border-basic-color-4",
@@ -2317,9 +2321,6 @@
           },
           "iconTintColor": {
             "type": "string"
-          },
-          "popoverWidth": {
-            "type": "number"
           }
         },
         "appearances": {
@@ -2382,8 +2383,7 @@
             "paddingHorizontal": 16,
             "textFontFamily": "text-font-family",
             "iconWidth": 24,
-            "iconHeight": 24,
-            "popoverWidth": 344
+            "iconHeight": 24
           },
           "variantGroups": {
             "status": {
