@@ -1522,6 +1522,9 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "width": {
+            "type": "number"
+          },
           "paddingVertical": {
             "type": "number"
           },
@@ -1532,12 +1535,6 @@
             "type": "number"
           },
           "borderRadius": {
-            "type": "number"
-          },
-          "maxWidth": {
-            "type": "number"
-          },
-          "maxHeight": {
             "type": "number"
           },
           "headerPaddingHorizontal": {
@@ -1608,8 +1605,7 @@
       "appearances": {
         "default": {
           "mapping": {
-            "maxWidth": 480,
-            "maxHeight": 480,
+            "width": 344,
             "borderRadius": "border-radius",
             "borderWidth": "border-width",
             "borderColor": "border-basic-color-4",
@@ -2325,9 +2321,6 @@
           },
           "iconTintColor": {
             "type": "string"
-          },
-          "popoverMarginHorizontal": {
-            "type": "number"
           }
         },
         "appearances": {
@@ -2390,8 +2383,7 @@
             "paddingHorizontal": 16,
             "textFontFamily": "text-font-family",
             "iconWidth": 24,
-            "iconHeight": 24,
-            "popoverMarginHorizontal": 16
+            "iconHeight": 24
           },
           "variantGroups": {
             "status": {
@@ -3428,10 +3420,13 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "borderRadius": {
+          "width": {
             "type": "number"
           },
           "maxHeight": {
+            "type": "number"
+          },
+          "borderRadius": {
             "type": "number"
           },
           "indicatorBackgroundColor": {
@@ -3452,6 +3447,7 @@
       "appearances": {
         "default": {
           "mapping": {
+            "width": 160,
             "maxHeight": 256,
             "borderRadius": "border-radius",
             "indicatorBackgroundColor": "transparent"
@@ -3466,15 +3462,6 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "minWidth": {
-            "type": "number"
-          },
-          "minHeight": {
-            "type": "number"
-          },
-          "maxWidth": {
-            "type": "number"
-          },
           "borderRadius": {
             "type": "number"
           },
@@ -3508,9 +3495,6 @@
       "appearances": {
         "default": {
           "mapping": {
-            "minWidth": 56,
-            "minHeight": 32,
-            "maxWidth": 256,
             "borderRadius": "border-radius",
             "borderWidth": "border-width",
             "borderColor": "border-basic-color-3",
@@ -3598,16 +3582,16 @@
           "iconMarginHorizontal": {
             "type": "number"
           },
-          "optionsListMaxHeight": {
+          "popoverMaxHeight": {
             "type": "number"
           },
-          "optionsListBorderRadius": {
+          "popoverBorderRadius": {
             "type": "number"
           },
-          "optionsListBorderColor": {
+          "popoverBorderColor": {
             "type": "string"
           },
-          "optionsListBorderWidth": {
+          "popoverBorderWidth": {
             "type": "number"
           },
           "labelColor": {
@@ -3708,10 +3692,10 @@
             "labelFontWeight": "text-label-font-weight",
             "labelLineHeight": "text-label-line-height",
             "labelFontFamily": "text-font-family",
-            "optionsListMaxHeight": 220,
-            "optionsListBorderRadius": "border-radius",
-            "optionsListBorderWidth": "border-width",
-            "optionsListBorderColor": "border-basic-color-4"
+            "popoverMaxHeight": 220,
+            "popoverBorderRadius": "border-radius",
+            "popoverBorderWidth": "border-width",
+            "popoverBorderColor": "border-basic-color-4"
           },
           "variantGroups": {
             "status": {
