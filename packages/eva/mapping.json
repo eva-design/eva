@@ -3420,6 +3420,9 @@
       "meta": {
         "scope": "all",
         "parameters": {
+          "width": {
+            "type": "number"
+          },
           "maxHeight": {
             "type": "number"
           },
@@ -3444,6 +3447,7 @@
       "appearances": {
         "default": {
           "mapping": {
+            "width": 160,
             "maxHeight": 256,
             "borderRadius": "border-radius",
             "indicatorBackgroundColor": "transparent"
