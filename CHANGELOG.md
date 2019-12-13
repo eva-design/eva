@@ -1,3 +1,7 @@
+## <small>1.3.1 (2019-12-13)</small>
+
+* fix(mapping): popover mappings ([6be3176](https://github.com/eva-design/eva/commit/6be3176))
+
 ## 1.3.0 (2019-12-04)
 
 * refactor(mapping): border colors to use *border variables ([7ac3bc5](https://github.com/eva-design/eva/commit/7ac3bc5))
