@@ -2298,6 +2298,9 @@
           "backgroundColor": {
             "type": "string"
           },
+          "textMarginHorizontal": {
+            "type": "number"
+          },
           "textFontSize": {
             "type": "number"
           },
@@ -2313,13 +2316,67 @@
           "textColor": {
             "type": "string"
           },
+          "placeholderColor": {
+            "type": "string"
+          },
           "iconWidth": {
             "type": "number"
           },
           "iconHeight": {
             "type": "number"
           },
+          "iconMarginHorizontal": {
+            "type": "number"
+          },
           "iconTintColor": {
+            "type": "string"
+          },
+          "labelColor": {
+            "type": "string"
+          },
+          "labelFontFamily": {
+            "type": "string"
+          },
+          "labelFontSize": {
+            "type": "number"
+          },
+          "labelLineHeight": {
+            "type": "number"
+          },
+          "labelFontWeight": {
+            "type": "string"
+          },
+          "labelMarginBottom": {
+            "type": "number"
+          },
+          "captionMarginTop": {
+            "type": "number"
+          },
+          "captionColor": {
+            "type": "string"
+          },
+          "captionFontFamily": {
+            "type": "string"
+          },
+          "captionFontSize": {
+            "type": "number"
+          },
+          "captionLineHeight": {
+            "type": "number"
+          },
+          "captionFontWeight": {
+            "type": "string"
+          },
+          "captionIconWidth": {
+            "type": "number"
+          },
+          "captionIconHeight": {
+            "type": "number"
+          },
+          "captionIconMarginRight": {
+            "type": "number"
+          },
+          "captionIconTintColor": {
             "type": "string"
           }
         },
@@ -2380,10 +2437,24 @@
       "appearances": {
         "default": {
           "mapping": {
-            "paddingHorizontal": 16,
-            "textFontFamily": "text-font-family",
+            "paddingHorizontal": 8,
+            "textMarginHorizontal": 8,            "textFontFamily": "text-font-family",
             "iconWidth": 24,
-            "iconHeight": 24
+            "iconHeight": 24,
+            "iconMarginHorizontal": 8,
+            "labelMarginBottom": 4,
+            "labelFontSize": "text-label-font-size",
+            "labelFontWeight": "text-label-font-weight",
+            "labelLineHeight": "text-label-line-height",
+            "labelFontFamily": "text-font-family",
+            "captionMarginTop": 4,
+            "captionFontSize": "text-caption-1-font-size",
+            "captionFontWeight": "text-caption-1-font-weight",
+            "captionLineHeight": "text-caption-1-line-height",
+            "captionFontFamily": "text-font-family",
+            "captionIconWidth": 10,
+            "captionIconHeight": 10,
+            "captionIconMarginRight": 8
           },
           "variantGroups": {
             "status": {
@@ -2391,7 +2462,11 @@
                 "borderColor": "border-basic-color-4",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-hint-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-hint-color",
+                "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
+                "captionIconTintColor": "text-hint-color",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-default-border",
@@ -2407,10 +2482,14 @@
                 }
               },
               "primary": {
-                "borderColor": "color-primary-default-border",
+                "borderColor": "color-primary-default",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "text-hint-color",
-                "iconTintColor": "text-hint-color",
+                "textColor": "text-basic-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-primary-color",
+                "placeholderColor": "text-hint-color",
+                "iconTintColor": "text-primary-color",
+                "captionIconTintColor": "text-primary-color",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-active-border",
@@ -2426,10 +2505,14 @@
                 }
               },
               "success": {
-                "borderColor": "color-success-default-border",
+                "borderColor": "color-success-default",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "text-hint-color",
-                "iconTintColor": "text-hint-color",
+                "textColor": "text-basic-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-success-color",
+                "placeholderColor": "text-hint-color",
+                "iconTintColor": "text-success-color",
+                "captionIconTintColor": "text-success-color",
                 "state": {
                   "active": {
                     "borderColor": "color-success-active-border",
@@ -2445,10 +2528,14 @@
                 }
               },
               "info": {
-                "borderColor": "color-info-default-border",
+                "borderColor": "color-info-default",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "text-hint-color",
-                "iconTintColor": "text-hint-color",
+                "textColor": "text-basic-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-info-color",
+                "placeholderColor": "text-hint-color",
+                "iconTintColor": "text-info-color",
+                "captionIconTintColor": "text-info-color",
                 "state": {
                   "active": {
                     "borderColor": "color-info-active-border",
@@ -2464,10 +2551,14 @@
                 }
               },
               "warning": {
-                "borderColor": "color-warning-default-border",
+                "borderColor": "color-warning-default",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "text-hint-color",
-                "iconTintColor": "text-hint-color",
+                "textColor": "text-basic-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-warning-color",
+                "placeholderColor": "text-hint-color",
+                "iconTintColor": "text-warning-color",
+                "captionIconTintColor": "text-warning-color",
                 "state": {
                   "active": {
                     "borderColor": "color-warning-active-border",
@@ -2483,10 +2574,14 @@
                 }
               },
               "danger": {
-                "borderColor": "color-danger-default-border",
+                "borderColor": "color-danger-default",
                 "backgroundColor": "background-basic-color-2",
-                "textColor": "text-hint-color",
-                "iconTintColor": "text-hint-color",
+                "textColor": "text-basic-color",
+                "labelColor": "text-hint-color",
+                "captionColor": "text-danger-color",
+                "placeholderColor": "text-hint-color",
+                "iconTintColor": "text-danger-color",
+                "captionIconTintColor": "text-danger-color",
                 "state": {
                   "active": {
                     "borderColor": "color-danger-active-border",
@@ -2505,7 +2600,11 @@
                 "borderColor": "color-basic-control-transparent-500",
                 "backgroundColor": "color-basic-control-transparent-300",
                 "textColor": "text-control-color",
+                "labelColor": "text-control-color",
+                "captionColor": "text-control-color",
+                "placeholderColor": "text-control-color",
                 "iconTintColor": "text-control-color",
+                "captionIconTintColor": "text-control-color",
                 "state": {
                   "active": {
                     "borderColor": "color-control-transparent-active-border",
@@ -2528,7 +2627,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 3,
                 "textFontSize": "text-subtitle-2-font-size",
-                "textFontWeight": "text-subtitle-2-font-weight",
+                "textFontWeight": "normal",
                 "textLineHeight": "text-subtitle-2-line-height"
               },
               "medium": {
@@ -2536,9 +2635,9 @@
                 "borderRadius": "border-radius",
                 "borderWidth": "border-width",
                 "paddingVertical": 7,
-                "textFontSize": "text-paragraph-1-font-size",
-                "textFontWeight": "text-paragraph-1-font-weight",
-                "textLineHeight": "text-paragraph-1-line-height"
+                "textFontSize": "text-subtitle-1-font-size",
+                "textFontWeight": "normal",
+                "textLineHeight": "text-subtitle-1-line-height"
               },
               "large": {
                 "minHeight": "size-large",
@@ -2546,7 +2645,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 11,
                 "textFontSize": "text-subtitle-1-font-size",
-                "textFontWeight": "text-subtitle-1-font-weight",
+                "textFontWeight": "normal",
                 "textLineHeight": "text-subtitle-1-line-height"
               }
             }
