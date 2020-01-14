@@ -1448,7 +1448,13 @@
             }
           }
         },
-        "states": {}
+        "states": {
+          "active": {
+            "default": false,
+            "priority": 0,
+            "scope": "all"
+          }
+        }
       },
       "appearances": {
         "outline": {
@@ -1475,7 +1481,12 @@
             "bodyPaddingHorizontal": 24,
             "bodyPaddingVertical": 16,
             "footerPaddingHorizontal": 24,
-            "footerPaddingVertical": 16
+            "footerPaddingVertical": 16,
+            "state": {
+              "active": {
+                "backgroundColor": "background-basic-color-2"
+              }
+            }
           },
           "variantGroups": {
             "status": {
