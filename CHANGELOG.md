@@ -1,3 +1,10 @@
+## <small>1.3.2 (2020-01-16)</small>
+
+* feat(mapping): card - add active state ([fe5e024](https://github.com/eva-design/eva/commit/fe5e024))
+* feat(mapping): datepicker - define children parameters ([1732174](https://github.com/eva-design/eva/commit/1732174))
+
+
+
 ## <small>1.3.1 (2019-12-13)</small>
 
 * fix(mapping): popover mappings ([6be3176](https://github.com/eva-design/eva/commit/6be3176))
