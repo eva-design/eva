@@ -1,3 +1,30 @@
+## <small>1.3.2 (2020-01-16)</small>
+
+* feat(mapping): card - add active state ([fe5e024](https://github.com/eva-design/eva/commit/fe5e024))
+* feat(mapping): datepicker - define children parameters ([1732174](https://github.com/eva-design/eva/commit/1732174))
+
+
+
+## <small>1.3.1 (2019-12-13)</small>
+
+* fix(mapping): popover mappings ([6be3176](https://github.com/eva-design/eva/commit/6be3176))
+
+## 1.3.0 (2019-12-04)
+
+* refactor(mapping): border colors to use *border variables ([7ac3bc5](https://github.com/eva-design/eva/commit/7ac3bc5))
+* refactor(mapping): card - unify status mapping ([397fc14](https://github.com/eva-design/eva/commit/397fc14))
+* refactor(mapping): control component sizes ([a7f94d2](https://github.com/eva-design/eva/commit/a7f94d2))
+* refactor(mapping): select state colors ([0e39f9e](https://github.com/eva-design/eva/commit/0e39f9e))
+* refactor(mapping): unify state color mapping ([a620a8f](https://github.com/eva-design/eva/commit/a620a8f))
+* refactor(mapping): update ghost button and input borders ([d499c88](https://github.com/eva-design/eva/commit/d499c88))
+* refactor(themes): add background and border state color lists ([2ddc451](https://github.com/eva-design/eva/commit/2ddc451))
+* fix(mapping): text - h3 variant ([2ce3770](https://github.com/eva-design/eva/commit/2ce3770))
+* fix(mapping): top-navigation-action - icon state colors ([87d308b](https://github.com/eva-design/eva/commit/87d308b))
+* feat(mapping): card component mappings add ([f4bf152](https://github.com/eva-design/eva/commit/f4bf152))
+* feat(mapping): radio-group - add item vertical spacings ([3b903ad](https://github.com/eva-design/eva/commit/3b903ad))
+
+
+
 ## 1.3.0-beta.1 (2019-10-17)
 
 * refactor(mapping): popover borderColor value ([a1d6d53](https://github.com/eva-design/eva/commit/a1d6d53))
