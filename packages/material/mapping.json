@@ -3181,10 +3181,10 @@
         "variantGroups": {
           "level": {
             "1": {
-              "default": true
+              "default": false
             },
             "2": {
-              "default": false
+              "default": true
             },
             "3": {
               "default": false
@@ -3237,7 +3237,7 @@
       "appearances": {
         "default": {
           "mapping": {
-            "backgroundColor": "background-basic-color-1"
+            "backgroundColor": "background-basic-color-2"
           }
         }
       }
@@ -3326,7 +3326,7 @@
           "mapping": {
             "paddingHorizontal": 8,
             "paddingVertical": 8,
-            "backgroundColor": "background-basic-color-1",
+            "backgroundColor": "background-basic-color-2",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
@@ -5888,7 +5888,7 @@
             "subtitleFontWeight": "text-caption-1-font-weight",
             "subtitleLineHeight": "text-caption-1-line-height",
             "subtitleFontFamily": "text-font-family",
-            "subtitleColor": "text-hint-color"
+            "subtitleColor": "text-control-color"
           },
           "variantGroups": {
             "alignment": {
