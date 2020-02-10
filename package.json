@@ -10,45 +10,35 @@
   "bugs": {
     "url": "https://github.com/eva-design/eva/issues"
   },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "build": "tsc",
-    "lint": "tslint -p tsconfig.json",
-    "lint:fix": "npm run lint -- --fix",
-    "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
-    "gen:js-custom": "ts-node ./packages/processor/js/scripts/customize",
-    "test": "jest",
-    "ci:lint": "npm run lint",
-    "ci:build": "npm run build",
-    "ci:test": "npm run test",
     "clean": "rimraf ./dist",
-    "conventional-changelog": "conventional-changelog",
-    "version:bump": "gulp version",
-    "version:changelog": "npm run conventional-changelog -- -i CHANGELOG.md -s",
-    "publish": "./scripts/publish.sh",
-    "publish:beta": "./scripts/publish.sh -- beta",
-    "release:prepare": "npm run clean && npm run build",
-    "release:validate": "npm run lint && npm run test",
-    "release": "npm run release:prepare && npm run release:validate && npm run publish",
-    "release:beta": "npm run release:prepare && npm run release:validate && npm run publish:beta"
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest",
+    "bump-version": "gulp bump-version && conventional-changelog -i CHANGELOG.md -s",
+    "publish-packages": "gulp publish-packages"
   },
   "devDependencies": {
-    "@types/gulp": "^3.8.36",
-    "@types/jest": "^24.0.13",
-    "@types/lodash.merge": "^4.6.6",
-    "@types/node": "^12.0.3",
-    "@types/rimraf": "^2.0.2",
+    "@types/gulp": "ts3.7",
+    "@types/jest": "ts3.7",
+    "@types/lodash.merge": "ts3.7",
+    "@types/node": "ts3.7",
+    "@types/rimraf": "ts3.7",
     "ajv": "^6.10.0",
     "conventional-changelog-cli": "^2.0.21",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "husky": "^1.1.2",
-    "jest": "^24.0.0-alpha.9",
+    "jest": "^24.9.0",
     "lodash.merge": "^4.6.1",
     "rimraf": "^2.6.3",
-    "run-sequence": "^2.2.1",
-    "through2": "^3.0.1",
     "ts-jest": "^23.10.5",
     "ts-node": "^8.0.3",
-    "tslint": "^5.12.0",
-    "typescript": "^3.4.5"
+    "tslint": "^5.12.1",
+    "typescript": "^3.7.5"
   }
 }

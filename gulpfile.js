@@ -1,11 +1,6 @@
-'use strict';
-/**
- * Load the TypeScript compiler and then load the tasks from 'scripts/gulp'.
- */
 const path = require('path');
-const gulpPath = path.join(__dirname, 'scripts/gulp');
-const tsconfigPath = path.join(gulpPath, 'tsconfig.json');
 
-// Register TypeScript.
-require('ts-node').register({ project: tsconfigPath });
+const gulpPath = path.join(__dirname, 'scripts');
+
+require('ts-node').register({ project: path.resolve('tsconfig.json') });
 require(path.join(gulpPath, 'gulpfile'));

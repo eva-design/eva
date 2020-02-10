@@ -1,18 +1,20 @@
+- [Release](#release)
+
 # Release
+
+0. For major version, search for `@breaking-change` to make sure all breaking changes are covered.
 
 To start a new release (publish the framework packages on NPM) you need:
 
-1. Create a new release branch called `release:v1.0.2`
-2. `npm run release:validate` - this will check linter issues and tests.
-3. `npm run release:prepare` - this will create ready for publishing packages in `./dist`.
-4. MANUALLY update a version in main ./package.json to a new one.
-5. `npm run version:bump` - this will update versions of `dss`, `eva`, `processor` packages.
-6. Update version in `package-lock.json`.
-7. Update devDependency `@eva-design/dss` version under the `processor`.
-8. `npm run version:changelog` - this will update `CHANGELOG.md` file.
-9. Fix/expand changelog manually.
-10. Push the branch, create PR, approve - merge.
-11. Pull the upstream (master).
-12. `npm run release` - run prepare & validate and finally publish the packages to NPM.
-13. Create and push git tag.
-14. Create release on github.
+1. Create a new release branch with template `release/vX.X.X`
+2. Run tests: `npm run lint && npm run test`
+3. MANUALLY update a version in main ./package.json to a new one
+4. Generate changelog: `npm run bump-version`
+5. Fix/expand changelog manually
+6. Update documentation (e.g [DEV_DOCS.md](./DEV_DOCS.md)) files if needed
+7. Push the branch, create PR, approve - merge
+8. Pull the upstream (master or another version branch (e.g. 4.0.1, next))   
+9. Publish documentation: `npm run publish-docs`
+10. Publish framework packages: `npm run publish-packages`
+11. Create and push [git tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) with template `(vX.X.X)`
+12. Create release on GitHub for the tag
