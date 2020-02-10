@@ -27,6 +27,7 @@ function rebuild(done: GulpCompletionCallback): void {
 function publish(done: GulpCompletionCallback): void {
   execSync(`npm publish ${PACKAGES_BUILD_DIR}/dss`, { cwd: ROOT_DIR });
   execSync(`npm publish ${PACKAGES_BUILD_DIR}/eva`, { cwd: ROOT_DIR });
+  execSync(`npm publish ${PACKAGES_BUILD_DIR}/material`, { cwd: ROOT_DIR });
   execSync(`npm publish ${PACKAGES_BUILD_DIR}/processor`, { cwd: ROOT_DIR });
   done();
 }

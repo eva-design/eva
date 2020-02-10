@@ -11,6 +11,7 @@ type PackageJson = any;
 const PACKAGES: string[] = [
   'dss',
   'eva',
+  'material',
   'processor',
 ];
 
