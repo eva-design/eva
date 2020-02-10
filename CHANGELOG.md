@@ -1,3 +1,9 @@
+## 1.4.0 (2020-02-10)
+
+* Add @eva-design/material package ([5c0fea1](https://github.com/eva-design/eva/commit/5c0fea1b428ea133d869f774dcbc1f1303f38f71))
+
+
+
 ## <small>1.3.2 (2020-01-16)</small>
 
 * feat(mapping): card - add active state ([fe5e024](https://github.com/eva-design/eva/commit/fe5e024))
