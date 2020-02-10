@@ -5,5 +5,5 @@ module.exports = {
   resolveTestPath: (path, extension) => {
     return path.slice(0, -extension.length);
   },
-  testPathForConsistencyCheck: 'some/example.spec.ts',
+  testPathForConsistencyCheck: 'module/testable.spec.ts'
 };
