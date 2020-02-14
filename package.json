@@ -11,11 +11,9 @@
     "url": "https://github.com/eva-design/eva/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "ts-node ./scripts/build",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
-    "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
-    "gen:js-custom": "ts-node ./packages/processor/js/scripts/customize",
     "test": "jest",
     "ci:lint": "npm run lint",
     "ci:build": "npm run build",
