@@ -29,7 +29,7 @@ export class MetaProcessor implements Processor<MappingProcessorParamsType, Them
   public process(params: MappingProcessorParamsType): ThemeStyleType {
     const { mapping, meta, theme } = params;
 
-    const strictTheme: ThemedStyleType = this.processStrictTheme(theme);
+    const strictTheme: ThemedStyleType = this.processStrictTheme(theme || {});
 
     const entries = meta.reduce((acc: ThemeStyleType, controlMeta: MappingMetaType) => {
       const { name, appearance, variants, states } = controlMeta;
