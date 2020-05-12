@@ -1,4 +1,4 @@
-## 2.0.0-alpha.1 (2020-04-08)
+## 2.0.0(2020-05-12)
 
 * fix(mapping): typography fixes and component updates ([ca18816](https://github.com/eva-design/eva/commit/ca18816))
 * feat(processor): support theme references in mapping ([58cd411](https://github.com/eva-design/eva/commit/58cd411))
