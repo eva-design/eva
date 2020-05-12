@@ -1,3 +1,10 @@
+## 2.0.0(2020-05-12)
+
+* fix(mapping): typography fixes and component updates ([ca18816](https://github.com/eva-design/eva/commit/ca18816))
+* feat(processor): support theme references in mapping ([58cd411](https://github.com/eva-design/eva/commit/58cd411))
+
+
+
 ## 1.4.0 (2020-02-10)
 
 * Add @eva-design/material package ([5c0fea1](https://github.com/eva-design/eva/commit/5c0fea1b428ea133d869f774dcbc1f1303f38f71))

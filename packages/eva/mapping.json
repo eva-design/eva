@@ -5,56 +5,56 @@
     "text-font-family": "System",
 
     "text-heading-1-font-size": 36,
-    "text-heading-1-line-height": 48,
     "text-heading-1-font-weight": "800",
+    "text-heading-1-font-family": "$text-font-family",
 
     "text-heading-2-font-size": 32,
-    "text-heading-2-line-height": 40,
     "text-heading-2-font-weight": "800",
+    "text-heading-2-font-family": "$text-font-family",
 
     "text-heading-3-font-size": 30,
-    "text-heading-3-line-height": 40,
     "text-heading-3-font-weight": "800",
+    "text-heading-3-font-family": "$text-font-family",
 
     "text-heading-4-font-size": 26,
-    "text-heading-4-line-height": 32,
     "text-heading-4-font-weight": "800",
+    "text-heading-4-font-family": "$text-font-family",
 
     "text-heading-5-font-size": 22,
-    "text-heading-5-line-height": 32,
     "text-heading-5-font-weight": "800",
+    "text-heading-5-font-family": "$text-font-family",
 
     "text-heading-6-font-size": 18,
-    "text-heading-6-line-height": 24,
     "text-heading-6-font-weight": "800",
+    "text-heading-6-font-family": "$text-font-family",
 
     "text-subtitle-1-font-size": 15,
-    "text-subtitle-1-line-height": 24,
     "text-subtitle-1-font-weight": "600",
+    "text-subtitle-1-font-family": "$text-font-family",
 
     "text-subtitle-2-font-size": 13,
-    "text-subtitle-2-line-height": 24,
     "text-subtitle-2-font-weight": "600",
+    "text-subtitle-2-font-family": "$text-font-family",
 
     "text-paragraph-1-font-size": 15,
-    "text-paragraph-1-line-height": 20,
     "text-paragraph-1-font-weight": "400",
+    "text-paragraph-1-font-family": "$text-font-family",
 
     "text-paragraph-2-font-size": 13,
-    "text-paragraph-2-line-height": 16,
     "text-paragraph-2-font-weight": "400",
+    "text-paragraph-2-font-family": "$text-font-family",
 
     "text-caption-1-font-size": 12,
-    "text-caption-1-line-height": 16,
     "text-caption-1-font-weight": "400",
+    "text-caption-1-font-family": "$text-font-family",
 
     "text-caption-2-font-size": 12,
-    "text-caption-2-line-height": 16,
     "text-caption-2-font-weight": "600",
+    "text-caption-2-font-family": "$text-font-family",
 
     "text-label-font-size": 12,
-    "text-label-line-height": 16,
     "text-label-font-weight": "800",
+    "text-label-font-family": "$text-font-family",
 
     "size-tiny": 24,
     "size-small": 32,
@@ -193,9 +193,6 @@
           "textFontSize": {
             "type": "number"
           },
-          "textLineHeight": {
-            "type": "number"
-          },
           "textFontWeight": {
             "type": "string"
           }
@@ -230,8 +227,7 @@
             "textMarginVertical": 2,
             "textFontSize": "text-caption-2-font-size",
             "textFontWeight": "text-caption-2-font-weight",
-            "textLineHeight": "text-caption-2-line-height",
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-caption-2-font-family",
             "textColor": "text-hint-color",
             "iconWidth": 24,
             "iconHeight": 24,
@@ -341,9 +337,6 @@
             "type": "string"
           },
           "textFontSize": {
-            "type": "number"
-          },
-          "textLineHeight": {
             "type": "number"
           },
           "textFontWeight": {
@@ -643,7 +636,6 @@
                 "textMarginHorizontal": 6,
                 "textFontSize": 10,
                 "textFontWeight": "bold",
-                "textLineHeight": 12,
                 "iconWidth": 12,
                 "iconHeight": 12,
                 "iconMarginHorizontal": 6
@@ -658,7 +650,6 @@
                 "textMarginHorizontal": 8,
                 "textFontSize": 12,
                 "textFontWeight": "bold",
-                "textLineHeight": 16,
                 "iconWidth": 16,
                 "iconHeight": 16,
                 "iconMarginHorizontal": 8
@@ -673,7 +664,6 @@
                 "textMarginHorizontal": 10,
                 "textFontSize": 14,
                 "textFontWeight": "bold",
-                "textLineHeight": 16,
                 "iconWidth": 20,
                 "iconHeight": 20,
                 "iconMarginHorizontal": 10
@@ -688,7 +678,6 @@
                 "textMarginHorizontal": 10,
                 "textFontSize": 16,
                 "textFontWeight": "bold",
-                "textLineHeight": 20,
                 "iconWidth": 24,
                 "iconHeight": 24,
                 "iconMarginHorizontal": 10
@@ -703,7 +692,6 @@
                 "textMarginHorizontal": 12,
                 "textFontSize": 18,
                 "textFontWeight": "bold",
-                "textLineHeight": 24,
                 "iconWidth": 24,
                 "iconHeight": 24,
                 "iconMarginHorizontal": 12
@@ -1354,52 +1342,16 @@
           "borderWidth": {
             "type": "number"
           },
-          "headerPaddingHorizontal": {
-            "type": "number"
-          },
-          "headerPaddingVertical": {
-            "type": "number"
-          },
-          "titleFontFamily": {
-            "type": "string"
-          },
-          "titleFontSize": {
-            "type": "number"
-          },
-          "titleLineHeight": {
-            "type": "number"
-          },
-          "titleFontWeight": {
-            "type": "string"
-          },
-          "titleColor": {
-            "type": "string"
-          },
-          "titleMarginHorizontal": {
-            "type": "number"
-          },
-          "descriptionColor": {
-            "type": "string"
-          },
-          "descriptionFontFamily": {
-            "type": "string"
-          },
-          "descriptionFontSize": {
-            "type": "number"
-          },
-          "descriptionFontWeight": {
-            "type": "string"
-          },
-          "descriptionLineHeight": {
-            "type": "number"
-          },
-          "descriptionMarginHorizontal": {
-            "type": "number"
-          },
           "bodyPaddingHorizontal": {
             "type": "number"
           },
           "bodyPaddingVertical": {
+            "type": "number"
+          },
+          "headerPaddingHorizontal": {
+            "type": "number"
+          },
+          "headerPaddingVertical": {
             "type": "number"
           },
           "footerPaddingHorizontal": {
@@ -1463,23 +1415,11 @@
             "borderRadius": "border-radius",
             "borderColor": "border-basic-color-4",
             "borderWidth": 1,
-            "headerPaddingHorizontal": 24,
-            "headerPaddingVertical": 16,
             "accentHeight": 0,
-            "titleFontSize": "text-heading-6-font-size",
-            "titleFontWeight": "text-heading-6-font-weight",
-            "titleLineHeight": "text-heading-6-line-height",
-            "titleFontFamily": "text-font-family",
-            "titleColor": "text-basic-color",
-            "titleMarginHorizontal": 0,
-            "descriptionFontSize": "text-subtitle-2-font-size",
-            "descriptionFontWeight": "text-subtitle-2-font-weight",
-            "descriptionLineHeight": "text-subtitle-2-line-height",
-            "descriptionFontFamily": "text-font-family",
-            "descriptionMarginHorizontal": 0,
-            "descriptionColor": "text-basic-color",
             "bodyPaddingHorizontal": 24,
             "bodyPaddingVertical": 16,
+            "headerPaddingHorizontal": 24,
+            "headerPaddingVertical": 16,
             "footerPaddingHorizontal": 24,
             "footerPaddingVertical": 16,
             "state": {
@@ -1563,9 +1503,6 @@
           "titleFontWeight": {
             "type": "string"
           },
-          "titleLineHeight": {
-            "type": "number"
-          },
           "titleColor": {
             "type": "string"
           },
@@ -1586,9 +1523,6 @@
           },
           "weekdayTextFontWeight": {
             "type": "string"
-          },
-          "weekdayTextLineHeight": {
-            "type": "number"
           },
           "weekdayTextColor": {
             "type": "string"
@@ -1625,16 +1559,14 @@
             "headerPaddingVertical": 4,
             "titleFontSize": "text-heading-6-font-size",
             "titleFontWeight": "text-heading-6-font-weight",
-            "titleLineHeight": "text-heading-6-line-height",
-            "titleFontFamily": "text-font-family",
+            "titleFontFamily": "text-heading-6-font-family",
             "titleColor": "text-basic-color",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconTintColor": "text-basic-color",
             "weekdayTextFontSize": "text-subtitle-1-font-size",
             "weekdayTextFontWeight": "text-subtitle-1-font-weight",
-            "weekdayTextLineHeight": "text-subtitle-1-line-height",
-            "weekdayTextFontFamily": "text-font-family",
+            "weekdayTextFontFamily": "text-subtitle-1-font-family",
             "weekdayTextColor": "text-hint-color",
             "dividerMarginVertical": 4,
             "rowMinHeight": 45,
@@ -1675,9 +1607,6 @@
             "type": "string"
           },
           "contentTextFontSize": {
-            "type": "number"
-          },
-          "contentTextLineHeight": {
             "type": "number"
           },
           "contentTextFontWeight": {
@@ -1733,8 +1662,7 @@
             "contentBorderColor": "transparent",
             "contentTextFontSize": "text-subtitle-1-font-size",
             "contentTextFontWeight": "text-subtitle-1-font-weight",
-            "contentTextLineHeight": "text-subtitle-1-line-height",
-            "contentTextFontFamily": "text-font-family",
+            "contentTextFontFamily": "text-subtitle-1-font-family",
             "contentTextColor": "text-basic-color",
             "state": {
               "bounding": {
@@ -1802,9 +1730,6 @@
           },
           "textFontWeight": {
             "type": "string"
-          },
-          "textLineHeight": {
-            "type": "number"
           },
           "iconWidth": {
             "type": "number"
@@ -1904,8 +1829,7 @@
             "outlineBackgroundColor": "transparent",
             "textFontSize": "text-subtitle-2-font-size",
             "textFontWeight": "text-subtitle-2-font-weight",
-            "textLineHeight": "text-subtitle-2-line-height",
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-subtitle-2-font-family",
             "textMarginHorizontal": 12,
             "iconWidth": 12,
             "iconHeight": 12,
@@ -2315,9 +2239,6 @@
           "textFontSize": {
             "type": "number"
           },
-          "textLineHeight": {
-            "type": "number"
-          },
           "textFontWeight": {
             "type": "string"
           },
@@ -2351,9 +2272,6 @@
           "labelFontSize": {
             "type": "number"
           },
-          "labelLineHeight": {
-            "type": "number"
-          },
           "labelFontWeight": {
             "type": "string"
           },
@@ -2370,9 +2288,6 @@
             "type": "string"
           },
           "captionFontSize": {
-            "type": "number"
-          },
-          "captionLineHeight": {
             "type": "number"
           },
           "captionFontWeight": {
@@ -2449,20 +2364,19 @@
         "default": {
           "mapping": {
             "paddingHorizontal": 8,
-            "textMarginHorizontal": 8,            "textFontFamily": "text-font-family",
+            "textMarginHorizontal": 8,
+            "textFontFamily": "text-font-family",
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
             "labelMarginBottom": 4,
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
-            "labelLineHeight": "text-label-line-height",
-            "labelFontFamily": "text-font-family",
+            "labelFontFamily": "text-label-font-family",
             "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
-            "captionLineHeight": "text-caption-1-line-height",
-            "captionFontFamily": "text-font-family",
+            "captionFontFamily": "text-caption-1-font-family",
             "captionIconWidth": 10,
             "captionIconHeight": 10,
             "captionIconMarginRight": 8
@@ -2480,7 +2394,7 @@
                 "captionIconTintColor": "text-hint-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-default-border",
+                    "borderColor": "color-primary-default",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2503,7 +2417,7 @@
                 "captionIconTintColor": "text-primary-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-primary-active-border",
+                    "borderColor": "color-primary-active",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2526,7 +2440,7 @@
                 "captionIconTintColor": "text-success-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-success-active-border",
+                    "borderColor": "color-success-active",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2549,7 +2463,7 @@
                 "captionIconTintColor": "text-info-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-info-active-border",
+                    "borderColor": "color-info-active",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2572,7 +2486,7 @@
                 "captionIconTintColor": "text-warning-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-warning-active-border",
+                    "borderColor": "color-warning-active",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2595,7 +2509,7 @@
                 "captionIconTintColor": "text-danger-color",
                 "state": {
                   "active": {
-                    "borderColor": "color-danger-active-border",
+                    "borderColor": "color-danger-active",
                     "backgroundColor": "background-basic-color-1",
                     "textColor": "text-basic-color"
                   },
@@ -2638,8 +2552,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 3,
                 "textFontSize": "text-subtitle-2-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-2-line-height"
+                "textFontWeight": "normal"
               },
               "medium": {
                 "minHeight": "size-medium",
@@ -2647,8 +2560,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 7,
                 "textFontSize": "text-subtitle-1-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-1-line-height"
+                "textFontWeight": "normal"
               },
               "large": {
                 "minHeight": "size-large",
@@ -2656,8 +2568,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 11,
                 "textFontSize": "text-subtitle-1-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-1-line-height"
+                "textFontWeight": "normal"
               }
             }
           }
@@ -2698,6 +2609,18 @@
         "parameters": {
           "backgroundColor": {
             "type": "string"
+          },
+          "headerPaddingHorizontal": {
+            "type": "number"
+          },
+          "headerPaddingVertical": {
+            "type": "number"
+          },
+          "footerPaddingHorizontal": {
+            "type": "number"
+          },
+          "footerPaddingVertical": {
+            "type": "number"
           }
         },
         "appearances": {
@@ -2714,7 +2637,11 @@
       "appearances": {
         "default": {
           "mapping": {
-            "backgroundColor": "background-basic-color-1"
+            "backgroundColor": "background-basic-color-1",
+            "headerPaddingHorizontal": 24,
+            "headerPaddingVertical": 16,
+            "footerPaddingHorizontal": 24,
+            "footerPaddingVertical": 8
           }
         },
         "noDivider": {
@@ -2756,9 +2683,6 @@
           "textFontSize": {
             "type": "number"
           },
-          "textLineHeight": {
-            "type": "number"
-          },
           "textFontWeight": {
             "type": "string"
           },
@@ -2789,9 +2713,6 @@
           "labelFontSize": {
             "type": "number"
           },
-          "labelLineHeight": {
-            "type": "number"
-          },
           "labelFontWeight": {
             "type": "string"
           },
@@ -2808,9 +2729,6 @@
             "type": "string"
           },
           "captionFontSize": {
-            "type": "number"
-          },
-          "captionLineHeight": {
             "type": "number"
           },
           "captionFontWeight": {
@@ -2900,13 +2818,11 @@
             "labelMarginBottom": 4,
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
-            "labelLineHeight": "text-label-line-height",
-            "labelFontFamily": "text-font-family",
+            "labelFontFamily": "text-label-font-family",
             "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
-            "captionLineHeight": "text-caption-1-line-height",
-            "captionFontFamily": "text-font-family",
+            "captionFontFamily": "text-caption-1-font-family",
             "captionIconWidth": 10,
             "captionIconHeight": 10,
             "captionIconMarginRight": 8
@@ -3138,8 +3054,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 3,
                 "textFontSize": "text-subtitle-2-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-2-line-height"
+                "textFontWeight": "normal"
               },
               "medium": {
                 "minHeight": "size-medium",
@@ -3147,8 +3062,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 7,
                 "textFontSize": "text-subtitle-1-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-1-line-height"
+                "textFontWeight": "normal"
               },
               "large": {
                 "minHeight": "size-large",
@@ -3156,8 +3070,7 @@
                 "borderWidth": "border-width",
                 "paddingVertical": 11,
                 "textFontSize": "text-subtitle-1-font-size",
-                "textFontWeight": "normal",
-                "textLineHeight": "text-subtitle-1-line-height"
+                "textFontWeight": "normal"
               }
             }
           }
@@ -3275,9 +3188,6 @@
           "titleFontSize": {
             "type": "number"
           },
-          "titleLineHeight": {
-            "type": "number"
-          },
           "titleFontWeight": {
             "type": "string"
           },
@@ -3295,9 +3205,6 @@
           },
           "descriptionFontWeight": {
             "type": "string"
-          },
-          "descriptionLineHeight": {
-            "type": "number"
           },
           "descriptionMarginHorizontal": {
             "type": "number"
@@ -3324,7 +3231,7 @@
         "default": {
           "mapping": {
             "paddingHorizontal": 8,
-            "paddingVertical": 8,
+            "paddingVertical": 12,
             "backgroundColor": "background-basic-color-1",
             "iconWidth": 24,
             "iconHeight": 24,
@@ -3333,14 +3240,12 @@
             "titleMarginHorizontal": 8,
             "titleFontSize": "text-subtitle-2-font-size",
             "titleFontWeight": "text-subtitle-2-font-weight",
-            "titleLineHeight": "text-subtitle-2-line-height",
-            "titleFontFamily": "text-font-family",
+            "titleFontFamily": "text-subtitle-2-font-family",
             "titleColor": "text-basic-color",
             "descriptionMarginHorizontal": 8,
             "descriptionFontSize": "text-caption-1-font-size",
             "descriptionFontWeight": "text-caption-1-font-weight",
-            "descriptionLineHeight": "text-caption-1-line-height",
-            "descriptionFontFamily": "text-font-family",
+            "descriptionFontFamily": "text-caption-1-font-family",
             "descriptionColor": "text-hint-color",
             "accessoryMarginHorizontal": 8,
             "state": {
@@ -3376,30 +3281,6 @@
         }
       }
     },
-    "SubMenu": {
-      "meta": {
-        "scope": "all",
-        "parameters": {
-          "subItemsPaddingHorizontal": {
-            "type": "string"
-          }
-        },
-        "appearances": {
-          "default": {
-            "default": true
-          }
-        },
-        "variantGroups": {},
-        "states": {}
-      },
-      "appearances": {
-        "default": {
-          "mapping": {
-            "subItemsPaddingHorizontal": 16
-          }
-        }
-      }
-    },
     "MenuItem": {
       "meta": {
         "scope": "all",
@@ -3414,6 +3295,9 @@
             "type": "number"
           },
           "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingLeft": {
             "type": "number"
           },
           "backgroundColor": {
@@ -3440,9 +3324,6 @@
           "titleFontSize": {
             "type": "number"
           },
-          "titleLineHeight": {
-            "type": "number"
-          },
           "titleFontWeight": {
             "type": "string"
           },
@@ -3453,6 +3334,9 @@
         "appearances": {
           "default": {
             "default": true
+          },
+          "grouped": {
+            "default": false
           }
         },
         "variantGroups": {},
@@ -3495,8 +3379,7 @@
             "titleMarginHorizontal": 8,
             "titleFontSize": "text-subtitle-2-font-size",
             "titleFontWeight": "text-subtitle-2-font-weight",
-            "titleLineHeight": "text-subtitle-2-line-height",
-            "titleFontFamily": "text-font-family",
+            "titleFontFamily": "text-subtitle-2-font-family",
             "titleColor": "text-basic-color",
             "iconWidth": 20,
             "iconHeight": 20,
@@ -3522,6 +3405,11 @@
                 "iconTintColor": "text-disabled-color"
               }
             }
+          }
+        },
+        "grouped": {
+          "mapping": {
+            "paddingLeft": 16
           }
         }
       }
@@ -3653,9 +3541,6 @@
           "placeholderFontSize": {
             "type": "number"
           },
-          "placeholderLineHeight": {
-            "type": "number"
-          },
           "placeholderFontWeight": {
             "type": "string"
           },
@@ -3669,9 +3554,6 @@
             "type": "string"
           },
           "textFontSize": {
-            "type": "number"
-          },
-          "textLineHeight": {
             "type": "number"
           },
           "textFontWeight": {
@@ -3713,13 +3595,25 @@
           "labelFontSize": {
             "type": "number"
           },
-          "labelLineHeight": {
-            "type": "number"
-          },
           "labelFontWeight": {
             "type": "string"
           },
           "labelMarginBottom": {
+            "type": "number"
+          },
+          "captionMarginTop": {
+            "type": "number"
+          },
+          "captionColor": {
+            "type": "string"
+          },
+          "captionFontFamily": {
+            "type": "string"
+          },
+          "captionFontSize": {
+            "type": "number"
+          },
+          "captionFontWeight": {
             "type": "number"
           }
         },
@@ -3796,12 +3690,16 @@
             "iconMarginHorizontal": 8,
             "placeholderMarginHorizontal": 8,
             "textMarginHorizontal": 8,
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-subtitle-2-font-family",
+            "placeholderFontFamily": "text-paragraph-1-font-family",
             "labelMarginBottom": 4,
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
-            "labelLineHeight": "text-label-line-height",
-            "labelFontFamily": "text-font-family",
+            "labelFontFamily": "text-label-font-family",
+            "captionMarginTop": 4,
+            "captionFontSize": "text-caption-1-font-size",
+            "captionFontWeight": "text-caption-1-font-weight",
+            "captionFontFamily": "text-caption-1-font-family",
             "popoverMaxHeight": 220,
             "popoverBorderRadius": "border-radius",
             "popoverBorderWidth": "border-width",
@@ -3814,11 +3712,12 @@
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-hint-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-primary-default-border",
+                    "borderColor": "color-primary-default",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
@@ -3826,7 +3725,7 @@
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-primary-default-border",
+                    "borderColor": "color-primary-default",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "disabled": {
@@ -3839,23 +3738,24 @@
                 }
               },
               "primary": {
-                "borderColor": "color-primary-default-border",
+                "borderColor": "color-primary-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-primary-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-primary-focus-border",
+                    "borderColor": "color-primary-focus",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-primary-hover-border",
+                    "borderColor": "color-primary-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-primary-active-border",
+                    "borderColor": "color-primary-active",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-basic-color"
                   },
@@ -3869,23 +3769,24 @@
                 }
               },
               "success": {
-                "borderColor": "color-success-default-border",
+                "borderColor": "color-success-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-success-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-success-focus-border",
+                    "borderColor": "color-success-focus",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-success-hover-border",
+                    "borderColor": "color-success-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-success-active-border",
+                    "borderColor": "color-success-active",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-basic-color"
                   },
@@ -3899,23 +3800,24 @@
                 }
               },
               "info": {
-                "borderColor": "color-info-default-border",
+                "borderColor": "color-info-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-info-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-info-focus-border",
+                    "borderColor": "color-info-focus",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-info-hover-border",
+                    "borderColor": "color-info-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-info-active-border",
+                    "borderColor": "color-info-active",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-basic-color"
                   },
@@ -3929,23 +3831,24 @@
                 }
               },
               "warning": {
-                "borderColor": "color-warning-default-border",
+                "borderColor": "color-warning-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-warning-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-warning-focus-border",
+                    "borderColor": "color-warning-focus",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-warning-hover-border",
+                    "borderColor": "color-warning-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-warning-active-border",
+                    "borderColor": "color-warning-active",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-basic-color"
                   },
@@ -3959,23 +3862,24 @@
                 }
               },
               "danger": {
-                "borderColor": "color-danger-default-border",
+                "borderColor": "color-danger-default",
                 "backgroundColor": "background-basic-color-2",
                 "textColor": "text-basic-color",
                 "labelColor": "text-hint-color",
+                "captionColor": "text-danger-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
-                    "borderColor": "color-danger-focus-border",
+                    "borderColor": "color-danger-focus",
                     "backgroundColor": "background-basic-color-1"
                   },
                   "hover": {
-                    "borderColor": "color-danger-hover-border",
+                    "borderColor": "color-danger-hover",
                     "backgroundColor": "background-basic-color-3"
                   },
                   "active": {
-                    "borderColor": "color-danger-active-border",
+                    "borderColor": "color-danger-active",
                     "backgroundColor": "background-basic-color-1",
                     "iconTintColor": "text-basic-color"
                   },
@@ -3993,6 +3897,7 @@
                 "backgroundColor": "color-basic-control-transparent-300",
                 "textColor": "text-control-color",
                 "labelColor": "text-control-color",
+                "captionColor": "text-control-color",
                 "placeholderColor": "text-control-color",
                 "iconTintColor": "text-control-color",
                 "state": {
@@ -4028,10 +3933,8 @@
                 "paddingVertical": 3,
                 "textFontSize": "text-subtitle-2-font-size",
                 "textFontWeight": "text-subtitle-2-font-weight",
-                "textLineHeight": "text-subtitle-2-line-height",
-                "placeholderFontSize": "text-subtitle-1-font-size",
-                "placeholderFontWeight": "text-paragraph-1-font-weight",
-                "placeholderLineHeight": "text-paragraph-1-line-height"
+                "placeholderFontSize": "text-paragraph-1-font-size",
+                "placeholderFontWeight": "text-paragraph-1-font-weight"
               },
               "medium": {
                 "borderRadius": "border-radius",
@@ -4040,10 +3943,8 @@
                 "paddingVertical": 7,
                 "textFontSize": "text-subtitle-1-font-size",
                 "textFontWeight": "text-subtitle-1-font-weight",
-                "textLineHeight": "text-subtitle-1-line-height",
-                "placeholderFontSize": "text-subtitle-1-font-size",
-                "placeholderFontWeight": "text-paragraph-1-font-weight",
-                "placeholderLineHeight": "text-paragraph-1-line-height"
+                "placeholderFontSize": "text-paragraph-1-font-size",
+                "placeholderFontWeight": "text-paragraph-1-font-weight"
               },
               "large": {
                 "borderRadius": "border-radius",
@@ -4052,40 +3953,10 @@
                 "paddingVertical": 11,
                 "textFontSize": "text-subtitle-1-font-size",
                 "textFontWeight": "text-subtitle-1-font-weight",
-                "textLineHeight": "text-subtitle-1-line-height",
-                "placeholderFontSize": "text-subtitle-1-font-size",
-                "placeholderFontWeight": "text-paragraph-1-font-weight",
-                "placeholderLineHeight": "text-paragraph-1-line-height"
+                "placeholderFontSize": "text-paragraph-1-font-size",
+                "placeholderFontWeight": "text-paragraph-1-font-weight"
               }
             }
-          }
-        }
-      }
-    },
-    "SelectGroupOption": {
-      "meta": {
-        "scope": "all",
-        "parameters": {
-          "backgroundColor": {
-            "type": "string"
-          },
-          "itemPaddingHorizontal": {
-            "type": "number"
-          }
-        },
-        "appearances": {
-          "default": {
-            "default": true
-          }
-        },
-        "variantGroups": {},
-        "states": {}
-      },
-      "appearances": {
-        "default": {
-          "mapping": {
-            "backgroundColor": "background-basic-color-1",
-            "itemPaddingHorizontal": 20
           }
         }
       }
@@ -4094,13 +3965,28 @@
       "meta": {
         "scope": "all",
         "parameters": {
-          "paddingVertical": {
-            "type": "number"
-          },
           "paddingHorizontal": {
             "type": "number"
           },
+          "paddingVertical": {
+            "type": "number"
+          },
+          "paddingLeft": {
+            "type": "number"
+          },
           "backgroundColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "iconHeight": {
+            "type": "number"
+          },
+          "iconMarginHorizontal": {
+            "type": "number"
+          },
+          "iconTintColor": {
             "type": "string"
           },
           "textMarginHorizontal": {
@@ -4110,9 +3996,6 @@
             "type": "string"
           },
           "textFontSize": {
-            "type": "number"
-          },
-          "textLineHeight": {
             "type": "number"
           },
           "textFontWeight": {
@@ -4125,6 +4008,9 @@
         "appearances": {
           "default": {
             "default": true
+          },
+          "grouped": {
+            "default": false
           }
         },
         "variantGroups": {},
@@ -4139,12 +4025,12 @@
             "priority": 1,
             "scope": "all"
           },
-          "active": {
+          "selected": {
             "default": false,
             "priority": 2,
             "scope": "all"
           },
-          "selected": {
+          "active": {
             "default": false,
             "priority": 3,
             "scope": "all"
@@ -4153,11 +4039,6 @@
             "default": false,
             "priority": 4,
             "scope": "all"
-          },
-          "multi": {
-            "default": false,
-            "priority": 5,
-            "scope": "all"
           }
         }
       },
@@ -4165,38 +4046,45 @@
         "default": {
           "mapping": {
             "paddingHorizontal": 8,
-            "paddingVertical": 8,
+            "paddingVertical": 12,
             "backgroundColor": "background-basic-color-1",
             "textMarginHorizontal": 8,
             "textFontSize": "text-subtitle-1-font-size",
             "textFontWeight": "text-subtitle-1-font-weight",
-            "textLineHeight": "text-subtitle-2-line-height",
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-subtitle-1-font-family",
             "textColor": "text-basic-color",
+            "iconWidth": 20,
+            "iconHeight": 20,
+            "iconMarginHorizontal": 8,
+            "iconTintColor": "text-hint-color",
             "state": {
               "hover": {
+                "iconTintColor": "text-primary-hover-color",
                 "backgroundColor": "color-basic-transparent-hover"
               },
               "active": {
-                "backgroundColor": "color-basic-active"
+                "backgroundColor": "color-basic-transparent-active"
               },
               "selected": {
-                "backgroundColor": "color-primary-default",
-                "textColor": "text-control-color"
+                "backgroundColor": "color-primary-transparent-default",
+                "textColor": "text-basic-color",
+                "iconTintColor": "text-primary-color"
               },
               "selected.hover": {
                 "background-color": "color-primary-transparent-100",
-                "text-color": "text-basic-color"
-              },
-              "selected.multi": {
-                "backgroundColor": "background-basic-color-1",
                 "textColor": "text-basic-color"
               },
               "disabled": {
                 "backgroundColor": "background-basic-color-1",
-                "textColor": "text-disabled-color"
+                "textColor": "text-disabled-color",
+                "iconTintColor": "text-disabled-color"
               }
             }
+          }
+        },
+        "grouped": {
+          "mapping": {
+            "paddingLeft": 16
           }
         }
       }
@@ -4233,9 +4121,6 @@
             "type": "number"
           },
           "textFontSize": {
-            "type": "number"
-          },
-          "textLineHeight": {
             "type": "number"
           },
           "textFontWeight": {
@@ -4341,9 +4226,8 @@
             "outlineBackgroundColor": "transparent",
             "textMarginHorizontal": 12,
             "textFontSize": "text-subtitle-2-font-size",
-            "textLineHeight": "text-subtitle-2-line-height",
             "textFontWeight": "text-subtitle-2-font-weight",
-            "textFontFamily": "text-font-family"
+            "textFontFamily": "text-subtitle-2-font-family"
           },
           "variantGroups": {
             "status": {
@@ -4875,9 +4759,6 @@
           "textFontSize": {
             "type": "number"
           },
-          "textLineHeight": {
-            "type": "number"
-          },
           "textFontWeight": {
             "type": "number"
           },
@@ -4930,7 +4811,6 @@
             "textMarginVertical": 2,
             "textFontSize": 14,
             "textFontWeight": "bold",
-            "textLineHeight": 16,
             "textFontFamily": "text-font-family",
             "textColor": "text-hint-color",
             "iconWidth": 24,
@@ -4999,9 +4879,6 @@
             "type": "string"
           },
           "fontSize": {
-            "type": "number"
-          },
-          "lineHeight": {
             "type": "number"
           },
           "fontWeight": {
@@ -5093,7 +4970,6 @@
       "appearances": {
         "default": {
           "mapping": {
-            "fontFamily": "text-font-family",
             "color": "text-basic-color"
           },
           "variantGroups": {
@@ -5101,67 +4977,67 @@
               "h1": {
                 "fontSize": "text-heading-1-font-size",
                 "fontWeight": "text-heading-1-font-weight",
-                "lineHeight": "text-heading-1-line-height"
+                "fontFamily": "text-heading-1-font-family"
               },
               "h2": {
                 "fontSize": "text-heading-2-font-size",
                 "fontWeight": "text-heading-2-font-weight",
-                "lineHeight": "text-heading-2-line-height"
+                "fontFamily": "text-heading-2-font-family"
               },
               "h3": {
                 "fontSize": "text-heading-3-font-size",
                 "fontWeight": "text-heading-3-font-weight",
-                "lineHeight": "text-heading-3-line-height"
+                "fontFamily": "text-heading-3-font-family"
               },
               "h4": {
                 "fontSize": "text-heading-4-font-size",
                 "fontWeight": "text-heading-4-font-weight",
-                "lineHeight": "text-heading-4-line-height"
+                "fontFamily": "text-heading-4-font-family"
               },
               "h5": {
                 "fontSize": "text-heading-5-font-size",
                 "fontWeight": "text-heading-5-font-weight",
-                "lineHeight": "text-heading-5-line-height"
+                "fontFamily": "text-heading-5-font-family"
               },
               "h6": {
                 "fontSize": "text-heading-6-font-size",
                 "fontWeight": "text-heading-6-font-weight",
-                "lineHeight": "text-heading-6-line-height"
+                "fontFamily": "text-heading-6-font-family"
               },
               "s1": {
                 "fontSize": "text-subtitle-1-font-size",
                 "fontWeight": "text-subtitle-1-font-weight",
-                "lineHeight": "text-subtitle-1-line-height"
+                "fontFamily": "text-subtitle-1-font-family"
               },
               "s2": {
                 "fontSize": "text-subtitle-2-font-size",
                 "fontWeight": "text-subtitle-2-font-weight",
-                "lineHeight": "text-subtitle-2-line-height"
+                "fontFamily": "text-subtitle-2-font-family"
               },
               "p1": {
                 "fontSize": "text-paragraph-1-font-size",
                 "fontWeight": "text-paragraph-1-font-weight",
-                "lineHeight": "text-paragraph-1-line-height"
+                "fontFamily": "text-paragraph-1-font-family"
               },
               "p2": {
                 "fontSize": "text-paragraph-2-font-size",
                 "fontWeight": "text-paragraph-2-font-weight",
-                "lineHeight": "text-paragraph-2-line-height"
+                "fontFamily": "text-paragraph-2-font-family"
               },
               "c1": {
                 "fontSize": "text-caption-1-font-size",
                 "fontWeight": "text-caption-1-font-weight",
-                "lineHeight": "text-caption-1-line-height"
+                "fontFamily": "text-caption-1-font-family"
               },
               "c2": {
                 "fontSize": "text-caption-2-font-size",
                 "fontWeight": "text-caption-2-font-weight",
-                "lineHeight": "text-caption-2-line-height"
+                "fontFamily": "text-caption-2-font-family"
               },
               "label": {
                 "fontSize": "text-label-font-size",
                 "fontWeight": "text-label-font-weight",
-                "lineHeight": "text-label-line-height"
+                "fontFamily": "text-label-font-family"
               }
             },
             "status": {
@@ -5246,9 +5122,6 @@
           },
           "textFontWeight": {
             "type": "string"
-          },
-          "textLineHeight": {
-            "type": "number"
           },
           "textColor": {
             "type": "string"
@@ -5349,8 +5222,7 @@
             "textMarginHorizontal": 12,
             "textFontSize": "text-subtitle-2-font-size",
             "textFontWeight": "text-subtitle-2-font-weight",
-            "textLineHeight": "text-subtitle-2-line-height",
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-subtitle-2-font-family",
             "iconWidth": 12,
             "iconHeight": 12
           },
@@ -5757,9 +5629,6 @@
           "textFontSize": {
             "type": "number"
           },
-          "textLineHeight": {
-            "type": "number"
-          },
           "textFontWeight": {
             "type": "number"
           },
@@ -5787,8 +5656,7 @@
             "textMarginHorizontal": 4,
             "textFontSize": "text-caption-1-font-size",
             "textFontWeight": "text-caption-1-font-weight",
-            "textLineHeight": "text-caption-1-line-height",
-            "textFontFamily": "text-font-family",
+            "textFontFamily": "text-caption-1-font-family",
             "textColor": "text-alternate-color",
             "iconWidth": 14,
             "iconHeight": 14,
@@ -5823,9 +5691,6 @@
           "titleFontSize": {
             "type": "number"
           },
-          "titleLineHeight": {
-            "type": "number"
-          },
           "titleFontWeight": {
             "type": "string"
           },
@@ -5839,9 +5704,6 @@
             "type": "string"
           },
           "subtitleFontSize": {
-            "type": "number"
-          },
-          "subtitleLineHeight": {
             "type": "number"
           },
           "subtitleFontWeight": {
@@ -5880,13 +5742,11 @@
             "backgroundColor": "background-basic-color-1",
             "titleFontSize": "text-subtitle-1-font-size",
             "titleFontWeight": "text-subtitle-1-font-weight",
-            "titleLineHeight": "text-subtitle-1-line-height",
-            "titleFontFamily": "text-font-family",
+            "titleFontFamily": "text-subtitle-1-font-family",
             "titleColor": "text-basic-color",
             "subtitleFontSize": "text-caption-1-font-size",
             "subtitleFontWeight": "text-caption-1-font-weight",
-            "subtitleLineHeight": "text-caption-1-line-height",
-            "subtitleFontFamily": "text-font-family",
+            "subtitleFontFamily": "text-caption-1-font-family",
             "subtitleColor": "text-hint-color"
           },
           "variantGroups": {
