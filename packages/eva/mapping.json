@@ -5810,6 +5810,11 @@
             "default": false,
             "priority": 2,
             "scope": "all"
+          },
+          "disabled": {
+            "default": false,
+            "priority": 3,
+            "scope": "all"
           }
         }
       },
@@ -5829,6 +5834,9 @@
               },
               "active": {
                 "iconTintColor": "text-hint-color"
+              },
+              "disabled": {
+                "iconTintColor": "text-hint-color"
               }
             }
           }
@@ -5845,6 +5853,9 @@
               },
               "active": {
                 "iconTintColor": "color-control-active"
+              },
+              "disabled": {
+                "iconTintColor": "color-control-disabled"
               }
             }
           }
