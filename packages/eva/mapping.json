@@ -2719,9 +2719,6 @@
           "labelMarginBottom": {
             "type": "number"
           },
-          "captionMarginTop": {
-            "type": "number"
-          },
           "captionColor": {
             "type": "string"
           },
@@ -2819,7 +2816,6 @@
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
             "labelFontFamily": "text-label-font-family",
-            "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
             "captionFontFamily": "text-caption-1-font-family",
