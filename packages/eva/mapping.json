@@ -2278,9 +2278,6 @@
           "labelMarginBottom": {
             "type": "number"
           },
-          "captionMarginTop": {
-            "type": "number"
-          },
           "captionColor": {
             "type": "string"
           },
@@ -2291,18 +2288,6 @@
             "type": "number"
           },
           "captionFontWeight": {
-            "type": "string"
-          },
-          "captionIconWidth": {
-            "type": "number"
-          },
-          "captionIconHeight": {
-            "type": "number"
-          },
-          "captionIconMarginRight": {
-            "type": "number"
-          },
-          "captionIconTintColor": {
             "type": "string"
           }
         },
@@ -2373,13 +2358,9 @@
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
             "labelFontFamily": "text-label-font-family",
-            "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
-            "captionFontFamily": "text-caption-1-font-family",
-            "captionIconWidth": 10,
-            "captionIconHeight": 10,
-            "captionIconMarginRight": 8
+            "captionFontFamily": "text-caption-1-font-family"
           },
           "variantGroups": {
             "status": {
@@ -2391,7 +2372,6 @@
                 "captionColor": "text-hint-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
-                "captionIconTintColor": "text-hint-color",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-default",
@@ -2414,7 +2394,6 @@
                 "captionColor": "text-primary-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-primary-color",
-                "captionIconTintColor": "text-primary-color",
                 "state": {
                   "active": {
                     "borderColor": "color-primary-active",
@@ -2437,7 +2416,6 @@
                 "captionColor": "text-success-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-success-color",
-                "captionIconTintColor": "text-success-color",
                 "state": {
                   "active": {
                     "borderColor": "color-success-active",
@@ -2460,7 +2438,6 @@
                 "captionColor": "text-info-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-info-color",
-                "captionIconTintColor": "text-info-color",
                 "state": {
                   "active": {
                     "borderColor": "color-info-active",
@@ -2483,7 +2460,6 @@
                 "captionColor": "text-warning-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-warning-color",
-                "captionIconTintColor": "text-warning-color",
                 "state": {
                   "active": {
                     "borderColor": "color-warning-active",
@@ -2506,7 +2482,6 @@
                 "captionColor": "text-danger-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-danger-color",
-                "captionIconTintColor": "text-danger-color",
                 "state": {
                   "active": {
                     "borderColor": "color-danger-active",
@@ -2529,7 +2504,6 @@
                 "captionColor": "text-control-color",
                 "placeholderColor": "text-control-color",
                 "iconTintColor": "text-control-color",
-                "captionIconTintColor": "text-control-color",
                 "state": {
                   "active": {
                     "borderColor": "color-control-transparent-active-border",
@@ -2719,9 +2693,6 @@
           "labelMarginBottom": {
             "type": "number"
           },
-          "captionMarginTop": {
-            "type": "number"
-          },
           "captionColor": {
             "type": "string"
           },
@@ -2732,18 +2703,6 @@
             "type": "number"
           },
           "captionFontWeight": {
-            "type": "string"
-          },
-          "captionIconWidth": {
-            "type": "number"
-          },
-          "captionIconHeight": {
-            "type": "number"
-          },
-          "captionIconMarginRight": {
-            "type": "number"
-          },
-          "captionIconTintColor": {
             "type": "string"
           }
         },
@@ -2819,13 +2778,9 @@
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
             "labelFontFamily": "text-label-font-family",
-            "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
-            "captionFontFamily": "text-caption-1-font-family",
-            "captionIconWidth": 10,
-            "captionIconHeight": 10,
-            "captionIconMarginRight": 8
+            "captionFontFamily": "text-caption-1-font-family"
           },
           "variantGroups": {
             "status": {
@@ -2837,7 +2792,6 @@
                 "captionColor": "text-hint-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-hint-color",
-                "captionIconTintColor": "text-hint-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-primary-default",
@@ -2855,8 +2809,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -2868,7 +2821,6 @@
                 "captionColor": "text-primary-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-primary-color",
-                "captionIconTintColor": "text-primary-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-primary-focus",
@@ -2886,8 +2838,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -2899,7 +2850,6 @@
                 "captionColor": "text-success-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-success-color",
-                "captionIconTintColor": "text-success-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-success-focus",
@@ -2917,8 +2867,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -2930,7 +2879,6 @@
                 "captionColor": "text-info-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-info-color",
-                "captionIconTintColor": "text-info-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-info-focus",
@@ -2948,8 +2896,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -2961,7 +2908,6 @@
                 "captionColor": "text-warning-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-warning-color",
-                "captionIconTintColor": "text-warning-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-warning-focus",
@@ -2979,8 +2925,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -2992,7 +2937,6 @@
                 "captionColor": "text-danger-color",
                 "placeholderColor": "text-hint-color",
                 "iconTintColor": "text-danger-color",
-                "captionIconTintColor": "text-danger-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-danger-focus",
@@ -3010,8 +2954,7 @@
                     "labelColor": "text-disabled-color",
                     "captionColor": "text-disabled-color",
                     "placeholderColor": "text-disabled-color",
-                    "iconTintColor": "text-disabled-color",
-                    "captionIconTintColor": "text-disabled-color"
+                    "iconTintColor": "text-disabled-color"
                   }
                 }
               },
@@ -3023,7 +2966,6 @@
                 "captionColor": "text-control-color",
                 "placeholderColor": "text-control-color",
                 "iconTintColor": "text-control-color",
-                "captionIconTintColor": "text-control-color",
                 "state": {
                   "focused": {
                     "borderColor": "color-control-transparent-focus-border",
@@ -3041,8 +2983,7 @@
                     "labelColor": "text-control-color",
                     "captionColor": "text-control-color",
                     "placeholderColor": "text-control-color",
-                    "iconTintColor": "text-control-color",
-                    "captionIconTintColor": "text-control-color"
+                    "iconTintColor": "text-control-color"
                   }
                 }
               }
@@ -3601,9 +3542,6 @@
           "labelMarginBottom": {
             "type": "number"
           },
-          "captionMarginTop": {
-            "type": "number"
-          },
           "captionColor": {
             "type": "string"
           },
@@ -3696,7 +3634,6 @@
             "labelFontSize": "text-label-font-size",
             "labelFontWeight": "text-label-font-weight",
             "labelFontFamily": "text-label-font-family",
-            "captionMarginTop": 4,
             "captionFontSize": "text-caption-1-font-size",
             "captionFontWeight": "text-caption-1-font-weight",
             "captionFontFamily": "text-caption-1-font-family",
