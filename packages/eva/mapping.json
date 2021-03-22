@@ -1189,6 +1189,9 @@
           },
           "outline": {
             "default": false
+          },
+          "ghost": {
+            "default": false
           }
         },
         "variantGroups": {
@@ -1320,6 +1323,41 @@
               "control": {
                 "borderColor": "color-control-default-border",
                 "dividerBackgroundColor": "color-control-default"
+              }
+            }
+          }
+        },
+        "ghost": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "primary": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "success": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "info": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "warning": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "danger": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "control": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
               }
             }
           }
