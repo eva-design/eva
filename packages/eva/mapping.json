@@ -3532,9 +3532,6 @@
           "backgroundColor": {
             "type": "string"
           },
-          "placeholderMarginHorizontal": {
-            "type": "number"
-          },
           "placeholderFontFamily": {
             "type": "string"
           },
@@ -3688,7 +3685,6 @@
             "iconWidth": 24,
             "iconHeight": 24,
             "iconMarginHorizontal": 8,
-            "placeholderMarginHorizontal": 8,
             "textMarginHorizontal": 8,
             "textFontFamily": "text-subtitle-2-font-family",
             "placeholderFontFamily": "text-paragraph-1-font-family",
