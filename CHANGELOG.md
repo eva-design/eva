@@ -1,3 +1,69 @@
+## 2.0.0(2020-05-12)
+
+* fix(mapping): typography fixes and component updates ([ca18816](https://github.com/eva-design/eva/commit/ca18816))
+* feat(processor): support theme references in mapping ([58cd411](https://github.com/eva-design/eva/commit/58cd411))
+
+
+
+## 1.4.0 (2020-02-10)
+
+* Add @eva-design/material package ([5c0fea1](https://github.com/eva-design/eva/commit/5c0fea1b428ea133d869f774dcbc1f1303f38f71))
+
+
+
+## <small>1.3.2 (2020-01-16)</small>
+
+* feat(mapping): card - add active state ([fe5e024](https://github.com/eva-design/eva/commit/fe5e024))
+* feat(mapping): datepicker - define children parameters ([1732174](https://github.com/eva-design/eva/commit/1732174))
+
+
+
+## <small>1.3.1 (2019-12-13)</small>
+
+* fix(mapping): popover mappings ([6be3176](https://github.com/eva-design/eva/commit/6be3176))
+
+## 1.3.0 (2019-12-04)
+
+* refactor(mapping): border colors to use *border variables ([7ac3bc5](https://github.com/eva-design/eva/commit/7ac3bc5))
+* refactor(mapping): card - unify status mapping ([397fc14](https://github.com/eva-design/eva/commit/397fc14))
+* refactor(mapping): control component sizes ([a7f94d2](https://github.com/eva-design/eva/commit/a7f94d2))
+* refactor(mapping): select state colors ([0e39f9e](https://github.com/eva-design/eva/commit/0e39f9e))
+* refactor(mapping): unify state color mapping ([a620a8f](https://github.com/eva-design/eva/commit/a620a8f))
+* refactor(mapping): update ghost button and input borders ([d499c88](https://github.com/eva-design/eva/commit/d499c88))
+* refactor(themes): add background and border state color lists ([2ddc451](https://github.com/eva-design/eva/commit/2ddc451))
+* fix(mapping): text - h3 variant ([2ce3770](https://github.com/eva-design/eva/commit/2ce3770))
+* fix(mapping): top-navigation-action - icon state colors ([87d308b](https://github.com/eva-design/eva/commit/87d308b))
+* feat(mapping): card component mappings add ([f4bf152](https://github.com/eva-design/eva/commit/f4bf152))
+* feat(mapping): radio-group - add item vertical spacings ([3b903ad](https://github.com/eva-design/eva/commit/3b903ad))
+
+
+
+## 1.3.0-beta.1 (2019-10-17)
+
+* refactor(mapping): popover borderColor value ([a1d6d53](https://github.com/eva-design/eva/commit/a1d6d53))
+* refactor(mapping): select-option - background-color on selected state ([888a8be](https://github.com/eva-design/eva/commit/888a8be))
+* feat: describe web states mappings ([746e3cc](https://github.com/eva-design/eva/commit/746e3cc))
+* feat(mapping): add tooltip border color ([0109098](https://github.com/eva-design/eva/commit/0109098))
+* feat(mapping): popover - add border parameters ([50fcc28](https://github.com/eva-design/eva/commit/50fcc28))
+
+
+
+## 1.2.0 (2019-09-27)
+
+* feat(mapping/theme): basic and control statuses add / transparent colors add ([9e809e0](https://github.com/eva-design/eva/commit/9e809e0))
+
+
+
+## 1.1.0 (2019-09-27)
+
+* feat(mapping): add font-family for each component that has text ([35361cc](https://github.com/eva-design/eva/commit/35361cc))
+* feat(mapping): add missing list-item font-family mappings ([ca7a8cf](https://github.com/eva-design/eva/commit/ca7a8cf))
+* feat(mapping): calendar/datepicker mappings add ([19103f6](https://github.com/eva-design/eva/commit/19103f6))
+* feat(mapping): toggle - add text mappings ([40e2ccf](https://github.com/eva-design/eva/commit/40e2ccf))
+* feat(mapping): top-navigation - control appearance ([7394046](https://github.com/eva-design/eva/commit/7394046))
+
+
+
 ## 1.1.0-beta.1 (2019-08-29)
 
 * feat(demo): add fitness app demo file (#23) ([6388333](https://github.com/eva-design/eva/commit/6388333)), closes [#23](https://github.com/eva-design/eva/issues/23)

@@ -77,7 +77,7 @@ export function createStyle(mapping: ThemeMappingType,
                             appearance: string,
                             variants: string[] = [],
                             states: string[] = [],
-                            theme: StrictTheme = {}): ThemedStyleType {
+                            theme: ThemedStyleType = {}): ThemedStyleType {
 
   const normalizedAppearance: string[] = normalizeAppearance(mapping, component, appearance);
   const normalizedVariants: string[] = normalizeVariants(mapping, component, variants);
@@ -123,7 +123,7 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 appearance: string,
                                 variants: string[],
                                 states: string[],
-                                theme: StrictTheme): [string, ThemedStyleType][] {
+                                theme: ThemedStyleType): [string, ThemedStyleType][] {
 
   const stateless = createStyleEntry(mapping,
     component,
@@ -289,7 +289,7 @@ function createStateVariations(states: string[], separator: string, result: stri
   return createStateVariations(states, separator, [...result, ...next]);
 }
 
-function withStrictTokens(mapping: StatelessMappingType, theme: StrictTheme): StatelessMappingType {
+function withStrictTokens(mapping: StatelessMappingType, theme: ThemedStyleType): StatelessMappingType {
   return Object.keys(mapping).reduce((acc: StatelessMappingType, next: string): StatelessMappingType => {
     const currentToken: ParameterType = mapping[next];
     const nextToken: ParameterType = theme[currentToken] || currentToken;
@@ -344,7 +344,7 @@ function createStyleEntry(mapping: ThemeMappingType,
                           appearance: string,
                           variant: string = '',
                           state: string = '',
-                          theme: StrictTheme = {}): [string, ThemedStyleType] {
+                          theme: ThemedStyleType = {}): [string, ThemedStyleType] {
 
   const value = createStyle(
     mapping,

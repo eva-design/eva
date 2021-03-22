@@ -92,5 +92,5 @@ export interface ControlThemedStyleType {
 }
 
 export interface ThemedStyleType {
-  [key: string]: number | string | ThemedStyleType;
+  [key: string]: number | string;
 }

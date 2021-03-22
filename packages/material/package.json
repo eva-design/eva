@@ -1,6 +1,6 @@
 {
-  "name": "@eva-design/dss",
-  "description": "Design System Schema",
+  "name": "@eva-design/material",
+  "description": "Eva Design System Material",
   "version": "2.0.0",
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
