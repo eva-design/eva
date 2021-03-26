@@ -24,8 +24,8 @@ if (packages.length !== 2) {
 }
 
 const currentDir: string = process.cwd();
-const mappingDir: string = path.resolve(currentDir, 'packages', 'mapping');
-const mappingKittenDir: string = path.resolve(currentDir, 'packages', 'mapping-kitten');
+const packagesDir: string = path.resolve(currentDir, 'packages');
+const dssDir: string = path.resolve(currentDir, 'packages/dss');
 
 export function customize(source: SchemaType, destination: CustomSchemaType): SchemaType {
   return merge(source, destination);
@@ -38,21 +38,22 @@ const {
   [1]: customMappingDerivedPath,
 } = packages;
 
-const sourcePackagePath: string = path.resolve(mappingDir, sourcePackageName);
-const customMappingPath = path.resolve(customMappingDerivedPath);
-const customizedPackagePath: string = path.resolve(mappingKittenDir, `${sourcePackageName}-tmp`);
+const sourcePackagePath: string = path.resolve(packagesDir, sourcePackageName);
+const customMappingPath: string = path.resolve(customMappingDerivedPath);
+const customMappingName: string = path.basename(customMappingDerivedPath);
+const customizedPackagePath: string = path.resolve(packagesDir, `${sourcePackageName}-${customMappingName}`);
 
-const { default: sourceMapping } = require(sourcePackagePath);
+const { mapping: sourceMapping } = require(sourcePackagePath);
 // TODO: resolve custom mapping
 const customMapping = require(customMappingPath);
 
-const schema: SchemaType = require(path.resolve(sourcePackagePath, 'schema-customization.json'));
+const customizationSchema: SchemaType = require(path.resolve(dssDir, 'schema/schema-customization.json'));
 
 const validationOptions: Ajv.Options = {
   allErrors: true,
 };
 const ajv = new Ajv(validationOptions);
-const validate: Ajv.ValidateFunction = ajv.compile(schema);
+const validate: Ajv.ValidateFunction = ajv.compile(customizationSchema);
 const fitsSchema: boolean | PromiseLike<boolean> = validate(customMapping);
 
 if (!fitsSchema) {
@@ -67,28 +68,22 @@ if (!fitsSchema) {
 
 const mapping: SchemaType = customize(sourceMapping, customMapping);
 
-const indexPath: string = path.resolve(customizedPackagePath, 'index.ts');
-const mappingPath: string = path.resolve(customizedPackagePath, 'mapping.json');
+const customizedPackageIndexPath: string = path.resolve(customizedPackagePath, 'index.ts');
+const customizedPackageMappingPath: string = path.resolve(customizedPackagePath, 'mapping.json');
 
 if (!existsSync(customizedPackagePath)) {
   mkdirSync(customizedPackagePath);
 }
 
 const indexOutput: string = [
-  'import { default as mapping } from \'./mapping.json\';',
-  'export default mapping;',
+  'export const mapping = require(\'./mapping.json\');',
 ].join('\n\n');
 
 const mappingOutput: string = json(mapping);
 
-writeFileSync(indexPath, indexOutput);
-writeFileSync(mappingPath, mappingOutput);
-generateMappingPackage(customizedPackagePath);
-
-const outputPath: string = path.resolve(currentDir, 'output.json');
-const { default: output } = require(indexPath);
-
-writeFileSync(outputPath, json(output));
+writeFileSync(customizedPackageIndexPath, indexOutput);
+writeFileSync(customizedPackageMappingPath, mappingOutput);
+generateMappingPackage(customizedPackageIndexPath);
 
 rimraf.sync(customizedPackagePath);
 

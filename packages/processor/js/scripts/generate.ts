@@ -13,18 +13,18 @@ const schemaProcessor: SchemaProcessor = new SchemaProcessor();
 
 export function generateMappingPackage(source: string) {
   const name: string = path.basename(source);
-  const generatedDir: string = path.resolve('packages', 'mapping-kitten', name);
+  const generatedDir: string = path.resolve('packages', `${name}-js`);
 
-  const { default: schema } = require(source);
+  const { mapping: schema } = require(source);
   const style: ThemeStyleType = schemaProcessor.process(schema);
 
   const indexOutput: string = [
     `import { ThemeStyleType } from '@eva-design/dss';`,
-    `export const style: ThemeStyleType = ${json(style)};`,
+    `export const mapping: ThemeStyleType = ${json(style)};`,
   ].join('\n\n');
 
   const packageOutput: string = json({
-    name: `@eva-design/${name}-kitten`,
+    name: `@eva-design/${name}-js`,
     version: '0.0.1',
     license: 'MIT',
     author: 'akveo <contact@akveo.com>',

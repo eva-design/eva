@@ -8,9 +8,9 @@ if (packages.length === 0) {
   process.exit(1);
 }
 
-const mappingDir: string = path.resolve('packages', 'mapping');
+const mappingDir: string = path.resolve('packages');
 
-packages.forEach((name: string) => {
+packages.forEach((name: string): void => {
   const source: string = path.resolve(mappingDir, name);
   generateMappingPackage(source);
 });
