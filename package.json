@@ -16,6 +16,7 @@
     "lint:fix": "npm run lint -- --fix",
     "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
     "gen:js-custom": "ts-node ./packages/processor/js/scripts/customize",
+    "gen:js-definitions": "ts-node ./packages/processor/js/scripts/generateParameterDefinitions",
     "test": "jest",
     "ci:lint": "npm run lint",
     "ci:build": "npm run build",
