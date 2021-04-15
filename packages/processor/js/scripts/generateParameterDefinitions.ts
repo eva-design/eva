@@ -59,7 +59,7 @@ function createRawDefinitionsForControl(schema: SchemaType, controlName: string)
 
   return Object.keys(componentMapping.meta.parameters).reduce((acc: RawControlDefinitions, parameterKey: string) => {
     const { [parameterKey]: parameterMeta } = componentMapping.meta.parameters;
-    return { ...acc, [parameterKey]: parameterMeta.type };
+    return { ...acc, [parameterKey]: parameterMeta.type } as RawControlDefinitions;
   }, {});
 }
 
