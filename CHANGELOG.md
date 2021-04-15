@@ -1,3 +1,16 @@
+## 2.1.0 (2021-04-15)
+
+* fix(generator):add return type to createRawDefinitionsForSchema (#81) ([4efd81a](https://github.com/eva-design/eva/commit/4efd81a)), closes [#81](https://github.com/eva-design/eva/issues/81)
+* chore(deps): bump ini from 1.3.5 to 1.3.7 (#73) ([fab3655](https://github.com/eva-design/eva/commit/fab3655)), closes [#73](https://github.com/eva-design/eva/issues/73)
+* feat(button-group): add ghost option appearance for buttonGroup component (#78) ([cd4e8fe](https://github.com/eva-design/eva/commit/cd4e8fe)), closes [#78](https://github.com/eva-design/eva/issues/78)
+* feat(processor): parameter type definition generation script (#44) ([01f9812](https://github.com/eva-design/eva/commit/01f9812)), closes [#44](https://github.com/eva-design/eva/issues/44)
+* feat(select): remove placeholderMarginHorizontal mapping value (#76) ([b8a2389](https://github.com/eva-design/eva/commit/b8a2389)), closes [#76](https://github.com/eva-design/eva/issues/76)
+* fix(input): remove useless input style property (#75) ([1cf6e51](https://github.com/eva-design/eva/commit/1cf6e51)), closes [#75](https://github.com/eva-design/eva/issues/75)
+* fix(navigation): add disabled state in topNavigatioAction mapping (#74) ([6d16445](https://github.com/eva-design/eva/commit/6d16445)), closes [#74](https://github.com/eva-design/eva/issues/74)
+* fix(processor): generation scripts (#41) ([a6298a5](https://github.com/eva-design/eva/commit/a6298a5)), closes [#41](https://github.com/eva-design/eva/issues/41)
+
+
+
 ## 2.0.0(2020-05-12)
 
 * fix(mapping): typography fixes and component updates ([ca18816](https://github.com/eva-design/eva/commit/ca18816))
