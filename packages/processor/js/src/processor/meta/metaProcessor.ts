@@ -9,6 +9,7 @@ import { MappingMetaType } from '../mapping/mappingProcessor';
 import { Processor } from '../processor';
 import {
   createAllStyles,
+  isNil,
   toObject,
 } from '../../service';
 
@@ -51,13 +52,10 @@ export class MetaProcessor implements Processor<MappingProcessorParamsType, Them
   }
 
   private getStrictThemeValue(name: string, theme: StrictTheme, fallback?: any) {
+    const key: string = this.isReference(name) ? this.createKeyFromReference(name) : name;
+    const value = this.findValue(key, theme);
 
-    if (this.isReference(name)) {
-      const themeKey: string = this.createKeyFromReference(name);
-      return this.findValue(themeKey, theme) || fallback;
-    }
-
-    return this.findValue(name, theme) || fallback;
+    return isNil(value) ? fallback : value;
   }
 
   private findValue(name: string, theme: StrictTheme): string {
