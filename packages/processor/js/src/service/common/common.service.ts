@@ -64,3 +64,14 @@ export function toObject(array: [string, any][]): any {
     return p;
   }, {});
 }
+
+/**
+ * Check value for null or undefined
+ *
+ *
+ * @return boolean
+ * @param value
+ */
+export function isNil(value: any): boolean {
+  return value === undefined || value === null;
+}

@@ -11,6 +11,7 @@ import {
   safe,
   noNulls,
   noDuplicates,
+  isNil,
 } from '../common';
 import {
   getComponentDefaultAppearance,
@@ -292,7 +293,7 @@ function createStateVariations(states: string[], separator: string, result: stri
 function withStrictTokens(mapping: StatelessMappingType, theme: ThemedStyleType): StatelessMappingType {
   return Object.keys(mapping).reduce((acc: StatelessMappingType, next: string): StatelessMappingType => {
     const currentToken: ParameterType = mapping[next];
-    const nextToken: ParameterType = theme[currentToken] || currentToken;
+    const nextToken: ParameterType = isNil(theme[currentToken]) ? currentToken : theme[currentToken];
 
     return { ...acc, [next]: nextToken };
   }, {});
