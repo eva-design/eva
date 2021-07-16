@@ -1,3 +1,10 @@
+## <small>2.1.1 (2021-07-16)</small>
+
+* fix(processing): filter null values during strict theme processing (#87) ([d0b47f9](https://github.com/eva-design/eva/commit/d0b47f9)), closes [#87](https://github.com/eva-design/eva/issues/87)
+* fix(colors): change color-danger-focus-border color definition. (#86) ([e30a28b](https://github.com/eva-design/eva/commit/e30a28b)), closes [#86](https://github.com/eva-design/eva/issues/86)
+
+
+
 ## 2.1.0 (2021-04-15)
 
 * fix(generator):add return type to createRawDefinitionsForSchema (#81) ([4efd81a](https://github.com/eva-design/eva/commit/4efd81a)), closes [#81](https://github.com/eva-design/eva/issues/81)
