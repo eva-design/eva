@@ -225,7 +225,7 @@
   "color-danger-default": "$color-danger-500",
   "color-danger-active": "$color-danger-600",
   "color-danger-disabled": "$color-basic-transparent-300",
-  "color-danger-focus-border": "color-danger-700",
+  "color-danger-focus-border": "$color-danger-700",
   "color-danger-hover-border": "$color-danger-hover",
   "color-danger-default-border": "$color-danger-default",
   "color-danger-active-border": "$color-danger-active",
