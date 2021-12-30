@@ -3483,6 +3483,176 @@
         }
       }
     },
+    "ProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "height": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "height": 8,
+            "borderRadius": 4,
+            "trackColor": "#E2E8F0",
+            "indicatorColor": "#3366FF"
+          },
+          "variantGroups": {}
+        }
+      }
+    },
+    "CircularProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "trackWidth": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontFamily": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "state": {
+            "success": {
+              "default": false
+            },
+            "error": {
+              "default": false
+            },
+            "progress": {
+              "default": true
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "trackColor": "#E2E8F0",
+            "textColor": "text-basic-color",
+            "textFontFamily": "text-font-family",
+            "textFontWeight": "normal"
+          },
+          "variantGroups": {
+            "state": {
+              "success": {
+                "indicatorColor": "#49BF26"
+              },
+              "error": {
+                "indicatorColor": "#EF4D56"
+              },
+              "progress": {
+                "indicatorColor": "#3366FF"
+              }
+            },
+            "size": {
+              "tiny": {
+                "width": 40,
+                "height": 40,
+                "trackWidth": 3,
+                "iconWidth": 13,
+                "textFontSize": 12
+              },
+              "small": {
+                "width": 60,
+                "height": 60,
+                "trackWidth": 4.5,
+                "iconWidth": 19,
+                "textFontSize": 14
+              },
+              "medium": {
+                "width": 80,
+                "height": 80,
+                "trackWidth": 6,
+                "iconWidth": 25,
+                "textFontSize": 16
+              },
+              "large": {
+                "width": 100,
+                "height": 100,
+                "trackWidth": 7.5,
+                "iconWidth": 31,
+                "textFontSize": 18
+              },
+              "giant": {
+                "width": 120,
+                "height": 120,
+                "trackWidth": 9,
+                "iconWidth": 37,
+                "textFontSize": 20
+              }
+            }
+          }
+        }
+      }
+    },
     "Select": {
       "meta": {
         "scope": "all",
