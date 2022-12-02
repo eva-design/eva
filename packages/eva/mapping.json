@@ -2287,15 +2287,27 @@
           }
         },
         "variantGroups": {
-          "state": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
             "success": {
               "default": false
             },
-            "error": {
+            "info": {
               "default": false
             },
-            "progress": {
-              "default": true
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
             }
           },
           "size": {
@@ -2321,21 +2333,38 @@
       "appearances": {
         "default": {
           "mapping": {
-            "trackColor": "#E2E8F0",
-            "textColor": "text-basic-color",
             "textFontFamily": "text-font-family",
             "textFontWeight": "normal"
           },
           "variantGroups": {
-            "state": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
               "success": {
-                "indicatorColor": "#49BF26"
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
               },
-              "error": {
-                "indicatorColor": "#EF4D56"
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
               },
-              "progress": {
-                "indicatorColor": "#3366FF"
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
               }
             },
             "size": {
@@ -2343,36 +2372,36 @@
                 "width": 40,
                 "height": 40,
                 "trackWidth": 3,
-                "iconWidth": 13,
-                "textFontSize": 12
+                "iconWidth": 16,
+                "textFontSize": 10
               },
               "small": {
-                "width": 60,
-                "height": 60,
-                "trackWidth": 4.5,
-                "iconWidth": 19,
-                "textFontSize": 14
+                "width": 48,
+                "height": 48,
+                "trackWidth": 4,
+                "iconWidth": 18,
+                "textFontSize": 12
               },
               "medium": {
-                "width": 80,
-                "height": 80,
-                "trackWidth": 6,
-                "iconWidth": 25,
-                "textFontSize": 16
+                "width": 56,
+                "height": 56,
+                "trackWidth": 5,
+                "iconWidth": 20,
+                "textFontSize": 14
               },
               "large": {
-                "width": 100,
-                "height": 100,
-                "trackWidth": 7.5,
-                "iconWidth": 31,
-                "textFontSize": 18
+                "width": 64,
+                "height": 64,
+                "trackWidth": 6,
+                "iconWidth": 22,
+                "textFontSize": 16
               },
               "giant": {
-                "width": 120,
-                "height": 120,
-                "trackWidth": 9,
-                "iconWidth": 37,
-                "textFontSize": 20
+                "width": 72,
+                "height": 72,
+                "trackWidth": 6,
+                "iconWidth": 24,
+                "textFontSize": 18
               }
             }
           }
@@ -3638,18 +3667,108 @@
             "default": true
           }
         },
-        "variantGroups": {},
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": true
+            },
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
         "states": {}
       },
       "appearances": {
         "default": {
           "mapping": {
-            "height": 8,
-            "borderRadius": 4,
-            "trackColor": "#E2E8F0",
-            "indicatorColor": "#3366FF"
           },
-          "variantGroups": {}
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
+              "success": {
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
+              },
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
+              },
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
+              }
+            },
+            "size": {
+              "tiny": {
+                "height": 2,
+                "borderRadius": 1
+              },
+              "small": {
+                "height": 4,
+                "borderRadius": 2
+              },
+              "medium": {
+                "height": 6,
+                "borderRadius": 3
+              },
+              "large": {
+                "height": 8,
+                "borderRadius": 4
+              },
+              "giant": {
+                "height": 10,
+                "borderRadius": 5
+              }
+            }
+          }
         }
       }
     },
