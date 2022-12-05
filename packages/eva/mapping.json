@@ -2369,36 +2369,36 @@
             },
             "size": {
               "tiny": {
-                "width": 40,
-                "height": 40,
+                "width": 44,
+                "height": 44,
                 "trackWidth": 3,
                 "iconWidth": 16,
                 "textFontSize": 10
               },
               "small": {
-                "width": 48,
-                "height": 48,
+                "width": 52,
+                "height": 52,
                 "trackWidth": 4,
                 "iconWidth": 18,
                 "textFontSize": 12
               },
               "medium": {
-                "width": 56,
-                "height": 56,
+                "width": 60,
+                "height": 60,
                 "trackWidth": 5,
                 "iconWidth": 20,
                 "textFontSize": 14
               },
               "large": {
-                "width": 64,
-                "height": 64,
+                "width": 68,
+                "height": 68,
                 "trackWidth": 6,
                 "iconWidth": 22,
                 "textFontSize": 16
               },
               "giant": {
-                "width": 72,
-                "height": 72,
+                "width": 76,
+                "height": 76,
                 "trackWidth": 6,
                 "iconWidth": 24,
                 "textFontSize": 18
