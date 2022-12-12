@@ -213,11 +213,6 @@
             "default": false,
             "priority": 1,
             "scope": "mobile"
-          },
-          "focused": {
-            "default": false,
-            "priority": 2,
-            "scope": "mobile"
           }
         }
       },
@@ -437,8 +432,7 @@
       "appearances": {
         "filled": {
           "mapping": {
-            "textFontFamily": "text-font-family",
-            "iconMarginHorizontal": 4
+            "textFontFamily": "text-font-family"
           },
           "variantGroups": {
             "status": {
@@ -4914,7 +4908,7 @@
           },
           "status": {
             "basic": {
-              "default": false
+              "default": true
             },
             "primary": {
               "default": false
@@ -4941,7 +4935,6 @@
       "appearances": {
         "default": {
           "mapping": {
-            "color": "text-basic-color"
           },
           "variantGroups": {
             "category": {
@@ -5037,13 +5030,21 @@
           }
         },
         "alternative": {
-          "mapping": {
-            "color": "text-alternate-color"
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "color": "text-alternate-color"
+              }
+            }
           }
         },
         "hint": {
-          "mapping": {
-            "color": "text-hint-color"
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "color": "text-hint-color"
+              }
+            }
           }
         }
       }

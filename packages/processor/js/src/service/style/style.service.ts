@@ -2,8 +2,6 @@ import {
   ThemeMappingType,
   ControlMappingType,
   ThemedStyleType,
-  MappingType,
-  StrictTheme,
   StatelessMappingType,
   ParameterType,
 } from '@eva-design/dss';
@@ -125,21 +123,26 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 variants: string[],
                                 states: string[],
                                 theme: ThemedStyleType): [string, ThemedStyleType][] {
+  let stateless = undefined;
+  let withStates = [];
 
-  const stateless = createStyleEntry(mapping,
-    component,
-    appearance,
-    appearance,
-    '',
-    '',
-    theme,
-  );
+  if (needsAllVariantCases(mapping, component)) {
+    //we need this config when there are no variant groups or there are no default paths defined
+    stateless = createStyleEntry(mapping,
+      component,
+      appearance,
+      appearance,
+      '',
+      '',
+      theme,
+    );
 
-  const withStates = states.reduce((acc: [string, ThemedStyleType][], current: string) => {
-    const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current);
-    const next = createStyleEntry(mapping, component, key, appearance, '', current, theme);
-    return [...acc, next];
-  }, []);
+    withStates = states.reduce((acc: [ string, ThemedStyleType ][], current: string) => {
+      const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, current);
+      const next = createStyleEntry(mapping, component, key, appearance, '', current, theme);
+      return [ ...acc, next ];
+    }, []);
+  }
 
   const withVariants = variants.map(variant => {
     const key = appearance.concat(SEPARATOR_MAPPING_ENTRY, variant);
@@ -159,7 +162,7 @@ export function createAllStyles(mapping: ThemeMappingType,
     ...withStates,
     ...withVariants,
     ...withVariantStates,
-  ];
+  ].filter(Boolean);
 }
 
 export function getStyle(mapping: ThemeMappingType,
@@ -357,6 +360,29 @@ function createStyleEntry(mapping: ThemeMappingType,
   );
 
   return [key, value];
+}
+
+/**
+ * Tells if component requires all variant groups combinations to be generated.
+ * Basically that just means that default variant group values are not defined for all variant groups.
+ *
+ * @param mapping: ThemeMappingType - theme mapping configuration
+ * @param component: string - component name
+ *
+ * @return (boolean) - key identical to some of `source` keys if presents
+ */
+export function needsAllVariantCases(mapping: ThemeMappingType, component: string): boolean {
+  const { meta } = mapping[component];
+  const variantKeys = Object.keys(meta.variantGroups)
+
+  if (variantKeys.length === 0) {
+    return true;
+  }
+
+  return variantKeys.some(key => {
+    const group = meta.variantGroups[key];
+    return !Object.keys(group).find(x => group[x].default);
+  });
 }
 
 function normalize(params: string[]): string[] {
