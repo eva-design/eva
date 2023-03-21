@@ -2246,6 +2246,168 @@
         }
       }
     },
+    "CircularProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "trackWidth": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontFamily": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textFontFamily": "text-font-family",
+            "textFontWeight": "normal"
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
+              "success": {
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
+              },
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
+              },
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
+              }
+            },
+            "size": {
+              "tiny": {
+                "width": 44,
+                "height": 44,
+                "trackWidth": 3,
+                "iconWidth": 16,
+                "textFontSize": 10
+              },
+              "small": {
+                "width": 52,
+                "height": 52,
+                "trackWidth": 4,
+                "iconWidth": 18,
+                "textFontSize": 12
+              },
+              "medium": {
+                "width": 60,
+                "height": 60,
+                "trackWidth": 5,
+                "iconWidth": 20,
+                "textFontSize": 14
+              },
+              "large": {
+                "width": 68,
+                "height": 68,
+                "trackWidth": 6,
+                "iconWidth": 22,
+                "textFontSize": 16
+              },
+              "giant": {
+                "width": 76,
+                "height": 76,
+                "trackWidth": 6,
+                "iconWidth": 24,
+                "textFontSize": 18
+              }
+            }
+          }
+        }
+      }
+    },
     "Datepicker": {
       "meta": {
         "scope": "all",
@@ -3479,6 +3641,133 @@
             "indicatorWidth": 6,
             "indicatorHeight": 6,
             "indicatorBackgroundColor": "background-basic-color-1"
+          }
+        }
+      }
+    },
+    "ProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "height": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": true
+            },
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
+              "success": {
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
+              },
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
+              },
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
+              }
+            },
+            "size": {
+              "tiny": {
+                "height": 2,
+                "borderRadius": 1
+              },
+              "small": {
+                "height": 4,
+                "borderRadius": 2
+              },
+              "medium": {
+                "height": 6,
+                "borderRadius": 3
+              },
+              "large": {
+                "height": 8,
+                "borderRadius": 4
+              },
+              "giant": {
+                "height": 10,
+                "borderRadius": 5
+              }
+            }
           }
         }
       }
