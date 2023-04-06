@@ -123,11 +123,11 @@ export function createAllStyles(mapping: ThemeMappingType,
                                 variants: string[],
                                 states: string[],
                                 theme: ThemedStyleType): [string, ThemedStyleType][] {
-  let stateless = undefined;
+  let stateless;
   let withStates = [];
 
   if (needsAllVariantCases(mapping, component)) {
-    //we need this config when there are no variant groups or there are no default paths defined
+    // we need this config when there are no variant groups or there are no default paths defined
     stateless = createStyleEntry(mapping,
       component,
       appearance,
@@ -373,7 +373,7 @@ function createStyleEntry(mapping: ThemeMappingType,
  */
 export function needsAllVariantCases(mapping: ThemeMappingType, component: string): boolean {
   const { meta } = mapping[component];
-  const variantKeys = Object.keys(meta.variantGroups)
+  const variantKeys = Object.keys(meta.variantGroups);
 
   if (variantKeys.length === 0) {
     return true;
