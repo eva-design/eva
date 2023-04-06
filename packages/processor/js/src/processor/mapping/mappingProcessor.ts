@@ -30,7 +30,7 @@ export class MappingProcessor implements Processor<ThemeMappingType, MappingMeta
 
   private getComponentMappingMeta(mapping: ThemeMappingType, component: string): MappingMetaType[] {
     const componentMapping: ControlMappingType = mapping[component];
-    //variants and states possible configurations are the same across all appearances, so we can evaluate them once
+    // variants and states possible configurations are the same across all appearances, so we can evaluate them once
     const variants = this.getComponentVariants(mapping, component);
     const states = this.getComponentStates(mapping, component);
 
@@ -63,9 +63,9 @@ export class MappingProcessor implements Processor<ThemeMappingType, MappingMeta
     }
 
     if (needsAllCases) {
-      //this is the case when there is no default path for variant groups,
-      //e.i. not all variant groups values has default values
-      //all possible combinations will be evaluated
+      // this is the case when there is no default path for variant groups,
+      // e.i. not all variant groups values has default values
+      // all possible combinations will be evaluated
       const concat = variants.reduce((acc: string[], current: string[]) => {
         return [...acc, ...this.concatVariantGroups(acc, current)];
       }, variants.shift());
@@ -73,7 +73,7 @@ export class MappingProcessor implements Processor<ThemeMappingType, MappingMeta
       return this.concatComponentVariants(variants, [...result, ...concat], needsAllCases);
     }
 
-    //by default, we will evaluate only required variant groups combinations
+    // by default, we will evaluate only required variant groups combinations
     return variants.reduce((acc: string[], current: string[]) => {
       if (acc.length === 0) {
         return current;
