@@ -213,11 +213,6 @@
             "default": false,
             "priority": 1,
             "scope": "mobile"
-          },
-          "focused": {
-            "default": false,
-            "priority": 2,
-            "scope": "mobile"
           }
         }
       },
@@ -437,8 +432,7 @@
       "appearances": {
         "filled": {
           "mapping": {
-            "textFontFamily": "text-font-family",
-            "iconMarginHorizontal": 4
+            "textFontFamily": "text-font-family"
           },
           "variantGroups": {
             "status": {
@@ -1189,6 +1183,9 @@
           },
           "outline": {
             "default": false
+          },
+          "ghost": {
+            "default": false
           }
         },
         "variantGroups": {
@@ -1320,6 +1317,41 @@
               "control": {
                 "borderColor": "color-control-default-border",
                 "dividerBackgroundColor": "color-control-default"
+              }
+            }
+          }
+        },
+        "ghost": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "primary": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "success": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "info": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "warning": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "danger": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
+              },
+              "control": {
+                "borderColor": "transparent",
+                "dividerBackgroundColor": "transparent"
               }
             }
           }
@@ -2202,6 +2234,168 @@
                     "iconTintColor": "text-control-color"
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "CircularProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "trackWidth": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "number"
+          },
+          "textColor": {
+            "type": "string"
+          },
+          "textFontFamily": {
+            "type": "string"
+          },
+          "textFontSize": {
+            "type": "number"
+          },
+          "textFontWeight": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textFontFamily": "text-font-family",
+            "textFontWeight": "normal"
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
+              "success": {
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
+              },
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
+              },
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
+              }
+            },
+            "size": {
+              "tiny": {
+                "width": 44,
+                "height": 44,
+                "trackWidth": 3,
+                "iconWidth": 16,
+                "textFontSize": 10
+              },
+              "small": {
+                "width": 52,
+                "height": 52,
+                "trackWidth": 4,
+                "iconWidth": 18,
+                "textFontSize": 12
+              },
+              "medium": {
+                "width": 60,
+                "height": 60,
+                "trackWidth": 5,
+                "iconWidth": 20,
+                "textFontSize": 14
+              },
+              "large": {
+                "width": 68,
+                "height": 68,
+                "trackWidth": 6,
+                "iconWidth": 22,
+                "textFontSize": 16
+              },
+              "giant": {
+                "width": 76,
+                "height": 76,
+                "trackWidth": 6,
+                "iconWidth": 24,
+                "textFontSize": 18
               }
             }
           }
@@ -3500,6 +3694,133 @@
             "indicatorWidth": 6,
             "indicatorHeight": 6,
             "indicatorBackgroundColor": "background-basic-color-1"
+          }
+        }
+      }
+    },
+    "ProgressBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "height": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          },
+          "trackColor": {
+            "type": "string"
+          },
+          "indicatorColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": true
+            },
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "indicatorColor": "color-basic-default",
+                "trackColor": "color-basic-transparent-default"
+              },
+              "primary": {
+                "indicatorColor": "color-primary-default",
+                "trackColor": "color-primary-transparent-active"
+              },
+              "success": {
+                "indicatorColor": "color-success-default",
+                "trackColor": "color-success-transparent-active"
+              },
+              "info": {
+                "indicatorColor": "color-info-default",
+                "trackColor": "color-info-transparent-active"
+              },
+              "warning": {
+                "indicatorColor": "color-warning-default",
+                "trackColor": "color-warning-transparent-active"
+              },
+              "danger": {
+                "indicatorColor": "color-danger-default",
+                "trackColor": "color-danger-transparent-active"
+              },
+              "control": {
+                "indicatorColor": "color-control-default",
+                "trackColor": "color-control-transparent-active"
+              }
+            },
+            "size": {
+              "tiny": {
+                "height": 2,
+                "borderRadius": 1
+              },
+              "small": {
+                "height": 4,
+                "borderRadius": 2
+              },
+              "medium": {
+                "height": 6,
+                "borderRadius": 3
+              },
+              "large": {
+                "height": 8,
+                "borderRadius": 4
+              },
+              "giant": {
+                "height": 10,
+                "borderRadius": 5
+              }
+            }
           }
         }
       }
