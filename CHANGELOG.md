@@ -1,3 +1,10 @@
+## 2.2.0 (2023-04-12)
+
+* feat: add mappings for linear and circular progress bars ([e2c0f3e](https://github.com/eva-design/eva/commit/e2c0f3e))
+* feat: reduced styles evaluation for never used variant groups combinations ([f0d0b6a](https://github.com/eva-design/eva/commit/f0d0b6a))
+
+
+
 ## <small>2.1.1 (2021-07-16)</small>
 
 * fix(processing): filter null values during strict theme processing (#87) ([d0b47f9](https://github.com/eva-design/eva/commit/d0b47f9)), closes [#87](https://github.com/eva-design/eva/issues/87)
