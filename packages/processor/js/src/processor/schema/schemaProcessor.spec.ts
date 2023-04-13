@@ -42,8 +42,9 @@ function calculateComponentStyleCount(component: ControlMappingType): number {
 
   const variantsCombinations = getCombinations(Object.entries(component.meta.variantGroups));
   const statesCombinations = Object.entries(component.meta.states).map(x => x[0]);
-  statesCombinations.push(...states.flatMap(
-    (v, i) => states.slice(i + 1).map(w => v + '.' + w)));
+  statesCombinations.push(...statesCombinations.reduce((acc, v, i) =>
+      acc.concat(statesCombinations.slice(i + 1).map( w => v + '.' + w )),
+    []));
 
   let result: string[] = [];
   if (!hasDefaultState) {
