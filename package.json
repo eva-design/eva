@@ -11,7 +11,7 @@
     "url": "https://github.com/eva-design/eva/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && gulp generateTypes",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
     "gen:js": "ts-node ./packages/processor/js/scripts/generateExisting",
@@ -24,6 +24,7 @@
     "clean": "rimraf ./dist",
     "conventional-changelog": "conventional-changelog",
     "version:bump": "gulp version",
+    "generate-types": "gulp generateTypes",
     "version:changelog": "npm run conventional-changelog -- -i CHANGELOG.md -s",
     "publish": "./scripts/publish.sh",
     "publish:beta": "./scripts/publish.sh -- beta",
